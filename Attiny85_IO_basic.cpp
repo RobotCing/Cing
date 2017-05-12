@@ -3,15 +3,9 @@
 
 */
 #include "Arduino.h"
-#include "Attiny85_IO.h"
-#include <OneWire.h> 
-#include <DallasTemperature.h>
+#include "Attiny85_IO_basic.h"
 
 Attiny::Attiny(){}
-
-#define ONE_WIRE_BUS 2 
-OneWire oneWire(ONE_WIRE_BUS); 
-DallasTemperature sensors(&oneWire);
 
 void Attiny::motor(String motor,int speed,String mode)
   {
@@ -117,13 +111,5 @@ int Attiny::LightSensor(int sensor,String mode)
         return value;
       }
     }
-  }
-float Attiny::Temp(int senzor)
-  {
-    float temp;
-    sensors.requestTemperatures();
-    temp = sensors.getTempCByIndex(0);
-    delay(50);
-    return temp;
   }
 

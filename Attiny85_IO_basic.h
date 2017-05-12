@@ -1,5 +1,5 @@
-#ifndef Attiny85_IO
-#define Attiny85_IO
+#ifndef Attiny85_IO_basic
+#define Attiny85_IO_basic
 #include "Arduino.h"
 
 class Attiny
@@ -9,7 +9,7 @@ class Attiny
     Attiny();
     void motor(String motor,int speed= 100,String mode = "digital");
     int LightSensor(int sensor = 1,String mode = "digital");
-    float Temp(int senzor = 0);
+    
   private:
       
 };
