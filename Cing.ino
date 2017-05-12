@@ -4,7 +4,11 @@ void setup() {
 
 
 }
-
+void ()
+  {
+    pinMode(, OUTPUT);
+    pinMode(echoPin, INPUT);
+  }
 void loop() 
 {
   if (attiny.Temp(0)>30){attiny.motor ("A", 1, "digital");}
