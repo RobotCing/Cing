@@ -2,7 +2,7 @@
 
 ## Overview:
 I created this device which is called ATTEMP. It's a Attiny85 based termometer which uses Attiny 85 as processor, 7 segment display to display temperatures in °C of F, 74hc595 shift register to drive 7 segment display and pushbutton for selection of °C or F.
-![alt tag](https://github.com/StanislavJochman/ATTEMP/blob/master/ATTEMP-ASSEMBLED.png)
+![alt tag]()
 
 ## Components:
  - ### Electronic components:
@@ -29,10 +29,11 @@ I created this device which is called ATTEMP. It's a Attiny85 based termometer w
    - [3d printer]
    - [Mill/Engaver(optional)]
 ## Schematic
-![alt tag](https://github.com/StanislavJochman/ATTEMP/blob/master/ATTEMP-Schematic.png)
+![alt tag]()
 ## Photos
 ### Assembled
-![alt tag](https://github.com/StanislavJochman/ATTEMP/blob/master/ATTEMP-ASSEMBLED.png)
+![alt tag]()
 ## Support
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
 [![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/StanislavJochman/ATTEMP)
+[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/Galeje/Cing)
