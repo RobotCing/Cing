@@ -1,7 +1,7 @@
 # Cing
 
 ## Overview:
-I created this device which is called ATTEMP. It's a Attiny85 based termometer which uses Attiny 85 as processor, 7 segment display to display temperatures in °C of F, 74hc595 shift register to drive 7 segment display and pushbutton for selection of °C or F.
+Cing je robot vhodný pre začiatočníkov aj pokročilých. Namiesto dlhého vypisovania príkazov používa knižnice obsahujúce zjednodušené programy. Je to skvelý spôsob, ako naučiť začiatočníkov programovať. Pokročilí môžu používať knižnice, ale taktiež môžu skúsiť programovať bez nich. 
 ![alt tag]()
 
 ## Components:
