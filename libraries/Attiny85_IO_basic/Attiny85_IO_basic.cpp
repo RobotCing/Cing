@@ -3,15 +3,9 @@
 
 */
 #include "Arduino.h"
-#include "Attiny85_IO.h"
-#include <OneWire.h> 
-#include <DallasTemperature.h>
+#include "Attiny85_IO_basic.h"
 
 Attiny::Attiny(){}
-
-#define ONE_WIRE_BUS 2 
-OneWire oneWire(ONE_WIRE_BUS); 
-DallasTemperature sensors(&oneWire);
 
 void Attiny::motor(String motor,int speed,String mode)
   {
@@ -79,8 +73,8 @@ int Attiny::LightSensor(int sensor,String mode)
   {
     if (mode=="analog")
     {
-      pinMode(A2,INPUT_PULLUP);//1
-      pinMode(A3,INPUT_PULLUP);//2
+      pinMode(A2,INPUT);//1
+      pinMode(A3,INPUT);//2
       if (sensor == 1)
       {
         int value;
@@ -96,8 +90,8 @@ int Attiny::LightSensor(int sensor,String mode)
     }
     else if(mode=="digital")
     {
-      pinMode(3,INPUT_PULLUP);//1
-      pinMode(4,INPUT_PULLUP);//2
+      pinMode(3,INPUT);//1
+      pinMode(4,INPUT);//2
       if (sensor == 1)
       {
         int value;
@@ -117,13 +111,5 @@ int Attiny::LightSensor(int sensor,String mode)
         return value;
       }
     }
-  }
-float Attiny::Temp(int senzor)
-  {
-    float temp;
-    sensors.requestTemperatures();
-    temp = sensors.getTempCByIndex(0);
-    delay(50);
-    return temp;
   }
 
