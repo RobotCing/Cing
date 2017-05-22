@@ -8,24 +8,21 @@ Cing je robot vhodný pre začiatočníkov aj pokročilých. Namiesto dlhého vy
  - ### Included in package:
    - [Attiny85 procesor]
    - [Atmega328 procesor(in progress)]
+   - [Atmega8 procesor(in progress)]
+   - [L293D]
    - [analog sensor]
    - [2 x light sensor]
    - [ultasonic sensor]
    - [Robot body]
-   - [L293D]
    - [ICSP programmer]
- - ### Construction components:
-   - [3d printed case]
-   - [3d printed/milled top]
-   - [4x M3x10mm  screws]
-   - [Push button cap(2-2.5mm in diameter)]
-   - [Hotglue]
+   - [DS18B20 temperature senor]
+   - [Li-Ion 18650 battery]
  - ### Tools:
-   - [Soldering iron]
-   - [HotGlue gun]
-   - [Solder]
-   - [3d printer]
-   - [Mill/Engaver(optional)]
+   - [ICSP ASP programer]
+   - [Computer]
+   - [Black tape for line]
+   - [Surface for line]
+   - [Obstacle]
 ## Schematic
 ![alt tag]()
 ## Photos
