@@ -6,13 +6,15 @@
 #include "Attiny85_IO.h"
 #include <OneWire.h> 
 #include <DallasTemperature.h>
-
+//--------------------------------------------
 Attiny::Attiny(){}
-
+//--------------------------------------------
 #define ONE_WIRE_BUS 2 
 OneWire oneWire(ONE_WIRE_BUS); 
 DallasTemperature sensors(&oneWire);
-
+//--------------------------------------------
+//               Motors
+//--------------------------------------------
 void Attiny::motor(String motor,int speed,String mode)
   {
      if(mode=="analog")
@@ -75,6 +77,9 @@ void Attiny::motor(String motor,int speed,String mode)
      
     
   }
+//--------------------------------------------
+//                  Sensors
+//--------------------------------------------
 int Attiny::LightSensor(int sensor,String mode)
   {
     if (mode=="analog")
@@ -118,6 +123,23 @@ int Attiny::LightSensor(int sensor,String mode)
       }
     }
   }
+//--------------------------------------------
+int Attiny::UltrasonicSensor()
+  { 
+    long duration;
+    int distance;
+    pinMode(2, OUTPUT);
+    pinMode(3, INPUT);
+    digitalWrite(2, LOW); 
+    delayMicroseconds(2);
+    digitalWrite(2, HIGH);
+    delayMicroseconds(10); 
+    digitalWrite(2, LOW);
+    duration = pulseIn(3, HIGH);
+    distance = duration/58.2;
+    return distance;
+  }
+//--------------------------------------------
 float Attiny::Temp(int senzor)
   {
     float temp;
