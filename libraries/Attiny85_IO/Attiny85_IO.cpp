@@ -148,4 +148,11 @@ float Attiny::Temp(int senzor)
     delay(50);
     return temp;
   }
-
+//-------------------------------------------- 
+int Attiny::ShineSensor()
+  {
+    int shine_value;
+    pinMode(A3,INPUT);
+    shine_value = map(analogRead(A3),50,700,0,100); 
+    return shine_value;
+  }

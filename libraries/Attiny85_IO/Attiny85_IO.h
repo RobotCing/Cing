@@ -15,6 +15,7 @@ class Attiny
     int LightSensor(int sensor = 1,String mode = "digital");
     float Temp(int senzor = 0);
     int UltrasonicSensor();
+	int ShineSensor();
   private:
       
 };
