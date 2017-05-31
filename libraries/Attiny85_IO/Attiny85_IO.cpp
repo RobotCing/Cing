@@ -1,7 +1,9 @@
 /*
-
-
+Vytvorene Teamom GalejeNextGen pre sutaz RBA
 */
+//--------------------------------------------
+//            Library import
+//--------------------------------------------
 #include "Arduino.h"
 #include "Attiny85_IO.h"
 #include <OneWire.h> 
@@ -9,11 +11,13 @@
 //--------------------------------------------
 Attiny::Attiny(){}
 //--------------------------------------------
+//            DS18B20 Setup
+//--------------------------------------------
 #define ONE_WIRE_BUS 2 
 OneWire oneWire(ONE_WIRE_BUS); 
 DallasTemperature sensors(&oneWire);
 //--------------------------------------------
-//               Motors
+//              Motors
 //--------------------------------------------
 void Attiny::motor(String motor,int speed,String mode)
   {
@@ -80,6 +84,11 @@ void Attiny::motor(String motor,int speed,String mode)
 //--------------------------------------------
 //                  Sensors
 //--------------------------------------------
+
+//--------------------------------------------
+//                  LightSensor
+//--------------------------------------------
+
 int Attiny::LightSensor(int sensor,String mode)
   {
     if (mode=="analog")
@@ -124,6 +133,9 @@ int Attiny::LightSensor(int sensor,String mode)
     }
   }
 //--------------------------------------------
+//           UltrasonicSensor
+//--------------------------------------------
+
 int Attiny::UltrasonicSensor()
   { 
     long duration;
@@ -140,6 +152,8 @@ int Attiny::UltrasonicSensor()
     return distance;
   }
 //--------------------------------------------
+//            TempSensors
+//--------------------------------------------
 float Attiny::Temp(int senzor)
   {
     float temp;
@@ -148,7 +162,9 @@ float Attiny::Temp(int senzor)
     delay(50);
     return temp;
   }
-//-------------------------------------------- 
+//--------------------------------------------
+//             ShineSensors
+//--------------------------------------------
 int Attiny::ShineSensor()
   {
     int shine_value;
@@ -156,3 +172,4 @@ int Attiny::ShineSensor()
     shine_value = map(analogRead(A3),50,700,0,100); 
     return shine_value;
   }
+

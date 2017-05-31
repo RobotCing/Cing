@@ -1,10 +1,12 @@
 /*
-
-
+Vytvorene Teamom GalejeNextGen pre sutaz RBA
 */
+//--------------------------------------------
+//            Library import
+//--------------------------------------------
 #include "Arduino.h"
 #include "Attiny85_IO_basic.h"
-
+//--------------------------------------------
 Attiny::Attiny(){}
 //--------------------------------------------
 //               Motors
@@ -74,6 +76,9 @@ void Attiny::motor(String motor,int speed,String mode)
 //--------------------------------------------
 //                  Sensors
 //--------------------------------------------
+//--------------------------------------------
+//           UltrasonicSensor
+//--------------------------------------------
 int Attiny::UltrasonicSensor()
   { 
     long duration;
@@ -89,6 +94,8 @@ int Attiny::UltrasonicSensor()
     distance = duration/58.2;
     return distance;
   }
+//--------------------------------------------
+//                  LightSensor
 //--------------------------------------------
 int Attiny::LightSensor(int sensor,String mode)
   {
@@ -133,7 +140,9 @@ int Attiny::LightSensor(int sensor,String mode)
       }
     }
   }
-//-------------------------------------------- 
+//--------------------------------------------
+//             ShineSensors
+//--------------------------------------------
 int Attiny::ShineSensor()
   {
     int shine_value;
