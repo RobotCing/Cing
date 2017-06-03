@@ -3,7 +3,8 @@
 ## Overview:
 Cing je robot vhodný pre začiatočníkov aj pokročilých. Namiesto dlhého vypisovania príkazov používa knižnice obsahujúce zjednodušené programy. Je to skvelý spôsob, ako naučiť začiatočníkov programovať. Pokročilí môžu používať knižnice, ale taktiež môžu skúsiť programovať bez nich. 
 
-![alt tag]()
+![alt tag](https://github.com/Galeje/Cing/blob/master/Pictures/Cing_digitalmodel1.png)
+![alt tag](https://github.com/Galeje/Cing/blob/master/Pictures/Cing_digitalmodel2.png)
 
 ## Components:
  - ### Included in package:
