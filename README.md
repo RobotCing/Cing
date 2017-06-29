@@ -3,8 +3,8 @@
 ## Overview:
 Cing je robot vhodný pre začiatočníkov aj pokročilých. Namiesto dlhého vypisovania príkazov používa knižnice obsahujúce zjednodušené programy. Je to skvelý spôsob, ako naučiť začiatočníkov programovať. Pokročilí môžu používať knižnice, ale taktiež môžu skúsiť programovať bez nich. 
 
-<img src="Pictures/Cing_digitalmodel1.png" alt="Model"></img>
-<img src="Pictures/Cing_digitalmodel2.png"></img>
+<img src="Pictures/Cing_digitalmodel1.png" alt="Model">
+<img src="Pictures/Cing_digitalmodel2.png" alt="Model">
 ## Components:
  - ### Included in package:
    - Attiny85 procesor
