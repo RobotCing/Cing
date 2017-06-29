@@ -31,7 +31,7 @@ Cing je robot vhodný pre začiatočníkov aj pokročilých. Namiesto dlhého vy
 ### Schematic of Atmega8 procesor
 <img src="Pictures/Atmega328_Procesor.png" alt="Atmega 8 schematic">
 ### Schematic of Attiny85 procesor
-<img src="Pictures/Attiny85_Procesor.png" alt=""Attiny 85 schematic"">
+<img src="Pictures/Attiny85_Procesor.png" alt="Attiny 85 schematic">
 ### Schematic of Cing robot
 <img src="Pictures/Cing_Schematic.png" alt="Cing schematic">
 
