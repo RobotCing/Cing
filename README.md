@@ -37,7 +37,7 @@ Cing je robot vhodný pre začiatočníkov aj pokročilých. Namiesto dlhého vy
 
 ## Photos
 ### Assembled
-<img src="https://github.com/Galeje/Cing/blob/master/Pictures/Assembled_Cing.jpg"></img>
+<img src="Pictures/Assembled_Cing.jpg" alt="Cing assembled">
 
 ## Support
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
