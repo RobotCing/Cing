@@ -7,23 +7,23 @@ Cing je robot vhodný pre začiatočníkov aj pokročilých. Namiesto dlhého vy
 <img src="https://github.com/Galeje/Cing/blob/master/Pictures/Cing_digitalmodel2.png"></img>
 ## Components:
  - ### Included in package:
-   - [Attiny85 procesor]
-   - [Atmega328 procesor(in progress)]
-   - [Atmega8 procesor(in progress)]
-   - [L293D]
-   - [analog sensor]
-   - [2 x light sensor]
-   - [ultasonic sensor]
-   - [Robot body]
-   - [ICSP programmer]
-   - [DS18B20 temperature senor]
-   - [Li-Ion 18650 battery]
+   - Attiny85 procesor
+   - Atmega328 procesor(in progress)
+   - Atmega8 procesor(in progress)
+   - L293D
+   - analog sensor
+   - 2 x light sensor
+   - ultasonic sensor
+   - Robot body
+   - ICSP programmer
+   - DS18B20 temperature senor
+   - Li-Ion 18650 battery
  - ### Tools:
-   - [ICSP ASP programer]
-   - [Computer]
-   - [Black tape for line]
-   - [Surface for line]
-   - [Obstacle]
+   - ICSP ASP programer
+   - Computer
+   - Black tape for line
+   - Surface for line
+   - Obstacle
 ## Schematic
 ### Schematic of Atmega328 procesor
 <img src="https://github.com/Galeje/Cing/blob/master/Pictures/Atmega328_Procesor.png"></img>
