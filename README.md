@@ -24,9 +24,10 @@ Cing je robot vhodný pre začiatočníkov aj pokročilých. Namiesto dlhého vy
    - Black tape for line
    - Surface for line
    - Obstacle
-<left>
+
 ## Schematic
 ### Schematic of Atmega328 procesor
+<left>
 <img src="https://github.com/Galeje/Cing/blob/master/Pictures/Atmega328_Procesor.png"></img>
 ### Schematic of Atmega8 procesor
 <img src="https://github.com/Galeje/Cing/blob/master/Pictures/Atmega328_Procesor.png"></img>
