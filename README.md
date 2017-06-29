@@ -3,8 +3,8 @@
 ## Overview:
 Cing je robot vhodný pre začiatočníkov aj pokročilých. Namiesto dlhého vypisovania príkazov používa knižnice obsahujúce zjednodušené programy. Je to skvelý spôsob, ako naučiť začiatočníkov programovať. Pokročilí môžu používať knižnice, ale taktiež môžu skúsiť programovať bez nich. 
 
-<img src="Pictures/Cing_digitalmodel1.png" alt="Model">
-<img src="Pictures/Cing_digitalmodel2.png" alt="Model">
+<img src="Pictures/Cing_digitalmodel1.png" alt="Cing model">
+<img src="Pictures/Cing_digitalmodel2.png" alt="Cing model">
 ## Components:
  - ### Included in package:
    - Attiny85 procesor
@@ -27,13 +27,13 @@ Cing je robot vhodný pre začiatočníkov aj pokročilých. Namiesto dlhého vy
 
 ## Schematic
 ### Schematic of Atmega328 procesor
-<img src="https://github.com/Galeje/Cing/blob/master/Pictures/Atmega328_Procesor.png"></img>
+<img src="Pictures/Atmega328_Procesor.png" alt="Atmega 328 schematic">
 ### Schematic of Atmega8 procesor
-<img src="https://github.com/Galeje/Cing/blob/master/Pictures/Atmega328_Procesor.png"></img>
+<img src="Pictures/Atmega328_Procesor.png" alt="Atmega 8 schematic">
 ### Schematic of Attiny85 procesor
-<img src="https://github.com/Galeje/Cing/blob/master/Pictures/Attiny85_Procesor.png"></img>
+<img src="Pictures/Attiny85_Procesor.png" alt=""Attiny 85 schematic"">
 ### Schematic of Cing robot
-<img src="https://github.com/Galeje/Cing/blob/master/Pictures/Cing_Schematic.png"></img>
+<img src="Pictures/Cing_Schematic.png" alt="Cing schematic">
 
 ## Photos
 ### Assembled
