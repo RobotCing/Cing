@@ -1,4 +1,4 @@
-<a href="https://github.com/Galeje/Cing"><left><h1>Cing</h1></left></a>
+# Cing
 ## Introduction:
 Everybody know [Lego](https://www.lego.com/en-us/) as an campany. They are making most popular Lego sets and robots ever. They have <a href="https://www.lego.com/en-us/mindstorms">Lego NXT and Lego EV3</a> robot sets which are easy to program and build, but after you have learned how to program them with Lego software there isn't any other programing language. So  if you want to learn some other language you have to get something else for example Arduino. Arduino is great platform because it is open source, cheaper than Lego and you aren't that limited. But when you get arduino you will sooner or later realise that you have to know how electronics works. And that's the point where most of people will give up. 
  solves this problem because it has a <a href="https://github.com/Galeje/Cing/tree/master/libraries" target= "_blank">Library</a> that allows users to easely program cing in C language without electronics. After learning basics of programing with library they can use <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> robot as learning tool for electronics, because it has open source design. That mean that they can program it with Arduino language or avr language.
@@ -30,7 +30,7 @@ Everybody know [Lego](https://www.lego.com/en-us/) as an campany. They are makin
    - Surface for line
    - Obstacle
 
-<a href="https://github.com/Galeje/Cing/tree/master/Schematic"><left><h2>Schematic</h2></left></a>
+## Schematic
 ### Schematic of Atmega328 procesor
 <img src="Pictures/Atmega328_Procesor.png" alt="Atmega 328 schematic">
 ### Schematic of Atmega8 procesor
