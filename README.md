@@ -7,25 +7,28 @@ Everybody know [Lego](https://www.lego.com/en-us/) as an campany. They are makin
 <img src="Pictures/Cing_digitalmodel2.png" alt="Cing model">
 
 ## Components:
- - ### Included in package:
+ - ### Procesors:
    - Attiny85 procesor
    - Atmega328 procesor(in progress)
    - Atmega8 procesor(in progress)
-   - L293D
-   - analog sensor
+ - ### Sensors(Inputs):
+   - DS18B20 temperature sensor
+   - Shine sensor
    - 2 x light sensor
    - ultasonic sensor
+ - ### Outputs:
+   - L293D
+   - Display128x32(in progress)
+ - ### Robot parts:
    - Robot body
    - ICSP programmer
-   - DS18B20 temperature senor
    - Li-Ion 18650 battery
- - ### Tools:
    - ICSP ASP programer
+ - ### Required tools:
    - Computer
    - Black tape for line
    - Surface for line
    - Obstacle
-
 ## Schematic
 ### Schematic of Atmega328 procesor
 <img src="Pictures/Atmega328_Procesor.png" alt="Atmega 328 schematic">
