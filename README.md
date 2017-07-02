@@ -32,19 +32,19 @@ Everybody know [Lego](https://www.lego.com/en-us/) as an campany. They are makin
 
 ## Schematic
 ### Schematic of Atmega328 procesor
-<img src="Pictures/Atmega328_Procesor.png" alt="Atmega 328 schematic">
+<a href="https://github.com/Galeje/Cing/tree/master/Schematic"><img src="Pictures/Atmega328_Procesor.png" alt="Atmega 328 schematic"></a>
 ### Schematic of Atmega8 procesor
-<img src="Pictures/Atmega328_Procesor.png" alt="Atmega 8 schematic">
+<a href="https://github.com/Galeje/Cing/tree/master/Schematic"><img src="Pictures/Atmega328_Procesor.png" alt="Atmega 8 schematic"></a>
 ### Schematic of Attiny85 procesor
-<img src="Pictures/Attiny85_Procesor.png" alt="Attiny 85 schematic">
+<a href="https://github.com/Galeje/Cing/tree/master/Schematic"><img src="Pictures/Attiny85_Procesor.png" alt="Attiny 85 schematic"></a>
 ### Schematic of Cing robot
-<img src="Pictures/Cing_Schematic.png" alt="Cing schematic">
+<a href="https://github.com/Galeje/Cing/tree/master/Schematic"><img src="Pictures/Cing_Schematic.png" alt="Cing schematic"></a>
 
 ## Photos
 ### Assembled
 <img src="Pictures/Assembled_Cing.jpg" alt="Cing assembled">
 
-<a href="https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow"><left><h2>Support</h2></left></a>
+## Support
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
 [![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/StanislavJochman/ATTEMP)
 [![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/Galeje/Cing)
