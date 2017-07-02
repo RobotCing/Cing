@@ -6,6 +6,7 @@ Everybody know <a href="https://www.lego.com/en-us/" target="_blank">Lego</a> as
 ## Overview:
 <img src="Pictures/Cing_digitalmodel1.png" alt="Cing model">
 <img src="Pictures/Cing_digitalmodel2.png" alt="Cing model">
+
 ## Components:
  - ### Included in package:
    - Attiny85 procesor
