@@ -1,21 +1,23 @@
+
 /*
-Vytvorene Teamom GalejeNextGen pre sutaz RBA
+Vytvorene Teamom GalejeNextGen
 */
 //--------------------------------------------
 //            Library import
 //--------------------------------------------
+/*#include <OneWire.h>
+#include <DallasTemperature.h>*/
+//--------------------------------------------
 #include "Arduino.h"
 #include "Attiny85_IO.h"
-#include <OneWire.h> 
-#include <DallasTemperature.h>
 //--------------------------------------------
 Attiny::Attiny(){}
 //--------------------------------------------
 //            DS18B20 Setup
 //--------------------------------------------
-#define ONE_WIRE_BUS 2 
-OneWire oneWire(ONE_WIRE_BUS); 
-DallasTemperature sensors(&oneWire);
+/*#define ONE_WIRE_BUS 2
+OneWire oneWire(ONE_WIRE_BUS);
+DallasTemperature sensors(&oneWire);*/
 //--------------------------------------------
 //              Motors
 //--------------------------------------------
@@ -58,7 +60,7 @@ void Attiny::motor(String motor,int speed,String mode)
         {
           speed_set = LOW;
         }
-        
+
         if(motor=="A")
         {
           digitalWrite(1,speed_set);
@@ -78,8 +80,8 @@ void Attiny::motor(String motor,int speed,String mode)
           digitalWrite(0,LOW);
         }
      }
-     
-    
+
+
   }
 //--------------------------------------------
 //                  Sensors
@@ -137,39 +139,41 @@ int Attiny::LightSensor(int sensor,String mode)
 //--------------------------------------------
 
 int Attiny::UltrasonicSensor()
-  { 
-    long duration;
+  {
+    #define UltrasonicSensor 2 //A1
+    int duration;
     int distance;
-    pinMode(2, OUTPUT);
-    pinMode(3, INPUT);
-    digitalWrite(2, LOW); 
+    pinMode(UltrasonicSensor, OUTPUT);
+    digitalWrite(UltrasonicSensor, LOW);
     delayMicroseconds(2);
-    digitalWrite(2, HIGH);
-    delayMicroseconds(10); 
-    digitalWrite(2, LOW);
-    duration = pulseIn(3, HIGH);
+    digitalWrite(UltrasonicSensor, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(UltrasonicSensor, LOW);
+    delayMicroseconds(10);
+    pinMode(UltrasonicSensor, INPUT);
+    duration = pulseIn(UltrasonicSensor, HIGH);
     distance = duration/58.2;
     return distance;
-  }
-//--------------------------------------------
-//            TempSensors
-//--------------------------------------------
-float Attiny::Temp(int senzor)
-  {
-    float temp;
-    sensors.requestTemperatures();
-    temp = sensors.getTempCByIndex(0);
-    delay(50);
-    return temp;
   }
 //--------------------------------------------
 //             ShineSensors
 //--------------------------------------------
 int Attiny::ShineSensor()
   {
+    #define ShineSensor A1
     int shine_value;
-    pinMode(A3,INPUT);
-    shine_value = map(analogRead(A3),50,700,0,100); 
+    pinMode(ShineSensor,INPUT);
+    shine_value = map(analogRead(ShineSensor),50,700,0,100);
     return shine_value;
   }
-
+//--------------------------------------------
+//            TempSensors
+//--------------------------------------------
+/*float Attiny::Temp(int senzor)
+  {
+    float temp;
+    sensors.requestTemperatures();
+    temp = sensors.getTempCByIndex(0);
+    delay(50);
+    return temp;
+  }*/

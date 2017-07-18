@@ -1,5 +1,5 @@
 /*
-Vytvorene Teamom GalejeNextGen pre sutaz RBA
+Vytvorene Teamom GalejeNextGen
 */
 //--------------------------------------------
 //            Library import
@@ -50,7 +50,7 @@ void Attiny::motor(String motor,int speed,String mode)
         {
           speed_set = LOW;
         }
-        
+
         if(motor=="A")
         {
           digitalWrite(1,speed_set);
@@ -70,8 +70,8 @@ void Attiny::motor(String motor,int speed,String mode)
           digitalWrite(0,LOW);
         }
      }
-     
-    
+
+
   }
 //--------------------------------------------
 //                  Sensors
@@ -80,17 +80,19 @@ void Attiny::motor(String motor,int speed,String mode)
 //           UltrasonicSensor
 //--------------------------------------------
 int Attiny::UltrasonicSensor()
-  { 
-    long duration;
+  {
+    #define UltrasonicSensor 2 //A1
+    int duration;
     int distance;
-    pinMode(2, OUTPUT);
-    pinMode(3, INPUT);
-    digitalWrite(2, LOW); 
+    pinMode(UltrasonicSensor, OUTPUT);
+    digitalWrite(UltrasonicSensor, LOW);
     delayMicroseconds(2);
-    digitalWrite(2, HIGH);
-    delayMicroseconds(10); 
-    digitalWrite(2, LOW);
-    duration = pulseIn(3, HIGH);
+    digitalWrite(UltrasonicSensor, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(UltrasonicSensor, LOW);
+    delayMicroseconds(10);
+    pinMode(UltrasonicSensor, INPUT);
+    duration = pulseIn(UltrasonicSensor, HIGH);
     distance = duration/58.2;
     return distance;
   }
@@ -145,8 +147,9 @@ int Attiny::LightSensor(int sensor,String mode)
 //--------------------------------------------
 int Attiny::ShineSensor()
   {
+    #define ShineSensor A1
     int shine_value;
-    pinMode(A3,INPUT);
-    shine_value = map(analogRead(A3),50,700,0,100); 
+    pinMode(ShineSensor,INPUT);
+    shine_value = map(analogRead(ShineSensor),50,700,0,100);
     return shine_value;
   }

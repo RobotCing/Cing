@@ -14,6 +14,6 @@ class Attiny
     int UltrasonicSensor();
     int ShineSensor();
   private:
-      
+
 };
 #endif
