@@ -5,8 +5,8 @@ Vytvorene Teamom GalejeNextGen
 //--------------------------------------------
 //            Library import
 //--------------------------------------------
-/*#include <OneWire.h>
-#include <DallasTemperature.h>*/
+#include <OneWire.h>
+#include <DallasTemperature.h>
 //--------------------------------------------
 #include "Arduino.h"
 #include "Attiny85_IO.h"
@@ -15,9 +15,9 @@ Attiny::Attiny(){}
 //--------------------------------------------
 //            DS18B20 Setup
 //--------------------------------------------
-/*#define ONE_WIRE_BUS 2
+#define ONE_WIRE_BUS 2
 OneWire oneWire(ONE_WIRE_BUS);
-DallasTemperature sensors(&oneWire);*/
+DallasTemperature sensors(&oneWire);
 //--------------------------------------------
 //              Motors
 //--------------------------------------------
@@ -169,11 +169,11 @@ int Attiny::ShineSensor()
 //--------------------------------------------
 //            TempSensors
 //--------------------------------------------
-/*float Attiny::Temp(int senzor)
+float Attiny::Temp(int senzor)
   {
     float temp;
     sensors.requestTemperatures();
-    temp = sensors.getTempCByIndex(0);
+    temp = sensors.getTempCByIndex(senzor);
     delay(50);
     return temp;
-  }*/
+  }
