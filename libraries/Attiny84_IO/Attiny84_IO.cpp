@@ -11,13 +11,13 @@ Vytvorene Teamom GalejeNextGen
 #include <DallasTemperature.h>
 //--------------------------------------------
 #include "Arduino.h"
-#include "Attiny85_IO.h"
+#include "Attiny84_IO.h"
 //--------------------------------------------
 Attiny::Attiny(){}
 //--------------------------------------------
 //            DS18B20 Setup
 //--------------------------------------------
-#define ONE_WIRE_BUS 2
+#define ONE_WIRE_BUS 4
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 //--------------------------------------------
@@ -25,25 +25,72 @@ DallasTemperature sensors(&oneWire);
 //--------------------------------------------
 void Attiny::motor(String motor,int speed,String mode)
   {
-     #define motorA 1
-     #define motorB 0
-     pinMode(motorA,OUTPUT);//a
-     pinMode(motorB,OUTPUT);//b
+     #define motorA 5
+     #define motorB 6
+     #define INA1 7
+     #define INA2 8
+     #define INB1 9
+     #define INB2 10
+     pinMode(motorA,OUTPUT);
+     pinMode(motorB,OUTPUT);
+     //---------------------
+     pinMode(INA1,OUTPUT);
+     pinMode(INA2,OUTPUT);
+     pinMode(INB1,OUTPUT);
+     pinMode(INB2,OUTPUT);
      if(mode=="analog")
      {
         int speed_set = map(speed,0,100,0,255);
         if(motor=="A")
         {
-          analogWrite(motorA,speed_set);
+          if (speed >= 0)
+          {
+            digitalWrite(INA1,HIGH);
+            digitalWrite(INA2,LOW);
+            analogWrite(motorA,speed_set);
+          }
+          else if (speed < 0)
+          {
+            digitalWrite(INA1,LOW);
+            digitalWrite(INA2,HIGH);
+            analogWrite(motorA,speed_set);
+          }
         }
         else if(motor=="B")
         {
-          analogWrite(motorB,speed_set);
+          if (speed >= 0)
+          {
+            digitalWrite(INB1,HIGH);
+            digitalWrite(INB2,LOW);
+            analogWrite(motorB,speed_set);
+          }
+          else if (speed < 0)
+          {
+            digitalWrite(INB1,LOW);
+            digitalWrite(INB2,HIGH);
+            analogWrite(motorB,speed_set);
+          }
         }
         else if(motor=="AB")
         {
-          analogWrite(motorA,speed_set);
-          analogWrite(motorB,speed_set);
+          if (speed >= 0)
+          {
+            digitalWrite(INA1,HIGH);
+            digitalWrite(INA2,LOW);
+            digitalWrite(INB1,HIGH);
+            digitalWrite(INB2,LOW);
+            analogWrite(motorA,speed_set);
+            analogWrite(motorB,speed_set);
+          }
+          else if (speed < 0)
+          {
+            digitalWrite(INA1,LOW);
+            digitalWrite(INA2,HIGH);
+            digitalWrite(INB1,LOW);
+            digitalWrite(INB2,HIGH);
+            analogWrite(motorA,speed_set);
+            analogWrite(motorB,speed_set);
+          }
         }
         else
         {
@@ -54,7 +101,7 @@ void Attiny::motor(String motor,int speed,String mode)
      else if(mode=="digital")
      {
         int speed_set;
-        if (speed == 1)
+        if (speed == 1 || speed == -1)
         {
           speed_set = HIGH;
         }
@@ -65,16 +112,54 @@ void Attiny::motor(String motor,int speed,String mode)
 
         if(motor=="A")
         {
-          digitalWrite(motorA,speed_set);
+          if (speed == 1)
+          {
+            digitalWrite(INA1,HIGH);
+            digitalWrite(INA2,LOW);
+            digitalWrite(motorA,speed_set);
+          }
+          else if (speed == -1)
+          {
+            digitalWrite(INA1,LOW);
+            digitalWrite(INA2,HIGH);
+            digitalWrite(motorA,speed_set);            
+          }
         }
         else if(motor=="B")
         {
-          digitalWrite(motorB,speed_set);
+          if (speed == 1)
+          {
+            digitalWrite(INB1,HIGH);
+            digitalWrite(INB2,LOW);
+            digitalWrite(motorB,speed_set);
+          }
+          else if (speed == -1)
+          {
+            digitalWrite(INB1,LOW);
+            digitalWrite(INB2,HIGH);
+            digitalWrite(motorB,speed_set);            
+          }
         }
         else if(motor=="AB")
         {
-          digitalWrite(motorA,speed_set);
-          digitalWrite(motorB,speed_set);
+          if (speed == 1)
+          {
+            digitalWrite(INA1,HIGH);
+            digitalWrite(INA2,LOW);
+            digitalWrite(INB1,HIGH);
+            digitalWrite(INB2,LOW);
+            digitalWrite(motorA,speed_set);
+            digitalWrite(motorB,speed_set); 
+          }
+          else if (speed == -1)
+          {
+            digitalWrite(INA1,LOW);
+            digitalWrite(INA2,HIGH);
+            digitalWrite(INB1,LOW);
+            digitalWrite(INB2,HIGH);
+            digitalWrite(motorA,speed_set);
+            digitalWrite(motorB,speed_set);            
+          }
         }
         else
         {
@@ -95,8 +180,8 @@ void Attiny::motor(String motor,int speed,String mode)
 
 int Attiny::LightSensor(int sensor,String mode)
   {
-    #define LightSensor1 A2
-    #define LightSensor2 A3
+    #define LightSensor1 A1
+    #define LightSensor2 A0
     pinMode(LightSensor1,INPUT);//1
     pinMode(LightSensor2,INPUT);//2
     if (mode=="analog")
@@ -142,7 +227,7 @@ int Attiny::LightSensor(int sensor,String mode)
 
 int Attiny::UltrasonicSensor()
   {
-    #define UltrasonicSensor 2
+    #define UltrasonicSensor 4
     int duration;
     int distance;
     pinMode(UltrasonicSensor, OUTPUT);
@@ -162,7 +247,7 @@ int Attiny::UltrasonicSensor()
 //--------------------------------------------
 int Attiny::ShineSensor()
   {
-    #define ShineSensor A1
+    #define ShineSensor A4
     int shine_value;
     pinMode(ShineSensor,INPUT);
     shine_value = map(analogRead(ShineSensor),50,700,0,100);

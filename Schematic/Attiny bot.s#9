@@ -6558,6 +6558,94 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="-19.685" y1="6.985" x2="-19.685" y2="5.715" width="0.254" layer="21"/>
 <wire x1="-20.32" y1="6.35" x2="-19.05" y2="6.35" width="0.254" layer="21"/>
 </package>
+<package name="ULTRASONIC-HC-SR04">
+<description>&lt;b&gt;Ultrasonic Ranging Module HC-SR04&lt;/b&gt;</description>
+<wire x1="-22.5" y1="9.8" x2="22.5" y2="9.8" width="0.127" layer="21"/>
+<wire x1="22.5" y1="9.8" x2="22.5" y2="-10.2" width="0.127" layer="21"/>
+<wire x1="22.5" y1="-10.2" x2="-22.5" y2="-10.2" width="0.127" layer="21"/>
+<wire x1="-22.5" y1="-10.2" x2="-22.5" y2="9.8" width="0.127" layer="21"/>
+<hole x="-21.1" y="8.4" drill="1.8"/>
+<hole x="-21.1" y="-8.8" drill="1.8"/>
+<hole x="21.1" y="-8.8" drill="1.8"/>
+<hole x="21.1" y="8.4" drill="1.8"/>
+<circle x="-13" y="0" radius="8" width="0.127" layer="21"/>
+<circle x="13" y="0" radius="8" width="0.127" layer="21"/>
+<pad name="1" x="-3.81" y="-8.89" drill="1" shape="square"/>
+<pad name="2" x="-1.27" y="-8.89" drill="1"/>
+<pad name="3" x="1.27" y="-8.89" drill="1"/>
+<pad name="4" x="3.81" y="-8.89" drill="1"/>
+<wire x1="-5.08" y1="-8.255" x2="-4.445" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-7.62" x2="-3.175" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-7.62" x2="-2.54" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-8.255" x2="-1.905" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-7.62" x2="-0.635" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-7.62" x2="0" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="0" y1="-8.255" x2="0.635" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-7.62" x2="1.905" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-7.62" x2="2.54" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-8.255" x2="3.175" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-7.62" x2="4.445" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-7.62" x2="5.08" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-8.255" x2="5.08" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-9.525" x2="4.445" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-10.16" x2="3.175" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-10.16" x2="2.54" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-9.525" x2="1.905" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-10.16" x2="0.635" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-10.16" x2="0" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="0" y1="-9.525" x2="-0.635" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-10.16" x2="-1.905" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-10.16" x2="-2.54" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-9.525" x2="-3.175" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-10.16" x2="-4.445" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-10.16" x2="-5.08" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-9.525" x2="-5.08" y2="-8.255" width="0.127" layer="21"/>
+<text x="0" y="10.795" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-11.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="ULTRASONIC-HC-SR04#V">
+<description>&lt;b&gt;Ultrasonic Ranging Module HC-SR04&lt;/b&gt; vertically mounted</description>
+<wire x1="-22.5" y1="-4.064" x2="22.5" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="22.5" y1="-4.064" x2="22.5" y2="-5.7" width="0.127" layer="21"/>
+<wire x1="22.5" y1="-5.7" x2="21" y2="-5.7" width="0.127" layer="21"/>
+<wire x1="21" y1="-5.7" x2="5" y2="-5.7" width="0.127" layer="21"/>
+<wire x1="5" y1="-5.7" x2="-5" y2="-5.7" width="0.127" layer="21"/>
+<wire x1="-5" y1="-5.7" x2="-21" y2="-5.7" width="0.127" layer="21"/>
+<wire x1="-21" y1="-5.7" x2="-22.5" y2="-5.7" width="0.127" layer="21"/>
+<wire x1="-22.5" y1="-5.7" x2="-22.5" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-4.064" x2="5.08" y2="-4.064" width="0.127" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1" shape="square" rot="R180"/>
+<pad name="2" x="-1.27" y="0" drill="1" rot="R180"/>
+<pad name="3" x="1.27" y="0" drill="1" rot="R180"/>
+<pad name="4" x="3.81" y="0" drill="1" rot="R180"/>
+<text x="0" y="1.905" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-18.415" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.524" x2="-4.191" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-4.191" y1="-1.524" x2="-3.429" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-3.429" y1="-1.524" x2="-1.651" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="-1.524" x2="-0.889" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="-1.524" x2="0.889" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="0.889" y1="-1.524" x2="1.651" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="1.651" y1="-1.524" x2="3.429" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="3.429" y1="-1.524" x2="4.191" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="4.191" y1="-1.524" x2="5.08" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-1.524" x2="5.08" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="4.191" y1="-1.524" x2="4.191" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="3.429" y1="-1.524" x2="3.429" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="1.651" y1="-1.524" x2="1.651" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="-1.524" x2="-0.889" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-3.429" y1="-1.524" x2="-3.429" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="0.889" y1="-1.524" x2="0.889" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="-1.524" x2="-1.651" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-4.191" y1="-1.524" x2="-4.191" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-21" y1="-5.7" x2="-21" y2="-17.7" width="0.127" layer="21"/>
+<wire x1="-21" y1="-17.7" x2="-5" y2="-17.7" width="0.127" layer="21"/>
+<wire x1="-5" y1="-17.7" x2="-5" y2="-5.7" width="0.127" layer="21"/>
+<wire x1="5" y1="-5.7" x2="5" y2="-17.7" width="0.127" layer="21"/>
+<wire x1="5" y1="-17.7" x2="21" y2="-17.7" width="0.127" layer="21"/>
+<wire x1="21" y1="-17.7" x2="21" y2="-5.7" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BATTERY-CHARGER-LI-5V">
@@ -6591,6 +6679,23 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
 <text x="-12.7" y="15.24" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ULTRASONIC-HC-SR04">
+<description>&lt;b&gt;Ultrasonic Ranging Module HC-SR04&lt;/b&gt;</description>
+<pin name="VCC" x="-2.54" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+<pin name="TRIG" x="0" y="-15.24" length="middle" direction="in" rot="R90"/>
+<pin name="ECHO" x="2.54" y="-15.24" length="middle" direction="out" rot="R90"/>
+<pin name="GND" x="5.08" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+<wire x1="-22.86" y1="-10.16" x2="-22.86" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="10.16" x2="25.4" y2="10.16" width="0.254" layer="94"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-10.16" x2="-22.86" y2="-10.16" width="0.254" layer="94"/>
+<circle x="-12.7" y="0" radius="7.62" width="0.254" layer="94"/>
+<circle x="15.24" y="0" radius="7.62" width="0.254" layer="94"/>
+<circle x="15.24" y="0" radius="3.81845625" width="0.254" layer="94"/>
+<circle x="-12.7" y="0" radius="3.81845625" width="0.254" layer="94"/>
+<text x="-22.86" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-22.86" y="12.7" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6635,6 +6740,42 @@ http://www.buildcircuit.com/how-to-use-micro-usb-5v-1a-lithium-battery-charging-
 <connect gate="G$1" pin="IN-" pad="IN-"/>
 <connect gate="G$1" pin="OUT+" pad="OUT+"/>
 <connect gate="G$1" pin="OUT-" pad="OUT-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ULTRASONIC-HC-SR04">
+<description>&lt;b&gt;Ultrasonic Ranging Module HC-SR04&lt;/b&gt;
+&lt;p&gt;More details available here:&lt;br&gt;
+&lt;a href="http://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/"&gt;
+http://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/hc+sr04+ultrasonic"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=ULTRASONIC-HC-SR04"&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ULTRASONIC-HC-SR04" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ULTRASONIC-HC-SR04">
+<connects>
+<connect gate="G$1" pin="ECHO" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="TRIG" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="#V" package="ULTRASONIC-HC-SR04#V">
+<connects>
+<connect gate="G$1" pin="ECHO" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="TRIG" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7082,6 +7223,153 @@ high speed</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="photo-elements">
+<description>&lt;b&gt;Photocells&lt;/b&gt;&lt;p&gt;
+Manufakturer: PerkinElmer Optoelektronics&lt;br&gt;
+www.perkinelmer.com/opto</description>
+<packages>
+<package name="TO-8_B10">
+<description>&lt;b&gt;Sensor&lt;/b&gt; Street Light control&lt;p&gt;
+Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_PhotocellsB1060.pdf</description>
+<wire x1="-3.6" y1="-3.6" x2="-3.6" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="1" x2="-3.6" y2="3.6" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="3.6" x2="3.6" y2="3.6" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="3.6" x2="3.6" y2="1" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="-1" x2="3.6" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="-3.6" x2="-3.6" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="3.5" x2="2.5" y2="3" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="3" x2="-2.5" y2="3" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="3" x2="-2.5" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2" x2="-2.5" y2="2" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="2" x2="-2.5" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="2" y1="1.5" x2="2" y2="1" width="0.2032" layer="21"/>
+<wire x1="2" y1="1" x2="-2" y2="1" width="0.2032" layer="21"/>
+<wire x1="-2" y1="1" x2="-2" y2="0.5" width="0.2032" layer="21"/>
+<wire x1="-2" y1="0.5" x2="2" y2="0.5" width="0.2032" layer="21"/>
+<wire x1="2" y1="0.5" x2="2" y2="0" width="0.2032" layer="21"/>
+<wire x1="2" y1="0" x2="-2" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2" y1="0" x2="-2" y2="-0.5" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-0.5" x2="2" y2="-0.5" width="0.2032" layer="21"/>
+<wire x1="2" y1="-0.5" x2="2" y2="-1" width="0.2032" layer="21"/>
+<wire x1="2" y1="-1" x2="-2.5" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-1" x2="-2.5" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-1.5" x2="2.5" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-1.5" x2="2.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2" x2="-2.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-2" x2="-2.5" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-3" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-3" x2="-2.5" y2="-3" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-3" x2="-2.5" y2="-3.5" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="6.9001" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="6.1002" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="5.3002" width="0.2032" layer="21"/>
+<pad name="1" x="-3.75" y="0" drill="0.8" diameter="1.4"/>
+<pad name="2" x="3.75" y="0" drill="0.8" diameter="1.4"/>
+<text x="-3" y="-8.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.5" y="7.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="TO-5_V10">
+<description>&lt;b&gt;Sensor&lt;/b&gt; Street Light control&lt;p&gt;
+Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_PhotocellsB1060.pdf</description>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-2.6" y1="1" x2="-2.6" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="-2.6" y1="2.6" x2="2.6" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="2.6" y1="2.6" x2="2.6" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.6" y1="-1" x2="2.6" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="2.6" y1="-2.6" x2="-2.6" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="2" y1="2.5" x2="2" y2="2" width="0.2032" layer="21"/>
+<wire x1="2" y1="2" x2="-2" y2="2" width="0.2032" layer="21"/>
+<wire x1="-2" y1="2" x2="-2" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="2" y1="1.5" x2="2" y2="1" width="0.2032" layer="21"/>
+<wire x1="2" y1="1" x2="-1.5" y2="1" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="1" x2="-1.5" y2="0.5" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="0.5" x2="1.5" y2="0.5" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="0.5" x2="1.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="0" x2="-1.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="0" x2="-1.5" y2="-0.5" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-0.5" x2="1.5" y2="-0.5" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="-0.5" x2="1.5" y2="-1" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="-1" x2="-2" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-1" x2="-2" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="2" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="2" y1="-1.5" x2="2" y2="-2" width="0.2032" layer="21"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="-3" x2="4" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="-3.5" x2="3.5" y2="-4" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="-4" x2="3" y2="-3.5" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="3.9262" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="4.55" width="0.2032" layer="21"/>
+<pad name="1" x="-2.7" y="0" drill="0.8" diameter="1.4"/>
+<pad name="2" x="2.7" y="0" drill="0.8" diameter="1.4"/>
+<text x="-2.5" y="-6.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PHOTOCELL">
+<wire x1="-3.048" y1="2.413" x2="-1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-1.778" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.016" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-1.143" x2="-1.016" y2="-0.381" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-0.381" x2="1.016" y2="0.381" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0.381" x2="-1.016" y2="1.143" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.143" x2="1.016" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.016" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.905" x2="1.016" y2="-1.143" width="0.254" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.778" y="-0.127"/>
+<vertex x="-2.667" y="0.254"/>
+<vertex x="-2.159" y="0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.651" y="1.016"/>
+<vertex x="-2.54" y="1.397"/>
+<vertex x="-2.032" y="1.905"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="?1060*" prefix="PH">
+<description>&lt;b&gt;Sensor&lt;/b&gt; Street Light control&lt;p&gt;
+Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_PhotocellsB1060.pdf</description>
+<gates>
+<gate name="G$1" symbol="PHOTOCELL" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="B" package="TO-8_B10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_23"/>
+</technologies>
+</device>
+<device name="V" package="TO-5_V10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_21"/>
+<technology name="_31"/>
+<technology name="_32"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7142,7 +7430,11 @@ high speed</description>
 <part name="JP8" library="pinhead" deviceset="PINHD-1X5" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="U$3" library="diy-modules" deviceset="ULTRASONIC-HC-SR04" device="#V"/>
+<part name="JP9" library="pinhead" deviceset="PINHD-1X5" device=""/>
+<part name="JP10" library="pinhead" deviceset="PINHD-1X5" device=""/>
+<part name="PH1" library="photo-elements" deviceset="?1060*" device="B" technology="_23" value=""/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R1206"/>
 </parts>
 <sheets>
 <sheet>
@@ -7199,7 +7491,11 @@ high speed</description>
 <instance part="JP8" gate="A" x="215.9" y="160.02" rot="R90"/>
 <instance part="P+13" gate="1" x="205.74" y="157.48"/>
 <instance part="GND14" gate="1" x="215.9" y="149.86"/>
-<instance part="R7" gate="G$1" x="226.06" y="152.4" rot="R180"/>
+<instance part="U$3" gate="G$1" x="276.86" y="198.12"/>
+<instance part="JP9" gate="A" x="279.4" y="154.94" rot="MR270"/>
+<instance part="JP10" gate="A" x="317.5" y="121.92" rot="MR270"/>
+<instance part="PH1" gate="G$1" x="312.42" y="152.4" rot="R270"/>
+<instance part="R6" gate="G$1" x="317.5" y="139.7" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -7646,9 +7942,10 @@ high speed</description>
 <label x="91.44" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="152.4" x2="233.68" y2="152.4" width="0.1524" layer="91"/>
-<label x="233.68" y="152.4" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP8" gate="A" pin="5"/>
+<wire x1="220.98" y1="157.48" x2="220.98" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="154.94" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
+<label x="228.6" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -7671,11 +7968,66 @@ high speed</description>
 <wire x1="203.2" y1="149.86" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="JP9" gate="A" pin="3"/>
+<wire x1="279.4" y1="172.72" x2="279.4" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<wire x1="281.94" y1="182.88" x2="281.94" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="172.72" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="JP9" gate="A" pin="1"/>
+<pinref part="U$3" gate="G$1" pin="VCC"/>
+<wire x1="274.32" y1="182.88" x2="274.32" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="JP9" gate="A" pin="5"/>
+<wire x1="284.48" y1="157.48" x2="284.48" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="180.34" x2="276.86" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="TRIG"/>
+<wire x1="276.86" y1="180.34" x2="276.86" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="JP8" gate="A" pin="5"/>
-<wire x1="220.98" y1="157.48" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="U$3" gate="G$1" pin="ECHO"/>
+<wire x1="279.4" y1="182.88" x2="279.4" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="175.26" x2="276.86" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="A" pin="2"/>
+<wire x1="276.86" y1="175.26" x2="276.86" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="PH1" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="144.78" x2="317.5" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="JP10" gate="A" pin="2"/>
+<wire x1="317.5" y1="149.86" x2="317.5" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="124.46" x2="314.96" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="149.86" x2="317.5" y2="149.86" width="0.1524" layer="91"/>
+<junction x="317.5" y="149.86"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="JP10" gate="A" pin="3"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="317.5" y1="134.62" x2="317.5" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="PH1" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="152.4" x2="307.34" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="129.54" x2="312.42" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="JP10" gate="A" pin="1"/>
+<wire x1="312.42" y1="129.54" x2="312.42" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
