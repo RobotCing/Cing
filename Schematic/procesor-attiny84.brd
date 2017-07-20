@@ -514,7 +514,7 @@ design rules under a new name.</description>
 <contactref element="E$10" pad="1"/>
 <contactref element="E$1" pad="12"/>
 <wire x1="8.89" y1="8.89" x2="3.81" y2="3.81" width="0.8128" layer="16"/>
-<wire x1="8.89" y1="8.89" x2="8.89" y2="11.43" width="0" layer="19" extent="16-16"/>
+<wire x1="8.89" y1="11.43" x2="8.89" y2="8.89" width="0.8128" layer="16"/>
 </signal>
 <signal name="S$7">
 <contactref element="E$10" pad="2"/>
