@@ -10,6 +10,7 @@ Everybody know [Lego](https://www.lego.com/en-us/) as an campany. They are makin
 ## Components:
  - ### Procesors:
    - Attiny85 procesor
+   - Attiny84 procesor
    - Atmega328 procesor(in progress)
    - Atmega8 procesor(in progress)
  - ### Sensors(Inputs):
