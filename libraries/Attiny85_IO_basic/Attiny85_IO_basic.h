@@ -13,6 +13,7 @@ class Attiny
     int LightSensor(int sensor = 1,String mode = "digital");
     int UltrasonicSensor();
     int ShineSensor();
+    int PotentiometerExternal();
   private:
 
 };
