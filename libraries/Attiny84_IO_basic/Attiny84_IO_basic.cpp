@@ -33,7 +33,7 @@ void Attiny::motor(String motor,int speed,String mode)
         int speed_set = map(speed,0,100,0,255);
         if(motor=="A")
         {
-          if (speed >= 0)
+          if (speed = 0)
           {
             digitalWrite(INA1,HIGH);
             digitalWrite(INA2,LOW);
@@ -48,7 +48,7 @@ void Attiny::motor(String motor,int speed,String mode)
         }
         else if(motor=="B")
         {
-          if (speed >= 0)
+          if (speed = 0)
           {
             digitalWrite(INB1,HIGH);
             digitalWrite(INB2,LOW);
@@ -63,7 +63,7 @@ void Attiny::motor(String motor,int speed,String mode)
         }
         else if(motor=="AB")
         {
-          if (speed >= 0)
+          if (speed = 0)
           {
             digitalWrite(INA1,HIGH);
             digitalWrite(INA2,LOW);
@@ -99,37 +99,57 @@ void Attiny::motor(String motor,int speed,String mode)
         {
           speed_set = LOW;
         }
-
+        //--------------------------
+        //           A
+        //--------------------------
         if(motor=="A")
         {
           if (speed == 1)
           {
             digitalWrite(INA1,HIGH);
             digitalWrite(INA2,LOW);
-            digitalWrite(motorA,speed_set);
+            digitalWrite(motorA,speed);
           }
           else if (speed == -1)
           {
             digitalWrite(INA1,LOW);
             digitalWrite(INA2,HIGH);
-            digitalWrite(motorA,speed_set);
+            digitalWrite(motorA,speed);            
+          }
+          else if (speed == 0)
+          {
+            digitalWrite(INA1,LOW);
+            digitalWrite(INA2,LOW);
+            digitalWrite(motorA,speed);            
           }
         }
+        //--------------------------
+        //            B
+        //--------------------------
         else if(motor=="B")
         {
           if (speed == 1)
           {
             digitalWrite(INB1,HIGH);
             digitalWrite(INB2,LOW);
-            digitalWrite(motorB,speed_set);
+            digitalWrite(motorB,speed);
           }
           else if (speed == -1)
           {
             digitalWrite(INB1,LOW);
             digitalWrite(INB2,HIGH);
-            digitalWrite(motorB,speed_set);
+            digitalWrite(motorB,speed);            
+          }
+          else if (speed == 0)
+          {
+            digitalWrite(INB1,LOW);
+            digitalWrite(INB2,LOW);
+            digitalWrite(motorB,speed);            
           }
         }
+        //--------------------------
+        //            AB
+        //--------------------------
         else if(motor=="AB")
         {
           if (speed == 1)
@@ -138,8 +158,8 @@ void Attiny::motor(String motor,int speed,String mode)
             digitalWrite(INA2,LOW);
             digitalWrite(INB1,HIGH);
             digitalWrite(INB2,LOW);
-            digitalWrite(motorA,speed_set);
-            digitalWrite(motorB,speed_set);
+            digitalWrite(motorA,speed);
+            digitalWrite(motorB,speed); 
           }
           else if (speed == -1)
           {
@@ -147,8 +167,17 @@ void Attiny::motor(String motor,int speed,String mode)
             digitalWrite(INA2,HIGH);
             digitalWrite(INB1,LOW);
             digitalWrite(INB2,HIGH);
-            digitalWrite(motorA,speed_set);
-            digitalWrite(motorB,speed_set);
+            digitalWrite(motorA,speed);
+            digitalWrite(motorB,speed);            
+          }
+          else if (speed == 0)
+          {
+            digitalWrite(INA1,LOW);
+            digitalWrite(INA2,LOW);
+            digitalWrite(INB1,LOW);
+            digitalWrite(INB2,LOW);
+            digitalWrite(motorA,speed);
+            digitalWrite(motorB,speed);            
           }
         }
         else
@@ -157,8 +186,6 @@ void Attiny::motor(String motor,int speed,String mode)
           digitalWrite(motorB,LOW);
         }
      }
-
-
   }
 //--------------------------------------------
 //                  Sensors
@@ -235,6 +262,59 @@ int Attiny::UltrasonicSensor()
 //--------------------------------------------
 //             ShineSensors
 //--------------------------------------------
+//--------------------------------------------
+//               Buzzer
+//--------------------------------------------
+void Attiny::Buzzer(int state,int Buzzer_time)
+  {
+    #define Buzzer 2
+    pinMode(Buzzer, OUTPUT);
+    if (state == 2)
+      {
+        digitalWrite(Buzzer, HIGH);
+        delay(Buzzer_time);
+        digitalWrite(Buzzer, LOW);
+        delay(Buzzer_time);
+      }
+    else if (state == 1)
+      {
+        digitalWrite(Buzzer, HIGH);
+      }
+    else if (state == 0)
+      {
+        digitalWrite(Buzzer, LOW);
+      }
+  }
+//--------------------------------------------
+//               Button
+//--------------------------------------------
+int Attiny::Button(int button)
+  {
+    if (button == 0)
+    {
+      #define Button A3
+      pinMode(Button,INPUT);
+      int button_value = digitalRead(Button);
+      return button_value;
+    }
+  }
+//--------------------------------------------
+//          Potentiometer
+//--------------------------------------------
+int Attiny::PotentiometerInternal()
+  {
+    #define Potentiometer A3
+    pinMode(Potentiometer,INPUT);
+    int Potentiometer_value = map(analogRead(Potentiometer),0,1023,0,100);
+    return Potentiometer_value;
+  }
+int Attiny::PotentiometerExternal()
+  {
+    #define Potentiometer A4
+    pinMode(Potentiometer,INPUT);
+    int Potentiometer_value = map(analogRead(Potentiometer),0,1023,0,100);
+    return Potentiometer_value;
+  }
 int Attiny::ShineSensor()
   {
     #define ShineSensor A4

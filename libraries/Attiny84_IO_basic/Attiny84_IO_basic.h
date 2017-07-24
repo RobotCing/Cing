@@ -17,6 +17,10 @@ class Attiny
     int LightSensor(int sensor = 1,String mode = "digital");
     int UltrasonicSensor();
     int ShineSensor();
+    void Buzzer(int state=2,int Buzzer_time = 1000);
+    int Button(int button = 0);
+    int PotentiometerInternal();
+    int PotentiometerExternal();
 // local variables
   private:
 
