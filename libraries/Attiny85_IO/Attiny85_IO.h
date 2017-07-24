@@ -18,6 +18,7 @@ class Attiny
     float Temp(int senzor = 0);
     int UltrasonicSensor();
 	  int ShineSensor();
+    int PotentiometerExternal();
 // local variables
   private:
 };

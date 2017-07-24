@@ -169,6 +169,16 @@ int Attiny::ShineSensor()
     return shine_value;
   }
 //--------------------------------------------
+//          Potentiometer
+//--------------------------------------------
+int Attiny::PotentiometerExternal()
+  {
+    #define Potentiometer A1
+    pinMode(Potentiometer,INPUT);
+    int Potentiometer_value = map(analogRead(Potentiometer),0,1023,0,100);
+    return Potentiometer_value;
+  }
+//--------------------------------------------
 //            TempSensors
 //--------------------------------------------
 float Attiny::Temp(int senzor)
