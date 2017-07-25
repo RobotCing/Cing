@@ -1,5 +1,3 @@
-# Cing
-
 <img src="Pictures/logo%20Cing.png">
 
 ## Introduction:
@@ -12,10 +10,12 @@ Everybody know [Lego](https://www.lego.com/en-us/) as an campany. They are makin
 
 ## Components:
  - ### Procesors:
+   - Attiny13 procesor
    - Attiny85 procesor
    - Attiny84 procesor
+   - Atmega8 procesor
    - Atmega328 procesor(in progress)
-   - Atmega8 procesor(in progress)
+   - Atmega32u4 procesor(in progress)
  - ### Sensors(Inputs):
    - DS18B20 temperature sensor
    - Shine sensor
