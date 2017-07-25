@@ -1,6 +1,7 @@
 # Cing
 
 <img src="Pictures/logo%20Cing.png">
+
 ## Introduction:
 
 Everybody know [Lego](https://www.lego.com/en-us/) as an campany. They are making most popular Lego sets and robots ever. They have <a href="https://www.lego.com/en-us/mindstorms">Lego NXT and Lego EV3</a> robot sets which are easy to program and build, but after you have learned how to program them with Lego software there isn't any other programing language. So  if you want to learn some other language you have to get something else for example Arduino. Arduino is great platform because it is open source, cheaper than Lego and you aren't that limited. But when you get arduino you will sooner or later realise that you have to know how electronics works. And that's the point where most of people will give up. 
