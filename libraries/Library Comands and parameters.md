@@ -7,7 +7,7 @@ attiny.motor("A"/"B"/"AB",0 - 100,"analog")
 
 ~~attiny.Button()==1~~
 
-atmega.PotentiometerExternal()==1
+~~atmega.PotentiometerExternal()==1~~
 
 attiny.PotentiometerExternal()>50
 
@@ -32,7 +32,7 @@ attiny.PotentiometerInternal()>50
 
 attiny.Button()==1
 
-atmega.PotentiometerExternal()==1
+~~atmega.PotentiometerExternal()==1~~
 
 attiny.PotentiometerExternal()>50
 
