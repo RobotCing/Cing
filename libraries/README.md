@@ -14,7 +14,7 @@
 | attiny.PotentiometerExternal()>50 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.LightSensor(1,"digital")==1 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.LightSensor(2,"analog")>20 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| attiny.UltrasonicSensor()>20 | ? | ? | ? | ? | ? |
+| attiny.UltrasonicSensor()>20 | ? | ? | ? | ? | × |
 | attiny.ShineSensor()==1 | × | × | × | × | × |
 | attiny.ShineSensor()>20 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.Buzzer(0) | × | × | ✓ | ✓ | × |
