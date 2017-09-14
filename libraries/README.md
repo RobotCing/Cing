@@ -7,7 +7,7 @@
 | attiny.motor("AB",1,"digital") | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.motor("AB",-1,"digital") | × | ×  | ✓ | ✓ | × |
 | attiny.motor("AB",100,"analog") | ✓ | ✓ | ✓ | ✓ | ✓ |
-| attiny.motor("AB",-100,"digital") | × | ×  | ✓ | ✓ | × |
+| attiny.motor("AB",-100,"analog") | × | ×  | ✓ | ✓ | × |
 | attiny.PotentiometerInternal()>50  | × | × | ✓ | ✓ | × |
 | attiny.Button()==1 | × | × | ✓ | ✓ | × |
 | attiny.PotentiometerExternal()==1 | × | × | × | × | × |
