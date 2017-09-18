@@ -8,7 +8,6 @@
 | attiny.motor("AB",-1,"digital") | × | ×  | ✓ | ✓ | × |
 | attiny.motor("AB",100,"analog") | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.motor("AB",-100,"analog") | × | ×  | ✓ | ✓ | × |
-| attiny.PotentiometerInternal()>50  | × | × | ✓ | ✓ | × |
 | attiny.Button()==1 | × | × | ✓ | ✓ | × |
 | attiny.PotentiometerExternal()==1 | × | × | × | × | × |
 | attiny.PotentiometerExternal()>50 | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -28,7 +27,6 @@
 | atmega.motor("AB",-1,"digital") | ✓ | ✓ | ✓ | ✓ |
 | atmega.motor("AB",100,"analog") | × | × | × | × |
 | atmega.motor("AB",-100,"digital") | × | × | × | × |
-| atmega.PotentiometerInternal()>50  | ✓ | ✓ | ✓ | ✓ |
 | atmega.Button()==1 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | atmega.PotentiometerExternal()==1 | ✓ | ✓ | ✓ | ✓ |
 | atmega.PotentiometerExternal()>50 | × | × | × | × |
