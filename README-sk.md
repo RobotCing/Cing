@@ -4,41 +4,41 @@
 
 ## Úvod:
 
-Každú pozná firmu [Lego](https://www.lego.com/en-us/). They are making most popular Lego sets and robots ever. They have <a href="https://www.lego.com/en-us/mindstorms">Lego NXT and Lego EV3</a> robot sets which are easy to program and build, but after you have learned how to program them with Lego software there isn't any other programing language. So  if you want to learn some other language you have to get something else for example Arduino. Arduino is great platform because it is open source, cheaper than Lego and you aren't that limited. But when you get arduino you will sooner or later realise that you have to know how electronics works. And that's the point where most of people will give up. 
+Každú pozná firmu [Lego](https://www.lego.com/en-us/). Vyrábajú najpopulárnejšie LEGO stavebnice a sety. Vyrábajú <a href="https://www.lego.com/en-us/mindstorms">Lego NXT and Lego EV3</a>sety ktoré sa jednoducho programujú a konštruujú, ale po naučení sa ich obrázkoveho jednoduchého programovacieho jazyka nemá užívaťel ďalšie možnosti ako programovat ich lego stavebnicu. Užívateľovi ostáva jediná možnosť - Prejisť na inú platformu napríklad Arduino. Arduino je super možnosť nakoľko je Open Source, je lacnejšie, ale užívaťel musí rozumieť elektronike. Tento fakt si mnoho ľudí uvedomí až keď si Arduino kúpi a vačšina ľudí to vzdá.
 Cing solves this problem because it has a <a href="https://github.com/Galeje/Cing/tree/master/libraries" target= "_blank">Library</a> that allows users to easely program Cing in C language without electronics. We also created pdf <a href="https://github.com/Galeje/Cing/blob/master/CINGtlac.pdf">guide</a>  which teaches you basics of programing <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> robot. After learning basics of programing with library they can use <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> robot as learning tool for electronics, because it has open source design. That mean that they can program it with Arduino language or avr language.
 ## Overview:
 <img src="Pictures/Cing_digitalmodel1.png" alt="Cing model">
 <img src="Pictures/Cing_digitalmodel2.png" alt="Cing model">
 
-## Components:
- - ### Procesors:
+## Komponenty:
+ - ### Procesory:
    - Attiny13 procesor
    - Attiny85 procesor
    - Attiny84 procesor
    - Atmega8 procesor
-   - Atmega328 procesor(in progress)
-   - Atmega32u4 procesor(in progress)
- - ### Sensors(Inputs):
+   - Atmega328 procesor
+   - Atmega32u4 procesor(vo vývoji)
+ - ### Senzory(Vstupy):
    - DS18B20 temperature sensor
    - Shine sensor
    - 2 x light sensor
    - ultasonic sensor
- - ### Outputs:
+ - ### Výstupy:
    - L293D
-   - Display128x32(in progress)
+   - Display128x32(vo vývoji)
  - ### Robot parts:
-   - Robot body
+   - Základny robot
    - ICSP programmer
-   - Li-Ion 18650 battery
-   - ICSP ASP programer
- - ### Required tools:
-   - Computer
-   - Black tape for line
-   - Surface for line
-   - Obstacle
+   - Li-Ion 18650 baterka
+   - ICSP ASP programátor
+ - ### Potrebné nástroje:
+   - Počítač
+   - Čierna páska(izolepa) pre vytvorenie čiar
+   - Povrch pre čiaru
+   - Prekážky
 
-## Schematic
-### Schematic of Atmega328 procesor
+## Schémy
+### Schéma Atmega328 procesor
 <a href="https://github.com/Galeje/Cing/tree/master/Schematic"><img src="Pictures/Atmega328_Procesor.png" alt="Atmega 328 schematic"></a>
 ### Schematic of Atmega8 procesor
 <a href="https://github.com/Galeje/Cing/tree/master/Schematic"><img src="Pictures/Atmega328_Procesor.png" alt="Atmega 8 schematic"></a>
