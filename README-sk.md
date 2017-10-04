@@ -10,6 +10,8 @@ Každú pozná firmu [Lego](https://www.lego.com/en-us/). Vyrábajú najpopulár
 <img src="Pictures/Cing_digitalmodel1.png" alt="Cing model">
 <img src="Pictures/Cing_digitalmodel2.png" alt="Cing model">
 
+Arduino Portable download link:https://goo.gl/kuoLt5
+
 ## Komponenty:
  - ### Procesory:
    - Attiny13 procesor
