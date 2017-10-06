@@ -1,12 +1,9 @@
-<img src="Pictures/logo%20Cing.png">
-
-
-
-
 | [Úvod](README-sk.md) | [Cing](README-cing-sj.md)  |[GalejeNextGen](README-GNG.md) |[Kontakt](README-kontakt.md)|[English version](README.md)|
 |---|---|---|---|---|
 
+
 ## Úvod:
+<img src="Pictures/logo%20Cing.png">
 
 Každý pozná firmu [Lego](https://www.lego.com/en-us/). Vyrábajú najpopulárnejšie [Lego](https://www.lego.com/en-us/) stavebnice a sety. Vyrábajú <a href="https://www.lego.com/en-us/mindstorms">Lego NXT a Lego EV3</a> sety, ktoré sa jednoducho programujú a konštruujú, ale po naučení sa ich obrázkoveho jednoduchého programovacieho jazyka nemá užívaťeľ ďalšie možnosti ako programovať ich lego stavebnicu. Užívateľovi ostáva jediná možnosť - prejsť na inú platformu, napríklad [Arduino](https://www.arduino.cc/). 
 
