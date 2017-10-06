@@ -3,7 +3,7 @@
 [View Slovak version here](README-sk.md)
 
 
-| [google](google.com) | [yahoo](yahoo.com)  |[gmail](gmail.com) |
+| [google](https://www.google.sk/) | [yahoo](https://www.google.sk/)  |[gmail](https://www.google.sk/) |
 |---|---|---|
 
 
