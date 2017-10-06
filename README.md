@@ -2,6 +2,11 @@
 
 [View Slovak version here](README-sk.md)
 
+
+| [google](google.com) | [yahoo](yahoo.com)  |[gmail](gmail.com) |
+|---|---|---|
+
+
 ## Introduction:
 
 Everybody know [Lego](https://www.lego.com/en-us/) as an campany. They are making most popular [Lego](https://www.lego.com/en-us/) sets and robots ever. They have <a href="https://www.lego.com/en-us/mindstorms">Lego NXT and Lego EV3</a> robot sets which are easy to program and build, but after you have learned how to program them with [Lego](https://www.lego.com/en-us/) software there isn't any other programing language. So  if you want to learn some other language you have to get something else for example [Arduino](https://www.arduino.cc/).[Arduino](https://www.arduino.cc/) is great platform because it is open source, cheaper than [Lego](https://www.lego.com/en-us/) and you aren't that limited. But when you get arduino you will sooner or later realise that you have to know how electronics works. And that's the point where most of people will give up. 
