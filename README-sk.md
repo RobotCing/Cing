@@ -3,7 +3,7 @@
 
 
 
-| [Úvod](https://www.google.sk/) | [Cing](https://www.google.sk/)  |[GalejeNextGen](README-GNG.md) |[Kontakt](https://www.google.sk/)|[English version](README.md)|
+| [Úvod](https://www.google.sk/) | [Cing](README-cing-sj.md)  |[GalejeNextGen](README-GNG.md) |[Kontakt](README-kontakt.md)|[English version](README.md)|
 |---|---|---|---|---|
 
 ## Úvod:
