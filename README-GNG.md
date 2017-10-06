@@ -1,6 +1,6 @@
 ||||||
 |---|---|---|---|---|
-| [**Úvod**](README-sk.md) | [**Cing**](README-cing-sj.md)  |[**GalejeNextGen**](README-GNG-sj.md) |[**Kontakt**](README-kontakt.md)|[**English version**](README.md)|
+| [**Introduction**](README.md) | [**Cing**](README-cing.md)  |[**GalejeNextGen**](README-GNG.md) |[**Contact**](README-contact.md)|[**Slovak version**](README-sk.md)|
 
 
 # GalejeNextGen Logo
