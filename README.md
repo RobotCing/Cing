@@ -1,3 +1,7 @@
+| [Úvod](README-sk.md) | [Cing](README-cing.md)  |[GalejeNextGen](README-GNG.md) |[Kontakt](README-contact.md)|[Slovak version](README-sk.md)|
+|----------|----------|----------|----------|----------|
+
+
 <img src="Pictures/logo%20Cing.png">
 
 |[View Slovak version here](README-sk.md)|
