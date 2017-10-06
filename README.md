@@ -4,12 +4,6 @@
 
 <img src="Pictures/logo%20Cing.png">
 
-|[View Slovak version here](README-sk.md)|
-|----|
-
-
-| [google](https://www.google.sk/) | [yahoo](https://www.google.sk/)  |[gmail](https://www.google.sk/) |
-|---|---|---|
 
 
 ## Introduction:
