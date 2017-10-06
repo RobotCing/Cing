@@ -1,18 +1,22 @@
 <img src="Pictures/logo%20Cing.png">
 
-|[View English version here](README.md)|
-|---|
 
-| [Úvod](https://www.google.sk/) | [Cing](https://www.google.sk/)  |[GalejeNextGen](README-GNG.md) |[Kontakt](https://www.google.sk/) 
-|---|---|---|---|
+
+
+| [Úvod](https://www.google.sk/) | [Cing](https://www.google.sk/)  |[GalejeNextGen](README-GNG.md) |[Kontakt](https://www.google.sk/)|[English version](README.md)|
+|---|---|---|---|---|
 
 ## Úvod:
 
-Každý pozná firmu Lego. Vyrábajú najpopulárnejšie Lego stavebnice a sety. Vyrábajú Lego NXT a Lego EV3 sety, ktoré sa jednoducho programujú a konštruujú, ale po naučení sa ich obrázkoveho jednoduchého programovacieho jazyka nemá užívaťeľ ďalšie možnosti ako programovať ich lego stavebnicu. Užívateľovi ostáva jediná možnosť - prejsť na inú platformu, napríklad Arduino. 
-Arduino je jedna z najlepších možností, nakoľko je lacnejšie ako akákoľvek iná platforma a taktiež je voľne dostupné. Ak sa užívateľ chce venovať Arduinu, musí mať znalosti z elektroniky. Avšak tento fakt si mnoho ľudí uvedomí až keď si Arduino kúpi a vačšina z nich to vzdá. 
-Preto sme vytvroli robota Cing - je to multifunkčný a praktický robot pre všetky vekové kategórie od začiatočníkov až po expertov, nakoľko nie je potrebná žiadna znalosť z elektorniky či programovania. Pomocou nami vytvorených knižníc, ktoré umožňujü praktické a jednoduché využitie robota Cing sa užívateľ naučí rýchlo, hravo a efektívne programovať.
-Pre ešte ľahšie programovanie a učenie sa sme vytvorili príručky, ktoré obsahujú všetky programy a následne ich vysvetľujú. Aby užívateľ vedel, ako správne poskladať robota Cing, použije opäť nami vytvorený manuál. Po naučení sa základných príkazov si môže vyskúšať cvičenia zo zbierky úloh na plátne s atrakciami.
-Po zvládnutí základných aj pokročilých progamovacích príkazov môže používateľ použiť robota Cing ako nástroj pre učenie sa elektroniky, nakoľko sa jednoducho dostane k schémam aj príručke, ako ho programovať bez použitia knižníc. To znamená, že užívateľ si môže vybrať, ako chce programovať Cinga.
+Každý pozná firmu [Lego](https://www.lego.com/en-us/). Vyrábajú najpopulárnejšie [Lego](https://www.lego.com/en-us/) stavebnice a sety. Vyrábajú <a href="https://www.lego.com/en-us/mindstorms">Lego NXT a Lego EV3</a> sety, ktoré sa jednoducho programujú a konštruujú, ale po naučení sa ich obrázkoveho jednoduchého programovacieho jazyka nemá užívaťeľ ďalšie možnosti ako programovať ich lego stavebnicu. Užívateľovi ostáva jediná možnosť - prejsť na inú platformu, napríklad [Arduino](https://www.arduino.cc/). 
+
+[Arduino](https://www.arduino.cc/) je jedna z najlepších možností, nakoľko je lacnejšie ako akákoľvek iná platforma a taktiež je voľne dostupné. Ak sa užívateľ chce venovať [Arduinu](https://www.arduino.cc/), musí mať znalosti z elektroniky. Avšak tento fakt si mnoho ľudí uvedomí až keď si [Arduino](https://www.arduino.cc/) kúpi a vačšina z nich to vzdá. 
+
+Preto sme vytvroli robota <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> - je to multifunkčný a praktický robot pre všetky vekové kategórie od začiatočníkov až po expertov, nakoľko nie je potrebná žiadna znalosť z elektorniky či programovania. Pomocou nami vytvorených <a href="https://github.com/Galeje/Cing/tree/master/libraries" target= "_blank">knižníc</a>, ktoré umožňujü praktické a jednoduché využitie robota <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> sa užívateľ naučí rýchlo, hravo a efektívne programovať.
+
+Pre ešte ľahšie programovanie a učenie sa sme vytvorili príručky, ktoré obsahujú všetky programy a následne ich vysvetľujú. Aby užívateľ vedel, ako správne poskladať robota <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a>, použije opäť nami vytvorený manuál. Po naučení sa základných príkazov si môže vyskúšať cvičenia zo zbierky úloh na plátne s atrakciami.
+
+Po zvládnutí základných aj pokročilých progamovacích príkazov môže používateľ použiť robota <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> ako nástroj pre učenie sa elektroniky, nakoľko sa jednoducho dostane k schémam aj príručke, ako ho programovať bez použitia <a href="https://github.com/Galeje/Cing/tree/master/libraries" target= "_blank">knižníc</a>. To znamená, že užívateľ si môže vybrať, ako chce programovať <a href="https://github.com/Galeje/" target= "_blank">Cing-a</a>.
 
 <!---Každú pozná firmu [Lego](https://www.lego.com/en-us/). Vyrábajú najpopulárnejšie [Lego](https://www.lego.com/en-us/) stavebnice a sety. Vyrábajú <a href="https://www.lego.com/en-us/mindstorms">Lego NXT and Lego EV3</a>sety ktoré sa jednoducho programujú a konštruujú, ale po naučení sa ich obrázkoveho jednoduchého programovacieho jazyka nemá užívaťeľ ďalšie možnosti ako programovat ich lego stavebnicu. Užívateľovi ostáva jediná možnosť - Prejisť na inú platformu napríklad [Arduino](https://www.arduino.cc/). [Arduino](https://www.arduino.cc/) je super možnosť nakoľko je Open Source, je lacnejšie, ale užívaťel musí rozumieť elektronike. Tento fakt si mnoho ľudí uvedomí až keď si [Arduino](https://www.arduino.cc/) kúpi a vačšina ľudí to vzdá.
 <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> rieši tento problém <a href="https://github.com/Galeje/Cing/tree/master/libraries" target= "_blank">knižnicami</a> ktoré umožňujú jednoduché programovanie <a href="https://github.com/Galeje/Cing" target= "_blank">Cing-a</a> v C programovaciom jazyku bez nutnosťi znalosti elektroniky. Taktiež sme vytvorili <a href="https://github.com/Galeje/Cing/blob/master/CINGtlac.pdf">príručky</a>, ktoré naučia užívateľa programovat <a href="https://github.com/Galeje/Cing" target= "_blank">Cing-a</a>.Po naučení sa základných aj pokročilých progamovacích príkazov môže používateľ použiť robota <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> ako nástroj pre učenie sa elektroniky, nakoľko sa jednoducho dostane k schémam aj príručke ako ho programovať bez použitia <a href="https://github.com/Galeje/Cing/tree/master/libraries" target= "_blank">knižníc</a>. To znamená, že užívateľ si môže vybrať ako chce programovať <a href="https://github.com/Galeje/Cing" target= "_blank">Cing-a</a>.--->
