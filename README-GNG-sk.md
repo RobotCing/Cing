@@ -4,3 +4,8 @@
 
 # GalejeNextGen Logo
 <img src="Fotografie%20(Photos)/Log%C3%A1%20(Logos)/Robot.png">
+
+## Podporte nás:
+[![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
+[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/StanislavJochman/ATTEMP)
+[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/Galeje/Cing)
