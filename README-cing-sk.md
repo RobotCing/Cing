@@ -10,6 +10,12 @@ Robot Cing má niekoľko modelov. Každá sada má niekoľko nových funkcií, k
 Prvá časť obsahuje:
 
 Komponenty:
+
+ICSP AVR Programátor
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/ICSP%20AVR%20Program%C3%A1tor%20(Programer).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/ICSP%20AVR%20Programátor%20(Programer).jpg" alt="AVR Programator"></a>
+
+Li-Ion Batéria
+
 Senzory:
 Knižky:
 
