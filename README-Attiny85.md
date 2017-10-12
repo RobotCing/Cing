@@ -20,7 +20,7 @@ Prvá časť obsahuje:
 ### Senzory:
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6858.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6858.JPG"></a>
 
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Senzory.png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Senzory.png"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Cing-Senzory.png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Cing-Senzory.png"></a>
 
 
 ### Tento model dokáže :
