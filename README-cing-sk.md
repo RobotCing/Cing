@@ -12,7 +12,7 @@ Prvá časť obsahuje:
 ## Komponenty:
 
 ### Procesor:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6864.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6864.JPG" width = 420px align="middle"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6864.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6864.JPG" width = 840px align="middle"></a>
 
 ### ICSP AVR Programátor:
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6868.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6868.JPG" width = 840px align="middle"></a>
@@ -45,7 +45,7 @@ V druhej časti pribudne:
 ## Komponenty:
 
 ### Procesor:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6861.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6861.JPG" width = 420px align="middle"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6861.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6861.JPG" width = 840px align="middle"></a>
 
 ### ICSP AVR Programátor:
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6868.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6868.JPG" width = 840px align="middle"></a>
@@ -82,19 +82,55 @@ V druhej časti pribudne:
 ### Plátno:
 
 # 3.časť - Atmega8
+Tento procesor je vývoji
 V  tretej časti sa nachádza:
 
-Komponenty:
-Senzory:
-Knižky:
-Plátno:
+## Komponenty:
+
+### Procesor:
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6863.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6863.JPG" width = 840px align="middle"></a>
+
+### ICSP AVR Programátor:
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6868.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6868.JPG" width = 840px align="middle"></a>
+
+### Li-Ion Batéria:
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Bat%C3%A9ria%20(Battery).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Batéria%20(Battery).jpg" width = 840px></a>
+
+### Senzory:
+
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Senzor%20osvetlenia%20(Shine%20sensor).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Senzor%20osvetlenia%20(Shine%20sensor).jpg" width = 420px align="top"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Tepeln%C3%BD%20senzor%20(Temperature%20sensor).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Tepelný%20senzor%20(Temperature%20sensor).jpg" width = 420px align="top"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Ultrasonick%C3%BD%20senzor%20(Ultrasonic%20sensor).png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/02_Svetelný%20senzor%20(Light%20sensor).jpg"  width = 420px align="top"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6866.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6866.JPG"  width = 420px height = 314.2px align="top"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/button.png"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/button.png"  width = 420px align="top"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/cing-buzzer.png"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/cing-buzzer.png"  width = 420px height = 379.2px align="top"></a>
+
+
+
+
+### Tento model dokáže :
+ - Pohybovať sa dopredu
+ - Pohybovať sa dozadu
+ - Sledovať čiaru
+ - Meranie svetla
+ - Meranie osvetlenia
+ - Meranie vzdialenosti
+ - Meranie teploty
+ - Meranie hodnoty potenciometra
+ - Pípanie
+ - Meranie hodnoty tlačidka
+
+### Knižky:
+
+### Plátno:
+
 
 # 4.časť - Attiny13
 ## 1 kb výzva 
 ## Komponenty:
 
 ### Procesor:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6864.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6864.JPG" width = 420px align="middle"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6864.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6864.JPG" width = 840px align="middle"></a>
 
 ### ICSP AVR Programátor:
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6868.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6868.JPG" width = 840px align="middle"></a>
@@ -121,12 +157,47 @@ Plátno:
 ### Knižky:
 
 # 5.časť - Atmega328
-Táto časť obsahuje:
+Tento procesor je vývoji
 
-Komponenty:
-Senzory:
-Knižky:
-Plátno:
+## Komponenty:
+
+### Procesor:
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6863.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6863.JPG" width = 840px align="middle"></a>
+
+### ICSP AVR Programátor:
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6868.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6868.JPG" width = 840px align="middle"></a>
+
+### Li-Ion Batéria:
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Bat%C3%A9ria%20(Battery).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Batéria%20(Battery).jpg" width = 840px></a>
+
+### Senzory:
+
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Senzor%20osvetlenia%20(Shine%20sensor).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Senzor%20osvetlenia%20(Shine%20sensor).jpg" width = 420px align="top"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Tepeln%C3%BD%20senzor%20(Temperature%20sensor).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Tepelný%20senzor%20(Temperature%20sensor).jpg" width = 420px align="top"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Ultrasonick%C3%BD%20senzor%20(Ultrasonic%20sensor).png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/02_Svetelný%20senzor%20(Light%20sensor).jpg"  width = 420px align="top"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6866.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6866.JPG"  width = 420px height = 314.2px align="top"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/button.png"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/button.png"  width = 420px align="top"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/cing-buzzer.png"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/cing-buzzer.png"  width = 420px height = 379.2px align="top"></a>
+
+
+
+
+### Tento model dokáže :
+ - Pohybovať sa dopredu
+ - Pohybovať sa dozadu
+ - Sledovať čiaru
+ - Meranie svetla
+ - Meranie osvetlenia
+ - Meranie vzdialenosti
+ - Meranie teploty
+ - Meranie hodnoty potenciometra
+ - Pípanie
+ - Meranie hodnoty tlačidka
+
+### Knižky:
+
+### Plátno:
+
 
 # 6.časť - Atmega32u4
 Vo vývoji
