@@ -1,10 +1,6 @@
 #include "Attiny84_IO_basic.h"
 Attiny attiny;
-void setup() {
-  
-
-}
-
+void setup() { }
 void loop() 
 {
   attiny.motor("AB", 1, "digital");
