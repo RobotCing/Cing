@@ -12,13 +12,14 @@ Prvá časť obsahuje:
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6864.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6864.JPG" ></a>
 
 ### ICSP AVR Programátor:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6868.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6868.JPG" width = 840px align="middle"></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6868.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6868.JPG"></a>
 
 ### Li-Ion Batéria:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Bat%C3%A9ria%20(Battery).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Batéria%20(Battery).jpg" width = 840px></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Bat%C3%A9ria%20(Battery).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Batéria%20(Battery).jpg"></a>
 
 ### Senzory:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6858.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6858.JPG" align="top" width = 840px></a>
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6858.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6858.JPG"></a>
+
 
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Senzor%20osvetlenia%20(Shine%20sensor).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Senzor%20osvetlenia%20(Shine%20sensor).jpg" width = 420px align="top"></a>
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Tepeln%C3%BD%20senzor%20(Temperature%20sensor).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Tepelný%20senzor%20(Temperature%20sensor).jpg" width = 420px align="top"></a>
