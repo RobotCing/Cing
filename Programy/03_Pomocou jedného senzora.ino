@@ -1,9 +1,6 @@
 #include "Attiny85_IO_basic.h"
 Attiny attiny;
-void setup() {
-
-
-}
+void setup() {}
 void loop() 
   {
     if (attiny.LightSensor(2, "digital")==1) 
@@ -17,6 +14,3 @@ void loop()
         attiny.motor("A", 1, "digital");
       }
 }
-
-
-
