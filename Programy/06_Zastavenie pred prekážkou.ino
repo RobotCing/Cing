@@ -1,9 +1,6 @@
 #include "Attiny85_IO.h"
 Attiny attiny;
-void setup() {
-
-
-}
+void setup() {}
 void loop() 
   {
     if (attiny.UltrasonicSensor()<20) 
@@ -15,6 +12,3 @@ void loop()
       attiny.motor("AB",1, "digital");
     }
   }
-
-
-
