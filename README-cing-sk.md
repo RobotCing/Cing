@@ -27,9 +27,6 @@ Prvá časť obsahuje:
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Ultrasonick%C3%BD%20senzor%20(Ultrasonic%20sensor).png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/02_Svetelný%20senzor%20(Light%20sensor).jpg"  width = 420px align="top"></a>
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6866.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6866.JPG"  width = 420px align="top"></a>
 
-
-
-### Knižky:
 ### Tento model dokáže :
  - Pohybovať sa dopredu
  - Sledovať čiaru
@@ -37,6 +34,8 @@ Prvá časť obsahuje:
  - Meranie osvetlenia
  - Meranie vzdialenosti
  - Meranie hodnoty potenciometra
+
+### Knižky:
 
 # 2.časť - Attiny84
 V druhej časti pribudne:
@@ -63,7 +62,7 @@ V druhej časti pribudne:
 
 
 
-### Knižky:
+
 ### Tento model dokáže :
  - Pohybovať sa dopredu
  - Pohybovať sa dozadu
@@ -74,6 +73,9 @@ V druhej časti pribudne:
  - Meranie hodnoty potenciometra
  - Pípanie
  - Meranie hodnoty tlačidka
+
+### Knižky:
+
 ### Plátno:
 
 # 3.časť - Atmega8
