@@ -3,7 +3,8 @@
 |[Attiny 85](README-Attiny85.md)|[Attiny 84](README-Attiny84.md)|[Atmega 8](README-Atmega8.md)|[Attiny 13](README-Attiny13.md)|[Atmega 328](README-Atmega328.md)|[Atmega 32u4](README-Atmega32u4.md)|
 
 # 4.časť - Attiny13
-## 1 kb výzva 
+## 1 kB výzva 
+Tento procesor je určený pre 1kB výzvu. Výzva spočíva v tom, že dostanete zadané príkazy a vašou úlohou bude naprogramovať robota Cing tak, aby plnil zložité úlohy. Tieto programy sa musia vojsť do pamäte o veľkosti 1 kB.
 ## Komponenty:
 
 ### Procesor:
