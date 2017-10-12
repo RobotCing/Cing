@@ -24,7 +24,7 @@ Tento procesor je vývoji
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Attiny84-Senzory.png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Attiny84-Senzory.png"></a>
 
 
-### Tento model dokáže :
+### Tento model dokáže:
  - Pohybovať sa dopredu
  - Pohybovať sa dozadu
  - Sledovať čiaru
