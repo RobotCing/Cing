@@ -4,7 +4,7 @@
 
 
 # 4.part - Attiny13
-## 1 kb challege 
+## 1 kB challege 
 ## Components:
 
 ### Procesor:
