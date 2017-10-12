@@ -23,13 +23,12 @@ Included in part one:
 
 
 ### Abilities of this model:
- - Pohybovať sa dopredu
- - Sledovať čiaru
- - Meranie svetla
- - Meranie osvetlenia
- - Meranie vzdialenosti
- - Meranie teploty
- - Meranie hodnoty potenciometra
+ - Movement forward
+ - Line following
+ - Light measuring
+ - Distance measuring
+ - Temperature measuring
+ - Potenciometer measuring
 
 ### Guides:
 
