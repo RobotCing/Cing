@@ -21,6 +21,3 @@ void loop()
         attiny.motor("AB", 0,"digital");         
       }
   }
-
-
-
