@@ -23,12 +23,12 @@
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Cing-Senzory.png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Cing-Senzory.png"></a>
 
 ### Abilities of this model:
- - Pohybovať sa dopredu
- - Sledovať čiaru
- - Meranie svetla
- - Meranie osvetlenia
- - Meranie vzdialenosti
- - Meranie hodnoty potenciometra
+ - Movement forward
+ - Line following
+ - Light measuring
+ - Distance measuring
+ - Temperature measuring
+ - Potenciometer measuring
 
 ### Guides:
 
