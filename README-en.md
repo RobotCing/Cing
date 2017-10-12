@@ -24,50 +24,6 @@ After learning the basics of programing with <a href="https://github.com/Galeje/
 
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Log%C3%A1%20(Logos)/CingLogo.png"><img src="Fotografie%20(Photos)/Logá%20(Logos)/CingLogo.png" alt="Atmega 328 schematic"></a>
 
-## Overview:
-<img src="Pictures/Cing_digitalmodel1.png" alt="Cing model">
-<img src="Pictures/Cing_digitalmodel2.png" alt="Cing model">
-
-## Components:
- - ### Procesors:
-   - Attiny13 procesor
-   - Attiny85 procesor
-   - Attiny84 procesor
-   - Atmega8 procesor
-   - Atmega328 procesor(in progress)
-   - Atmega32u4 procesor(in progress)
- - ### Sensors(Inputs):
-   - DS18B20 temperature sensor
-   - Shine sensor
-   - 2 x light sensor
-   - ultasonic sensor
- - ### Outputs:
-   - L293D
-   - Display128x32(in progress)
- - ### Robot parts:
-   - Robot body
-   - ICSP programmer
-   - Li-Ion 18650 battery
-   - ICSP ASP programer
- - ### Required tools:
-   - Computer
-   - Black tape for line
-   - Surface for line
-   - Obstacle
-
-## Schematic
-### Schematic of Atmega328 procesor
-<a href="https://github.com/Galeje/Cing/tree/master/Schematic"><img src="Pictures/Atmega328_Procesor.png" alt="Atmega 328 schematic"></a>
-### Schematic of Atmega8 procesor
-<a href="https://github.com/Galeje/Cing/tree/master/Schematic"><img src="Pictures/Atmega328_Procesor.png" alt="Atmega 8 schematic"></a>
-### Schematic of Attiny85 procesor
-<a href="https://github.com/Galeje/Cing/tree/master/Schematic"><img src="Pictures/Attiny85_Procesor.png" alt="Attiny 85 schematic"></a>
-### Schematic of Cing robot
-<a href="https://github.com/Galeje/Cing/tree/master/Schematic"><img src="Pictures/Cing_Schematic.png" alt="Cing schematic"></a>
-
-## Photos
-### Assembled
-<img src="Pictures/Assembled_Cing.jpg" alt="Cing assembled">
 
 ## Support
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
