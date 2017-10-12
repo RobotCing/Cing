@@ -1,9 +1,6 @@
 #include "Attiny84_IO_basic.h"
 Attiny attiny;
-void setup() {
-
-}
-
+void setup() {}
 void loop() 
 {
   if (attiny.Button()==1)
