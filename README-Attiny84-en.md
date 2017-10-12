@@ -29,16 +29,15 @@ Included in part 2:
 
 
 ### Abilities of this model:
- - Pohybovať sa dopredu
- - Pohybovať sa dozadu
- - Sledovať čiaru
- - Meranie svetla
- - Meranie osvetlenia
- - Meranie vzdialenosti
- - Meranie teploty
- - Meranie hodnoty potenciometra
- Pípanie
- Meranie hodnoty tlačidka
+ - Movement forward
+ - Movement backward
+ - Line followig
+ - Light measuring
+ - Distance measuring
+ - Temperature measuring
+ - Potenciometer measuring
+ - Buzzing
+ - Buzzing measuring
 
 ### Guides:
  
