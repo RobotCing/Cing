@@ -1,9 +1,6 @@
 #include "Attiny85_IO_basic.h"
 Attiny attiny;
-void setup() {
-
-
-}
+void setup() {}
 void loop() 
   {
     attiny.motor("AB",1, "digital");
@@ -13,6 +10,3 @@ void loop()
     delay (800);
     attiny.motor("B", 0, "digital");
 }
-
-
-
