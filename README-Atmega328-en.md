@@ -22,17 +22,17 @@ In progress
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Attiny84-Senzory.png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Attiny84-Senzory.png"></a>
 
 ### Abilities of this model:
- - Pohybovať sa dopredu
- - Pohybovať sa dozadu
- - Sledovať čiaru
- - Meranie svetla
- - Meranie osvetlenia
- - Meranie vzdialenosti
- - Meranie teploty
- - Meranie hodnoty potenciometra
- - Pípanie
- - Meranie hodnoty tlačidka
-
+ - Movement forward
+ - Movement backward
+ - Line followig
+ - Light measuring
+ - Distance measuring
+ - Temperature measuring
+ - Potenciometer measuring
+ - Buzzing
+ - Buzzing measuring
+ 
+ 
 ## Support us:
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
 [![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/StanislavJochman/ATTEMP)
