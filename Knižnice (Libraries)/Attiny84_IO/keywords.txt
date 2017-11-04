@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For Attiny84_IO
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Attiny84_IO	KEYWORD1 attiny 
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+motor	KEYWORD2
+LightSensor	KEYWORD2
+ShineSensor	KEYWORD2
+UltrasonicSensor	KEYWORD2
+PotentiometerExternal	KEYWORD2
+Button	KEYWORD2
+Buzzer	KEYWORD2
+Temp	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+

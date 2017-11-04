@@ -1,0 +1,20 @@
+= Atmega8_IO_basic Library for Cing robot =
+
+This library allows Cing robot to be programmed easily.
+
+For more information about this library please visit us at
+https://galeje.github.io/Cing/
+
+== License ==
+
+Copyright (c) 2017 Galeje. All right reserved.
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+
