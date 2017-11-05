@@ -9,6 +9,9 @@ V prípade akýchkoľvek otázok alebo pripomienok nás kontaktujte. Veľmi radi
 #### E-mail:
 robotcing@gmail.com
 
+#### Spätná väzba k Cingovi:
+https://docs.google.com/forms/d/e/1FAIpQLSdYbY3ck8-uDxpMG1Ln31mk83o5Nbilx1CkFVHnTElAqmKKHQ/viewform?c=0&w=1
+
 #### GitHub:
 
 #### Adresa:
