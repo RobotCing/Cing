@@ -6,15 +6,15 @@
 # Kontakt
 V prípade akýchkoľvek otázok alebo pripomienok nás kontaktujte. Veľmi radi vám odpovieme.
 
-## E-mail:
+#### E-mail:
 robotcing@gmail.com
 
-## GitHub:
+#### GitHub:
 
-## Adresa:
+#### Adresa:
 Gymnázium, Alejová 1, 041 49, Košice(http://www.galeje.sk/)
 
-## Podporte nás:
+#### Podporte nás:
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
 [![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/StanislavJochman/ATTEMP)
 [![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/Galeje/Cing)
