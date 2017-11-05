@@ -10,7 +10,7 @@ In case you have any question, do not be afraid to ask, we welcome your feedback
 robotcing@gmail.com
 
 #### Cing´s feedback:
-https://docs.google.com/forms/d/e/1FAIpQLSdYbY3ck8-uDxpMG1Ln31mk83o5Nbilx1CkFVHnTElAqmKKHQ/viewform?c=0&w=1
+
 
 #### GitHub:
 
