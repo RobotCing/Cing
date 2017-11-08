@@ -3,7 +3,7 @@ Atmega atmega;
 void setup() {}
 void loop() 
   {
-    if (atmega.ShineSensor()>1) 
+    if (atmega.ShineSensor()>0) 
       {
         atmega.motor("AB", 0, "digital");
       }
