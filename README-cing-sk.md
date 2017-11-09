@@ -33,7 +33,7 @@ Robot Cing má niekoľko modelov. Každá sada má niekoľko nových funkcií, k
 | Motory                                      | 1,20 € | 2     | 2,40 € |
 | L293                                        | 0,50 € | 1     | 0,50 € |
 
-| Procesory                                   |        |       |        |
+| Procesory                                   | Cena   | Počet | Spolu  |
 |---------------------------------------------|--------|-------|--------|
 | Attiny85                                    | 1,00 € | 1     | 1,00 € |
 | Attiny84                                    | 2,10 € | 1     | 2,10 € |
@@ -42,7 +42,7 @@ Robot Cing má niekoľko modelov. Každá sada má niekoľko nových funkcií, k
 | Atmega328                                   | 1,00 € | 1     | 1,00 € |
 | Atmega32u4                                  | 4,00 € | 1     | 4,00 € |
 
-| Plošné spoje                                |        |       |        |
+| Plošné spoje                                | Cena   | Počet | Spolu  |
 |---------------------------------------------|--------|-------|--------|
 | Cing hlavný plošný spoj                     | 9,00 € | 1     | 9,00 € |
 | Attiny85 PCB                                | 1,00 € | 1     | 1,00 € |
