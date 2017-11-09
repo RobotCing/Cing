@@ -7,15 +7,15 @@
 V prípade akýchkoľvek otázok alebo pripomienok nás kontaktujte. Veľmi radi vám odpovieme.
 
 #### E-mail:
-robotcing@gmail.com
+[robotcing@gmail.com](robotcing@gmail.com)
 
 #### Spätná väzba k Cingovi:
-https://docs.google.com/forms/d/e/1FAIpQLSfhIMP1-gbQuneAIJXek66BA08xvwfploLSPx_rvOAOebTXXQ/viewform?c=0&w=1
+[Dotazník](https://docs.google.com/forms/d/e/1FAIpQLSfhIMP1-gbQuneAIJXek66BA08xvwfploLSPx_rvOAOebTXXQ/viewform?c=0&w=1)
 
 #### GitHub:
-
+[GitHub Cing](https://github.com/Galeje/Cing)
 #### Adresa:
-Gymnázium, Alejová 1, 041 49, Košice(http://www.galeje.sk/)
+[Gymnázium, Alejová 1, 041 49, Košice](http://www.galeje.sk/)
 
 #### Podporte nás:
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
