@@ -37,7 +37,7 @@ Cena:		36€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 1. séria)
 
 ## Komponenty:
 
-<img src="FFotografie%20(Photos)/Fotky%20na%20stránku%20(Web%20photos)/Attiny85.jpg"></img>
+<img src="Fotografie%20(Photos)/Fotky%20na%20stránku%20(Web%20photos)/Attiny85.jpg"></img>
 
 ## Funkcie tohto modelu
  - Pohyb dopredu
