@@ -54,8 +54,6 @@ Cena:		36€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 1. séria)
 <a href = "Manuály%20(Manuals)/Manuál%20Attiny85.pdf">Manuál 1.časť</a>
 
 
-![Manuál 1.časť](Manuály%20(Manuals)/Manuál%20Attiny85.pdf)
-
 ## Podporte nás:
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
 [![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/StanislavJochman/ATTEMP)
