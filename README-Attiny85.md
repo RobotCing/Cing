@@ -49,9 +49,9 @@ Cena:		36€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 1. séria)
  - Meranie hodnoty potenciometra
 
 ### Knižky:
-<a href = "Príručky%20(Guides)/Príručka%20Attiny85.pdf">Príručka 1.časť</a>
+<a target="_blank" href = "Príručky%20(Guides)/Príručka%20Attiny85.pdf">Príručka 1.časť</a>
 
-<a href = "Manuály%20(Manuals)/Manuál%20Attiny85.pdf">Manuál 1.časť</a>
+<a target="_blank" href = "Manuály%20(Manuals)/Manuál%20Attiny85.pdf">Manuál 1.časť</a>
 
 
 ## Podporte nás:
