@@ -27,7 +27,9 @@ Názov:		Robot Cing – Pretekár
 
 Procesor:	Attiny84
 
-Cena:		3,10€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 2. séria)
+Cena:		
+
+		3,10€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 2. séria)
 		
 		39,10€ (cena za prvú a druhú časť spolu)
 
