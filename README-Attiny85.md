@@ -32,7 +32,9 @@ Názov:		Robot Cing – Zebra
 
 Procesor:	Attiny85
 
-Cena:		36€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 1. séria)
+Cena:		
+
+    36€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 1. séria)
 
 
 ## Komponenty:
