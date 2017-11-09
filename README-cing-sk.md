@@ -20,7 +20,6 @@ Cenová kalkulácia:
 
 | Komponenty                                  | Cena   | Počet | Spolu  |
 |---------------------------------------------|--------|-------|--------|
-| Komponenty                                  |        |       |        |
 | 18650 Baterka                               | 9,00 € | 1     | 9,00 € |
 | 18650 Držiak Baterky                        | 1,60 € | 1     | 1,60 € |
 | ICSP Konektor                               | 0,10 € | 1     | 0,10 € |
