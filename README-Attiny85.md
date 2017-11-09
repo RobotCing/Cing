@@ -3,8 +3,35 @@
 |[Attiny 85](README-Attiny85.md)|[Attiny 84](README-Attiny84.md)|[Atmega 8](README-Atmega8.md)|[Attiny 13](README-Attiny13.md)|[Atmega 328](README-Atmega328.md)|[Atmega 32u4](README-Atmega32u4.md)|
 
 
-# 1.časť - Attiny85
-Prvá časť obsahuje:
+# 1.časť - Zebra
+Prvá časť zo séria robotov robota Cing sa doposiaľ získala najlepší ohlas zo všetkých častí robota. 
+
+
+Séria obsahuje:
+-	Základný model robota Cing
+-	Procesor Attiny85
+-	Ultrasonický senzor
+-	2x svetelný senzor
+-	Tepelný senzor
+-	Senzor osvetlenia
+-	Potenciometer
+-	Li-Ion batéria
+-	ICSP AVR programátor
+-	Inštalačné CD
+-	Príručku pre vysvetlenie programov
+-	Manuál na správne zapojenie senzorov a inštaláciu programu
+-	Cvičebnicu pre zábavnejšie učenie sa a posilňovanie vedomostí
+-	Edukačné plátno
+
+
+
+Každá časť má svoj vlastný príbeh, podľa ktorého sú písané knižné pomôcky. 
+
+Sumár prvej časti:
+Názov:		Robot Cing – Zebra
+Procesor:	Attiny85
+Cena:		36€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 1. séria)
+
 
 ## Komponenty:
 
