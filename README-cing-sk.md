@@ -8,7 +8,7 @@ Robot Cing má niekoľko modelov. Každá sada má niekoľko nových funkcií, k
 # Cing
   Robot Cing je praktický a multifunkčný, nakoľko má jeden základný model, na ktorý je možné pripájať komponenty, moduly a procesory zo všetkých časí robota Cing. 
 
-Výhody robota Cing:
+## Výhody robota Cing:
 -	Nepotrebná znalosť informatiky
 -	Voľne prístupné diely
 -	Vhodný pre všetky vekové kategórie
@@ -16,7 +16,7 @@ Výhody robota Cing:
 -	Zábavná výučba vďaka edukačnému plátnu a cvičebniciam
 -	Cenovo výhodný robot
 
-Cenová kalkulácia:
+## Cenová kalkulácia:
 
 | Komponenty                                  | Cena   | Počet | Spolu  |
 |---------------------------------------------|--------|-------|--------|
@@ -32,14 +32,18 @@ Cenová kalkulácia:
 | Dodatočne elektornické súčiastky            | 5,00 € | 1     | 5,00 € |
 | Motory                                      | 1,20 € | 2     | 2,40 € |
 | L293                                        | 0,50 € | 1     | 0,50 € |
+
 | Procesory                                   |        |       |        |
+|---------------------------------------------|--------|-------|--------|
 | Attiny85                                    | 1,00 € | 1     | 1,00 € |
 | Attiny84                                    | 2,10 € | 1     | 2,10 € |
 | Atmega8                                     | 0,80 € | 1     | 0,80 € |
 | Attiny13                                    | 0,50 € | 1     | 0,50 € |
 | Atmega328                                   | 1,00 € | 1     | 1,00 € |
 | Atmega32u4                                  | 4,00 € | 1     | 4,00 € |
+
 | Plošné spoje                                |        |       |        |
+|---------------------------------------------|--------|-------|--------|
 | Cing hlavný plošný spoj                     | 9,00 € | 1     | 9,00 € |
 | Attiny85 PCB                                | 1,00 € | 1     | 1,00 € |
 | Attiny84 PCB                                | 1,00 € | 1     | 1,00 € |
