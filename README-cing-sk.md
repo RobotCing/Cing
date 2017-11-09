@@ -18,7 +18,7 @@ Výhody robota Cing:
 
 Cenová kalkulácia:
 
-| Cenová kalkulácia pre výučbovú pomôcku Cing | Cena   | Počet | Spolu  |
+| Komponenty                                  | Cena   | Počet | Spolu  |
 |---------------------------------------------|--------|-------|--------|
 | Komponenty                                  |        |       |        |
 | 18650 Baterka                               | 9,00 € | 1     | 9,00 € |
