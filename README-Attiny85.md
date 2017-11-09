@@ -37,23 +37,22 @@ Cena:		36€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 1. séria)
 
 ## Komponenty:
 
-### Procesor:
-<img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6864.JPG"></img>
+<img src="FFotografie%20(Photos)/Fotky%20na%20stránku%20(Web%20photos)/Attiny85.jpg"></img>
 
-
-
-### Tento model dokáže :
- - Pohybovať sa dopredu
- - Sledovať čiaru
- - Meranie svetla
- - Meranie osvetlenia
+## Funkcie tohto modelu
+ - Pohyb dopredu
+ - Sledovanie čiary
+ - Meranie hodnoty svetla
+ - Meranie zmeny osvetlenia
  - Meranie vzdialenosti
- - Meranie teploty
+ - Meranie zmeny teploty
  - Meranie hodnoty potenciometra
 
 ### Knižky:
 
+![Príručka 1.časť](Príručky%20(Guides)/Príručka%20Attiny85.pdf)
 
+![Manuál 1.časť](Manuály%20(Manuals)/Manuál%20Attiny85.pdf)
 
 ## Podporte nás:
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
