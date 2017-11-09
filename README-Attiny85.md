@@ -28,8 +28,11 @@ Séria obsahuje:
 Každá časť má svoj vlastný príbeh, podľa ktorého sú písané knižné pomôcky. 
 
 Sumár prvej časti:
+
 Názov:		Robot Cing – Zebra
+
 Procesor:	Attiny85
+
 Cena:		36€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 1. séria)
 
 
