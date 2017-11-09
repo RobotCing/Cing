@@ -6,8 +6,15 @@
 Robot Cing má niekoľko modelov. Každá sada má niekoľko nových funkcií, komponentov a senzorov na lepšie, ľahšie a zábavnejšie používanie robota.
 -->
 # Cing
-Robot Cing je vytvorený 
-Doposiaľ sme vytvorili 6 
+  Robot Cing je praktický a multifunkčný, nakoľko má jeden základný model, na ktorý je možné pripájať komponenty, moduly a procesory zo všetkých časí robota Cing. 
+
+Výhody robota Cing:
+-	Nepotrebná znalosť informatiky
+-	Voľne prístupné diely
+-	Vhodný pre všetky vekové kategórie
+-	Pre začiatočníkov, ale aj pokročilých
+-	Zábavná výučba vďaka edukačnému plátnu a cvičebniciam
+-	Cenovo výhodný robot  cenová kalkulácia:
 
 
 
