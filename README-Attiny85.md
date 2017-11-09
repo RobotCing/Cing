@@ -37,7 +37,7 @@ Cena:		36€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 1. séria)
 
 ## Komponenty:
 
-<img src="Fotografie%20(Photos)/Fotky%20na%20stránku%20(Web%20photos)/Attiny85.jpg"></img>
+<img src="Fotografie%20(Photos)/Fotky%20na%20stránku%20(Web%20photos)/Attiny85.jpg">
 
 ## Funkcie tohto modelu
  - Pohyb dopredu
@@ -49,8 +49,10 @@ Cena:		36€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 1. séria)
  - Meranie hodnoty potenciometra
 
 ### Knižky:
+<a href = "Príručky%20(Guides)/Príručka%20Attiny85.pdf">Príručka 1.časť</a>
 
-![Príručka 1.časť](Príručky%20(Guides)/Príručka%20Attiny85.pdf)
+<a href = "Manuály%20(Manuals)/Manuál%20Attiny85.pdf">Manuál 1.časť</a>
+
 
 ![Manuál 1.časť](Manuály%20(Manuals)/Manuál%20Attiny85.pdf)
 
