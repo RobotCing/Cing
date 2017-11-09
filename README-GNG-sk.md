@@ -2,7 +2,10 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |[Attiny 85](README-Attiny85.md)|[Attiny 84](README-Attiny84.md)|[Atmega 8](README-Atmega8.md)|[Attiny 13](README-Attiny13.md)|[Atmega 328](README-Atmega328.md)|[Atmega 32u4](README-Atmega32u4.md)|
 
-# GalejeNextGen Logo
+# GalejeNextGen
+  Sme tím študentov z osemročného gymnázia na Alejovej ulici v Košiciach. Počet aktívnych členov nášho tímu sa mení v závislosti od súťaží. Už niekoľko generácií úspešne reprezentujeme našu školou na rôznych súťažiach z robotiky, informatiky či programovania po celom svete.
+  Na Festivale vedy a techniky vystupujeme ako dvojčlenný tím v zložení Stanislav Jochman a Veronika Nemjová. Venujeme sa projektu Robot Cing, o ktorom sa viac dozviete na tejto stránke.
+
 <img src="Fotografie%20(Photos)/Log%C3%A1%20(Logos)/Robot.png">
 
 ## Podporte nás:
