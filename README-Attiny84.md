@@ -29,12 +29,12 @@ Procesor:	Attiny84
 
 Cena:		3,10€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 2. séria)
 		
-               39,10€ (cena za prvú a druhú časť spolu)
+		39,10€ (cena za prvú a druhú časť spolu)
 
 
 ### Komponenty:
 
-<img src="Fotografie%20(Photos)/Fotky%20na%20stránku%20(Web%20photos)/Attiny85.jpg"></img>
+<img src="Fotografie%20(Photos)/Fotky%20na%20stránku%20(Web%20photos)/Attiny84.jpg"></img>
 
 ## Funkcie tohto modelu
  - Pohyb dopredu
