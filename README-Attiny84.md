@@ -32,29 +32,25 @@ Cena:		3,10€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 2. séria)
                39,10€ (cena za prvú a druhú časť spolu)
 
 
-## Komponenty:
+### Komponenty:
 
+<img src="Fotografie%20(Photos)/Fotky%20na%20stránku%20(Web%20photos)/Attiny85.jpg"></img>
 
-
-
-
-
-
-### Tento model dokáže :
- - Pohybovať sa dopredu
- - Pohybovať sa dozadu
- - Sledovať čiaru
- - Meranie svetla
- - Meranie osvetlenia
+## Funkcie tohto modelu
+ - Pohyb dopredu
+ - Pohyb dozadu
+ - Sledovanie čiary
+ - Meranie hodnoty svetla
+ - Meranie zmeny osvetlenia
  - Meranie vzdialenosti
- - Meranie teploty
+ - Meranie zmeny teploty
  - Meranie hodnoty potenciometra
- Pípanie
- Meranie hodnoty tlačidka
+ - Meranie hodnoty tlačidla
+ - Vydávať zvuk
 
-### Knižky:
- 
-### Plátno:
+## Knižky:
+
+![Príručka 1.časť](Príručky%20(Guides)/Príručka%20Attiny84.pdf)
 
 ## Podporte nás:
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
