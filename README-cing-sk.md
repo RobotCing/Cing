@@ -2,9 +2,6 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |[Attiny 85](README-Attiny85.md)|[Attiny 84](README-Attiny84.md)|[Atmega 8](README-Atmega8.md)|[Attiny 13](README-Attiny13.md)|[Atmega 328](README-Atmega328.md)|[Atmega 32u4](README-Atmega32u4.md)|
 
-<!--# Cing
-Robot Cing má niekoľko modelov. Každá sada má niekoľko nových funkcií, komponentov a senzorov na lepšie, ľahšie a zábavnejšie používanie robota.
--->
 # Cing
   Robot Cing je praktický a multifunkčný, nakoľko má jeden základný model, na ktorý je možné pripájať komponenty, moduly a procesory zo všetkých časí robota Cing. 
 
@@ -19,7 +16,7 @@ Robot Cing má niekoľko modelov. Každá sada má niekoľko nových funkcií, k
 ## Cenová kalkulácia:
 
 | Komponenty                                  | Cena   | Počet | Spolu  |
-|---------------------------------------------|--------|-------|--------|
+|---------------------------------------------|:------:|:-----:|:------:|
 | 18650 Baterka                               | 9,00 € | 1     | 9,00 € |
 | 18650 Držiak Baterky                        | 1,60 € | 1     | 1,60 € |
 | ICSP Konektor                               | 0,10 € | 1     | 0,10 € |
@@ -34,7 +31,7 @@ Robot Cing má niekoľko modelov. Každá sada má niekoľko nových funkcií, k
 | L293                                        | 0,50 € | 1     | 0,50 € |
 
 | Procesory                                   | Cena   | Počet | Spolu  |
-|---------------------------------------------|--------|-------|--------|
+|---------------------------------------------|:------:|:-----:|:------:|
 | Attiny85                                    | 1,00 € | 1     | 1,00 € |
 | Attiny84                                    | 2,10 € | 1     | 2,10 € |
 | Atmega8                                     | 0,80 € | 1     | 0,80 € |
@@ -43,7 +40,7 @@ Robot Cing má niekoľko modelov. Každá sada má niekoľko nových funkcií, k
 | Atmega32u4                                  | 4,00 € | 1     | 4,00 € |
 
 | Plošné spoje                                | Cena   | Počet | Spolu  |
-|---------------------------------------------|--------|-------|--------|
+|---------------------------------------------|:------:|:-----:|:------:|
 | Cing hlavný plošný spoj                     | 9,00 € | 1     | 9,00 € |
 | Attiny85 PCB                                | 1,00 € | 1     | 1,00 € |
 | Attiny84 PCB                                | 1,00 € | 1     | 1,00 € |
@@ -52,8 +49,10 @@ Robot Cing má niekoľko modelov. Každá sada má niekoľko nových funkcií, k
 | Atmega328 PCB                               | 1,00 € | 1     | 1,00 € |
 | Atmega32u4 PCB                              | 1,00 € | 1     | 1,00 € |
 
+### Robot Cing
+
 |  Jednotlivé časti robota Cing                               |   Cena  | Počet | Spolu   |
-|-------------------------------------------------------------|---------|-------|---------|
+|-------------------------------------------------------------|:-------:|:-----:|:-------:|
 | Cing Attiny85                                               | 36,00 € |   1   | 36,00 € |
 | Cing Attiny84                                               |  3,10 € |   1   |  3,10 € |
 | Cing Atmega8                                                |  1,80 € |   1   |  1,80 € |
@@ -62,7 +61,7 @@ Robot Cing má niekoľko modelov. Každá sada má niekoľko nových funkcií, k
 | Cing Atmega32u4                                             |  5,00 € |   1   |  5,00 € |
 
 |  Sady robota Cing                                           |   Cena  | Počet | Spolu   |
-|-------------------------------------------------------------|---------|-------|---------|
+|-------------------------------------------------------------|:-------:|:-----:|:-------:|
 | Cing Attiny85                                               | 36,00 € |   1   | 36,00 € |
 | Cing Attiny85 + Attiny84                                    | 39,10 € |   1   | 39,10 € |
 | Cing Attiny85 + Attiny85 + Atmega8                          | 40,90 € |   1   | 40,90 € |
