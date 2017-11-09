@@ -5,16 +5,19 @@
 # 2.časť - Pretekár
 Druhá časť zo séria robotov robota Cing má oproti prvej viac komponentov a funkcií. 
 
-Séria obsahuje:
--	Procesor Attiny84
--	Tlačidlo
--	Bzučiak
--	Inštalačné CD
--	Príručku pre vysvetlenie programov
--	Manuál na správne zapojenie senzorov a inštaláciu programu
--	Cvičebnicu pre zábavnejšie učenie sa a posilňovanie vedomostí
--	Edukačné plátno
+## Komponenty:
 
+Séria obsahuje:
+- Procesor Attiny84
+- Tlačidlo
+- Bzučiak
+- Inštalačné CD
+- Príručku pre vysvetlenie programov
+- Manuál na správne zapojenie senzorov a inštaláciu programu
+- Cvičebnicu pre zábavnejšie učenie sa a posilňovanie vedomostí
+- Edukačné plátno
+
+## Sumár
 
 Aj táto časť má svoj príbeh - volá sa Pretekár.
 
@@ -26,25 +29,12 @@ Procesor:	Attiny84
 
 Cena:		3,10€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 2. séria)
 		
-      39,10€ (cena za prvú a druhú časť spolu)
+               39,10€ (cena za prvú a druhú časť spolu)
 
 
 ## Komponenty:
 
-### Procesor:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6861.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6861.JPG"></a>
 
-### ICSP AVR Programátor:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6868.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6868.JPG"></a>
-
-### Li-Ion Batéria:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Bat%C3%A9ria%20(Battery).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Batéria%20(Battery).jpg"></a>
-
-### Senzory:
-
-
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Cing-Senzory.png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Cing-Senzory.png"></a>
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Attiny84-Senzory.png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Attiny84-Senzory.png"></a>
 
 
 
