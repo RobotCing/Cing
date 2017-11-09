@@ -2,8 +2,32 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |[Attiny 85](README-Attiny85.md)|[Attiny 84](README-Attiny84.md)|[Atmega 8](README-Atmega8.md)|[Attiny 13](README-Attiny13.md)|[Atmega 328](README-Atmega328.md)|[Atmega 32u4](README-Atmega32u4.md)|
 
-# 2.časť - Attiny84
-V druhej časti pribudne:
+# 2.časť - Pretekár
+Druhá časť zo séria robotov robota Cing má oproti prvej viac komponentov a funkcií. 
+
+Séria obsahuje:
+-	Procesor Attiny84
+-	Tlačidlo
+-	Bzučiak
+-	Inštalačné CD
+-	Príručku pre vysvetlenie programov
+-	Manuál na správne zapojenie senzorov a inštaláciu programu
+-	Cvičebnicu pre zábavnejšie učenie sa a posilňovanie vedomostí
+-	Edukačné plátno
+
+
+Aj táto časť má svoj príbeh - volá sa Pretekár.
+
+Sumár:
+
+Názov:		Robot Cing – Pretekár
+
+Procesor:	Attiny84
+
+Cena:		3,10€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 2. séria)
+		
+      39,10€ (cena za prvú a druhú časť spolu)
+
 
 ## Komponenty:
 
