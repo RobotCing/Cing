@@ -7,7 +7,7 @@
 V prípade akýchkoľvek otázok alebo pripomienok nás kontaktujte. Veľmi radi vám odpovieme.
 
 #### E-mail:
-[robotcing@gmail.com](robotcing@gmail.com)
+robotcing@gmail.com
 
 #### Spätná väzba k Cingovi:
 [Dotazník](https://docs.google.com/forms/d/e/1FAIpQLSfhIMP1-gbQuneAIJXek66BA08xvwfploLSPx_rvOAOebTXXQ/viewform?c=0&w=1)
