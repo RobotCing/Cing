@@ -6,6 +6,7 @@
 # 1.časť - Zebra
 Prvá časť zo séria robotov robota Cing sa doposiaľ získala najlepší ohlas zo všetkých častí robota. 
 
+## Komponenty
 
 Séria obsahuje:
 -	Základný model robota Cing
@@ -23,11 +24,9 @@ Séria obsahuje:
 -	Cvičebnicu pre zábavnejšie učenie sa a posilňovanie vedomostí
 -	Edukačné plátno
 
-
+## Sumár
 
 Každá časť má svoj vlastný príbeh, podľa ktorého sú písané knižné pomôcky. 
-
-Sumár prvej časti:
 
 Názov:		Robot Cing – Zebra
 
@@ -39,18 +38,8 @@ Cena:		36€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 1. séria)
 ## Komponenty:
 
 ### Procesor:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6864.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6864.JPG" ></a>
+<img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6864.JPG"></img>
 
-### ICSP AVR Programátor:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6868.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6868.JPG"></a>
-
-### Li-Ion Batéria:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Bat%C3%A9ria%20(Battery).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Batéria%20(Battery).jpg"></a>
-
-### Senzory:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6858.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6858.JPG"></a>
-
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Cing-Senzory.png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Cing-Senzory.png"></a>
 
 
 ### Tento model dokáže :
