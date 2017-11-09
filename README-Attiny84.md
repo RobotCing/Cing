@@ -50,7 +50,7 @@ Cena:		3,10€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 2. séria)
 
 ## Knižky:
 
-![Príručka 1.časť](Príručky%20(Guides)/Príručka%20Attiny84.pdf)
+<a target="_blank" href = "Príručky%20(Guides)/Príručka%20Attiny84.pdf">Príručka 2.časť</a>
 
 ## Podporte nás:
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
