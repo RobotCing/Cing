@@ -2,7 +2,7 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |[Attiny 85](README-Attiny85.md)|[Attiny 84](README-Attiny84.md)|[Atmega 8](README-Atmega8.md)|[Attiny 13](README-Attiny13.md)|[Atmega 328](README-Atmega328.md)|[Atmega 32u4](README-Atmega32u4.md)|
 
-# 3.časť - Atmega8
+# 3.časť - Policajt
  Tretia časť zo séria robotov robota Cing má nové komponenty. 
  
  Séria obsahuje:
@@ -23,7 +23,9 @@
 ### Sumár:
 
 Túto časť sme pomenovali podľa jej funkcií.
+
 Názov:		Robot Cing – Policajt
+
 Procesor:	Atmega8
 
 ### Cena:
@@ -34,18 +36,19 @@ Procesor:	Atmega8
 
 ### Cenová kalkulácia:
 
-### Tento model dokáže :
- - Pohybovať sa dopredu
- - Pohybovať sa dozadu
- - Sledovať čiaru
- - Meranie svetla
- - Meranie osvetlenia
+## Funkcie tohto modelu
+ - Pohyb dopredu
+ - Pohyb dozadu
+ - Sledovanie čiary
+ - Meranie hodnoty svetla
+ - Meranie zmeny osvetlenia
  - Meranie vzdialenosti
- - Meranie teploty
+ - Meranie zmeny teploty
  - Meranie hodnoty potenciometra
- - Pípanie
- - Meranie hodnoty tlačidka
-
+ - Meranie hodnoty tlačidla
+ - Vydávať zvuk
+ - Svietiť všetkými farbami
+ 
 ### Knižky:
 
 ### Plátno:
