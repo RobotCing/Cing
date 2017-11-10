@@ -3,25 +3,36 @@
 |[Attiny 85](README-Attiny85.md)|[Attiny 84](README-Attiny84.md)|[Atmega 8](README-Atmega8.md)|[Attiny 13](README-Attiny13.md)|[Atmega 328](README-Atmega328.md)|[Atmega 32u4](README-Atmega32u4.md)|
 
 # 3.časť - Atmega8
-Tento procesor je vývoji
-V  tretej časti sa nachádza:
+ Tretia časť zo séria robotov robota Cing má nové komponenty. 
+ 
+ Séria obsahuje:
+-	Procesor Atmega8
 
-## Komponenty:
+-	LEDky
 
-### Procesor:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6863.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6863.JPG" ></a>
+-	Inštalačné CD
 
-### ICSP AVR Programátor:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Kni%C5%BEn%C3%A9%20fotky%20(Book%20photos)/IMG_6868.JPG"><img src="Fotografie%20(Photos)/Knižné%20fotky%20(Book%20photos)/IMG_6868.JPG"></a>
+-	Príručku pre vysvetlenie programov
 
-### Li-Ion Batéria:
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Bat%C3%A9ria%20(Battery).jpg"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/18650%20Batéria%20(Battery).jpg"></a>
+-	Manuál na správne zapojenie senzorov a inštaláciu programu
 
-### Senzory:
+-	Cvičebnicu pre zábavnejšie učenie sa a posilňovanie vedomostí
 
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Cing-Senzory.png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Cing-Senzory.png"></a>
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Komponenty%20(Components)/Attiny84-Senzory.png"><img src="Fotografie%20(Photos)/Komponenty%20(Components)/Attiny84-Senzory.png"></a>
+-	Edukačné plátno
 
+### Sumár:
+
+Túto časť sme pomenovali podľa jej funkcií.
+Názov:		Robot Cing – Policajt
+Procesor:	Atmega8
+
+### Cena:
+
+1,80€ (v cene sú zahrnuté všetky časti, ktoré obsahuje 3.časť)
+		
+40,90€ (cena za prvú, druhú a tretiu časť spolu)
+
+### Cenová kalkulácia:
 
 ### Tento model dokáže :
  - Pohybovať sa dopredu
