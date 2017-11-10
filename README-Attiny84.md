@@ -21,8 +21,6 @@ Séria obsahuje:
 
 Aj táto časť má svoj príbeh - volá sa Pretekár.
 
-Sumár:
-
 Názov:		Robot Cing – Pretekár
 
 Procesor:	Attiny84
