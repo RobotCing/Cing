@@ -51,7 +51,7 @@
 
 ### Robot Cing
 
-|  Jednotlivé časti robota Cing                               |   Cena  | Počet | Spolu   |
+|  JEDNOTLIVÉ ČASTI ROBOTA Cing                               |   Cena  | Počet | Spolu   |
 |-------------------------------------------------------------|:-------:|:-----:|:-------:|
 | Cing Attiny85                                               | 36,00 € |   1   | 36,00 € |
 | Cing Attiny84                                               |  3,10 € |   1   |  3,10 € |
@@ -60,7 +60,7 @@
 | Cing Atmega328                                              |  2,00 € |   1   |  2,00 € |
 | Cing Atmega32u4                                             |  5,00 € |   1   |  5,00 € |
 
-|  Sady robota Cing                                           |   Cena  | Počet | Spolu   |
+|  SADY ROBOTA Cing                                           |   Cena  | Počet | Spolu   |
 |-------------------------------------------------------------|:-------:|:-----:|:-------:|
 | Cing Attiny85                                               | 36,00 € |   1   | 36,00 € |
 | Cing Attiny85 + Attiny84                                    | 39,10 € |   1   | 39,10 € |
