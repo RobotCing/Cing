@@ -4,6 +4,7 @@
 
 # GalejeNextGen
   Sme tím študentov z osemročného gymnázia na Alejovej ulici v Košiciach. Počet aktívnych členov nášho tímu sa mení v závislosti od súťaží. Už niekoľko generácií úspešne reprezentujeme našu školou na rôznych súťažiach z robotiky, informatiky či programovania po celom svete.
+  
   Na Festivale vedy a techniky vystupujeme ako dvojčlenný tím v zložení Stanislav Jochman a Veronika Nemjová. Venujeme sa projektu Robot Cing, o ktorom sa viac dozviete na tejto stránke.
 
 <img src="Fotografie%20(Photos)/Log%C3%A1%20(Logos)/Robot.png">
