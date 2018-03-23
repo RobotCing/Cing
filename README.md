@@ -22,6 +22,8 @@ Po zvládnutí základných aj pokročilých progamovacích príkazov môže pou
 
 <a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Log%C3%A1%20(Logos)/CingLogo.png"><img src="Fotografie%20(Photos)/Logá%20(Logos)/CingLogo.png" alt="Atmega 328 schematic"></a>
 
+Projekt používa <a href="https://github.com/MCUdude/MicroCore">MicroCore</a>.
+
 ## Podporte nás:
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
 [![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/StanislavJochman/ATTEMP)
