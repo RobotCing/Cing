@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-Atmega328_IO	KEYWORD1 atmega 
+Atmega328_IO	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
