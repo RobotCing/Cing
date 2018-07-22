@@ -1,6 +1,5 @@
-
 /*
-Vytvorene Teamom GalejeNextGen
+Created by RobotCing Team
 */
 
 
@@ -10,11 +9,11 @@ Vytvorene Teamom GalejeNextGen
 #include "Arduino.h"
 #include "Attiny85_IO_basic.h"
 //--------------------------------------------
-Attiny::Attiny(){}
+Cing::Cing(){}
 //--------------------------------------------
 //              Motors
 //--------------------------------------------
-void Attiny::motor(String motor,int speed,String mode)
+void Cing::RunMotor(String motor,int speed,String mode)
   {
      #define motorA 1
      #define motorB 0
@@ -84,7 +83,7 @@ void Attiny::motor(String motor,int speed,String mode)
 //                  LightSensor
 //--------------------------------------------
 
-int Attiny::LightSensor(int sensor,String mode)
+int Cing::ReadLightSensor(int sensor,String mode)
   {
     #define LightSensor1 A2
     #define LightSensor2 A3
@@ -131,7 +130,7 @@ int Attiny::LightSensor(int sensor,String mode)
 //           UltrasonicSensor
 //--------------------------------------------
 
-int Attiny::UltrasonicSensor()
+int Cing::ReadUltrasonicSensor()
   {
     #define UltrasonicSensor 2
     int duration;
@@ -151,7 +150,7 @@ int Attiny::UltrasonicSensor()
 //--------------------------------------------
 //             ShineSensors
 //--------------------------------------------
-int Attiny::ShineSensor()
+int Cing::ReadShineSensor()
   {
     #define ShineSensor A1
     int shine_value;
@@ -162,7 +161,7 @@ int Attiny::ShineSensor()
 //--------------------------------------------
 //          Potentiometer
 //--------------------------------------------
-int Attiny::PotentiometerExternal()
+int Cing::ReadProtentiometerExternal()
   {
     #define Potentiometer A1
     pinMode(Potentiometer,INPUT);

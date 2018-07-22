@@ -1,3 +1,6 @@
+/*
+Created by RobotCing Team
+*/
 #######################################
 # Syntax Coloring Map For Atmega328_IO
 #######################################
@@ -6,18 +9,17 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-Atmega328_IO	KEYWORD1 atmega 
+Atmega328_IO	KEYWORD1 Cing
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-motor					KEYWORD2
-LightSensor				KEYWORD2
-ShineSensor				KEYWORD2
-UltrasonicSensor		KEYWORD2
-PotentiometerExternal	KEYWORD2
-Temp			KEYWORD2
-Button			KEYWORD2
-Buzzer			KEYWORD2
+RunMotor					KEYWORD2
+ReadLightSensor				KEYWORD2
+ReadShineSensor				KEYWORD2
+ReadUltrasonicSensor		KEYWORD2
+ReadProtentiometerExternal	KEYWORD2
+ReadTempSensor			KEYWORD2
+ReadButton			KEYWORD2
 LedColor		KEYWORD2
 LedShow			KEYWORD2
 LedStart		KEYWORD2
@@ -25,4 +27,3 @@ LedStart		KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
-

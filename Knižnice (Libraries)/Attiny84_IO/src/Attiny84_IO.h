@@ -1,5 +1,5 @@
 /*
-Vytvorene Teamom GalejeNextGen pre sutaz RBA
+Created by RobotCing Team
 */
 #ifndef Attiny84_IO
 #define Attiny84_IO
@@ -7,21 +7,19 @@ Vytvorene Teamom GalejeNextGen pre sutaz RBA
 //--------------------------------------------
 //              Creating Class
 //--------------------------------------------
-class Attiny
+class Cing
 {
 // public variables
   public:
 //constructor
-    Attiny();
-    void motor(String motor,int speed= 100,String mode = "digital");
-    int LightSensor(int sensor = 1,String mode = "digital");
-    float Temp(int sensor = 0);
-    int UltrasonicSensor();
-    int ShineSensor();
-    void Buzzer(int state=2,int Buzzer_time = 1000);
-    int Button(int button = 0);
-    int PotentiometerInternal();
-    int PotentiometerExternal();
+    Cing();
+    void RunMotor(String motor,int speed= 100,String mode = "digital");
+    int ReadLightSensor(int sensor = 1,String mode = "digital");
+    float ReadTempSensor(int sensor = 0);
+    int ReadUltrasonicSensor();
+    int ReadShineSensor();
+    int ReadButton(int button = 0);
+    int ReadProtentiometerExternal();
 // local variables
   private:
 };

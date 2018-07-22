@@ -1,3 +1,6 @@
+/*
+Created by RobotCing Team
+*/
 #######################################
 # Syntax Coloring Map For Atmega8_IO_basic
 #######################################
@@ -6,18 +9,18 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-Atmega8_IO_basic	KEYWORD1 atmega 
+Atmega8_IO_basic	KEYWORD1 Cing
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-motor	KEYWORD2
-LightSensor	KEYWORD2
-ShineSensor	KEYWORD2
-UltrasonicSensor	KEYWORD2
-PotentiometerExternal	KEYWORD2
 
+RunMotor					KEYWORD2
+ReadLightSensor				KEYWORD2
+ReadShineSensor				KEYWORD2
+ReadUltrasonicSensor		KEYWORD2
+ReadProtentiometerExternal	KEYWORD2
+ReadButton			KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
-

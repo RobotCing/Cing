@@ -1,20 +1,21 @@
-
 /*
-Vytvorene Teamom GalejeNextGen
+Created by RobotCing Team
 */
 
 
 //--------------------------------------------
 //            Library import
 //--------------------------------------------
-#include <OneWire.h>
-#include <DallasTemperature.h>
-#include <Adafruit_NeoPixel.h>
+
 //--------------------------------------------
 #include "Arduino.h"
 #include "Atmega328_IO.h"
+#include "DallasTempature.h"
+#include "OneWire.h"
+
+#include "Adafruit_NeoPixel.h"
 //--------------------------------------------
-Atmega::Atmega(){}
+Cing::Cing(){}
 //--------------------------------------------
 //            Neopixel setup
 //--------------------------------------------
@@ -30,7 +31,7 @@ DallasTemperature sensors(&oneWire);
 //--------------------------------------------
 //              Motors
 //--------------------------------------------
-void Atmega::motor(String motor,int speed,String mode)
+void Cing::RunMotor(String motor,int speed,String mode)
 	{
 		 #define motorA 12
 		 #define motorB 11
@@ -152,7 +153,7 @@ void Atmega::motor(String motor,int speed,String mode)
 //                  LightSensor
 //--------------------------------------------
 
-int Atmega::LightSensor(int sensor,String mode)
+int Cing::ReadLightSensor(int sensor,String mode)
 	{
 		#define LightSensor1 A2
 		#define LightSensor2 A3
@@ -194,12 +195,12 @@ int Atmega::LightSensor(int sensor,String mode)
 						return value;
 					}
 			}
-	}	
+	}
 //--------------------------------------------
 //           UltrasonicSensor
 //--------------------------------------------
 
-int Atmega::UltrasonicSensor()
+int Cing::ReadUltrasonicSensor()
 	{
 		#define UltrasonicSensor 13
 		int duration;
@@ -219,7 +220,7 @@ int Atmega::UltrasonicSensor()
 //--------------------------------------------
 //             ShineSensors
 //--------------------------------------------
-int Atmega::ShineSensor()
+int Cing::ReadShineSensor()
 	{
 		#define ShineSensor 13
 		int shine_value;
@@ -228,52 +229,22 @@ int Atmega::ShineSensor()
 		return shine_value;
 	}
 //--------------------------------------------
-//               Buzzer
-//--------------------------------------------
-void Atmega::Buzzer(int state,int Buzzer_time)
-	{
-		#define Buzzer 3
-		pinMode(Buzzer, OUTPUT);
-		if (state == 2)
-			{
-				digitalWrite(Buzzer, HIGH);
-				delay(Buzzer_time);
-				digitalWrite(Buzzer, LOW);
-				delay(Buzzer_time);
-			}
-		else if (state == 1)
-			{
-				digitalWrite(Buzzer, HIGH);
-			}
-		else if (state == 0)
-			{
-				digitalWrite(Buzzer, LOW);
-			}
-  }
-//--------------------------------------------
 //               Button
 //--------------------------------------------
-int Atmega::Button(int button)
+int Cing::ReadButton(int button)
 	{
 		if (button == 0)
 			{
-				#define Button A4
+				#define Button A6
 				pinMode(Button,INPUT);
-				int button_value = digitalRead(Button);
+				int button_value = analogRead(Button);
 				return button_value;
 			}
 	}
   //--------------------------------------------
   //          Potentiometer
   //--------------------------------------------
-int Atmega::PotentiometerInternal()
-	{
-		#define Potentiometer A4
-		pinMode(Potentiometer,INPUT);
-		int Potentiometer_value = map(analogRead(Potentiometer),0,1023,0,100);
-		return Potentiometer_value;
-	}
-int Atmega::PotentiometerExternal()
+int Cing::ReadProtentiometerExternal()
     {
 		#define Potentiometer 13
 		pinMode(Potentiometer,INPUT);
@@ -281,28 +252,28 @@ int Atmega::PotentiometerExternal()
 		return Potentiometer_value;
     }
 //--------------------------------------------
-//            TempSensors
+//            TemperatureSensors
 //--------------------------------------------
-float Atmega::Temp(int sensor)
+float Cing::ReadTempSensor(int sensor)
 	{
-		float temp;
+		float Temp;
 		sensors.requestTemperatures();
-		temp = sensors.getTempCByIndex(sensor);
+		Temp = sensors.getTempCByIndex(sensor);
 		delay(50);
-		return temp;
+		return Temp;
 	}
 //--------------------------------------------
 //            LED WS2812
 //--------------------------------------------
-void Atmega::LedStart(int numberofleds)
+void Cing::LedStart(int numberofleds)
 	{
 		pixels.begin();
 	}
-void Atmega::LedColor(int led,int red,int green,int blue)
+void Cing::LedColor(int led,int red,int green,int blue)
 	{
 		pixels.setPixelColor(led-1,pixels.Color(map(green,0,100,0,255),map(red,0,100,0,255),map(blue,0,100,0,255)));
 	}
-void Atmega::LedShow()
+void Cing::LedShow()
 	{
 		pixels.show();
 	}

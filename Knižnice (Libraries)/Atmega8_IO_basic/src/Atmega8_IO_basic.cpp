@@ -1,5 +1,5 @@
 /*
-Vytvorene Teamom GalejeNextGen
+Created by RobotCing Team
 */
 
 
@@ -9,11 +9,11 @@ Vytvorene Teamom GalejeNextGen
 #include "Arduino.h"
 #include "Atmega8_IO_basic.h"
 //--------------------------------------------
-Atmega::Atmega(){}
+Cing::Cing(){}
 //--------------------------------------------
 //              Motors
 //--------------------------------------------
-void Atmega::motor(String motor,int speed,String mode)
+void Cing::RunMotor(String motor,int speed,String mode)
   {
      #define motorA 12
      #define motorB 11
@@ -135,7 +135,7 @@ void Atmega::motor(String motor,int speed,String mode)
 //                  LightSensor
 //--------------------------------------------
 
-int Atmega::LightSensor(int sensor,String mode)
+int Cing::ReadLightSensor(int sensor,String mode)
   {
     #define LightSensor1 A2
     #define LightSensor2 A3
@@ -182,7 +182,7 @@ int Atmega::LightSensor(int sensor,String mode)
 //           UltrasonicSensor
 //--------------------------------------------
 
-int Atmega::UltrasonicSensor()
+int Cing::ReadUltrasonicSensor()
   {
     #define UltrasonicSensor 13
     int duration;
@@ -202,7 +202,7 @@ int Atmega::UltrasonicSensor()
 //--------------------------------------------
 //             ShineSensors
 //--------------------------------------------
-int Atmega::ShineSensor()
+int Cing::ReadShineSensor()
   {
     #define ShineSensor 13
     int shine_value;
@@ -211,52 +211,22 @@ int Atmega::ShineSensor()
     return shine_value;
   }
 //--------------------------------------------
-//               Buzzer
-//--------------------------------------------
-void Atmega::Buzzer(int state,int Buzzer_time)
-  {
-    #define Buzzer 3
-    pinMode(Buzzer, OUTPUT);
-    if (state == 2)
-      {
-        digitalWrite(Buzzer, HIGH);
-        delay(Buzzer_time);
-        digitalWrite(Buzzer, LOW);
-        delay(Buzzer_time);
-      }
-    else if (state == 1)
-      {
-        digitalWrite(Buzzer, HIGH);
-      }
-    else if (state == 0)
-      {
-        digitalWrite(Buzzer, LOW);
-      }
-  }
-//--------------------------------------------
 //               Button
 //--------------------------------------------
-int Atmega::Button(int button)
+int Cing::ReadButton(int button)
   {
     if (button == 0)
     {
-      #define Button A4
+      #define Button A6
       pinMode(Button,INPUT);
-      int button_value = digitalRead(Button);
+      int button_value = analogRead(Button);
       return button_value;
     }
   }
   //--------------------------------------------
   //          Potentiometer
   //--------------------------------------------
-int Atmega::PotentiometerInternal()
-  {
-    #define Potentiometer A4
-    pinMode(Potentiometer,INPUT);
-    int Potentiometer_value = map(analogRead(Potentiometer),0,1023,0,100);
-    return Potentiometer_value;
-  }
-int Atmega::PotentiometerExternal()
+int Cing::ReadProtentiometerExternal()
     {
       #define Potentiometer 13
       pinMode(Potentiometer,INPUT);
