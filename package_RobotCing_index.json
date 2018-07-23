@@ -22,8 +22,12 @@
           "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
           "size": "15005",
           "boards": [
-            {"name": "My Board"},
-            {"name": "My Board Pro"}
+            {"name": "Attiny85"},
+            {"name": "Attiny84"},
+            {"name": "Atmega8"},
+            {"name": "Atmega328"},
+            {"name": "Atmega32u4"},
+            {"name": "Esp8266"}
           ],
           "toolsDependencies": [
             {
@@ -51,8 +55,12 @@
           "checksum": "SHA-256:9c86ee28a7ce9fe33e8b07ec643316131e0031b0d22e63bb398902a5fdadbca9",
           "size": "15125",
           "boards": [
-            {"name": "My Board"},
-            {"name": "My Board Pro"}
+            {"name": "Attiny85"},
+            {"name": "Attiny84"},
+            {"name": "Atmega8"},
+            {"name": "Atmega328"},
+            {"name": "Atmega32u4"},
+            {"name": "Esp8266"}
           ],
           "toolsDependencies": [
             {
