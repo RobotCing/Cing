@@ -51,8 +51,8 @@
           "checksum": "SHA-256:9c86ee28a7ce9fe33e8b07ec643316131e0031b0d22e63bb398902a5fdadbca9",
           "size": "15125",
           "boards": [
-            {"name": "My Board"},
-            {"name": "My Board Pro"}
+            {"name": "RobotCing"},
+            {"name": "Attiny85,Attiny84,Atmega8,Atmega328"}
           ],
           "toolsDependencies": [
             {
