@@ -4,13 +4,13 @@
       "name": "RobotCing",
       "maintainer": "Robot Cing Team",
       "websiteURL": "https://github.com/janedeveloper/myboard",
-      "email": "jane@janedeveloper.org",
+      "email": "robotcing@gmail.com",
       "help": {
         "online": "http://janedeveloper.org/forum/myboard"
       },
       "platforms": [
         {
-          "name": "My Board",
+          "name": "RobotCing",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
