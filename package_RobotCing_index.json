@@ -39,7 +39,7 @@
           ]
         },
         {
-          "name": "RobotCing",
+          "name": "My Board",
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Contributed",
@@ -51,8 +51,8 @@
           "checksum": "SHA-256:9c86ee28a7ce9fe33e8b07ec643316131e0031b0d22e63bb398902a5fdadbca9",
           "size": "15125",
           "boards": [
-            {"name": "RobotCing"},
-            {"name": "Attiny"}
+            {"name": "My Board"},
+            {"name": "My Board Pro"}
           ],
           "toolsDependencies": [
             {
