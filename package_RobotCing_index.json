@@ -17,10 +17,10 @@
           "help": {
             "online": "http://robotcing.wz.sk"
           },
-          "url": "https://janedeveloper.github.io/myboard/myboard-1.0.0.zip",
+          "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/RobotCing-2.0.0.zip",
           "archiveFileName": "RobotCing-1.0.0.zip",
-          "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
-          "size": "15005",
+          "checksum": "SHA-256:537dae8ba93a258b540d4ee7aa7b072584b2267c9aeacb069a5fc4e8da86db33",
+          "size": "7 897",
           "boards": [
             {"name": "Attiny85"},
             {"name": "Attiny84"},
@@ -52,8 +52,8 @@
           },
           "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/RobotCing-2.0.0.zip",
           "archiveFileName": "RobotCing-2.0.0.zip",
-          "checksum": "SHA-256:9c86ee28a7ce9fe33e8b07ec643316131e0031b0d22e63bb398902a5fdadbca9",
-          "size": "15125",
+          "checksum": "SHA-256:537dae8ba93a258b540d4ee7aa7b072584b2267c9aeacb069a5fc4e8da86db33",
+          "size": "7 897",
           "boards": [
             {"name": "Attiny85"},
             {"name": "Attiny84"},
