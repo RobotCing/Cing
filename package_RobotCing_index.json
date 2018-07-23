@@ -6,7 +6,7 @@
       "websiteURL": "https://github.com/janedeveloper/myboard",
       "email": "robotcing@gmail.com",
       "help": {
-        "online": "http://janedeveloper.org/forum/myboard"
+        "online": "http://robotcing.wz.sk"
       },
       "platforms": [
         {
@@ -15,7 +15,7 @@
           "version": "1.0.0",
           "category": "Contributed",
           "help": {
-            "online": "http://janedeveloper.org/forum/myboard"
+            "online": "http://robotcing.wz.sk"
           },
           "url": "https://janedeveloper.github.io/myboard/myboard-1.0.0.zip",
           "archiveFileName": "myboard-1.0.0.zip",
@@ -43,12 +43,12 @@
           ]
         },
         {
-          "name": "My Board",
+          "name": "RobotCing",
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Contributed",
           "help": {
-            "online": "http://janedeveloper.org/forum/myboard"
+            "online": "http://robotcing.wz.sk"
           },
           "url": "https://janedeveloper.github.io/myboard/myboard-1.0.1.zip",
           "archiveFileName": "myboard-1.0.1.zip",
