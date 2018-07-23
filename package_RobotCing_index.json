@@ -50,7 +50,7 @@
           "help": {
             "online": "http://robotcing.wz.sk"
           },
-          "url": "https://janedeveloper.github.io/myboard/myboard-2.0.0.zip",
+          "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/RobotCing-2.0.0.zip",
           "archiveFileName": "RobotCing-2.0.0.zip",
           "checksum": "SHA-256:9c86ee28a7ce9fe33e8b07ec643316131e0031b0d22e63bb398902a5fdadbca9",
           "size": "15125",
