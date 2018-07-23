@@ -52,7 +52,7 @@
           "size": "15125",
           "boards": [
             {"name": "RobotCing"},
-            {"name": "Attiny85,Attiny84,Atmega8,Atmega328"}
+            {"name": "Attiny"}
           ],
           "toolsDependencies": [
             {
