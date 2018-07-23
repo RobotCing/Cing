@@ -1,8 +1,8 @@
 {
   "packages": [
     {
-      "name": "myboard",
-      "maintainer": "Jane Developer",
+      "name": "RobotCing",
+      "maintainer": "Robot Cing Team",
       "websiteURL": "https://github.com/janedeveloper/myboard",
       "email": "jane@janedeveloper.org",
       "help": {
