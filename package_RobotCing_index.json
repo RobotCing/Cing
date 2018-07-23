@@ -39,7 +39,7 @@
           ]
         },
         {
-          "name": "My Board",
+          "name": "RobotCing",
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Contributed",
