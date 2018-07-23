@@ -19,7 +19,7 @@
           },
           "url": "https://github.com/RobotCing/Cing/blob/master/RobotCing-2.0.0.zip?raw=true",
           "archiveFileName": "RobotCing-1.0.0.zip",
-          "checksum": "SHA-256:12276c25407495ad4cacc328eae447ccc46f36fd0bb2cb380289355af4f1bc27",
+          "checksum": "SHA-256:3ba1ae31ad5767881ffa955ef1bccc4c7073cfc379bf3e47bc3e0586e9f444aa",
           "size": "15125",
           "boards": [
             {"name": "Attiny85"},
@@ -52,7 +52,7 @@
           },
           "url": "https://github.com/RobotCing/Cing/blob/master/RobotCing-2.0.0.zip?raw=true",
           "archiveFileName": "RobotCing-2.0.0.zip",
-          "checksum": "SHA-256:12276c25407495ad4cacc328eae447ccc46f36fd0bb2cb380289355af4f1bc27",
+          "checksum": "SHA-256:3ba1ae31ad5767881ffa955ef1bccc4c7073cfc379bf3e47bc3e0586e9f444aa",
           "size": "15125",
           "boards": [
             {"name": "Attiny85"},
