@@ -5,7 +5,8 @@
 
 
 ## Úvod:
-<img src="Pictures/logo%20Cing.png">
+<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Log%C3%A1%20(Logos)/CingLogo.png"><img src="Fotografie%20(Photos)/Logá%20(Logos)/CingLogo.png" alt="Atmega 328 schematic"></a>
+
 
 Každý pozná firmu [Lego](https://www.lego.com/en-us/). Vyrábajú najpopulárnejšie [Lego](https://www.lego.com/en-us/) stavebnice a sety. Vyrábajú <a href="https://www.lego.com/en-us/mindstorms">Lego NXT a Lego EV3</a> sety, ktoré sa jednoducho programujú a konštruujú, ale po naučení sa ich obrázkoveho jednoduchého programovacieho jazyka nemá užívaťeľ ďalšie možnosti ako programovať ich lego stavebnicu. Užívateľovi ostáva jediná možnosť - prejsť na inú platformu, napríklad [Arduino](https://www.arduino.cc/). 
 
@@ -20,7 +21,6 @@ Po zvládnutí základných aj pokročilých progamovacích príkazov môže pou
 <!---Každú pozná firmu [Lego](https://www.lego.com/en-us/). Vyrábajú najpopulárnejšie [Lego](https://www.lego.com/en-us/) stavebnice a sety. Vyrábajú <a href="https://www.lego.com/en-us/mindstorms">Lego NXT and Lego EV3</a>sety ktoré sa jednoducho programujú a konštruujú, ale po naučení sa ich obrázkoveho jednoduchého programovacieho jazyka nemá užívaťeľ ďalšie možnosti ako programovat ich lego stavebnicu. Užívateľovi ostáva jediná možnosť - Prejisť na inú platformu napríklad [Arduino](https://www.arduino.cc/). [Arduino](https://www.arduino.cc/) je super možnosť nakoľko je Open Source, je lacnejšie, ale užívaťel musí rozumieť elektronike. Tento fakt si mnoho ľudí uvedomí až keď si [Arduino](https://www.arduino.cc/) kúpi a vačšina ľudí to vzdá.
 <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> rieši tento problém <a href="https://github.com/Galeje/Cing/tree/master/libraries" target= "_blank">knižnicami</a> ktoré umožňujú jednoduché programovanie <a href="https://github.com/Galeje/Cing" target= "_blank">Cing-a</a> v C programovaciom jazyku bez nutnosťi znalosti elektroniky. Taktiež sme vytvorili <a href="https://github.com/Galeje/Cing/blob/master/CINGtlac.pdf">príručky</a>, ktoré naučia užívateľa programovat <a href="https://github.com/Galeje/Cing" target= "_blank">Cing-a</a>.Po naučení sa základných aj pokročilých progamovacích príkazov môže používateľ použiť robota <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> ako nástroj pre učenie sa elektroniky, nakoľko sa jednoducho dostane k schémam aj príručke ako ho programovať bez použitia <a href="https://github.com/Galeje/Cing/tree/master/libraries" target= "_blank">knižníc</a>. To znamená, že užívateľ si môže vybrať ako chce programovať <a href="https://github.com/Galeje/Cing" target= "_blank">Cing-a</a>.--->
 
-<a href="https://github.com/Galeje/Cing/blob/master/Fotografie%20(Photos)/Log%C3%A1%20(Logos)/CingLogo.png"><img src="Fotografie%20(Photos)/Logá%20(Logos)/CingLogo.png" alt="Atmega 328 schematic"></a>
 
 Projekt používa <a href="https://github.com/MCUdude/MicroCore">MicroCore</a>.
 
