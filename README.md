@@ -22,7 +22,7 @@ Po zvládnutí základných aj pokročilých progamovacích príkazov môže pou
 <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> rieši tento problém <a href="https://github.com/Galeje/Cing/tree/master/libraries" target= "_blank">knižnicami</a> ktoré umožňujú jednoduché programovanie <a href="https://github.com/Galeje/Cing" target= "_blank">Cing-a</a> v C programovaciom jazyku bez nutnosťi znalosti elektroniky. Taktiež sme vytvorili <a href="https://github.com/Galeje/Cing/blob/master/CINGtlac.pdf">príručky</a>, ktoré naučia užívateľa programovat <a href="https://github.com/Galeje/Cing" target= "_blank">Cing-a</a>.Po naučení sa základných aj pokročilých progamovacích príkazov môže používateľ použiť robota <a href="https://github.com/Galeje/Cing" target= "_blank">Cing</a> ako nástroj pre učenie sa elektroniky, nakoľko sa jednoducho dostane k schémam aj príručke ako ho programovať bez použitia <a href="https://github.com/Galeje/Cing/tree/master/libraries" target= "_blank">knižníc</a>. To znamená, že užívateľ si môže vybrať ako chce programovať <a href="https://github.com/Galeje/Cing" target= "_blank">Cing-a</a>.--->
 
 
-Projekt používa <a href="https://github.com/MCUdude/MicroCore">MicroCore</a>.
+Projekt používa <a href="https://github.com/MCUdude/MicroCore">MicroCore</a> a <a href="https://github.com/damellis">Damellis</a> <a href="https://github.com/damellis/attiny">ATtiny core</a>.
 
 ## Podporte nás:
 [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/StanislavJochman)
