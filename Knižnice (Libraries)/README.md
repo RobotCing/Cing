@@ -13,10 +13,10 @@
 | attiny.ReadProtentiometerExternal()>50 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.ReadLightSensor(1,"digital")==1 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.ReadLightSensor(2,"analog")>20 | ✓ | ✓ | ✓ | ✓ | ✓ |
-<!--| attiny.UltrasonicSensor()>20 | ? | ? | ? | ? | × |-->
 | attiny.ReadShineSensor()==1 | × | × | × | × | × |
 | attiny.ReadShineSensor()>20 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.ReadTempSensor()>30 | ✓ | × | ✓ | × | × |
+<!--| attiny.UltrasonicSensor()>20 | ? | ? | ? | ? | × |-->
 
 ## Atmega Libraries Functions
 
@@ -31,12 +31,11 @@
 | atmega.ReadProtentiometerExternal()>50 | × | × | × | × |
 | atmega.ReadLightSensor(1)==1 | ✓ | ✓ | ✓ | ✓ |
 | atmega.ReadLightSensor(2)>20 | ✓ | ✓ | ✓ | ✓ |
-<!--| atmega.UltrasonicSensor()>20 | ? | ? | ? | ? |-->
 | atmega.ReadShineSensor()==1 | ✓ | ✓ | ✓ | ✓ |
 | atmega.ReadShineSensor()>20 | × | × | × | × |
 | atmega.ReadTempSensor()>30 | ✓ | ✓ | ✓ | ✓ |
 |LedStart()| × | × | ✓ | ✓ |
 |LedSetColor(1,100,100,100)| × | × | ✓ | ✓ |
 |LedShow()| × | × | ✓ | ✓ |
-
+<!--| atmega.UltrasonicSensor()>20 | ? | ? | ? | ? |-->
 
