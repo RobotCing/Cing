@@ -24,7 +24,7 @@ class Cing
     int ReadProtentiometerExternal();
     float ReadTempSensor(int sensor = 0);
     void LedStart(int numberofleds = 6);
-	void LedColor(int led = 1,int red = 100,int green = 100,int blue = 100);
+	void LedSetColor(int led = 1,int red = 100,int green = 100,int blue = 100);
 	void LedShow();
 // local variables
   private:
