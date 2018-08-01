@@ -269,7 +269,7 @@ void Cing::LedStart(int numberofleds)
 	{
 		pixels.begin();
 	}
-void Cing::LedColor(int led,int red,int green,int blue)
+void Cing::LedSetColor(int led,int red,int green,int blue)
 	{
 		pixels.setPixelColor(led-1,pixels.Color(map(green,0,100,0,255),map(red,0,100,0,255),map(blue,0,100,0,255)));
 	}
