@@ -4408,6 +4408,23 @@ design rules under a new name.</description>
 <wire x1="-47.3096" y1="-29.4781875" x2="-47.3096" y2="-19.2783125" width="0.1524" layer="1"/>
 <wire x1="-46.0326" y1="-19.0174" x2="-46" y2="-19.05" width="0.1524" layer="1"/>
 </signal>
+<signal name="36">
+<contactref element="U$1" pad="36"/>
+<contactref element="U$2" pad="+5V1"/>
+<wire x1="13.05" y1="24.2" x2="10.9418" y2="22.0918" width="0.1524" layer="16"/>
+<wire x1="6.35" y1="9.69249375" x2="6.35" y2="6.35" width="0.1524" layer="16"/>
+<wire x1="7.5786" y1="10.92109375" x2="6.35" y2="9.69249375" width="0.1524" layer="16"/>
+<wire x1="7.5786" y1="14.13345" x2="7.5786" y2="10.92109375" width="0.1524" layer="16"/>
+<wire x1="10.9418" y1="22.0918" x2="10.9418" y2="17.49665" width="0.1524" layer="16"/>
+<wire x1="10.9418" y1="17.49665" x2="7.5786" y2="14.13345" width="0.1524" layer="16"/>
+<wire x1="6.35" y1="6.35" x2="6.383875" y2="6.383875" width="0.1524" layer="16"/>
+<via x="6.383875" y="6.383875" extent="1-16" drill="0.35"/>
+<wire x1="6.383875" y1="6.383875" x2="4.445" y2="4.445" width="0.1524" layer="1"/>
+<wire x1="4.445" y1="4.445" x2="4.445" y2="3.54696875" width="0.1524" layer="1"/>
+<wire x1="4.445" y1="3.54696875" x2="3.43803125" y2="2.54" width="0.1524" layer="1"/>
+<wire x1="3.43803125" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="1"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.1524" layer="1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -4423,14 +4440,14 @@ design rules under a new name.</description>
 <approved hash="4,16,04a1e7587e95ad6c"/>
 <approved hash="4,16,c45165ffddcaff40"/>
 <approved hash="4,16,e4ac07542c99ff61"/>
-<approved hash="22,20,60c660cbe84ce841"/>
 <approved hash="22,20,71357132f5b9f5be"/>
 <approved hash="22,20,b9f5b9f635713572"/>
-<approved hash="22,20,cb10cb174198419f"/>
-<approved hash="22,20,399f3998b317b310"/>
 <approved hash="22,20,ca0eca0d468a4689"/>
 <approved hash="22,20,0dbe0db989328935"/>
 <approved hash="22,20,41724171cdf6cdf5"/>
+<approved hash="22,20,3289328abe0dbe0e"/>
+<approved hash="22,20,f6cdf6ca72417246"/>
+<approved hash="22,20,8a468a410eca0ecd"/>
 </errors>
 </board>
 </drawing>

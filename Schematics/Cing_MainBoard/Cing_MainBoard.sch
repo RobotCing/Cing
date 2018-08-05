@@ -21319,6 +21319,13 @@ Socket</text>
 <label x="127" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
+<net name="36" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="36"/>
+<wire x1="111.76" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<label x="109.22" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -21649,6 +21656,13 @@ Socket</text>
 <wire x1="22.86" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="+5V"/>
 <label x="22.86" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="36" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="+5V1"/>
+<wire x1="53.34" y1="17.78" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
+<label x="66.04" y="17.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
