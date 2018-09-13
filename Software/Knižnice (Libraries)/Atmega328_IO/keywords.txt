@@ -9,7 +9,7 @@ Created by RobotCing Team
 # Datatypes (KEYWORD1)
 #######################################
 
-Atmega328_IO	KEYWORD1 Cing
+Atmega328_IO	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
@@ -20,7 +20,7 @@ ReadUltrasonicSensor		KEYWORD2
 ReadProtentiometerExternal	KEYWORD2
 ReadTempSensor			KEYWORD2
 ReadButton			KEYWORD2
-LedColor		KEYWORD2
+SetLedColor		KEYWORD2
 LedShow			KEYWORD2
 LedStart		KEYWORD2
 

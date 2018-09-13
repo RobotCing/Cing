@@ -9,7 +9,7 @@ Created by RobotCing Team
 # Datatypes (KEYWORD1)
 #######################################
 
-Attiny85_IO	KEYWORD1 Cing
+Attiny85_IO	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
@@ -18,7 +18,7 @@ ReadLightSensor	KEYWORD2
 ReadShineSensor	KEYWORD2
 ReadUltrasonicSensor	KEYWORD2
 ReadPotentiometerExternal	KEYWORD2
-Temp KEYWORD2
+ReadTempSensor KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################

@@ -9,7 +9,7 @@ Created by RobotCing Team
 # Datatypes (KEYWORD1)
 #######################################
 
-Attiny85_IO_basic	KEYWORD1 Cing
+Attiny85_IO_basic	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
