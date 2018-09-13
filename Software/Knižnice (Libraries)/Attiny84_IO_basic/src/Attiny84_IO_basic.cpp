@@ -263,7 +263,7 @@ int Cing::ReadUltrasonicSensor()
 //--------------------------------------------
 //          Potentiometer
 //--------------------------------------------
-int Cing::ReadProtentiometerExternal()
+int Cing::ReadPotentiometerExternal()
   {
     #define Potentiometer A4
     pinMode(Potentiometer,INPUT);

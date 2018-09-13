@@ -19,7 +19,7 @@ class Cing
     int ReadUltrasonicSensor();
     int ReadShineSensor();
     int ReadButton(int button = 0);
-    int ReadProtentiometerExternal();
+    int ReadPotentiometerExternal();
 // local variables
   private:
 };

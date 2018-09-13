@@ -1,4 +1,4 @@
-# Library function table for procesors 
+# Library function table for procesors
 
 ## Attiny Libraries Functions
 
@@ -9,8 +9,8 @@
 | attiny.RunMotor("AB",100,"analog") | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.RunMotor("AB",-100,"analog") | × | ×  | ✓ | ✓ | × |
 | attiny.ReadButton()==1 | × | × | ✓ | ✓ | × |
-| attiny.ReadProtentiometerExternal()==1 | × | × | × | × | × |
-| attiny.ReadProtentiometerExternal()>50 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| attiny.ReadPotentiometerExternal()==1 | × | × | × | × | × |
+| attiny.ReadPotentiometerExternal()>50 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.ReadLightSensor(1,"digital")==1 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.ReadLightSensor(2,"analog")>20 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | attiny.ReadShineSensor()==1 | × | × | × | × | × |
@@ -27,8 +27,8 @@
 | atmega.RunMotor("AB",100,"analog") | × | × | × | × |
 | atmega.RunMotor("AB",-100,"digital") | × | × | × | × |
 | atmega.ReadButton()==1 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| atmega.ReadProtentiometerExternal()==1 | ✓ | ✓ | ✓ | ✓ |
-| atmega.ReadProtentiometerExternal()>50 | × | × | × | × |
+| atmega.ReadPotentiometerExternal()==1 | ✓ | ✓ | ✓ | ✓ |
+| atmega.ReadPotentiometerExternal()>50 | × | × | × | × |
 | atmega.ReadLightSensor(1)==1 | ✓ | ✓ | ✓ | ✓ |
 | atmega.ReadLightSensor(2)>20 | ✓ | ✓ | ✓ | ✓ |
 | atmega.ReadShineSensor()==1 | ✓ | ✓ | ✓ | ✓ |
@@ -38,4 +38,3 @@
 |LedSetColor(1,100,100,100)| × | × | ✓ | ✓ |
 |LedShow()| × | × | ✓ | ✓ |
 <!--| atmega.UltrasonicSensor()>20 | ? | ? | ? | ? |-->
-

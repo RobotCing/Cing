@@ -161,7 +161,7 @@ int Cing::ReadShineSensor()
 //--------------------------------------------
 //          Potentiometer
 //--------------------------------------------
-int Cing::ReadProtentiometerExternal()
+int Cing::ReadPotentiometerExternal()
   {
     #define Potentiometer A1
     pinMode(Potentiometer,INPUT);

@@ -244,7 +244,7 @@ int Cing::ReadButton(int button)
   //--------------------------------------------
   //          Potentiometer
   //--------------------------------------------
-int Cing::ReadProtentiometerExternal()
+int Cing::ReadPotentiometerExternal()
     {
 		#define Potentiometer 13
 		pinMode(Potentiometer,INPUT);

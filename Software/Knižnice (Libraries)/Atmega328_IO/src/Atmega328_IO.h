@@ -21,7 +21,7 @@ class Cing
     int ReadUltrasonicSensor();
     int ReadShineSensor();
     int ReadButton(int button = 0);
-    int ReadProtentiometerExternal();
+    int ReadPotentiometerExternal();
     float ReadTempSensor(int sensor = 0);
     void LedStart(int numberofleds = 6);
 	void LedSetColor(int led = 1,int red = 100,int green = 100,int blue = 100);
