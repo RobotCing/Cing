@@ -13,7 +13,7 @@
           "name": "RobotCing",
           "architecture": "avr",
           "version": "1.0.0",
-          "category": "Contributed",
+          "category": "RobotCing",
           "help": {
             "online": "http://robotcing.wz.sk"
           },
@@ -46,7 +46,7 @@
           "name": "RobotCing",
           "architecture": "avr",
           "version": "2.0.0",
-          "category": "Contributed",
+          "category": "RobotCing",
           "help": {
             "online": "http://robotcing.wz.sk"
           },
