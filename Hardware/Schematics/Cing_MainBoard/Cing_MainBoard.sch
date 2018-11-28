@@ -19296,26 +19296,6 @@ Socket</text>
 <rectangle x1="-4.4028" y1="2.6416" x2="-4.0472" y2="3.937" layer="21"/>
 <rectangle x1="-5.1999" y1="-2.5999" x2="-4.225" y2="2.5999" layer="21"/>
 </package>
-<package name="CONNECTOR_LIGHT_SENSOR">
-<pad name="COM" x="0" y="0" drill="1" diameter="1.6764" shape="long" rot="R180"/>
-<pad name="LIGHTSENSOR" x="0" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R180"/>
-<pad name="HEADER" x="0" y="-2.54" drill="1" diameter="1.6764" shape="long" rot="R180"/>
-<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="0" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
-<text x="6.35" y="2.54" size="1.27" layer="21" rot="R90" align="center">Light
-Sensor</text>
-<text x="-5.08" y="-2.54" size="1.27" layer="21" rot="R90" align="center">Header</text>
-<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="0" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-3.81" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-3.81" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.127" layer="21"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="3.81" width="0.127" layer="21"/>
-<wire x1="3.81" y1="3.81" x2="2.54" y2="3.81" width="0.127" layer="21"/>
-</package>
 <package name="MPU-6050">
 <pad name="SDA" x="0" y="1.27" drill="0.8" diameter="1.778" shape="long"/>
 <pad name="XDA" x="0" y="-1.27" drill="0.8" diameter="1.778" shape="long"/>
@@ -19337,25 +19317,6 @@ Sensor</text>
 <wire x1="-8.89" y1="8.89" x2="-9.525" y2="8.255" width="0.127" layer="21"/>
 <text x="-4.826" y="4.445" size="1.27" layer="21">Z</text>
 <text x="-9.271" y="9.525" size="1.27" layer="21">Y</text>
-</package>
-<package name="CONNECTOR_BUTTON">
-<pad name="COM" x="0" y="0" drill="1" diameter="1.6764" shape="long" rot="R180"/>
-<pad name="BUTTON" x="0" y="2.54" drill="1" diameter="1.6764" shape="long" rot="R180"/>
-<pad name="HEADER" x="0" y="-2.54" drill="1" diameter="1.6764" shape="long" rot="R180"/>
-<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="0" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
-<text x="5.08" y="2.54" size="1.27" layer="21" rot="R90" align="center">Button</text>
-<text x="-5.08" y="-2.54" size="1.27" layer="21" rot="R90" align="center">Header</text>
-<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="0" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-3.81" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-3.81" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.127" layer="21"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="3.81" width="0.127" layer="21"/>
-<wire x1="3.81" y1="3.81" x2="2.54" y2="3.81" width="0.127" layer="21"/>
 </package>
 <package name="ICSP_HEADER">
 <description>2x3 DIP header with pin 1 marked by a square pad.</description>
@@ -19978,16 +19939,6 @@ Typical applications:&lt;p&gt;
 <pin name="GND@3" x="2.54" y="-20.32" length="short" direction="pwr" rot="R90"/>
 <pin name="TEST" x="5.08" y="-20.32" length="short" rot="R90"/>
 </symbol>
-<symbol name="CONNECTOR_LIGHT_SENSOR">
-<pin name="COM" x="-10.16" y="0" length="middle"/>
-<pin name="LIGHTSENSOR" x="-10.16" y="5.08" length="middle"/>
-<pin name="HEADER" x="-10.16" y="-5.08" length="middle"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<text x="0" y="10.16" size="1.27" layer="94" align="center">Conector 1X3</text>
-</symbol>
 <symbol name="MPU6050">
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-22.86" width="0.6096" layer="94"/>
 <wire x1="-10.16" y1="-22.86" x2="17.78" y2="-22.86" width="0.6096" layer="94"/>
@@ -20012,16 +19963,6 @@ Typical applications:&lt;p&gt;
 <text x="8.89" y="-21.082" size="1.778" layer="94">x</text>
 <text x="5.08" y="-15.24" size="1.778" layer="94">y</text>
 <text x="-1.524" y="14.732" size="1.778" layer="94">3.3V (or 5v)</text>
-</symbol>
-<symbol name="CONNECTOR_BUTTON">
-<pin name="COM" x="-10.16" y="0" length="middle"/>
-<pin name="BUTTON" x="-10.16" y="5.08" length="middle"/>
-<pin name="HEADER" x="-10.16" y="-5.08" length="middle"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<text x="0" y="10.16" size="1.27" layer="94" align="center">Conector 1X3</text>
 </symbol>
 <symbol name="ISCP">
 <description>&lt;font size="+1"&gt;&lt;b&gt;Arduino ICSP I/O Header Symbol&lt;/b&gt;&lt;/font&gt;</description>
@@ -20616,23 +20557,6 @@ Typical applications:&lt;p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONNECTOR_LIGHT_SENSOR">
-<gates>
-<gate name="G$1" symbol="CONNECTOR_LIGHT_SENSOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONNECTOR_LIGHT_SENSOR">
-<connects>
-<connect gate="G$1" pin="COM" pad="COM"/>
-<connect gate="G$1" pin="HEADER" pad="HEADER"/>
-<connect gate="G$1" pin="LIGHTSENSOR" pad="LIGHTSENSOR"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MPU-6050" prefix="U">
 <gates>
 <gate name="G$1" symbol="MPU6050" x="-2.54" y="5.08"/>
@@ -20648,23 +20572,6 @@ Typical applications:&lt;p&gt;
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 <connect gate="G$1" pin="XCL" pad="XCL"/>
 <connect gate="G$1" pin="XDA" pad="XDA"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CONNECTOR_BUTTON">
-<gates>
-<gate name="G$1" symbol="CONNECTOR_BUTTON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONNECTOR_BUTTON">
-<connects>
-<connect gate="G$1" pin="BUTTON" pad="BUTTON"/>
-<connect gate="G$1" pin="COM" pad="COM"/>
-<connect gate="G$1" pin="HEADER" pad="HEADER"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -23658,12 +23565,12 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
@@ -23675,7 +23582,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22p"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22p"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -23712,7 +23619,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="ON" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/1" value="GREEN"/>
 <part name="YELLOW" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/1" value="Full"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
+<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -23720,9 +23627,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/1" value="RXD"/>
-<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="330"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100"/>
 <part name="TXD" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/1" value="TXD"/>
-<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="330"/>
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -23731,8 +23638,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
-<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
+<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
+<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -23767,10 +23674,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="U$12" library="Cing Library" deviceset="CONNECTOR_1X5" device=""/>
 <part name="U2" library="Cing Library" deviceset="BMP180" device=""/>
 <part name="IC3" library="Cing Library" deviceset="FT232RL" device=""/>
-<part name="U$13" library="Cing Library" deviceset="CONNECTOR_LIGHT_SENSOR" device=""/>
-<part name="U$14" library="Cing Library" deviceset="CONNECTOR_LIGHT_SENSOR" device=""/>
 <part name="U3" library="Cing Library" deviceset="MPU-6050" device="MPU6050"/>
-<part name="U$15" library="Cing Library" deviceset="CONNECTOR_BUTTON" device=""/>
 <part name="JP1" library="Cing Library" deviceset="ICSP_HEADER" device="" value="ICSP"/>
 <part name="U$16" library="Cing Library" deviceset="LEGO-1X1" device="" value="3.3V"/>
 <part name="U$17" library="Cing Library" deviceset="LEGO-1X1" device="" value="3.3V"/>
@@ -23796,7 +23700,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1k"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100"/>
 <part name="REVERSE" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/1" value="RED"/>
 <part name="VERSION" library="Cing Library" deviceset="VERSION" device="" value="2.0"/>
 <part name="SW1" library="Cing Library" deviceset="USB_SWITCH" device="" package3d_urn="urn:adsk.eagle:package:32990/1"/>
@@ -23839,6 +23743,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="POT" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="RJ9W" package3d_urn="urn:adsk.eagle:package:22702/1" value="100k"/>
 <part name="+3V23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SW2" library="Cing Library" deviceset="USB_SWITCH" device="" package3d_urn="urn:adsk.eagle:package:32990/1"/>
+<part name="SW3" library="Cing Library" deviceset="USB_SWITCH" device="" package3d_urn="urn:adsk.eagle:package:32990/1"/>
+<part name="SW4" library="Cing Library" deviceset="USB_SWITCH" device="" package3d_urn="urn:adsk.eagle:package:32990/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -24277,7 +24184,6 @@ Socket</text>
 <instance part="U$2" gate="G$1" x="48.26" y="27.94"/>
 <instance part="U$3" gate="G$1" x="215.9" y="78.74"/>
 <instance part="U$4" gate="G$1" x="215.9" y="45.72"/>
-<instance part="U$15" gate="G$1" x="144.78" y="152.4" rot="MR0"/>
 <instance part="JP1" gate="G$1" x="213.36" y="99.06"/>
 <instance part="U$16" gate="G$1" x="17.78" y="165.1"/>
 <instance part="U$17" gate="G$1" x="17.78" y="157.48"/>
@@ -24290,6 +24196,7 @@ Socket</text>
 <instance part="GND36" gate="1" x="12.7" y="139.7"/>
 <instance part="VERSION" gate="G$1" x="30.48" y="160.02"/>
 <instance part="U$22" gate="G$1" x="30.48" y="149.86"/>
+<instance part="SW4" gate="G$1" x="148.59" y="152.4" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -24462,16 +24369,16 @@ Socket</text>
 </net>
 <net name="A6" class="0">
 <segment>
-<wire x1="154.94" y1="152.4" x2="160.02" y2="152.4" width="0.1524" layer="91"/>
-<label x="160.02" y="152.4" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$15" gate="G$1" pin="COM"/>
+<wire x1="154.94" y1="152.4" x2="158.75" y2="152.4" width="0.1524" layer="91"/>
+<label x="158.75" y="152.4" size="1.778" layer="95" xref="yes"/>
+<pinref part="SW4" gate="G$1" pin="COM1"/>
 </segment>
 </net>
 <net name="BUTTON" class="0">
 <segment>
-<wire x1="154.94" y1="157.48" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
-<label x="160.02" y="157.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$15" gate="G$1" pin="BUTTON"/>
+<wire x1="154.94" y1="154.94" x2="159.004" y2="154.94" width="0.1524" layer="91"/>
+<label x="159.004" y="154.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="SW4" gate="G$1" pin="CH1B"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -24537,9 +24444,9 @@ Socket</text>
 <pinref part="U$2" gate="G$1" pin="A6"/>
 </segment>
 <segment>
-<wire x1="154.94" y1="147.32" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
-<label x="160.02" y="147.32" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$15" gate="G$1" pin="HEADER"/>
+<wire x1="154.94" y1="149.86" x2="160.02" y2="149.86" width="0.1524" layer="91"/>
+<label x="160.02" y="149.86" size="1.778" layer="95" xref="yes"/>
+<pinref part="SW4" gate="G$1" pin="CH1A"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -25226,8 +25133,6 @@ managment</text>
 <instance part="U$12" gate="G$1" x="25.4" y="25.4" rot="R270"/>
 <instance part="U2" gate="G$1" x="215.9" y="81.28"/>
 <instance part="IC3" gate="G$1" x="129.54" y="132.08"/>
-<instance part="U$13" gate="G$1" x="30.48" y="101.6" rot="MR90"/>
-<instance part="U$14" gate="G$1" x="66.04" y="45.72"/>
 <instance part="U3" gate="G$1" x="226.06" y="127"/>
 <instance part="LED5" gate="G$1" x="187.96" y="38.1" rot="R90"/>
 <instance part="LED6" gate="G$1" x="203.2" y="38.1" rot="R90"/>
@@ -25266,6 +25171,8 @@ managment</text>
 <instance part="POT" gate="1" x="134.62" y="71.12"/>
 <instance part="+3V23" gate="G$1" x="134.62" y="81.28"/>
 <instance part="GND45" gate="1" x="134.62" y="60.96" rot="MR0"/>
+<instance part="SW2" gate="G$1" x="63.5" y="45.72"/>
+<instance part="SW3" gate="G$1" x="30.48" y="99.06" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -25395,9 +25302,11 @@ managment</text>
 <wire x1="43.18" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="LS1" gate="OS" pin="COLLECTOR"/>
-<pinref part="U$13" gate="G$1" pin="LIGHTSENSOR"/>
 <pinref part="TXD1" gate="G$1" pin="C"/>
 <junction x="43.18" y="91.44"/>
+<pinref part="SW3" gate="G$1" pin="CH1B"/>
+<wire x1="33.02" y1="92.71" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -25672,15 +25581,18 @@ managment</text>
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U$12" gate="G$1" pin="A2"/>
-<pinref part="U$13" gate="G$1" pin="HEADER"/>
+<wire x1="25.4" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="SW3" gate="G$1" pin="CH1A"/>
+<wire x1="27.94" y1="91.44" x2="27.94" y2="92.71" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
-<wire x1="55.88" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$12" gate="G$1" pin="A3"/>
-<pinref part="U$14" gate="G$1" pin="HEADER"/>
+<pinref part="SW2" gate="G$1" pin="CH1B"/>
+<wire x1="57.15" y1="43.18" x2="57.15" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -25693,8 +25605,8 @@ managment</text>
 <net name="N$43" class="0">
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="88.9" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="COM"/>
+<wire x1="30.48" y1="88.9" x2="30.48" y2="92.71" width="0.1524" layer="91"/>
+<pinref part="SW3" gate="G$1" pin="COM1"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -25717,20 +25629,20 @@ managment</text>
 <wire x1="86.36" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <junction x="86.36" y="63.5"/>
-<wire x1="78.74" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="50.8" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="48.26" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="LS2" gate="OS" pin="COLLECTOR"/>
-<pinref part="U$14" gate="G$1" pin="LIGHTSENSOR"/>
 <pinref part="TXD2" gate="G$1" pin="C"/>
 <junction x="78.74" y="63.5"/>
+<pinref part="SW2" gate="G$1" pin="CH1A"/>
+<wire x1="57.15" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R28" gate="G$1" pin="1"/>
-<pinref part="U$14" gate="G$1" pin="COM"/>
-<wire x1="55.88" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SW2" gate="G$1" pin="COM1"/>
+<wire x1="57.15" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -25848,6 +25760,8 @@ managment</text>
 <approved hash="113,5,162.56,151.723,SJ3,,,,,"/>
 <approved hash="113,4,147.32,127.542,SW1,,,,,"/>
 <approved hash="113,4,149.86,112.586,U1,,,,,"/>
+<approved hash="113,5,63.5,46.2619,SW2,,,,,"/>
+<approved hash="113,5,29.9381,99.06,SW3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
