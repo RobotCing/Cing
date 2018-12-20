@@ -4,9 +4,6 @@ Created by RobotCing Team
 #ifndef Atmega328_IO
 #define Atmega328_IO
 #include "Arduino.h"
-//#include <DallasTempature.h>
-
-
 //--------------------------------------------
 //              Creating Class
 //--------------------------------------------
@@ -19,13 +16,15 @@ class Cing
     void RunMotor(String motor,int speed= 100,String mode = "digital");
     int ReadLightSensor(int sensor = 1,String mode = "digital");
     int ReadUltrasonicSensor();
-    int ReadShineSensor();
-    int ReadButton(int button = 0);
-    int ReadPotentiometerExternal();
+    int ReadShineSensor(int sensor = 0);
+    bool ReadButton();
+    bool ReadButtonExternal();
+    int ReadPotentiometer();
     float ReadTempSensor(int sensor = 0);
-    void LedStart(int numberofleds = 6);
-	void LedSetColor(int led = 1,int red = 100,int green = 100,int blue = 100);
-	void LedShow();
+    int ReadIRSensor();
+    void LedStart();
+  	void SetLedColor(int led = 1,int red = 100,int green = 100,int blue = 100);
+  	void LedShow();
 // local variables
   private:
 };

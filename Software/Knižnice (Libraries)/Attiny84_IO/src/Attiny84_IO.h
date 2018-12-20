@@ -18,7 +18,7 @@ class Cing
     float ReadTempSensor(int sensor = 0);
     int ReadUltrasonicSensor();
     int ReadShineSensor();
-    int ReadButton(int button = 0);
+    bool ReadButtonExternal()
     int ReadPotentiometerExternal();
 // local variables
   private:

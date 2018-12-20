@@ -1,4 +1,4 @@
-= Atmega328_IO Library for robot Cing =
+= Atmega8_IO Library for robot Cing =
 
 This library allows robot Cing to be programmed easily.
 
@@ -7,7 +7,7 @@ http://robotcing.wz.sk
 
 == License ==
 
-Copyright (c) 2017 RobotCing Team. All right reserved.
+Copyright (c) 2018 RobotCing Team. All right reserved.
 
 This library is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public

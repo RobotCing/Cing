@@ -9,15 +9,16 @@ Created by RobotCing Team
 # Datatypes (KEYWORD1)
 #######################################
 
-Attiny84_IO_basic	KEYWORD1
+Attiny84_IO_basic              KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-RunMotor	KEYWORD2
-ReadLightSensor	KEYWORD2
-ReadShineSensor	KEYWORD2
-ReadUltrasonicSensor	KEYWORD2
-ReadPotentiometerExternal	KEYWORD2
+RunMotor	                     KEYWORD2
+ReadLightSensor	               KEYWORD2
+ReadShineSensor	               KEYWORD2
+ReadUltrasonicSensor	         KEYWORD2
+ReadPotentiometerExternal	     KEYWORD2
+ReadButtonExternal	           KEYWORD2
 
 
 #######################################

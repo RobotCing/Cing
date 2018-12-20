@@ -14,13 +14,14 @@ Atmega8_IO_basic	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-RunMotor					KEYWORD2
-ReadLightSensor				KEYWORD2
-ReadShineSensor				KEYWORD2
-ReadUltrasonicSensor		KEYWORD2
-ReadProtentiometerExternal	KEYWORD2
-ReadButton			KEYWORD2
-
+RunMotor					             KEYWORD2
+ReadLightSensor				         KEYWORD2
+ReadShineSensor				         KEYWORD2
+ReadUltrasonicSensor		       KEYWORD2
+ReadProtentiometerExternal	   KEYWORD2
+ReadButton			               KEYWORD2
+ReadButtonExternal			       KEYWORD2
+ReadPotentiometer			         KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################

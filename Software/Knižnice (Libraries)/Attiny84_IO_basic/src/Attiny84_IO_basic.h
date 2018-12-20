@@ -17,6 +17,7 @@ class Cing
     int ReadLightSensor(int sensor = 1,String mode = "digital");
     int ReadUltrasonicSensor();
     int ReadShineSensor();
+    bool ReadButtonExternal()
     int ReadPotentiometerExternal();
 // local variables
   private:

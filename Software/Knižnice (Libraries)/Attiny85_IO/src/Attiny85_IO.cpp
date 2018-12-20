@@ -103,13 +103,13 @@ int Cing::ReadLightSensor(int sensor,String mode)
       if (sensor == 1)
       {
         int value;
-        value = map(analogRead(LightSensor1),0,255,0,100);
+        value = map(analogRead(LightSensor1),0,1023,100,0);
         return value;
       }
       else if (sensor == 2)
       {
         int value;
-        value = map(analogRead(LightSensor2),0,255,0,100);
+        value = map(analogRead(LightSensor2),0,1023,100,0);
         return value;
       }
     }

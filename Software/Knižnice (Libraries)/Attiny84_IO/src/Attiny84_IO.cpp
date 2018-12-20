@@ -38,10 +38,10 @@ void Cing::RunMotor(String motor,int speed,String mode)
      pinMode(INB2,OUTPUT);
      if(mode=="analog")
      {
-        int speed_set = map(speed,0,100,0,255);
+        int speed_set = map(speed,-100,100,-255,255);
         if(motor=="A")
         {
-          if (speed = 0)
+          if (speed > 0)
           {
             digitalWrite(INA1,HIGH);
             digitalWrite(INA2,LOW);
@@ -51,12 +51,12 @@ void Cing::RunMotor(String motor,int speed,String mode)
           {
             digitalWrite(INA1,LOW);
             digitalWrite(INA2,HIGH);
-            analogWrite(motorA,speed_set);
+            analogWrite(motorA,abs(speed_set));
           }
         }
         else if(motor=="B")
         {
-          if (speed = 0)
+          if (speed > 0)
           {
             digitalWrite(INB1,HIGH);
             digitalWrite(INB2,LOW);
@@ -66,12 +66,12 @@ void Cing::RunMotor(String motor,int speed,String mode)
           {
             digitalWrite(INB1,LOW);
             digitalWrite(INB2,HIGH);
-            analogWrite(motorB,speed_set);
+            analogWrite(motorB,abs(speed_set));
           }
         }
         else if(motor=="AB")
         {
-          if (speed = 0)
+          if (speed > 0)
           {
             digitalWrite(INA1,HIGH);
             digitalWrite(INA2,LOW);
@@ -86,8 +86,8 @@ void Cing::RunMotor(String motor,int speed,String mode)
             digitalWrite(INA2,HIGH);
             digitalWrite(INB1,LOW);
             digitalWrite(INB2,HIGH);
-            analogWrite(motorA,speed_set);
-            analogWrite(motorB,speed_set);
+            analogWrite(motorA,abs(speed_set));
+            analogWrite(motorB,abs(speed_set));
           }
         }
         else
@@ -116,19 +116,19 @@ void Cing::RunMotor(String motor,int speed,String mode)
           {
             digitalWrite(INA1,HIGH);
             digitalWrite(INA2,LOW);
-            digitalWrite(motorA,speed);
+            digitalWrite(motorA,speed_set);
           }
           else if (speed == -1)
           {
             digitalWrite(INA1,LOW);
             digitalWrite(INA2,HIGH);
-            digitalWrite(motorA,speed);
+            digitalWrite(motorA,speed_set);
           }
           else if (speed == 0)
           {
             digitalWrite(INA1,LOW);
             digitalWrite(INA2,LOW);
-            digitalWrite(motorA,speed);
+            digitalWrite(motorA,speed_set);
           }
         }
         //--------------------------
@@ -140,19 +140,19 @@ void Cing::RunMotor(String motor,int speed,String mode)
           {
             digitalWrite(INB1,HIGH);
             digitalWrite(INB2,LOW);
-            digitalWrite(motorB,speed);
+            digitalWrite(motorB,speed_set);
           }
           else if (speed == -1)
           {
             digitalWrite(INB1,LOW);
             digitalWrite(INB2,HIGH);
-            digitalWrite(motorB,speed);
+            digitalWrite(motorB,speed_set);
           }
           else if (speed == 0)
           {
             digitalWrite(INB1,LOW);
             digitalWrite(INB2,LOW);
-            digitalWrite(motorB,speed);
+            digitalWrite(motorB,speed_set);
           }
         }
         //--------------------------
@@ -166,8 +166,8 @@ void Cing::RunMotor(String motor,int speed,String mode)
             digitalWrite(INA2,LOW);
             digitalWrite(INB1,HIGH);
             digitalWrite(INB2,LOW);
-            digitalWrite(motorA,speed);
-            digitalWrite(motorB,speed);
+            digitalWrite(motorA,speed_set);
+            digitalWrite(motorB,speed_set);
           }
           else if (speed == -1)
           {
@@ -175,8 +175,8 @@ void Cing::RunMotor(String motor,int speed,String mode)
             digitalWrite(INA2,HIGH);
             digitalWrite(INB1,LOW);
             digitalWrite(INB2,HIGH);
-            digitalWrite(motorA,speed);
-            digitalWrite(motorB,speed);
+            digitalWrite(motorA,speed_set);
+            digitalWrite(motorB,speed_set);
           }
           else if (speed == 0)
           {
@@ -184,8 +184,8 @@ void Cing::RunMotor(String motor,int speed,String mode)
             digitalWrite(INA2,LOW);
             digitalWrite(INB1,LOW);
             digitalWrite(INB2,LOW);
-            digitalWrite(motorA,speed);
-            digitalWrite(motorB,speed);
+            digitalWrite(motorA,speed_set);
+            digitalWrite(motorB,speed_set);
           }
         }
         else
@@ -209,18 +209,17 @@ int Cing::ReadLightSensor(int sensor,String mode)
     #define LightSensor2 A0
     pinMode(LightSensor1,INPUT);//1
     pinMode(LightSensor2,INPUT);//2
+    int value;
     if (mode=="analog")
     {
       if (sensor == 1)
       {
-        int value;
-        value = map(analogRead(LightSensor1),0,255,0,100);
+        value = map(analogRead(LightSensor1),0,1023,100,0);
         return value;
       }
       else if (sensor == 2)
       {
-        int value;
-        value = map(analogRead(LightSensor2),0,255,0,100);
+        value = map(analogRead(LightSensor2),0,1023,100,0);
         return value;
       }
     }
@@ -228,19 +227,16 @@ int Cing::ReadLightSensor(int sensor,String mode)
     {
       if (sensor == 1)
       {
-        int value;
         value = digitalRead(LightSensor1);
         return value;
       }
       else if (sensor == 2)
       {
-        int value;
         value = digitalRead(LightSensor2);
         return value;
       }
       else
       {
-        int value;
         value = digitalRead(LightSensor1);
         return value;
       }
@@ -279,17 +275,14 @@ int Cing::ReadShineSensor()
     return shine_value;
   }
 //--------------------------------------------
-//               Button
+//          ButtonExternal
 //--------------------------------------------
-int Cing::ReadButton(int button)
+bool Cing::ReadButtonExternal()
   {
-    if (button == 0)
-    {
-      #define Button A3
-      pinMode(Button,INPUT);
-      int button_value = digitalRead(Button);
-      return button_value;
-    }
+		#define button_external A4
+		pinMode(button_external,INPUT);
+		bool button_external_value = digitalRead(button_external);
+		return button_external_value;
   }
 //--------------------------------------------
 //          Potentiometer

@@ -6,14 +6,12 @@ Created by RobotCing Team
 //--------------------------------------------
 //            Library import
 //--------------------------------------------
-
+#include <OneWire.h>
+#include <DallasTemperature.h>
+#include <Adafruit_NeoPixel.h>
 //--------------------------------------------
 #include "Arduino.h"
 #include "Atmega328_IO.h"
-#include "DallasTempature.h"
-#include "OneWire.h"
-
-#include "Adafruit_NeoPixel.h"
 //--------------------------------------------
 Cing::Cing(){}
 //--------------------------------------------
@@ -164,13 +162,13 @@ int Cing::ReadLightSensor(int sensor,String mode)
 				if (sensor == 1)
 					{
 						int value;
-						value = map(analogRead(LightSensor1),0,255,0,100);
+						value = map(analogRead(LightSensor1),0,1023,100,0);
 						return value;
 					}
 				else if (sensor == 2)
 					{
 						int value;
-						value = map(analogRead(LightSensor2),0,255,0,100);
+						value = map(analogRead(LightSensor2),0,1023,100,0);
 						return value;
 					}
 			}
@@ -220,37 +218,58 @@ int Cing::ReadUltrasonicSensor()
 //--------------------------------------------
 //             ShineSensors
 //--------------------------------------------
-int Cing::ReadShineSensor()
+int Cing::ReadShineSensor(int sensor)
 	{
 		#define ShineSensor 13
-		int shine_value;
+		#define LDR_1 A6
+		#define LDR_2 A7
 		pinMode(ShineSensor,INPUT);
-		shine_value = map(digitalRead(ShineSensor),0,1,0,100);
-		return shine_value;
+		int shine_value;
+		if(sensor == 0)
+			{
+				int shine_value = map(digitalRead(ShineSensor),0,1,0,100);
+				return shine_value;
+			}
+		else if(sensor == 1)
+			{
+				int shine_value = map(analogRead(LDR_1),0,1023,100,0);
+				return shine_value;
+			}
+		else if(sensor == 2)
+			{
+				shine_value = map(analogRead(LDR_2),0,1023,100,0);
+				return shine_value;
+			}
 	}
 //--------------------------------------------
 //               Button
 //--------------------------------------------
-int Cing::ReadButton(int button)
+bool Cing::ReadButton()
 	{
-		if (button == 0)
-			{
-				#define Button A6
-				pinMode(Button,INPUT);
-				int button_value = analogRead(Button);
-				return button_value;
-			}
+		#define Button A6
+		pinMode(Button,INPUT);
+		bool button_value = digitalRead(Button);
+		return button_value;
 	}
-  //--------------------------------------------
-  //          Potentiometer
-  //--------------------------------------------
-int Cing::ReadPotentiometerExternal()
-    {
-		#define Potentiometer 13
-		pinMode(Potentiometer,INPUT);
-		int Potentiometer_value = map(digitalRead(Potentiometer),0,1,0,100);
-		return Potentiometer_value;
-    }
+//--------------------------------------------
+//          ButtonExternal
+//--------------------------------------------
+bool Cing::ReadButtonExternal()
+  {
+		#define button_external 13
+		pinMode(button_external,INPUT);
+		bool button_external_value = digitalRead(button_external);
+		return button_external_value;
+  }
+//--------------------------------------------
+//          Potentiometer
+//--------------------------------------------
+int Cing::ReadPotentiometer()
+  {
+		#define potentiometer A1
+		int potentiometer_value = map(analogRead(potentiometer),0,1023,0,100);
+		return potentiometer_value;
+	}
 //--------------------------------------------
 //            TemperatureSensors
 //--------------------------------------------
@@ -263,15 +282,32 @@ float Cing::ReadTempSensor(int sensor)
 		return Temp;
 	}
 //--------------------------------------------
+//            IR
+//--------------------------------------------
+int Cing::ReadIRSensor()
+	{
+		#define IR_pin 4
+		int code;
+
+	}
+
+//--------------------------------------------
 //            LED WS2812
 //--------------------------------------------
-void Cing::LedStart(int numberofleds)
+void Cing::LedStart()
 	{
 		pixels.begin();
 	}
-void Cing::LedSetColor(int led,int red,int green,int blue)
+void Cing::SetLedColor(int led,int red,int green,int blue)
 	{
-		pixels.setPixelColor(led-1,pixels.Color(map(green,0,100,0,255),map(red,0,100,0,255),map(blue,0,100,0,255)));
+		if(led>0)
+			{
+				pixels.setPixelColor(led-1,pixels.Color(map(green,0,100,0,255),map(red,0,100,0,255),map(blue,0,100,0,255)));
+			}
+		else
+			{
+				pixels.setPixelColor(0,pixels.Color(map(green,0,100,0,255),map(red,0,100,0,255),map(blue,0,100,0,255)));
+			}
 	}
 void Cing::LedShow()
 	{
