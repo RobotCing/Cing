@@ -1,0 +1,24 @@
+/*
+Created by RobotCing Team
+*/
+#######################################
+# Syntax Coloring Map For Attiny85_IO
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Attiny85_IO	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+RunMotor	KEYWORD2
+ReadLightSensor	KEYWORD2
+ReadShineSensor	KEYWORD2
+ReadUltrasonicSensor	KEYWORD2
+ReadPotentiometerExternal	KEYWORD2
+ReadTempSensor KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
