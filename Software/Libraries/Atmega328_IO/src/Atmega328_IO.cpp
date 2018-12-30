@@ -65,19 +65,19 @@ void Cing::RunMotor(String motor,int speed,String mode)
 							{
 								digitalWrite(INA1,HIGH);
 								digitalWrite(INA2,LOW);
-								digitalWrite(motorA,speed);
+								digitalWrite(motorA,speed_set);
 							}
 						else if (speed == -1)
 							{
 								digitalWrite(INA1,LOW);
 								digitalWrite(INA2,HIGH);
-								digitalWrite(motorA,speed);
+								digitalWrite(motorA,speed_set);
 							}
 						else if (speed == 0)
 							{
 								digitalWrite(INA1,LOW);
 								digitalWrite(INA2,LOW);
-								digitalWrite(motorA,speed);
+								digitalWrite(motorA,speed_set);
 							}
 					}
 				//--------------------------
@@ -89,19 +89,19 @@ void Cing::RunMotor(String motor,int speed,String mode)
 							{
 								digitalWrite(INB1,HIGH);
 								digitalWrite(INB2,LOW);
-								digitalWrite(motorB,speed);
+								digitalWrite(motorB,speed_set);
 							}
 						  else if (speed == -1)
 							{
 								digitalWrite(INB1,LOW);
 								digitalWrite(INB2,HIGH);
-								digitalWrite(motorB,speed);
+								digitalWrite(motorB,speed_set);
 							}
 						  else if (speed == 0)
 							{
 								digitalWrite(INB1,LOW);
 								digitalWrite(INB2,LOW);
-								digitalWrite(motorB,speed);
+								digitalWrite(motorB,speed_set);
 							}
 					}
 				//--------------------------
@@ -115,8 +115,8 @@ void Cing::RunMotor(String motor,int speed,String mode)
 								digitalWrite(INA2,LOW);
 								digitalWrite(INB1,HIGH);
 								digitalWrite(INB2,LOW);
-								digitalWrite(motorA,speed);
-								digitalWrite(motorB,speed);
+								digitalWrite(motorA,speed_set);
+								digitalWrite(motorB,speed_set);
 							}
 						else if (speed == -1)
 							{
@@ -124,8 +124,8 @@ void Cing::RunMotor(String motor,int speed,String mode)
 								digitalWrite(INA2,HIGH);
 								digitalWrite(INB1,LOW);
 								digitalWrite(INB2,HIGH);
-								digitalWrite(motorA,speed);
-								digitalWrite(motorB,speed);
+								digitalWrite(motorA,speed_set);
+								digitalWrite(motorB,speed_set);
 							}
 						else if (speed == 0)
 							{
@@ -133,8 +133,8 @@ void Cing::RunMotor(String motor,int speed,String mode)
 								digitalWrite(INA2,LOW);
 								digitalWrite(INB1,LOW);
 								digitalWrite(INB2,LOW);
-								digitalWrite(motorA,speed);
-								digitalWrite(motorB,speed);
+								digitalWrite(motorA,speed_set);
+								digitalWrite(motorB,speed_set);
 							}
 					}
 				else

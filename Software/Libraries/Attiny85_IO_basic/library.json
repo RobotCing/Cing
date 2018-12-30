@@ -1,0 +1,32 @@
+{
+  "name": "Attiny85_IO_basic",
+  "keywords": "cing, robot, educational, learn, tool",
+  "description": "Arduino Library for educational robot Cing",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/milesburton/Arduino-Temperature-Control-Library.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Stanislav Jochman",
+      "email": "s.jochman@gmail.com",
+      "url": "http://stanislavjochman.wz.sk",
+      "maintainer": true
+    },
+    {
+      "name": "Veronika Nemjová",
+      "email": "robotcing@gmail.com"
+    }
+  ],
+  "dependencies":
+  {
+    "name": "Robot Cing",
+    "authors": "Stanislav Jochman",
+    "frameworks": "arduino"
+  },
+  "version": "3.0.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
