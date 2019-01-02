@@ -100,8 +100,8 @@ void Cing::RunMotor(String motor,int speed,String mode)
         }
         else
         {
-          analogWrite(motorA,0);
-          analogWrite(motorB,0);
+          analogWrite(motorA,LOW);
+          analogWrite(motorB,LOW);
         }
      }
      else if(mode=="digital")
