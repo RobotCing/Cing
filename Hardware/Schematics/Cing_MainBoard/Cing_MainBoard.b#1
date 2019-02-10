@@ -196,10 +196,8 @@ Designed in Slovakia</text>
 <text x="20.49" y="-19.402" size="1.27" layer="27" rot="R90">Light
 Sensor</text>
 <text x="35.79" y="-26.802" size="1.27" layer="27" rot="R90">Header2</text>
-<text x="31.19" y="-22.402" size="1.27" layer="27" rot="R90">Header1</text>
-<text x="31.89" y="16.098" size="1.27" layer="27" rot="R90">Header1</text>
-<text x="21.29" y="13.798" size="1.27" layer="27" rot="R90">Light
-Sensor</text>
+<text x="32.29" y="-22.402" size="1.27" layer="27" rot="R90">Header1</text>
+<text x="32.29" y="16.098" size="1.27" layer="27" rot="R90">Header1</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

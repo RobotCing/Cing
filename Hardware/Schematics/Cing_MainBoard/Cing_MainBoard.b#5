@@ -190,16 +190,8 @@ Stanislav Jochman
 Designed in Slovakia</text>
 <text x="-46.702" y="30.31" size="1.27" layer="27">ON</text>
 <text x="-47.102" y="20.91" size="1.27" layer="27">OFF</text>
-<text x="-3.81" y="-34.202" size="1.27" layer="27" rot="R90">OFF</text>
-<text x="-13.51" y="-33.802" size="1.27" layer="27" rot="R90">ON</text>
-<text x="25.89" y="-30.802" size="1.27" layer="27" rot="R90">Button</text>
-<text x="20.49" y="-19.402" size="1.27" layer="27" rot="R90">Light
-Sensor</text>
-<text x="35.79" y="-26.802" size="1.27" layer="27" rot="R90">Header2</text>
-<text x="31.19" y="-22.402" size="1.27" layer="27" rot="R90">Header1</text>
-<text x="31.89" y="16.098" size="1.27" layer="27" rot="R90">Header1</text>
-<text x="21.29" y="13.798" size="1.27" layer="27" rot="R90">Light
-Sensor</text>
+<text x="-3.71" y="-34.302" size="1.27" layer="27" rot="R90">OFF</text>
+<text x="-16.502" y="-33.39" size="1.27" layer="27">ON</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2917,6 +2909,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="23.095" y="13.901" size="0.889" layer="27" ratio="11"/>
 </element>
 <element name="SW4" library="Cing Library" package="USB_SWITCH" package3d_urn="urn:adsk.eagle:package:32990/1" value="" x="30.6" y="-26.4" smashed="yes">
+<attribute name="NAME" x="28.695" y="-22.59" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="28.695" y="-31.099" size="0.889" layer="27" ratio="11"/>
 </element>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n" x="13" y="31" smashed="yes" rot="MR180">
@@ -2983,7 +2976,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-29.14" y="-38.87" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="JP5" library="Cing Library" package="ICSP_HEADER" value="ICSP" x="8.5" y="-18.1" smashed="yes" rot="R270">
-<attribute name="VALUE" x="8.5" y="-24.28" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="16.1" y="-18.28" size="1.27" layer="25" align="center"/>
 </element>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="CGRM4007-G" x="-20.3" y="-32.3" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-21.05" y="-30.65" size="1.27" layer="26" rot="MR270"/>
