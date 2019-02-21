@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <title>Robot Cing Sensors</title>
+      <script type="text/javascript"
+          src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+      <script>
+          $(document).ready(
+                  function() {
+                      setInterval(function(data) {
+                        update_values()
+                      }, 50);
+                  });
+                  function update_values() {
+                      $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+                      $.getJSON($SCRIPT_ROOT+"/_update",
+                    function(data) {
+                    $(".temp").text(data.temp_sensor)
+                    $(".shine1").text(data.shine_sensor1)
+                    $(".shine2").text(data.shine_sensor2)
+                    $(".button").text(data.button)
+                    $(".gyro").text(data.gyro)
+                    $(".accelerometer").text(data.accelerometer)
+                    $(".battery").text(data.battery)
+                    $(".sound_system").text(data.sound_system)
+                    $(".light1").text(data.light1)
+                    $(".light2").text(data.light2)
+                    $(".char_display").text(data.char_display)
+                    $(".oled").text(data.oled)
+                    $(".baro").text(data.baro)
+                    $(".altitude").text(data.altitude)
+                    $(".pot").text(data.pot)
+                    $(".lidar").text(data.lidar)
+                    $(".Servo").text(data.Servo)
+                    $(".ENCA").text(data.ENCA)
+                    $(".ENCB").text(data.ENCB)
+
+                    });
+        }
+      </script>
+      <style>
+        body {
+          /*background: linear-gradient(to bottom, rgba(10,10,10,1) 0%,rgba(49,52,57,1) 100%);
+          background-blend-mode: multiply,multiply;
+          background-repeat: no-repeat;
+          background-attachment: fixed;*/
+          background-color: white;
+        }
+        h1 {
+          text-align:center;
+          color: gray;
+          margin-bottom: 0px;
+        }
+        .center {
+          text-align:center;
+          width: 70%;
+          margin: 0 auto;
+        }
+        img {
+          width: 30%;
+          margin: -12px;
+        }
+        table{
+          border-collapse: collapse;
+          table-layout: fixed;
+          margin: 4px;
+        }
+        td {
+          vertical-align: bottom;
+
+        }
+        .cell {
+          border: 1px solid gray;
+          border-radius: 10px;
+          background-color: white;
+          margin: 2px;
+        }
+        p {
+          background-color: lightgray;
+          margin-bottom: 0;
+          border-radius: 0px 0px 10px 10px;
+          border: transparent 0px;
+          border-top: 3px solid gray;
+        }
+        h2 {
+          font-size: 1rem;
+        }
+        .sensor_body{
+          border: 1px solid gray;
+          border-radius: 10px;
+          background-color: gray;
+        }
+      </style>
+  </head>
+
+  <body>
+    <h1>Cing modules data</h1>
+    <div class="center">
+      <div class="sensor_body">
+      <table>
+        <tr>
+          <td><div class="cell"><h2>LightSensor 1</h2><img src="img/lightsensor.png"><p class="light1"></p></div></td>
+          <td><div class="cell"><h2>LightSensor 2</h2><img src="img/lightsensor.png"><p class="light2"></p></div></td>
+          <td><div class="cell"><h2>ShineArray Sensor 1</h2><img src="img/shinearray.png"><p class="shine1"></p></div></td>
+          <td><div class="cell"><h2>ShineArray Sensor 2</h2><img src="img/shinearray.png"><p class="shine2"></p></div></td>
+        </tr>
+        <tr>
+          <td><div class="cell"><h2>Gyro</h2><img src="img/Gyro.png"><p class="gyro"></p></div></td>
+          <td><div class="cell"><h2>Accelerometer</h2><img src="img/Gyro.png"><p class="accelerometer"></p></div></td>
+          <td><div class="cell"><h2>Button</h2><img src="img/Button.png"><p class="button"></p></div></td>
+          <td><div class="cell"><h2>Battery</h2><img src="img/Battery.png"><p class="battery"></p></div></td>
+        </tr>
+        <tr>
+          <td><div class="cell"><h2>Oled</h2><img src="img/oled.png"><p class="oled"></p></div></td>
+          <td><div class="cell"><h2>16x2 Display</h2><img src="img/16x2.png"><p class="char_display"></p></div></td>
+          <td><div class="cell"><h2>Ultrasonic Sensor</h2><img src="img/ultrasonic.png"><p class="sound_system"></p></div></td>
+          <td><div class="cell"><h2>Lidar</h2><img src="img/lidar.png"><p class="battery"></p></div></td>
+        </tr>
+        <tr>
+          <td><div class="cell"><h2>TempSensor</h2><img src="img/TemperatureSensor.png"><p class="temp"></p></div></td>
+          <td><div class="cell"><h2>Barometric Pressure Sensor</h2><img src="img/bmp180.png"><p class="baro"></p></div></td>
+          <td><div class="cell"><h2>Altitude Sensor</h2><img src="img/bmp180.png"><p class="altitude"></div></td>
+          <td><div class="cell"><h2>Sound System</h2><img src="img/speaker.png"><p class="sound_system"></p></div></td>
+        </tr>
+        <tr>
+          <td><div class="cell"><h2>Potentiometer</h2><img src="img/pot.png"><p class="pot"></p></div></td>
+          <td><div class="cell"><h2>Servo Driver</h2><img src="img/servoboard.png"><p class="Servo"></p></div></td>
+          <td><div class="cell"><h2>Encoder A</h2><img src="img/Enc.png"><p class="ENCA"></p></div></td>
+          <td><div class="cell"><h2>Encoder B</h2><img src="img/Enc.png"><p class="ENCB"></p></div></td>
+        </tr>
+      </table>
+      </div>
+    </div>
+
+  </body>
+</html>
