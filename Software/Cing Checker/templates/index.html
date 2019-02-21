@@ -2,6 +2,8 @@
 <html>
 
   <head>
+      <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald|Special+Elite" rel="stylesheet">
       <title>Robot Cing Sensors</title>
       <script type="text/javascript"
           src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -41,25 +43,30 @@
       </script>
       <style>
         body {
-          /*background: linear-gradient(to bottom, rgba(10,10,10,1) 0%,rgba(49,52,57,1) 100%);
+          background: linear-gradient(to bottom, rgba(10,10,10,1) 0%,rgba(49,52,57,1) 100%);
           background-blend-mode: multiply,multiply;
           background-repeat: no-repeat;
-          background-attachment: fixed;*/
-          background-color: white;
+          background-attachment: fixed;
+
         }
         h1 {
+          font-family: 'Oswald', sans-serif;
           text-align:center;
-          color: gray;
+          color: rgb(255,255,255,0.95);
           margin-bottom: 0px;
+          margin-top: -10px;
         }
         .center {
           text-align:center;
-          width: 70%;
+          width: 65%;
           margin: 0 auto;
         }
         img {
           width: 30%;
-          margin: -12px;
+          margin-top: -2px;
+          margin-left: -20px;
+          margin-right: -20px;
+          margin-bottom: -15px;
         }
         table{
           border-collapse: collapse;
@@ -74,17 +81,27 @@
           border: 1px solid gray;
           border-radius: 10px;
           background-color: white;
+          background: linear-gradient(to bottom, rgba(10,10,10,1) 0%,rgba(49,52,57,1) 100%);
+          background-blend-mode: multiply,multiply;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
           margin: 2px;
         }
         p {
-          background-color: lightgray;
+          font-family: 'Oswald', sans-serif;
+          background-color: rgb(255,255,255,0.95);
           margin-bottom: 0;
           border-radius: 0px 0px 10px 10px;
           border: transparent 0px;
-          border-top: 3px solid gray;
+          border-top: 5px solid gray;
         }
         h2 {
-          font-size: 1rem;
+          font-family: 'Oswald', sans-serif;
+          margin-top: 2px;
+          margin-bottom: 4px;
+          font-size: 1.1rem;
+          color: rgb(255,255,255,0.95);
+          margin-top: 5px;
         }
         .sensor_body{
           border: 1px solid gray;
@@ -109,7 +126,7 @@
           <td><div class="cell"><h2>Gyro</h2><img src="img/Gyro.png"><p class="gyro"></p></div></td>
           <td><div class="cell"><h2>Accelerometer</h2><img src="img/Gyro.png"><p class="accelerometer"></p></div></td>
           <td><div class="cell"><h2>Button</h2><img src="img/Button.png"><p class="button"></p></div></td>
-          <td><div class="cell"><h2>Battery</h2><img src="img/Battery.png"><p class="battery"></p></div></td>
+          <td><div class="cell"><h2>Battery</h2><img style="filter: brightness(0) invert(1);" src="img/Battery.png"><p class="battery"></p></div></td>
         </tr>
         <tr>
           <td><div class="cell"><h2>Oled</h2><img src="img/oled.png"><p class="oled"></p></div></td>
@@ -121,13 +138,13 @@
           <td><div class="cell"><h2>TempSensor</h2><img src="img/TemperatureSensor.png"><p class="temp"></p></div></td>
           <td><div class="cell"><h2>Barometric Pressure Sensor</h2><img src="img/bmp180.png"><p class="baro"></p></div></td>
           <td><div class="cell"><h2>Altitude Sensor</h2><img src="img/bmp180.png"><p class="altitude"></div></td>
-          <td><div class="cell"><h2>Sound System</h2><img src="img/speaker.png"><p class="sound_system"></p></div></td>
+          <td><div class="cell"><h2>Sound System</h2><img style="filter: brightness(0) invert(1);" src="img/speaker.png"><p class="sound_system"></p></div></td>
         </tr>
         <tr>
           <td><div class="cell"><h2>Potentiometer</h2><img src="img/pot.png"><p class="pot"></p></div></td>
           <td><div class="cell"><h2>Servo Driver</h2><img src="img/servoboard.png"><p class="Servo"></p></div></td>
-          <td><div class="cell"><h2>Encoder A</h2><img src="img/Enc.png"><p class="ENCA"></p></div></td>
-          <td><div class="cell"><h2>Encoder B</h2><img src="img/Enc.png"><p class="ENCB"></p></div></td>
+          <td><div class="cell"><h2>Encoder A</h2><img style="filter: brightness(0) invert(1);" src="img/Enc.png"><p class="ENCA"></p></div></td>
+          <td><div class="cell"><h2>Encoder B</h2><img style="filter: brightness(0) invert(1);" src="img/Enc.png"><p class="ENCB"></p></div></td>
         </tr>
       </table>
       </div>
