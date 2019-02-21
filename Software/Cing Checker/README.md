@@ -5,6 +5,7 @@
 * Flask(`$ pip3 install Flask`)
 
 ## Running Cing Checker web version
+Before running any command you need to be in `Cing Checker` folder 
 ```
 $ export FLASK_APP=Cing_Checker.py
 $ flask run
