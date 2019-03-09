@@ -19223,7 +19223,7 @@ Socket</text>
 <rectangle x1="-1.75" y1="-3.6" x2="1.75" y2="3.6" layer="39"/>
 </package>
 <package name="OSHW_5MM">
-<polygon width="0.0508" layer="27">
+<polygon width="0.0508" layer="21">
 <vertex x="-0.2413" y="-0.6096" curve="-160.717601"/>
 <vertex x="0" y="0.6604" curve="-152.950596"/>
 <vertex x="0.2794" y="-0.6096"/>
@@ -19330,48 +19330,6 @@ Socket</text>
 <wire x1="-0.58" y1="0.65" x2="0.58" y2="0.65" width="0.1524" layer="51"/>
 <rectangle x1="-0.6" y1="-0.4" x2="0.6" y2="0.4" layer="35"/>
 </package>
-<package name="8S2" urn="urn:adsk.eagle:footprint:4283/1">
-<description>&lt;b&gt;8S2&lt;/b&gt; 8-lead, 0.208 Body&lt;p&gt;
-Plastic Small Outline Package (EIAJ)&lt;br&gt;
-Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description>
-<wire x1="-2.6" y1="2.65" x2="-2.35" y2="2.9" width="0.1524" layer="21" curve="-90"/>
-<wire x1="2.35" y1="2.9" x2="2.6" y2="2.65" width="0.1524" layer="21" curve="-90"/>
-<wire x1="2.35" y1="-2.925" x2="2.6" y2="-2.675" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.6" y1="-2.675" x2="-2.35" y2="-2.925" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.36" y1="-2.925" x2="-2.34" y2="-2.925" width="0.1524" layer="51"/>
-<wire x1="-2.34" y1="2.9" x2="2.36" y2="2.9" width="0.1524" layer="51"/>
-<wire x1="-2.21" y1="2.9" x2="-2.34" y2="2.9" width="0.1524" layer="21"/>
-<wire x1="-1.59" y1="2.9" x2="-0.95" y2="2.9" width="0.1524" layer="21"/>
-<wire x1="-0.32" y1="2.9" x2="0.32" y2="2.9" width="0.1524" layer="21"/>
-<wire x1="0.95" y1="2.9" x2="1.59" y2="2.9" width="0.1524" layer="21"/>
-<wire x1="2.21" y1="2.9" x2="2.36" y2="2.9" width="0.1524" layer="21"/>
-<wire x1="2.2" y1="-2.925" x2="2.33" y2="-2.925" width="0.1524" layer="21"/>
-<wire x1="1.59" y1="-2.925" x2="0.94" y2="-2.925" width="0.1524" layer="21"/>
-<wire x1="0.32" y1="-2.925" x2="-0.33" y2="-2.925" width="0.1524" layer="21"/>
-<wire x1="-0.95" y1="-2.925" x2="-1.59" y2="-2.925" width="0.1524" layer="21"/>
-<wire x1="-2.21" y1="-2.925" x2="-2.34" y2="-2.925" width="0.1524" layer="21"/>
-<wire x1="-2.6" y1="2.65" x2="-2.6" y2="-2.665" width="0.1524" layer="21"/>
-<wire x1="2.6" y1="-2.675" x2="2.6" y2="2.65" width="0.1524" layer="21"/>
-<circle x="-1.42" y="-1.115" radius="0.5" width="0.0508" layer="21"/>
-<smd name="1" x="-1.905" y="-3.404" dx="0.5" dy="1.4" layer="1"/>
-<smd name="2" x="-0.645" y="-3.404" dx="0.5" dy="1.4" layer="1"/>
-<smd name="3" x="0.625" y="-3.404" dx="0.5" dy="1.4" layer="1"/>
-<smd name="4" x="1.895" y="-3.404" dx="0.5" dy="1.4" layer="1"/>
-<smd name="8" x="-1.905" y="3.404" dx="0.5" dy="1.4" layer="1"/>
-<smd name="7" x="-0.635" y="3.404" dx="0.5" dy="1.4" layer="1"/>
-<smd name="6" x="0.635" y="3.404" dx="0.5" dy="1.4" layer="1"/>
-<smd name="5" x="1.905" y="3.404" dx="0.5" dy="1.4" layer="1"/>
-<text x="-2.8575" y="-2.159" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="4.064" y="-2.159" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.08" y1="2.95" x2="-1.73" y2="3.85" layer="51"/>
-<rectangle x1="-0.81" y1="2.95" x2="-0.46" y2="3.85" layer="51"/>
-<rectangle x1="0.46" y1="2.95" x2="0.81" y2="3.85" layer="51"/>
-<rectangle x1="1.73" y1="2.95" x2="2.08" y2="3.85" layer="51"/>
-<rectangle x1="1.72" y1="-3.85" x2="2.07" y2="-2.95" layer="51"/>
-<rectangle x1="0.45" y1="-3.85" x2="0.8" y2="-2.95" layer="51"/>
-<rectangle x1="-0.82" y1="-3.85" x2="-0.47" y2="-2.95" layer="51"/>
-<rectangle x1="-2.08" y1="-3.85" x2="-1.73" y2="-2.95" layer="51"/>
-</package>
 <package name="BATTERY-AA-KIT" urn="urn:adsk.eagle:footprint:37200/1" locally_modified="yes">
 <description>&lt;h3&gt;AA Battery Clips (KIT Variant)&lt;/h3&gt;
 &lt;p&gt;PCB mount clips properly spaced to hold a AA battery&lt;/p&gt;
@@ -19473,14 +19431,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <package3d name="SW6-2.54-SMD-7.0X3.5X1.5MM" urn="urn:adsk.eagle:package:32990/1" locally_modified="yes" type="box">
 <packageinstances>
 <packageinstance name="USB_SWITCH"/>
-</packageinstances>
-</package3d>
-<package3d name="8S2" urn="urn:adsk.eagle:package:4359/1" type="box">
-<description>8S2 8-lead, 0.208 Body
-Plastic Small Outline Package (EIAJ)
-Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description>
-<packageinstances>
-<packageinstance name="8S2"/>
 </packageinstances>
 </package3d>
 <package3d name="BATTERY-AA-KIT" urn="urn:adsk.eagle:package:37218/1" locally_modified="yes" type="box">
@@ -20000,22 +19950,6 @@ header</text>
 <vertex x="2.032" y="0.762"/>
 <vertex x="2.032" y="-0.762"/>
 </polygon>
-</symbol>
-<symbol name="TINY85">
-<wire x1="-17.78" y1="15.24" x2="25.4" y2="15.24" width="0.254" layer="94"/>
-<wire x1="25.4" y1="15.24" x2="25.4" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-7.62" x2="-17.78" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-7.62" x2="-17.78" y2="15.24" width="0.254" layer="94"/>
-<text x="-17.78" y="16.51" size="1.778" layer="95">&gt;NAME</text>
-<text x="-17.78" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="PB5/PCINT5/!RESET!/ADC0/DW" x="-20.32" y="-2.54" length="short"/>
-<pin name="PB3/PCINT3/CLKI/ADC3" x="-20.32" y="2.54" length="short"/>
-<pin name="PB4/PCINT4/ADC2" x="-20.32" y="0" length="short"/>
-<pin name="PB0/PCINT0/AIN0/OC0A/MOSI" x="-20.32" y="10.16" length="short"/>
-<pin name="PB1/PCINT1/AIN1/OC0B/INT0/MISO" x="-20.32" y="7.62" length="short"/>
-<pin name="PB2/PCINT2/SCK/ADC1/T0" x="-20.32" y="5.08" length="short"/>
-<pin name="VCC" x="-20.32" y="12.7" length="short" direction="pwr"/>
-<pin name="GND" x="-20.32" y="-5.08" length="short" direction="pwr"/>
 </symbol>
 <symbol name="BATTERY-1">
 <description>&lt;h3&gt;Battery (Single-Cell)&lt;/h3&gt;</description>
@@ -20556,44 +20490,6 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <attribute name="MPN" value="BSS138" constant="no"/>
 <attribute name="OC_FARNELL" value="9845330" constant="no"/>
 <attribute name="OC_NEWARK" value="67R2009" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TINY85" prefix="IC">
-<description>&lt;b&gt; 8-bit AVR Microcontroller with 1K Bytes In-System Programmable Flash&lt;/b&gt;&lt;p&gt;
-Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description>
-<gates>
-<gate name="G$1" symbol="TINY85" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SU" package="8S2">
-<connects>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="PB0/PCINT0/AIN0/OC0A/MOSI" pad="5"/>
-<connect gate="G$1" pin="PB1/PCINT1/AIN1/OC0B/INT0/MISO" pad="6"/>
-<connect gate="G$1" pin="PB2/PCINT2/SCK/ADC1/T0" pad="7"/>
-<connect gate="G$1" pin="PB3/PCINT3/CLKI/ADC3" pad="2"/>
-<connect gate="G$1" pin="PB4/PCINT4/ADC2" pad="3"/>
-<connect gate="G$1" pin="PB5/PCINT5/!RESET!/ADC0/DW" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4359/1"/>
-</package3dinstances>
-<technologies>
-<technology name="-20">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="ATTINY13-20SU" constant="no"/>
-<attribute name="OC_FARNELL" value="9171568" constant="no"/>
-<attribute name="OC_NEWARK" value="96K6522" constant="no"/>
-</technology>
-<technology name="V-10">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="ATTINY13V-10SU" constant="no"/>
-<attribute name="OC_FARNELL" value="9171584" constant="no"/>
-<attribute name="OC_NEWARK" value="96K6524" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -23401,385 +23297,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="microphon" urn="urn:adsk.eagle:library:297">
-<description>&lt;b&gt;Microphon&lt;/b&gt; from&lt;p&gt;
-JLI Electronics - www.jlielectronics.com&lt;br&gt;
-Panansonic - http://industrial.panasonic.com&lt;br&gt;
-&lt;p&gt;
-&lt;author&gt;librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="F6035AP" urn="urn:adsk.eagle:footprint:21013/1" library_version="1">
-<description>&lt;b&gt;Omnibidirectional Electret Condenser Microphon&lt;/b&gt;&lt;p&gt;
-Source: F6035AP.pdf</description>
-<circle x="0" y="0" radius="2.8754" width="0.2032" layer="21"/>
-<circle x="1.9" y="0" radius="0.4279" width="0" layer="21"/>
-<circle x="0" y="0" radius="2.625" width="1" layer="41"/>
-<pad name="2" x="0" y="-0.95" drill="0.7" diameter="1.2"/>
-<pad name="1" x="0" y="0.95" drill="0.7" diameter="1.2"/>
-<text x="-2.4" y="3.2" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.4" y="-4.8" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="F6050AP" urn="urn:adsk.eagle:footprint:21014/1" library_version="1">
-<description>&lt;b&gt;Omnibidirectional Electret Condenser Microphon&lt;/b&gt;&lt;p&gt;
-Source: F6050AP.pdf</description>
-<circle x="0" y="0" radius="2.8754" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.625" width="1" layer="41"/>
-<pad name="2" x="0" y="-1.27" drill="0.7" diameter="1.2"/>
-<pad name="1" x="0" y="1.27" drill="0.7" diameter="1.2"/>
-<text x="-2.4" y="3.2" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.4" y="-4.8" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="1.5499" y1="-2.0251" x2="1.9499" y2="-1.4751" layer="21" rot="R45"/>
-<rectangle x1="-1.95" y1="-2.025" x2="-1.55" y2="-1.475" layer="21" rot="R315"/>
-</package>
-<package name="WM-61A" urn="urn:adsk.eagle:footprint:21015/1" library_version="1">
-<description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
-Source: www.panasonic.com/industrial/components/pdf/em06_wm61_a_b_dne.pdf</description>
-<wire x1="-2.75" y1="0.5" x2="-2.25" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="-2.25" y1="0.5" x2="-2.25" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="-2.25" y1="-0.5" x2="-2.75" y2="-0.5" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.85" width="0.6" layer="41"/>
-<circle x="1.9" y="0" radius="0.3758" width="0" layer="21"/>
-<smd name="1" x="0" y="0.95" dx="2.5" dy="1.3" layer="1" roundness="100"/>
-<smd name="2" x="0" y="-0.95" dx="2.5" dy="1.3" layer="1" roundness="100"/>
-<text x="-2.794" y="3.302" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WM-61B" urn="urn:adsk.eagle:footprint:21016/1" library_version="1">
-<description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
-Source: www.panasonic.com/industrial/components/pdf/em06_wm61_a_b_dne.pdf</description>
-<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.85" width="0.6" layer="41"/>
-<circle x="2" y="0" radius="0.3783" width="0" layer="21"/>
-<pad name="1" x="0" y="0.95" drill="0.6" diameter="1"/>
-<pad name="2" x="0" y="-0.95" drill="0.6" diameter="1"/>
-<text x="-2.794" y="3.302" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.8" y1="-0.225" x2="-2.325" y2="0.225" layer="21"/>
-</package>
-<package name="WM-62PC/62PK" urn="urn:adsk.eagle:footprint:21017/1" library_version="1">
-<description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
-Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
-<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.85" width="0.6" layer="41"/>
-<pad name="1" x="-1" y="0.95" drill="0.6" diameter="1"/>
-<pad name="2" x="-1" y="-0.95" drill="0.6" diameter="1"/>
-<text x="-2.794" y="3.302" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WM-63PR" urn="urn:adsk.eagle:footprint:21018/1" library_version="1">
-<description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
-Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE3.pdf</description>
-<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.85" width="0.6" layer="41"/>
-<pad name="1" x="-1" y="0.95" drill="0.6" diameter="1"/>
-<pad name="2" x="-1" y="-0.95" drill="0.6" diameter="1"/>
-<text x="-2.794" y="3.302" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WM-64PC/64PK" urn="urn:adsk.eagle:footprint:21019/1" library_version="1">
-<description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
-Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
-<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.85" width="0.6" layer="41"/>
-<pad name="1" x="-1" y="0.95" drill="0.6" diameter="1"/>
-<pad name="2" x="-1" y="-0.95" drill="0.6" diameter="1"/>
-<text x="-2.794" y="3.302" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="WM-64PN" urn="urn:adsk.eagle:footprint:21020/1" library_version="1">
-<description>&lt;b&gt;Omnidirectional Back Electret Condenser Microphone Cartridge&lt;/b&gt;&lt;p&gt;
-Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
-<circle x="0" y="0" radius="2.9" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.85" width="0.6" layer="41"/>
-<pad name="1" x="-1" y="0.95" drill="0.6" diameter="1"/>
-<pad name="2" x="-1" y="-0.95" drill="0.6" diameter="1"/>
-<text x="-2.794" y="3.302" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.794" y="-4.572" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="TOM-1545P-R" urn="urn:adsk.eagle:footprint:21021/1" library_version="1">
-<description>&lt;b&gt;Mocrophone 4 x 1.5mm&lt;/b&gt;&lt;p&gt;
-Source: Projects Unlimited Inc. Microphone_TOM-1545P-R_40092-1.pdf</description>
-<pad name="-" x="-0.6" y="0.4" drill="0.5" diameter="0.8"/>
-<pad name="+" x="0.6" y="0.4" drill="0.5" diameter="0.8"/>
-<circle x="0" y="0" radius="2" width="0.1016" layer="21"/>
-<text x="-2.0508" y="2.1778" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.0508" y="-3.9558" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="F6035AP" urn="urn:adsk.eagle:package:21041/1" type="box" library_version="1">
-<description>Omnibidirectional Electret Condenser Microphon
-Source: F6035AP.pdf</description>
-<packageinstances>
-<packageinstance name="F6035AP"/>
-</packageinstances>
-</package3d>
-<package3d name="F6050AP" urn="urn:adsk.eagle:package:21036/1" type="box" library_version="1">
-<description>Omnibidirectional Electret Condenser Microphon
-Source: F6050AP.pdf</description>
-<packageinstances>
-<packageinstance name="F6050AP"/>
-</packageinstances>
-</package3d>
-<package3d name="WM-61A" urn="urn:adsk.eagle:package:21033/1" type="box" library_version="1">
-<description>Omnidirectional Back Electret Condenser Microphone Cartridge
-Source: www.panasonic.com/industrial/components/pdf/em06_wm61_a_b_dne.pdf</description>
-<packageinstances>
-<packageinstance name="WM-61A"/>
-</packageinstances>
-</package3d>
-<package3d name="WM-61B" urn="urn:adsk.eagle:package:21037/1" type="box" library_version="1">
-<description>Omnidirectional Back Electret Condenser Microphone Cartridge
-Source: www.panasonic.com/industrial/components/pdf/em06_wm61_a_b_dne.pdf</description>
-<packageinstances>
-<packageinstance name="WM-61B"/>
-</packageinstances>
-</package3d>
-<package3d name="WM-62PC/62PK" urn="urn:adsk.eagle:package:21040/1" type="box" library_version="1">
-<description>Omnidirectional Back Electret Condenser Microphone Cartridge
-Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
-<packageinstances>
-<packageinstance name="WM-62PC/62PK"/>
-</packageinstances>
-</package3d>
-<package3d name="WM-63PR" urn="urn:adsk.eagle:package:21035/1" type="box" library_version="1">
-<description>Omnidirectional Back Electret Condenser Microphone Cartridge
-Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE3.pdf</description>
-<packageinstances>
-<packageinstance name="WM-63PR"/>
-</packageinstances>
-</package3d>
-<package3d name="WM-64PC/64PK" urn="urn:adsk.eagle:package:21034/1" type="box" library_version="1">
-<description>Omnidirectional Back Electret Condenser Microphone Cartridge
-Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
-<packageinstances>
-<packageinstance name="WM-64PC/64PK"/>
-</packageinstances>
-</package3d>
-<package3d name="WM-64PN" urn="urn:adsk.eagle:package:21039/1" type="box" library_version="1">
-<description>Omnidirectional Back Electret Condenser Microphone Cartridge
-Source: http://industrial.panasonic.com/www-data/pdf/ABA5000/ABA5000CE10.pdf</description>
-<packageinstances>
-<packageinstance name="WM-64PN"/>
-</packageinstances>
-</package3d>
-<package3d name="TOM-1545P-R" urn="urn:adsk.eagle:package:21038/1" type="box" library_version="1">
-<description>Mocrophone 4 x 1.5mm
-Source: Projects Unlimited Inc. Microphone_TOM-1545P-R_40092-1.pdf</description>
-<packageinstances>
-<packageinstance name="TOM-1545P-R"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="CONDENSER-MICROPHON" urn="urn:adsk.eagle:symbol:21012/1" library_version="1">
-<wire x1="1.27" y1="-1.27" x2="2.032" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="-0.254" x2="2.032" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="-1.27" x2="2.032" y2="-2.286" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-0.254" x2="2.54" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.286" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="3.302" y2="-1.27" width="0.1524" layer="94"/>
-<circle x="2.286" y="-1.27" radius="2.54" width="0.254" layer="94"/>
-<rectangle x1="4.826" y1="-3.81" x2="5.334" y2="1.27" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pad" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ELECTRET_MICROPHON-" urn="urn:adsk.eagle:component:21042/1" prefix="M" library_version="1">
-<description>&lt;b&gt;Electret Condenser Microphone&lt;/b&gt;&lt;p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CONDENSER-MICROPHON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="F6035AP" package="F6035AP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21041/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="F6050AP" package="F6050AP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21036/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WM-61A" package="WM-61A">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21033/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WM-61B" package="WM-61B">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21037/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WM-62PC/62PK" package="WM-62PC/62PK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21040/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WM-63PR" package="WM-63PR">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21035/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WM-64PC/64PK" package="WM-64PC/64PK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21034/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WM.64PN" package="WM-64PN">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21039/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TOM-1545P-R" package="TOM-1545P-R">
-<connects>
-<connect gate="G$1" pin="1" pad="+"/>
-<connect gate="G$1" pin="2" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21038/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="buzzer" urn="urn:adsk.eagle:library:113">
-<description>&lt;b&gt;Speakers and Buzzers&lt;/b&gt;&lt;p&gt;
-&lt;ul&gt;Distributors:
-&lt;li&gt;Buerklin
-&lt;li&gt;Spoerle
-&lt;li&gt;Schukat
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="AL11P" urn="urn:adsk.eagle:footprint:5250/1" library_version="1">
-<description>&lt;b&gt;SPEAKER&lt;/b&gt;</description>
-<circle x="0" y="0" radius="5.715" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="6.223" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="1.016" width="0.1524" layer="21"/>
-<pad name="-" x="-2.286" y="0" drill="1.016" diameter="1.905" shape="octagon"/>
-<pad name="+" x="2.286" y="0" drill="1.016" diameter="1.905" shape="octagon"/>
-<text x="-3.175" y="6.35" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="AL11P" urn="urn:adsk.eagle:package:5308/1" type="box" library_version="1">
-<description>SPEAKER</description>
-<packageinstances>
-<packageinstance name="AL11P"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SP" urn="urn:adsk.eagle:symbol:5218/1" library_version="1">
-<wire x1="-1.905" y1="-0.635" x2="1.905" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-0.635" x2="1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="1.905" y1="2.54" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-0.635" x2="-1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="1.905" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="0" x2="1.905" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="0" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
-<text x="-3.81" y="6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AL11P" urn="urn:adsk.eagle:component:5330/1" prefix="SP" library_version="1">
-<description>&lt;b&gt;SPEAKER&lt;/b&gt;&lt;p&gt; Source: Buerklin</description>
-<gates>
-<gate name="G$1" symbol="SP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="AL11P">
-<connects>
-<connect gate="G$1" pin="1" pad="-"/>
-<connect gate="G$1" pin="2" pad="+"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5308/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
 <packages>
 <package name="WS2812B" urn="urn:adsk.eagle:footprint:6240299/1" library_version="2">
@@ -25142,6 +24659,135 @@ Source: &lt;a href="http://focus.ti.com/docs/prod/folders/print/ads1015.html"&gt
 </deviceset>
 </devicesets>
 </library>
+<library name="diy-modules">
+<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
+The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
+&lt;br&gt;
+By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
+&lt;br&gt;
+The latest version, examples, photos and much more can be found at: &lt;b&gt;&lt;a href="http://diymodules.org/eagle"&gt;diymodules.org/eagle&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailto:eagle@diymodules.org"&gt;eagle@diymodules.org&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Version: 1.8.0 (2017-Jul-02)&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;Created by: Miroslaw Brudnowski&lt;/i&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;&lt;/i&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;center&gt;
+&lt;a href="http://diymodules.org/eagle"&gt;&lt;img src="http://www.diymodules.org/img/diymodules-lbr-image.php?v=1.8.0" alt="DIYmodules.org"&gt;&lt;/a&gt;
+&lt;/center&gt;</description>
+<packages>
+<package name="RANGING-SENSOR-VL53L0X">
+<description>&lt;b&gt;Laser Ranging Sensor&lt;/b&gt; based on &lt;b&gt;VL53L0X&lt;/b&gt; device</description>
+<wire x1="-4.445" y1="7.62" x2="-3.175" y2="7.62" width="0.127" layer="21"/>
+<pad name="1" x="-3.81" y="6.35" drill="1" shape="square"/>
+<pad name="2" x="-3.81" y="3.81" drill="1"/>
+<pad name="3" x="-3.81" y="1.27" drill="1"/>
+<pad name="4" x="-3.81" y="-1.27" drill="1"/>
+<wire x1="-3.175" y1="7.62" x2="-2.54" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-2.54" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="5.715" x2="-3.175" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="5.08" x2="-2.54" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="4.445" x2="-2.54" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.175" x2="-3.175" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-3.175" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-3.175" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="6.985" x2="-4.445" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="5.715" x2="-4.445" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="5.08" x2="-5.08" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="3.175" x2="-4.445" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="2.54" x2="-5.08" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-4.445" y2="0" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="0" x2="-5.08" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="6.985" x2="-5.08" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="4.445" x2="-5.08" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="1.905" x2="-5.08" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="-1.905" width="0.127" layer="21"/>
+<pad name="5" x="-3.81" y="-3.81" drill="1"/>
+<pad name="6" x="-3.81" y="-6.35" drill="1"/>
+<wire x1="-4.445" y1="-2.54" x2="-5.08" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-4.445" x2="-4.445" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-5.08" x2="-5.08" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-5.715" x2="-5.08" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-6.985" x2="-4.445" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-7.62" x2="-3.175" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-7.62" x2="-2.54" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-6.985" x2="-2.54" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-5.715" x2="-3.175" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-5.08" x2="-2.54" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-4.445" x2="-2.54" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-3.175" x2="-3.175" y2="-2.54" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RANGING-SENSOR-VL53L0X">
+<description>&lt;b&gt;Laser Ranging Sensor&lt;/b&gt; based on &lt;b&gt;VL53L0X&lt;/b&gt; device</description>
+<pin name="VIN" x="-12.7" y="5.08" length="middle" direction="pwr"/>
+<pin name="SDA" x="-12.7" y="-2.54" length="middle"/>
+<pin name="SCL" x="-12.7" y="0" length="middle"/>
+<pin name="GND" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="7.62" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="10.16" size="1.778" layer="95">&gt;VALUE</text>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<pin name="GPIO1" x="-12.7" y="-5.08" length="middle"/>
+<circle x="0" y="10.16" radius="2.54" width="0.254" layer="94"/>
+<circle x="0" y="-12.7" radius="2.54" width="0.254" layer="94"/>
+<text x="4.318" y="-1.27" size="2.032" layer="94" rot="R270" align="bottom-center">VL53L0X</text>
+<pin name="XSHUT" x="-12.7" y="-7.62" length="middle"/>
+<wire x1="-7.62" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0.762" y1="1.016" x2="3.302" y2="1.016" width="0.254" layer="94"/>
+<wire x1="3.302" y1="1.016" x2="3.302" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="3.302" y1="-3.556" x2="0.762" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-3.556" x2="0.762" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RANGING-SENSOR-VL53L0X">
+<description>&lt;b&gt;Laser Ranging Sensor&lt;/b&gt; based on &lt;b&gt;VL53L0X&lt;/b&gt; device
+&lt;p&gt;More information about &lt;b&gt;VL53L0X&lt;/b&gt; device can be found here:&lt;br /&gt;
+&lt;a href="http://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html"&gt;http://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Arduino Library&lt;/b&gt; for &lt;b&gt;VL53L0X&lt;/b&gt; is available here:&lt;br /&gt;
+&lt;a href="https://github.com/pololu/vl53l0x-arduino"&gt;https://github.com/pololu/vl53l0x-arduino&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/GY+VL53L0X+module"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;
+&lt;b&gt;Note:&lt;/b&gt; There are many variants. Search for the proper version.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=RANGING-SENSOR-VL53L0X"&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RANGING-SENSOR-VL53L0X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RANGING-SENSOR-VL53L0X">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GPIO1" pad="5"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="XSHUT" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25260,7 +24906,7 @@ Source: &lt;a href="http://focus.ti.com/docs/prod/folders/print/ads1015.html"&gt
 <part name="U$12" library="Cing Library" deviceset="CONNECTOR_1X5" device=""/>
 <part name="IC3" library="Cing Library" deviceset="FT232RL" device=""/>
 <part name="U3" library="Cing Library" deviceset="MPU-6050" device="MPU6050"/>
-<part name="U$16" library="Cing Library" deviceset="LEGO-1X1" device="" value="3.3V"/>
+<part name="U$16" library="Cing Library" deviceset="LEGO-1X1" device="" value="BAT+"/>
 <part name="U$17" library="Cing Library" deviceset="LEGO-1X1" device="" value="3.3V"/>
 <part name="U$18" library="Cing Library" deviceset="LEGO-1X1" device="" value="GND"/>
 <part name="U$19" library="Cing Library" deviceset="LEGO-1X1" device="" value="GND"/>
@@ -25278,7 +24924,6 @@ Source: &lt;a href="http://focus.ti.com/docs/prod/folders/print/ads1015.html"&gt
 <part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -25353,15 +24998,6 @@ Source: &lt;a href="http://focus.ti.com/docs/prod/folders/print/ads1015.html"&gt
 <part name="SW5" library="Cing Library" deviceset="USB_SWITCH" device="" package3d_urn="urn:adsk.eagle:package:32990/1"/>
 <part name="BT1" library="Cing Library" deviceset="BATTERY" device="-AA_KIT" package3d_urn="urn:adsk.eagle:package:37218/1"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="IC4" library="Cing Library" deviceset="TINY85" device="SU" package3d_urn="urn:adsk.eagle:package:4359/1" technology="-20" value="Attiny85"/>
-<part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="M1" library="microphon" library_urn="urn:adsk.eagle:library:297" deviceset="ELECTRET_MICROPHON-" device="F6035AP" package3d_urn="urn:adsk.eagle:package:21041/1"/>
-<part name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1"/>
-<part name="Q6" library="Cing Library" deviceset="BSS138" device=""/>
-<part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
-<part name="P+25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:6240962/1"/>
 <part name="LED9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:6240962/1"/>
 <part name="LED10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:6240962/1"/>
@@ -25405,7 +25041,7 @@ Source: &lt;a href="http://focus.ti.com/docs/prod/folders/print/ads1015.html"&gt
 <part name="+3V30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="1" library="FS8205A" deviceset="DMN3024LSD" device="" value="8205"/>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$9" library="Cing Library" deviceset="LM1117" device=""/>
+<part name="U$9" library="Cing Library" deviceset="LM1117" device="" value="LM1117-5V"/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$13" library="bt_adc" deviceset="ADS1015" device="IDGT"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -25416,6 +25052,8 @@ Source: &lt;a href="http://focus.ti.com/docs/prod/folders/print/ads1015.html"&gt
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:6240747/1"/>
+<part name="U$14" library="diy-modules" deviceset="RANGING-SENSOR-VL53L0X" device=""/>
+<part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25876,9 +25514,6 @@ Socket</text>
 <instance part="U$18" gate="G$1" x="17.78" y="149.86" smashed="yes"/>
 <instance part="U$19" gate="G$1" x="17.78" y="142.24" smashed="yes"/>
 <instance part="U$20" gate="G$1" x="30.48" y="165.1" smashed="yes"/>
-<instance part="P+2" gate="G$1" x="12.7" y="167.64" smashed="yes">
-<attribute name="VALUE" x="10.16" y="162.56" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="P+4" gate="G$1" x="12.7" y="160.02" smashed="yes">
 <attribute name="VALUE" x="10.16" y="154.94" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -26257,10 +25892,6 @@ Socket</text>
 <pinref part="U$3" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="U$16" gate="G$1" pin="LEGO"/>
-<pinref part="P+2" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="U$17" gate="G$1" pin="LEGO"/>
 <pinref part="P+4" gate="G$1" pin="+3V3"/>
 </segment>
@@ -26306,6 +25937,12 @@ Socket</text>
 <wire x1="22.86" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="+5V"/>
 <label x="22.86" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$16" gate="G$1" pin="LEGO"/>
+<wire x1="12.7" y1="165.1" x2="10.16" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="165.1" x2="10.16" y2="167.64" width="0.1524" layer="91"/>
+<label x="10.16" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="36" class="0">
@@ -27511,6 +27148,7 @@ managment</text>
 <junction x="96.52" y="162.56"/>
 <wire x1="96.52" y1="162.56" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="VDD"/>
+<label x="88.9" y="162.56" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="CUR-SENSE" class="0">
@@ -28244,33 +27882,6 @@ managment</text>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="IC4" gate="G$1" x="139.7" y="116.84" smashed="yes">
-<attribute name="NAME" x="121.92" y="133.35" size="1.778" layer="95"/>
-<attribute name="VALUE" x="121.92" y="106.68" size="1.778" layer="96"/>
-</instance>
-<instance part="GND48" gate="1" x="116.84" y="106.68" smashed="yes">
-<attribute name="VALUE" x="114.3" y="104.14" size="1.778" layer="96"/>
-</instance>
-<instance part="P+24" gate="G$1" x="116.84" y="134.62" smashed="yes">
-<attribute name="VALUE" x="114.3" y="129.54" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="M1" gate="G$1" x="101.6" y="144.78" smashed="yes" rot="R180"/>
-<instance part="SP1" gate="G$1" x="91.44" y="139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="85.09" y="135.89" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="94.615" y="135.89" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="Q6" gate="G$1" x="93.98" y="127" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="105.41" y="127" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="GND49" gate="1" x="91.44" y="109.22" smashed="yes">
-<attribute name="VALUE" x="88.9" y="106.68" size="1.778" layer="96"/>
-</instance>
-<instance part="R45" gate="G$1" x="98.044" y="119.38" smashed="yes" rot="R270">
-<attribute name="VALUE" x="94.742" y="120.65" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="P+25" gate="G$1" x="91.44" y="149.86" smashed="yes">
-<attribute name="VALUE" x="88.9" y="144.78" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="LED5" gate="G$1" x="50.8" y="38.1" smashed="yes" rot="R90"/>
 <instance part="LED6" gate="G$1" x="66.04" y="38.1" smashed="yes" rot="R90"/>
 <instance part="LED7" gate="G$1" x="81.28" y="38.1" smashed="yes" rot="R90"/>
@@ -28341,26 +27952,18 @@ managment</text>
 <instance part="+3V27" gate="G$1" x="137.16" y="76.2" smashed="yes">
 <attribute name="VALUE" x="139.7" y="76.2" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$14" gate="G$1" x="198.12" y="129.54" smashed="yes">
+<attribute name="NAME" x="205.74" y="142.24" size="1.778" layer="95"/>
+<attribute name="VALUE" x="205.74" y="139.7" size="1.778" layer="95"/>
+</instance>
+<instance part="GND48" gate="1" x="180.34" y="132.08" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="177.8" y="129.54" size="1.778" layer="96" rot="MR90"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="GND"/>
-<wire x1="119.38" y1="111.76" x2="116.84" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="GND48" gate="1" pin="GND"/>
-<wire x1="116.84" y1="111.76" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q6" gate="G$1" pin="S"/>
-<pinref part="GND49" gate="1" pin="GND"/>
-<wire x1="91.44" y1="111.76" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R45" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="114.3" x2="91.44" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="98.044" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
-<junction x="91.44" y="114.3"/>
-</segment>
 <segment>
 <pinref part="LED8" gate="G$1" pin="VSS"/>
 <wire x1="101.6" y1="25.4" x2="101.6" y2="22.86" width="0.1524" layer="91"/>
@@ -28407,19 +28010,13 @@ managment</text>
 <pinref part="GND54" gate="1" pin="GND"/>
 <wire x1="137.16" y1="63.5" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="GND"/>
+<wire x1="185.42" y1="132.08" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="GND48" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
-<segment>
-<pinref part="P+24" gate="G$1" pin="+3V3"/>
-<wire x1="116.84" y1="132.08" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$1" pin="VCC"/>
-<wire x1="116.84" y1="129.54" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SP1" gate="G$1" pin="2"/>
-<pinref part="P+25" gate="G$1" pin="+3V3"/>
-<wire x1="91.44" y1="147.32" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="LED8" gate="G$1" pin="VDD"/>
 <wire x1="91.44" y1="25.4" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
@@ -28465,38 +28062,6 @@ managment</text>
 <wire x1="139.7" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="+3V27" gate="G$1" pin="+3V3"/>
 <wire x1="137.16" y1="68.58" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SCL" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="PB2/PCINT2/SCK/ADC1/T0"/>
-<wire x1="119.38" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
-<label x="116.84" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="PB0/PCINT0/AIN0/OC0A/MOSI"/>
-<wire x1="119.38" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
-<label x="116.84" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="SP1" gate="G$1" pin="1"/>
-<pinref part="Q6" gate="G$1" pin="D"/>
-<wire x1="91.44" y1="132.08" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="PB1/PCINT1/AIN1/OC0B/INT0/MISO"/>
-<wire x1="119.38" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="G$1" pin="G"/>
-<pinref part="R45" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="124.46" x2="98.044" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="98.044" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
-<junction x="98.044" y="124.46"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -28570,6 +28135,27 @@ managment</text>
 <wire x1="134.62" y1="66.04" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
 <junction x="134.62" y="66.04"/>
 <pinref part="JP1" gate="A" pin="2"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="U$14" gate="G$1" pin="SCL"/>
+<wire x1="185.42" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
+<label x="182.88" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="U$14" gate="G$1" pin="SDA"/>
+<wire x1="185.42" y1="127" x2="182.88" y2="127" width="0.1524" layer="91"/>
+<label x="182.88" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="U$14" gate="G$1" pin="VIN"/>
+<wire x1="185.42" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
+<label x="182.88" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

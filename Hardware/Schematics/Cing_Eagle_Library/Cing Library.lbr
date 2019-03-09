@@ -932,7 +932,7 @@ Socket</text>
 <rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
 </package>
 <package name="OSHW_5MM">
-<polygon width="0.0508" layer="27">
+<polygon width="0.0508" layer="21">
 <vertex x="-0.2413" y="-0.6096" curve="-160.717601"/>
 <vertex x="0" y="0.6604" curve="-152.950596"/>
 <vertex x="0.2794" y="-0.6096"/>
