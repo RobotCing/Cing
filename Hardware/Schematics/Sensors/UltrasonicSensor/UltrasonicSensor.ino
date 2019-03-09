@@ -24,7 +24,7 @@ void loop(){
     if(response > MAX_DISTANCE || response < 2){
       response = MAX_DISTANCE-1;  
     }
-    if(response < 20){
+    if(response < 30){
       digitalWrite(1,HIGH);  
     }
     else{
