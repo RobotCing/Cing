@@ -24788,6 +24788,119 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </deviceset>
 </devicesets>
 </library>
+<library name="transistor-fet" urn="urn:adsk.eagle:library:396">
+<description>&lt;b&gt;Field Effect Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;p&gt;
+&lt;p&gt;
+Symbols changed according to IEC617&lt;p&gt; 
+All types, packages and assignment to symbols and pins checked&lt;p&gt;
+Package outlines partly checked&lt;p&gt;
+&lt;p&gt;
+JFET = junction FET&lt;p&gt;
+IGBT-x = insulated gate bipolar transistor&lt;p&gt;
+x=N: NPN; x=P: PNP&lt;p&gt;
+IGFET-mc-nnn; (IGFET=insulated gate field effect transistor)&lt;P&gt;
+m=D: depletion mode (Verdr&amp;auml;ngungstyp)&lt;p&gt;
+m=E: enhancement mode (Anreicherungstyp)&lt;p&gt;
+c: N=N-channel; P=P-Channel&lt;p&gt;
+GDSB: gate, drain, source, bulk&lt;p&gt;
+&lt;p&gt;
+by R. Vogg  15.March.2002</description>
+<packages>
+<package name="SC75_INFINEON" urn="urn:adsk.eagle:footprint:28485/1" library_version="2">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; Reflow soldering&lt;p&gt;
+INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
+<wire x1="-0.7" y1="0.3" x2="-0.45" y2="0.3" width="0.2032" layer="21"/>
+<wire x1="-0.45" y1="0.3" x2="0.45" y2="0.3" width="0.2032" layer="51"/>
+<wire x1="0.45" y1="0.3" x2="0.7" y2="0.3" width="0.2032" layer="21"/>
+<wire x1="0.7" y1="0.3" x2="0.7" y2="-0.15" width="0.2032" layer="21"/>
+<wire x1="0.7" y1="-0.15" x2="0.7" y2="-0.3" width="0.2032" layer="51"/>
+<wire x1="0.7" y1="-0.3" x2="-0.7" y2="-0.3" width="0.2032" layer="51"/>
+<wire x1="-0.7" y1="-0.3" x2="-0.7" y2="-0.15" width="0.2032" layer="51"/>
+<wire x1="-0.7" y1="-0.15" x2="-0.7" y2="0.3" width="0.2032" layer="21"/>
+<smd name="1" x="-0.5" y="-0.575" dx="0.4" dy="0.65" layer="1"/>
+<smd name="2" x="0" y="0.575" dx="0.4" dy="0.65" layer="1"/>
+<smd name="3" x="0.5" y="-0.575" dx="0.4" dy="0.65" layer="1"/>
+<text x="-0.8" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.8" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.6" y1="-0.8" x2="-0.4" y2="-0.35" layer="51"/>
+<rectangle x1="0.4" y1="-0.8" x2="0.6" y2="-0.35" layer="51"/>
+<rectangle x1="-0.1" y1="0.35" x2="0.1" y2="0.8" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SC75_INFINEON" urn="urn:adsk.eagle:package:28542/1" type="box" library_version="2">
+<description>Small Outline Transistor Reflow soldering
+INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
+<packageinstances>
+<packageinstance name="SC75_INFINEON"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="P-MOSFET" urn="urn:adsk.eagle:symbol:28480/1" library_version="2">
+<wire x1="0.762" y1="-0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-3.175" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="1.905" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="0.762" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="4.572" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<text x="-11.43" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-11.43" y="-1.27" size="1.778" layer="95">&gt;NAME</text>
+<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="G" x="-2.54" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="4.318" y="-0.254"/>
+<vertex x="3.302" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0"/>
+<vertex x="1.524" y="0.762"/>
+<vertex x="1.524" y="-0.762"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BSA223SP" urn="urn:adsk.eagle:component:28641/1" prefix="Q" library_version="2">
+<description>&lt;b&gt;OptiMOS(R)-P Small-Signal-Transistor&lt;/b&gt; P-Channel, Enhancement mode, Super Logic Level (2.5 V rated)&lt;p&gt;
+Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description>
+<gates>
+<gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC75_INFINEON">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28542/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25054,6 +25167,8 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:6240747/1"/>
 <part name="U$14" library="diy-modules" deviceset="RANGING-SENSOR-VL53L0X" device=""/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="Q7" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="BSA223SP" device="" package3d_urn="urn:adsk.eagle:package:28542/1" value="NP2301AMR-G"/>
+<part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26394,7 +26509,7 @@ managment</text>
 <instance part="+3V2" gate="G$1" x="248.92" y="58.42" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="251.46" y="53.34" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="IRFU9024" gate="G$1" x="208.28" y="91.44" smashed="yes" rot="MR90"/>
+<instance part="IRFU9024" gate="G$1" x="208.28" y="81.28" smashed="yes" rot="MR90"/>
 <instance part="U$7" gate="G$1" x="165.1" y="86.36" smashed="yes" rot="R270"/>
 <instance part="TP4056" gate="G$1" x="165.1" y="127" smashed="yes">
 <attribute name="NAME" x="165.1" y="127" size="1.27" layer="95"/>
@@ -26573,6 +26688,12 @@ managment</text>
 <attribute name="NAME" x="63.5" y="104.14" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="69.85" y="104.14" size="1.27" layer="96" rot="R90"/>
 </instance>
+<instance part="Q7" gate="G$1" x="208.28" y="96.52" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="201.93" y="90.17" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="GND49" gate="1" x="210.82" y="88.9" smashed="yes">
+<attribute name="VALUE" x="208.28" y="86.36" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26649,7 +26770,7 @@ managment</text>
 <segment>
 <wire x1="175.26" y1="76.2" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="76.2" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="88.9" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="78.74" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
 <junction x="210.82" y="76.2"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="83.82" x2="175.26" y2="76.2" width="0.1524" layer="91"/>
@@ -26770,6 +26891,11 @@ managment</text>
 <pinref part="D1" gate="G$1" pin="A"/>
 <junction x="66.04" y="104.14"/>
 </segment>
+<segment>
+<pinref part="Q7" gate="G$1" pin="G"/>
+<pinref part="GND49" gate="1" pin="GND"/>
+<wire x1="210.82" y1="91.44" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="IRFU" class="0">
 <segment>
@@ -26788,12 +26914,14 @@ managment</text>
 <junction x="195.58" y="99.06"/>
 <wire x1="187.96" y1="99.06" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="99.06" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="93.98" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="83.82" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="BT1" gate="G$1" pin="+"/>
 <label x="165.1" y="93.98" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="SJ2" gate="1" pin="1"/>
 <junction x="187.96" y="99.06"/>
+<pinref part="Q7" gate="G$1" pin="D"/>
+<junction x="203.2" y="99.06"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -26982,15 +27110,18 @@ managment</text>
 <wire x1="232.41" y1="111.76" x2="219.71" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="219.71" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
 <junction x="219.71" y="111.76"/>
-<wire x1="213.36" y1="93.98" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="83.82" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IRFU9024" gate="G$1" pin="S"/>
 <pinref part="TP4056" gate="G$1" pin="BAT"/>
+<wire x1="213.36" y1="99.06" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="116.84" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
 <junction x="213.36" y="111.76"/>
 <pinref part="SJ2" gate="1" pin="2"/>
 <wire x1="187.96" y1="111.76" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
 <junction x="187.96" y="111.76"/>
+<pinref part="Q7" gate="G$1" pin="S"/>
+<junction x="213.36" y="99.06"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -28162,18 +28293,14 @@ managment</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,6,106.68,144.78,M1,1,,,,"/>
-<approved hash="101,6,106.68,147.32,M1,2,,,,"/>
 <approved hash="104,3,134.62,88.9,IC1,GND1,GND,,,"/>
 <approved hash="104,3,134.62,83.82,IC1,GND2,GND,,,"/>
 <approved hash="104,3,134.62,68.58,IC1,VCC2,N$4,,,"/>
 <approved hash="104,3,165.1,104.14,IC1,VCC1,+3V3,,,"/>
 <approved hash="104,3,165.1,88.9,IC1,GND3,GND,,,"/>
 <approved hash="104,3,165.1,83.82,IC1,GND4,GND,,,"/>
-<approved hash="104,4,149.86,43.18,U$7,-,GND,,,"/>
-<approved hash="104,4,149.86,53.34,U$7,+,IRFU,,,"/>
-<approved hash="104,5,231.14,86.36,U2,VDD,+3V3,,,"/>
-<approved hash="104,5,231.14,81.28,U2,VDDIO,+3V3,,,"/>
+<approved hash="104,4,165.1,81.28,U$7,-,BAT-,,,"/>
+<approved hash="104,4,165.1,91.44,U$7,+,IRFU,,,"/>
 <approved hash="104,5,109.22,147.32,IC3,VCCIO,N$39,,,"/>
 <approved hash="104,5,109.22,144.78,IC3,VCC,VUSB,,,"/>
 <approved hash="202,5,109.22,129.54,IC3,_RESET,,,,"/>
@@ -28183,16 +28310,19 @@ managment</text>
 <approved hash="202,5,149.86,132.08,IC3,_DCD,,,,"/>
 <approved hash="202,5,149.86,129.54,IC3,_RI,,,,"/>
 <approved hash="104,5,124.46,111.76,IC3,AGND,GND,,,"/>
-<approved hash="104,4,33.02,83.82,U$6,-,GND,,,"/>
-<approved hash="104,4,33.02,93.98,U$6,+,VCC_MOT,,,"/>
-<approved hash="104,4,55.88,165.1,IC2,VCC,+3V3,,,"/>
-<approved hash="104,4,167.64,43.18,BT1,-,GND,,,"/>
-<approved hash="104,4,167.64,53.34,BT1,+,IRFU,,,"/>
-<approved hash="104,6,119.38,129.54,IC4,VCC,+3V3,,,"/>
+<approved hash="104,4,88.9,45.72,U$6,-,GND,,,"/>
+<approved hash="104,4,88.9,55.88,U$6,+,VCC_MOT,,,"/>
+<approved hash="104,4,182.88,81.28,BT1,-,BAT-,,,"/>
+<approved hash="104,4,182.88,91.44,BT1,+,IRFU,,,"/>
 <approved hash="104,6,101.6,63.5,LED4,VDD,+3V3,,,"/>
 <approved hash="104,6,76.2,63.5,LED9,VDD,+3V3,,,"/>
 <approved hash="104,6,50.8,63.5,LED10,VDD,+3V3,,,"/>
 <approved hash="104,6,127,63.5,LED11,VDD,+3V3,,,"/>
+<approved hash="104,5,203.2,73.66,IC5,VDD,+3V3,,,"/>
+<approved hash="104,5,228.6,71.12,IC5,VDDIO,+3V3,,,"/>
+<approved hash="104,4,40.64,114.3,IC2,VIN,VCC_MOT,,,"/>
+<approved hash="202,4,40.64,109.22,IC2,OFF,,,,"/>
+<approved hash="104,6,185.42,134.62,U$14,VIN,VDD,,,"/>
 <approved hash="113,2,130.071,89.431,FRAME4,,,,,"/>
 <approved hash="113,2,220.184,124.46,MOT_B,,,,,"/>
 <approved hash="113,2,220.184,137.16,MOT_A,,,,,"/>
@@ -28200,16 +28330,21 @@ managment</text>
 <approved hash="113,4,130.071,89.431,FRAME2,,,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME3,,,,,"/>
 <approved hash="113,5,130.071,89.431,FRAME6,,,,,"/>
-<approved hash="113,4,147.32,127.61,SW1,,,,,"/>
-<approved hash="113,4,149.914,112.905,U1,,,,,"/>
+<approved hash="113,4,162.56,165.71,SW1,,,,,"/>
+<approved hash="113,4,165.154,151.005,U1,,,,,"/>
 <approved hash="113,5,63.5,46.3296,SW2,,,,,"/>
 <approved hash="113,5,29.8704,99.06,SW3,,,,,"/>
 <approved hash="113,2,148.59,151.79,SW4,,,,,"/>
 <approved hash="113,3,128.27,50.1396,SW6,,,,,"/>
-<approved hash="113,4,210.82,74.2696,SW5,,,,,"/>
-<approved hash="113,4,168.978,48.26,BT1,,,,,"/>
+<approved hash="113,4,226.06,112.37,SW5,,,,,"/>
+<approved hash="113,4,184.218,86.36,BT1,,,,,"/>
 <approved hash="113,6,130.071,89.431,FRAME1,,,,,"/>
 <approved hash="113,6,141.934,67.5361,JP1,,,,,"/>
+<approved hash="113,4,60.96,57.1246,D3,,,,,"/>
+<approved hash="113,4,81.28,57.4904,SJ1,,,,,"/>
+<approved hash="113,4,186.35,104.14,SJ2,,,,,"/>
+<approved hash="113,4,83.2754,105.41,C17,,,,,"/>
+<approved hash="113,4,64.7954,106.68,D1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
