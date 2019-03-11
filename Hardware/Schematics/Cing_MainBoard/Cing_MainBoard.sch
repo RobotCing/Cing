@@ -25221,7 +25221,7 @@ Source: http://www.infineon.com/upload/Document/BSA223SP_Rev1.3.pdf</description
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="WS2812" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="GND54" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$5" library="MT3608" deviceset="MT3608" device="SOT23-6" value="MT3608SOT23-6"/>
@@ -28195,7 +28195,7 @@ managment</text>
 <instance part="GND53" gate="1" x="45.72" y="93.98" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="43.18" y="96.52" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="JP1" gate="A" x="142.24" y="66.04" smashed="yes">
+<instance part="WS2812" gate="A" x="142.24" y="66.04" smashed="yes">
 <attribute name="NAME" x="143.51" y="71.755" size="1.778" layer="95"/>
 <attribute name="VALUE" x="135.89" y="58.42" size="1.778" layer="96"/>
 </instance>
@@ -28274,7 +28274,7 @@ managment</text>
 <pinref part="GND53" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="WS2812" gate="A" pin="3"/>
 <wire x1="139.7" y1="63.5" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND54" gate="1" pin="GND"/>
 <wire x1="137.16" y1="63.5" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
@@ -28331,7 +28331,7 @@ managment</text>
 <pinref part="+3V25" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="WS2812" gate="A" pin="1"/>
 <wire x1="139.7" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="+3V27" gate="G$1" pin="+3V3"/>
 <wire x1="137.16" y1="68.58" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
@@ -28415,7 +28415,7 @@ managment</text>
 <wire x1="134.62" y1="66.04" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="66.04" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
 <junction x="134.62" y="66.04"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="WS2812" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="SCL" class="0">
