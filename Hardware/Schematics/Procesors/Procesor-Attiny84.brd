@@ -162,6 +162,8 @@
 <wire x1="-13.67" y1="-13.67" x2="-13.67" y2="12.7" width="0.4064" layer="20"/>
 <text x="3.5" y="0.5" size="1.778" layer="21" rot="R90" align="center">Attiny84</text>
 <text x="3.5" y="0.5" size="1.778" layer="22" rot="MR90" align="center">Attiny84</text>
+<text x="-7" y="0" size="1.778" layer="21" rot="R270" align="bottom-center">Sponsored</text>
+<text x="-4.5" y="0.5" size="1.778" layer="21" rot="R270" align="bottom-center">by JLCPCB</text>
 </plain>
 <libraries>
 <library name="pinhead">

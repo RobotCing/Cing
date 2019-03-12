@@ -165,6 +165,8 @@
 <wire x1="14" y1="-14" x2="-13.5" y2="-14" width="0" layer="20"/>
 <wire x1="-13.5" y1="-14" x2="-13.5" y2="12" width="0" layer="20"/>
 <text x="5.08" y="-5.1" size="1.4" layer="22" rot="MR225" align="center-left">Atmega32u4</text>
+<text x="0" y="7.78" size="1.4" layer="22" rot="MR0" align="bottom-center">Sponsored </text>
+<text x="0" y="5.48" size="1.4" layer="22" rot="MR0" align="bottom-center">by JLCPCB</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
