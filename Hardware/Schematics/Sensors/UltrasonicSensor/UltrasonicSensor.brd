@@ -171,11 +171,15 @@
 <plain>
 <wire x1="-24.47" y1="-10.6" x2="24.47" y2="-10.6" width="0.0762" layer="20"/>
 <wire x1="24.47" y1="9.83" x2="-24.47" y2="9.83" width="0.0762" layer="20"/>
-<text x="0" y="-4.4" size="1.27" layer="21" rot="R180" align="bottom-center">Sponsored by JLCPCB
+<text x="0" y="-4.4" size="1.27" layer="21" rot="R180" align="bottom-center">Ultrasonic Sensor
 </text>
 <circle x="-4.1" y="-3" radius="0.360553125" width="0.1524" layer="26"/>
 <wire x1="-24.47" y1="-10.6" x2="-24.47" y2="9.83" width="0.0762" layer="20" curve="-180.561665"/>
 <wire x1="24.47" y1="9.83" x2="24.47" y2="-10.6" width="0.0762" layer="20" curve="-180.561665"/>
+<text x="0" y="-5.9" size="1.27" layer="21" rot="R180" align="bottom-center">for robot Cing
+</text>
+<text x="15" y="-8.9" size="1.27" layer="21" rot="R180" align="bottom-center">On
+</text>
 </plain>
 <libraries>
 <library name="Cing Library">
