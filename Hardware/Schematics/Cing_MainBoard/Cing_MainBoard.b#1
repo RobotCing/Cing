@@ -7367,6 +7367,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-27.26" y="-19.37" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="SW7" library="Cing Library" package="USB_SWITCH" package3d_urn="urn:adsk.eagle:package:32990/1" value="" x="24.7" y="40" smashed="yes" rot="R270">
+<attribute name="NAME" x="28.51" y="41.905" size="0.889" layer="25" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="20.001" y="41.905" size="0.889" layer="27" ratio="11" rot="R270"/>
 </element>
 <element name="U$23" library="Cing Library" package="WIRELESS-BLUETOOTH-HC-05" value="WIRELESS-BLUETOOTH-HC-05" x="-3.5" y="26.6" smashed="yes"/>
