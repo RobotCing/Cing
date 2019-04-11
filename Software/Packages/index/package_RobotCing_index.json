@@ -12,13 +12,13 @@
         {
           "name": "RobotCing",
           "architecture": "avr",
-          "version": "1.0.0",
+          "version": "2.0.0",
           "category": "Contributed",
           "help": {
             "online": "http://robotcing.wz.sk"
           },
-          "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/RobotCing-1.0.0.zip",
-          "archiveFileName": "RobotCing-1.0.0.zip",
+          "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/RobotCing-2.0.0.zip",
+          "archiveFileName": "RobotCing-2.0.0.zip",
           "checksum": "SHA-256:f933a511d3d243bb4765b0f5f24459eafa41ca12d4531ecf0274a9a4428fa667",
           "size": "14750",
           "boards": [
@@ -45,15 +45,15 @@
         {
           "name": "RobotCing",
           "architecture": "avr",
-          "version": "2.0.0",
+          "version": "3.0.0",
           "category": "Contributed",
           "help": {
             "online": "http://robotcing.wz.sk"
           },
-          "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/RobotCing-2.0.0.zip",
-          "archiveFileName": "RobotCing-2.0.0.zip",
-          "checksum": "SHA-256:f933a511d3d243bb4765b0f5f24459eafa41ca12d4531ecf0274a9a4428fa667",
-          "size": "14750",
+          "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/RobotCing-3.0.0.zip",
+          "archiveFileName": "RobotCing-3.0.0.zip",
+          "checksum": "SHA-256:3fa675878f126683fbd78d1b0ff72de50376b3d0bdf1b0d8d7b8c5af8f48e25a",
+          "size": "16624",
           "boards": [
             {"name": "Attiny85"},
             {"name": "Attiny84"},
