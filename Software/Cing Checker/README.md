@@ -15,7 +15,7 @@ $ flask run
 ## Running Cing Checker terminal version
 Before running any command you need to be in `Cing Checker` folder 
 ```
-$ python3 Cing_Checker.py
+$ python3 ReadCingSensors.py
 ```
 
 ## License 
