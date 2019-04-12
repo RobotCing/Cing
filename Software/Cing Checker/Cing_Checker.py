@@ -27,6 +27,7 @@ pot = "Reading Value"
 Servo = "Reading Value"
 ENCA = "Reading Value"
 ENCB = "Reading Value"
+ultra = "Reading Value"
 
 
 
@@ -38,31 +39,34 @@ def activate_job():
         while True:
             global temp_sensor,shine_sensor1,shine_sensor2,button,gyro,accelerometer
             global battery,sound_system,light1,light2,oled,char_display,baro,altitude
-            global lidar,pot,Servo,ENCA,ENCB
+            global lidar,pot,Servo,ENCA,ENCB,ultra
             data = []
             data = ReadCingSensors.ReadSensors()
             if(data != None):
-                battery = data[0]
-                accelerometer = data[2]
-                sound_system = data[3]
-                oled = data[4]
-                char_display = data[5]
-                lidar = data[7]
-                baro = data[8]
-                altitude = data[9]
-                light1 = data[10]
-                light2 = data[11]
-                pot = data[12]
-                button = data[13]
-                shine_sensor1 = data[14]
-                shine_sensor2 = data[15]
-                temp_sensor = data[16]
+
+                light1 = data[0]
+                light2 = data[1]
+                shine_sensor1 = data[2]
+                shine_sensor2 = data[3]
+                gyro = data[4]
+                accelerometer = data[5]
+                button = data[6]
+                battery = data[7]
+                oled = data[8]
+                char_display = data[9]
+                ultra = data[10]
+                lidar = data[11]
+                temp_sensor = data[12]
+                baro = data[13]
+                altitude = data[14]
+                sound_system = data[15]
+                pot = data[16]
                 Servo = data[17]
                 ENCA = data[18]
                 ENCB = data[19]
                 if(temp_sensor != "Fail"):
                     temp_sensor += "°C"
-                gyro = data[1]
+
                 if(gyro != "Fail"):
                     gyro_val = gyro.split(" ");
                     gyro = gyro_val[0] + "° " + gyro_val[1] + "° " + gyro_val[2] + "° "
@@ -95,6 +99,7 @@ def update_values():
     accelerometer = accelerometer,
     battery = battery,
     sound_system = sound_system,
+    ultra = ultra,
     light1 = light1,
     light2 = light2,
     char_display = char_display,
