@@ -1,13 +1,16 @@
 #!/usr/bin/python3
 import serial
 import time
-
-try:
-	ser = serial.Serial('/dev/ttyUSB0', 115200)
-except:
+ports = ['/dev/ttyUSB0','/dev/ttyUSB1','/dev/ttyACM0','/dev/ttyACM1']
+error = 0;
+for x in range(len(ports)):
 	try:
-		ser = serial.Serial('/dev/ttyUSB1', 115200)
+		ser = serial.Serial(ports[x], 115200)
+		print("Port opened: {}".format(ports[x]))
+		break;
 	except:
+		error += 1
+	if(error == len(ports)):
 		print("Board is not available. Make sure your board is on (the green LED is on) and connected to the computer.")
 		exit()
 
