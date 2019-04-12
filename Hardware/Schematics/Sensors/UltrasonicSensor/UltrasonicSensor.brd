@@ -1898,7 +1898,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="12.215" y="4.81" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
 <element name="U$5" library="Cing Library" package="OSHW_5MM" value="OPENSOURCE" x="0" y="-2" smashed="yes"/>
-<element name="U$6" library="Cing Library" package="CONNECTOR_1X5" value="CONNECTOR_1X5" x="-13.462" y="-8.63" smashed="yes" rot="R270"/>
+<element name="U$6" library="Cing Library" package="CONNECTOR_1X5" value="CONNECTOR_1X5" x="-13.462" y="-8.63" smashed="yes" rot="MR270"/>
 <element name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="13" y="7.2" smashed="yes" rot="R270">
 <attribute name="VALUE" x="13" y="6.7999" size="0.02" layer="27" rot="R270"/>
 </element>
@@ -2194,8 +2194,8 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="U$6" pad="A1"/>
 <contactref element="R4" pad="2"/>
-<wire x1="-6" y1="-5.6" x2="-8.382" y2="-7.982" width="0.1524" layer="16"/>
-<wire x1="-8.382" y1="-7.982" x2="-8.382" y2="-8.63" width="0.1524" layer="16"/>
+<wire x1="-6" y1="-5.6" x2="-15.512" y2="-5.6" width="0.1524" layer="16"/>
+<wire x1="-15.512" y1="-5.6" x2="-18.542" y2="-8.63" width="0.1524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
