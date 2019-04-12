@@ -52,8 +52,8 @@
           },
           "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/RobotCing-3.0.0.zip",
           "archiveFileName": "RobotCing-3.0.0.zip",
-          "checksum": "SHA-256:eb47347d355ac27a74f79277168d613452b1a2a81cd420c59789654ff110246e",
-          "size": "14023",
+          "checksum": "SHA-256:3a39cbe424f7972f53d19c3ada57f4139c1bbb0bf3a3ea414544a65a50178646",
+          "size": "14025",
           "boards": [
             {"name": "Attiny85"},
             {"name": "Attiny84"},
