@@ -6,7 +6,7 @@ error = 0;
 for x in range(len(ports)):
 	try:
 		ser = serial.Serial(ports[x], 115200)
-		print("Port opened: {}".format(ports[x]))
+		print("Opening port: {}. Please wait.".format(ports[x]))
 		break;
 	except:
 		error += 1
@@ -51,10 +51,10 @@ if __name__ == '__main__':
 				pass
 			else:
 				accelerometer = " Fail"
-			print("Cing modules data")
-			for x in range(1):
-				print("")
-			print("LightSensor 1:                 {}".format(data[0]))
+			print("---------------------------------------------------------")
+			print("|                 Cing modules data                     |")
+			print("---------------------------------------------------------")
+			print("LightSensor 1:                 {}" .format(data[0]))
 			print("LightSensor 2:                 {}".format(data[1]))
 			print("ShineArray 1:                  {}".format(data[2]))
 			print("ShineArray 2:                  {}".format(data[3]))
@@ -62,7 +62,6 @@ if __name__ == '__main__':
 			print("Accelerometer:                {}".format(accelerometer))
 			print("Button:                        {}".format(data[6]))
 			print("Battery:                       {}".format(data[7]))
-
 			print("OLED:                          {}".format(data[8]))
 			print("16x2 Display:                  {}".format(data[9]))
 			print("Ultrasonic:                    {}".format(data[10]))
@@ -70,13 +69,12 @@ if __name__ == '__main__':
 			print("TempSensor:                    {}".format(data[12]))
 			print("Barometric Pressure Sensor:    {}".format(data[13]))
 			print("Altitude Sensor:               {}".format(data[14]))
-			print("Sound System:                  {}".format(data[15]))
+			print("IO expander:                   {}".format(data[15]))
 			print("Potentiometer:                 {}".format(data[16]))
 			print("Servo Driver:                  {}".format(data[17]))
 			print("Encoder A:                     {}".format(data[18]))
 			print("Encoder B:                     {}".format(data[19]))
-			for x in range(2):
-				print("")
+
 		elif(message == False):
 			print("Connecting to board. Please wait.")
 			for x in range(21):

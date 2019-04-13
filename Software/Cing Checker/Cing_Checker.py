@@ -3,6 +3,7 @@
 import ReadCingSensors
 import threading
 import time
+import logging
 from flask import Flask
 from flask import abort, redirect, url_for, jsonify
 from flask import render_template
@@ -29,7 +30,8 @@ ENCA = "Reading Value"
 ENCB = "Reading Value"
 ultra = "Reading Value"
 
-
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.ERROR)
 
 app = Flask(__name__, static_url_path = "/img", static_folder = "img")
 
