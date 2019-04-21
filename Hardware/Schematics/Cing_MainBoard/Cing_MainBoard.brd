@@ -7270,7 +7270,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.175" y="-32.625" size="1.27" layer="26" rot="MR180"/>
 </element>
 <element name="U$13" library="bt_adc" package="MSOP10_0.5" value="ADS1015IDGT" x="-21.1" y="-41.4" smashed="yes" rot="MR180"/>
-<element name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="2" x="-15.3" y="-32.5" smashed="yes" rot="MR180">
+<element name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="2R" x="-15.3" y="-32.5" smashed="yes" rot="MR180">
 <attribute name="SPICEPREFIX" value="R" x="-15.3" y="-32.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="IC2" library="lm2576" package="TO263-5" value="LM2576S" x="-34.162" y="31.9" smashed="yes" rot="MR0">

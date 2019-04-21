@@ -25687,7 +25687,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$13" library="bt_adc" deviceset="ADS1015" device="IDGT"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="2"/>
+<part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="2R"/>
 <part name="IC2" library="lm2576" deviceset="LM2576" device="S"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2"/>
 <part name="L2" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR127" device="" package3d_urn="urn:adsk.eagle:package:15117/1"/>
