@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4008,7 +4008,86 @@ Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
 <wire x1="-0.58" y1="0.65" x2="0.58" y2="0.65" width="0.1524" layer="51"/>
 <rectangle x1="-0.6" y1="-0.4" x2="0.6" y2="0.4" layer="35"/>
 </package>
+<package name="OSHW_5MM" urn="urn:adsk.eagle:footprint:10154709/1">
+<polygon width="0.0508" layer="21">
+<vertex x="-0.2413" y="-0.6096" curve="-160.717601"/>
+<vertex x="0" y="0.6604" curve="-152.950596"/>
+<vertex x="0.2794" y="-0.6096"/>
+<vertex x="0.6731" y="-1.6002"/>
+<vertex x="0.8255" y="-1.5367"/>
+<vertex x="0.9779" y="-1.4351"/>
+<vertex x="1.4859" y="-1.7907"/>
+<vertex x="1.5875" y="-1.7018"/>
+<vertex x="1.6764" y="-1.6129"/>
+<vertex x="1.778" y="-1.4986"/>
+<vertex x="1.8669" y="-1.3843"/>
+<vertex x="1.4986" y="-0.8509"/>
+<vertex x="1.5875" y="-0.6985"/>
+<vertex x="1.6383" y="-0.5461"/>
+<vertex x="1.6891" y="-0.3429"/>
+<vertex x="2.3114" y="-0.2286"/>
+<vertex x="2.3114" y="-0.0508"/>
+<vertex x="2.3114" y="0.0635"/>
+<vertex x="2.2987" y="0.2032"/>
+<vertex x="2.286" y="0.3302"/>
+<vertex x="1.6637" y="0.4445"/>
+<vertex x="1.6129" y="0.6096"/>
+<vertex x="1.5494" y="0.7493"/>
+<vertex x="1.4605" y="0.9017"/>
+<vertex x="1.4478" y="0.9271"/>
+<vertex x="1.8034" y="1.4224"/>
+<vertex x="1.7018" y="1.5494"/>
+<vertex x="1.5748" y="1.6764"/>
+<vertex x="1.4732" y="1.7653"/>
+<vertex x="1.3843" y="1.8288"/>
+<vertex x="0.8636" y="1.4605"/>
+<vertex x="0.7493" y="1.524"/>
+<vertex x="0.635" y="1.5748"/>
+<vertex x="0.5207" y="1.6256"/>
+<vertex x="0.4064" y="1.651"/>
+<vertex x="0.2921" y="2.2733"/>
+<vertex x="0.1397" y="2.286"/>
+<vertex x="-0.0381" y="2.286"/>
+<vertex x="-0.1524" y="2.286"/>
+<vertex x="-0.2794" y="2.2733"/>
+<vertex x="-0.381" y="1.6637"/>
+<vertex x="-0.5715" y="1.6002"/>
+<vertex x="-0.6985" y="1.5494"/>
+<vertex x="-0.8763" y="1.4478"/>
+<vertex x="-1.3843" y="1.8161"/>
+<vertex x="-1.4986" y="1.7272"/>
+<vertex x="-1.6256" y="1.6002"/>
+<vertex x="-1.7272" y="1.4859"/>
+<vertex x="-1.7907" y="1.4224"/>
+<vertex x="-1.4351" y="0.9017"/>
+<vertex x="-1.5113" y="0.7747"/>
+<vertex x="-1.5875" y="0.6096"/>
+<vertex x="-1.6256" y="0.4699"/>
+<vertex x="-1.6637" y="0.381"/>
+<vertex x="-2.286" y="0.2794"/>
+<vertex x="-2.286" y="-0.2794"/>
+<vertex x="-1.6637" y="-0.381"/>
+<vertex x="-1.6129" y="-0.5588"/>
+<vertex x="-1.5748" y="-0.6858"/>
+<vertex x="-1.524" y="-0.7874"/>
+<vertex x="-1.4351" y="-0.9398"/>
+<vertex x="-1.8034" y="-1.4478"/>
+<vertex x="-1.7018" y="-1.5621"/>
+<vertex x="-1.6129" y="-1.651"/>
+<vertex x="-1.4986" y="-1.7526"/>
+<vertex x="-1.4097" y="-1.8288"/>
+<vertex x="-0.889" y="-1.4732"/>
+<vertex x="-0.5969" y="-1.6256"/>
+</polygon>
+</package>
 </packages>
+<packages3d>
+<package3d name="OSHW_5MM" urn="urn:adsk.eagle:package:10154747/1" type="box">
+<packageinstances>
+<packageinstance name="OSHW_5MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="N-MOSFET">
 <wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
@@ -4047,6 +4126,13 @@ Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
 <vertex x="2.032" y="-0.762"/>
 </polygon>
 </symbol>
+<symbol name="OSHWLOGO">
+<wire x1="0" y1="0" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="17.78" y2="7.62" width="0.254" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="2.54" y="2.54" size="1.778" layer="94">OSHW Logo</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BSS138" prefix="Q">
@@ -4070,6 +4156,21 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <attribute name="OC_FARNELL" value="9845330" constant="no"/>
 <attribute name="OC_NEWARK" value="67R2009" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPENSOURCE">
+<gates>
+<gate name="G$1" symbol="OSHWLOGO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSHW_5MM">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10154747/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5989,6 +6090,112 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="diy-modules">
+<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
+The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
+&lt;br&gt;
+By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
+&lt;br&gt;
+The latest version, examples, photos and much more can be found at: &lt;b&gt;&lt;a href="http://diymodules.org/eagle"&gt;diymodules.org/eagle&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailto:eagle@diymodules.org"&gt;eagle@diymodules.org&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Version: 1.8.0 (2017-Jul-02)&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;Created by: Miroslaw Brudnowski&lt;/i&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;&lt;/i&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;center&gt;
+&lt;a href="http://diymodules.org/eagle"&gt;&lt;img src="http://www.diymodules.org/img/diymodules-lbr-image.php?v=1.8.0" alt="DIYmodules.org"&gt;&lt;/a&gt;
+&lt;/center&gt;</description>
+<packages>
+<package name="TEMP-HUM-SENSOR-DHT11">
+<description>&lt;b&gt;DHT11 - digital humidity &amp; temperature sensor&lt;/b&gt;</description>
+<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.127" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="1.905" width="0.127" layer="21"/>
+<wire x1="6.35" y1="1.905" x2="6.35" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-3.556" x2="3.175" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-3.556" x2="1.905" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-3.556" x2="0.635" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-3.556" x2="-0.635" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-3.556" x2="-1.905" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.556" x2="-3.175" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-3.556" x2="-6.35" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-3.556" x2="-6.35" y2="1.905" width="0.127" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="0.8" shape="square"/>
+<pad name="2" x="-1.27" y="0" drill="0.8"/>
+<text x="0" y="3.81" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<pad name="3" x="1.27" y="0" drill="0.8"/>
+<pad name="4" x="3.81" y="0" drill="0.8"/>
+<wire x1="-6.35" y1="1.905" x2="-6.35" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-3.556" x2="-0.635" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-1.905" x2="0.635" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-3.556" x2="-3.175" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-1.905" x2="-1.905" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-3.556" x2="1.905" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-1.905" x2="3.175" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="1.905" x2="6.35" y2="1.905" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TEMP-HUM-SENSOR-DHT11">
+<description>&lt;b&gt;DHT11 - digital humidity &amp; temperature sensor&lt;/b&gt;</description>
+<pin name="VDD" x="-12.7" y="5.08" length="middle" direction="pwr"/>
+<pin name="DAT" x="-12.7" y="2.54" length="middle"/>
+<pin name="N.C." x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<wire x1="-7.62" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="4.064" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.064" x2="5.08" y2="2.286" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.286" x2="5.08" y2="0.254" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0.254" x2="5.08" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.524" x2="5.08" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-3.556" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="4.826" y1="6.096" x2="1.27" y2="6.096" width="0.254" layer="94"/>
+<wire x1="1.27" y1="6.096" x2="1.27" y2="4.064" width="0.254" layer="94"/>
+<wire x1="1.27" y1="4.064" x2="5.08" y2="4.064" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.286" x2="1.27" y2="2.286" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.254" x2="5.08" y2="0.254" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.524" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.524" x2="1.27" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-3.556" x2="5.08" y2="-3.556" width="0.254" layer="94"/>
+<text x="-7.62" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="12.7" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TEMP-HUM-SENSOR-DHT11">
+<description>&lt;b&gt;DHT11 - digital humidity &amp; temperature sensor&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;DHT11&lt;/b&gt; datasheet available here:&lt;br&gt;
+&lt;a href="https://akizukidenshi.com/download/ds/aosong/DHT11.pdf"&gt;https://akizukidenshi.com/download/ds/aosong/DHT11.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/dht11+digital+sensor"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=TEMP-HUM-SENSOR-DHT11"&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEMP-HUM-SENSOR-DHT11" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEMP-HUM-SENSOR-DHT11">
+<connects>
+<connect gate="G$1" pin="DAT" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="N.C." pad="3"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6005,6 +6212,8 @@ Source: www.kingbright.com</description>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="5X2MM" package3d_urn="urn:adsk.eagle:package:22466/2"/>
 <part name="Q1" library="Cing Library" deviceset="BSS138" device=""/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/1"/>
+<part name="U$1" library="diy-modules" deviceset="TEMP-HUM-SENSOR-DHT11" device=""/>
+<part name="U$2" library="Cing Library" deviceset="OPENSOURCE" device="" package3d_urn="urn:adsk.eagle:package:10154747/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -6041,6 +6250,11 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="17.272" y="64.516" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="17.272" y="66.675" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U$1" gate="G$1" x="58.42" y="38.1" smashed="yes">
+<attribute name="NAME" x="50.8" y="53.34" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.8" y="50.8" size="1.778" layer="95"/>
+</instance>
+<instance part="U$2" gate="G$1" x="-30.48" y="45.72" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -6066,6 +6280,11 @@ Source: www.kingbright.com</description>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <label x="7.62" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
+<wire x1="45.72" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
+<label x="43.18" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -6076,7 +6295,7 @@ Source: www.kingbright.com</description>
 <pinref part="LED2" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="IC1" gate="P" pin="GND"/>
 <wire x1="22.86" y1="38.1" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
@@ -6086,9 +6305,15 @@ Source: www.kingbright.com</description>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="17.78" y1="22.86" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 <junction x="17.78" y="30.48"/>
+<label x="22.86" y="38.1" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="45.72" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
+<label x="43.18" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="DATA" class="0">
 <segment>
 <pinref part="IC1" gate="_1W" pin="1W"/>
 <wire x1="27.94" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
@@ -6100,6 +6325,12 @@ Source: www.kingbright.com</description>
 <wire x1="27.94" y1="50.8" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 <junction x="27.94" y="50.8"/>
+<label x="27.94" y="50.8" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="DAT"/>
+<wire x1="45.72" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
+<label x="43.18" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">

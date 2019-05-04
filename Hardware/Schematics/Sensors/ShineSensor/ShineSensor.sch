@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6895,7 +6895,86 @@ Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_Photocells
 <wire x1="-0.58" y1="0.65" x2="0.58" y2="0.65" width="0.1524" layer="51"/>
 <rectangle x1="-0.6" y1="-0.4" x2="0.6" y2="0.4" layer="35"/>
 </package>
+<package name="OSHW_5MM" urn="urn:adsk.eagle:footprint:10154709/1">
+<polygon width="0.0508" layer="21">
+<vertex x="-0.2413" y="-0.6096" curve="-160.717601"/>
+<vertex x="0" y="0.6604" curve="-152.950596"/>
+<vertex x="0.2794" y="-0.6096"/>
+<vertex x="0.6731" y="-1.6002"/>
+<vertex x="0.8255" y="-1.5367"/>
+<vertex x="0.9779" y="-1.4351"/>
+<vertex x="1.4859" y="-1.7907"/>
+<vertex x="1.5875" y="-1.7018"/>
+<vertex x="1.6764" y="-1.6129"/>
+<vertex x="1.778" y="-1.4986"/>
+<vertex x="1.8669" y="-1.3843"/>
+<vertex x="1.4986" y="-0.8509"/>
+<vertex x="1.5875" y="-0.6985"/>
+<vertex x="1.6383" y="-0.5461"/>
+<vertex x="1.6891" y="-0.3429"/>
+<vertex x="2.3114" y="-0.2286"/>
+<vertex x="2.3114" y="-0.0508"/>
+<vertex x="2.3114" y="0.0635"/>
+<vertex x="2.2987" y="0.2032"/>
+<vertex x="2.286" y="0.3302"/>
+<vertex x="1.6637" y="0.4445"/>
+<vertex x="1.6129" y="0.6096"/>
+<vertex x="1.5494" y="0.7493"/>
+<vertex x="1.4605" y="0.9017"/>
+<vertex x="1.4478" y="0.9271"/>
+<vertex x="1.8034" y="1.4224"/>
+<vertex x="1.7018" y="1.5494"/>
+<vertex x="1.5748" y="1.6764"/>
+<vertex x="1.4732" y="1.7653"/>
+<vertex x="1.3843" y="1.8288"/>
+<vertex x="0.8636" y="1.4605"/>
+<vertex x="0.7493" y="1.524"/>
+<vertex x="0.635" y="1.5748"/>
+<vertex x="0.5207" y="1.6256"/>
+<vertex x="0.4064" y="1.651"/>
+<vertex x="0.2921" y="2.2733"/>
+<vertex x="0.1397" y="2.286"/>
+<vertex x="-0.0381" y="2.286"/>
+<vertex x="-0.1524" y="2.286"/>
+<vertex x="-0.2794" y="2.2733"/>
+<vertex x="-0.381" y="1.6637"/>
+<vertex x="-0.5715" y="1.6002"/>
+<vertex x="-0.6985" y="1.5494"/>
+<vertex x="-0.8763" y="1.4478"/>
+<vertex x="-1.3843" y="1.8161"/>
+<vertex x="-1.4986" y="1.7272"/>
+<vertex x="-1.6256" y="1.6002"/>
+<vertex x="-1.7272" y="1.4859"/>
+<vertex x="-1.7907" y="1.4224"/>
+<vertex x="-1.4351" y="0.9017"/>
+<vertex x="-1.5113" y="0.7747"/>
+<vertex x="-1.5875" y="0.6096"/>
+<vertex x="-1.6256" y="0.4699"/>
+<vertex x="-1.6637" y="0.381"/>
+<vertex x="-2.286" y="0.2794"/>
+<vertex x="-2.286" y="-0.2794"/>
+<vertex x="-1.6637" y="-0.381"/>
+<vertex x="-1.6129" y="-0.5588"/>
+<vertex x="-1.5748" y="-0.6858"/>
+<vertex x="-1.524" y="-0.7874"/>
+<vertex x="-1.4351" y="-0.9398"/>
+<vertex x="-1.8034" y="-1.4478"/>
+<vertex x="-1.7018" y="-1.5621"/>
+<vertex x="-1.6129" y="-1.651"/>
+<vertex x="-1.4986" y="-1.7526"/>
+<vertex x="-1.4097" y="-1.8288"/>
+<vertex x="-0.889" y="-1.4732"/>
+<vertex x="-0.5969" y="-1.6256"/>
+</polygon>
+</package>
 </packages>
+<packages3d>
+<package3d name="OSHW_5MM" urn="urn:adsk.eagle:package:10154747/1" type="box">
+<packageinstances>
+<packageinstance name="OSHW_5MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="N-MOSFET">
 <wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
@@ -6934,6 +7013,13 @@ Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_Photocells
 <vertex x="2.032" y="-0.762"/>
 </polygon>
 </symbol>
+<symbol name="OSHWLOGO">
+<wire x1="0" y1="0" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="17.78" y2="7.62" width="0.254" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="2.54" y="2.54" size="1.778" layer="94">OSHW Logo</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BSS138" prefix="Q">
@@ -6961,6 +7047,21 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 </device>
 </devices>
 </deviceset>
+<deviceset name="OPENSOURCE">
+<gates>
+<gate name="G$1" symbol="OSHWLOGO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSHW_5MM">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10154747/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -6979,6 +7080,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="5X2MM" package3d_urn="urn:adsk.eagle:package:22466/2"/>
 <part name="Q1" library="Cing Library" deviceset="BSS138" device=""/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/1"/>
+<part name="U$1" library="Cing Library" deviceset="OPENSOURCE" device="" package3d_urn="urn:adsk.eagle:package:10154747/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7009,6 +7111,7 @@ Source: &lt;a href="http://www.fairchildsemi.com/datasheets/BS/BSS138.pdf"&gt;ht
 <attribute name="NAME" x="17.272" y="49.276" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="17.272" y="51.435" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U$1" gate="G$1" x="-20.32" y="27.94" smashed="yes"/>
 </instances>
 <busses>
 </busses>

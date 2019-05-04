@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -169,13 +169,17 @@
 </layers>
 <board>
 <plain>
-<wire x1="-26.5" y1="-12.5" x2="26.5" y2="-12.5" width="0.0762" layer="20"/>
-<wire x1="26.5" y1="-12.5" x2="26.5" y2="13" width="0.0762" layer="20"/>
-<wire x1="26.5" y1="13" x2="-26.5" y2="13" width="0.0762" layer="20"/>
-<wire x1="-26.5" y1="13" x2="-26.5" y2="-12.5" width="0.0762" layer="20"/>
+<wire x1="26.5" y1="-11.5" x2="26.5" y2="12" width="0.0762" layer="20"/>
+<wire x1="25.5" y1="13" x2="-25.5" y2="13" width="0.0762" layer="20"/>
 <text x="-21" y="-12" size="1.778" layer="21" align="bottom-center">VCC mot</text>
 <text x="23.5" y="-12" size="1.778" layer="21" align="bottom-center">3.3V</text>
-<text x="0" y="10.9" size="1.778" layer="21" align="bottom-center">Sponsored by JLCPCB</text>
+<text x="0" y="10.9" size="1.778" layer="21" align="bottom-center">Stepper Module for robot Cing</text>
+<wire x1="-26.5" y1="12" x2="-26.5" y2="-11.5" width="0.0762" layer="20"/>
+<wire x1="-25.5" y1="-12.5" x2="-26.5" y2="-11.5" width="0.0762" layer="20" curve="-90"/>
+<wire x1="26.5" y1="-11.5" x2="25.5" y2="-12.5" width="0.0762" layer="20" curve="-90"/>
+<wire x1="25.5" y1="13" x2="26.5" y2="12" width="0.0762" layer="20" curve="-90"/>
+<wire x1="-26.5" y1="12" x2="-25.5" y2="13" width="0.0762" layer="20" curve="-90"/>
+<wire x1="-25.5" y1="-12.5" x2="25.5" y2="-12.5" width="0.0762" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
