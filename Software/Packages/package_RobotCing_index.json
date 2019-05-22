@@ -45,14 +45,14 @@
         {
           "name": "RobotCing",
           "architecture": "avr",
-          "version": "3.0.0",
+          "version": "3.0.1",
           "category": "Contributed",
           "help": {
             "online": "http://robotcing.wz.sk"
           },
           "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/RobotCing-3.0.0.zip",
-          "archiveFileName": "RobotCing-3.0.0.zip",
-          "checksum": "SHA-256:aa81df825cee339c49eb0e68c82fc2d6a09a3c5da7c92de44842d31fd6d6f3fb",
+          "archiveFileName": "RobotCing-3.0.1.zip",
+          "checksum": "SHA-256:fe6fb84e3e3324e9cba8e9a767335a5bf2f1c5866d774c6e3ac08022ba066d85",
           "size": "14617",
           "boards": [
             {"name": "Attiny85"},
