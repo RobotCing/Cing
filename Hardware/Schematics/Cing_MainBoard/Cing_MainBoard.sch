@@ -25910,7 +25910,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100"/>
 <part name="REVERSE" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="RED"/>
-<part name="VERSION" library="Cing Library" deviceset="VERSION" device="" package3d_urn="urn:adsk.eagle:package:10154717/1" value="3.0"/>
+<part name="VERSION" library="Cing Library" deviceset="VERSION" device="" package3d_urn="urn:adsk.eagle:package:10154717/1" value="3.1"/>
 <part name="SW1" library="Cing Library" deviceset="USB_SWITCH" device="" package3d_urn="urn:adsk.eagle:package:10154743/1"/>
 <part name="U1" library="Cing Library" deviceset="MICRO_USB" device="&quot;&quot;" package3d_urn="urn:adsk.eagle:package:10154724/1"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
