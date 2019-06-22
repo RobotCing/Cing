@@ -714,31 +714,6 @@ Sensor</text>
 <pad name="VCC" x="2.4988" y="-0.0266" drill="0.8128" shape="long" rot="R90"/>
 <pad name="OUT" x="-2.5012" y="-0.0266" drill="0.8128" shape="long" rot="R90"/>
 </package>
-<package name="LM1117T" urn="urn:adsk.eagle:footprint:10154708/1">
-<description>&lt;b&gt;TO-220 Standing Through-hole Package&lt;/b&gt;</description>
-<wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.127" layer="21"/>
-<circle x="-4.4958" y="-3.7084" radius="0.254" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-3.175" y="-3.175" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.635" y="-3.175" size="1.27" layer="51" ratio="10">2</text>
-<text x="1.905" y="-3.175" size="1.27" layer="51" ratio="10">3</text>
-<rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
-<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="-0.762" layer="21"/>
-<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="-0.762" layer="21"/>
-<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
-<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
-<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
-<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
-<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
-</package>
 <package name="VERSION" urn="urn:adsk.eagle:footprint:10154698/1">
 <wire x1="-10" y1="0" x2="-10" y2="14" width="0.127" layer="21"/>
 <wire x1="-10" y1="14" x2="10" y2="14" width="0.127" layer="21"/>
@@ -1040,7 +1015,7 @@ Socket</text>
 <text x="-1.27" y="5.969" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.27" y="5.461" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="LM1117" urn="urn:adsk.eagle:footprint:10154697/1">
+<package name="LM39100S-3.3" urn="urn:adsk.eagle:footprint:10154697/1" locally_modified="yes">
 <description>&lt;b&gt;SOT-223 Small-Outline Transistor Package&lt;/b&gt;</description>
 <wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
 <wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
@@ -1952,12 +1927,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <packageinstance name="TSOP18XX"/>
 </packageinstances>
 </package3d>
-<package3d name="LM1117T" urn="urn:adsk.eagle:package:10154746/1" type="box">
-<description>&lt;b&gt;TO-220 Standing Through-hole Package&lt;/b&gt;</description>
-<packageinstances>
-<packageinstance name="LM1117T"/>
-</packageinstances>
-</package3d>
 <package3d name="VERSION" urn="urn:adsk.eagle:package:10154717/1" type="box">
 <packageinstances>
 <packageinstance name="VERSION"/>
@@ -2019,7 +1988,7 @@ BATTERY</description>
 <package3d name="LM1117" urn="urn:adsk.eagle:package:10154718/1" type="box">
 <description>&lt;b&gt;SOT-223 Small-Outline Transistor Package&lt;/b&gt;</description>
 <packageinstances>
-<packageinstance name="LM1117"/>
+<packageinstance name="LM39100S-3.3"/>
 </packageinstances>
 </package3d>
 <package3d name="WS2812B" urn="urn:adsk.eagle:package:10154742/1" type="box">
@@ -2228,20 +2197,6 @@ Source: ww1.microchip.com/downloads/en/DeviceDoc/39605c.pdf</description>
 <wire x1="17.78" y1="7.62" x2="17.78" y2="0" width="0.254" layer="94"/>
 <wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <text x="2.54" y="2.54" size="1.778" layer="94">OSHW Logo</text>
-</symbol>
-<symbol name="LM1117T">
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
-<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
-<text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
-<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
-<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
-<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="VERSION">
 <text x="0" y="0" size="1.778" layer="94">Version</text>
@@ -2522,9 +2477,9 @@ Typical applications:&lt;p&gt;
 <text x="-5.08" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-1.27" y="-4.318" size="1.524" layer="95">GND</text>
 <pin name="VI" x="-7.62" y="0" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="GND_2" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="VO" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
-<pin name="GND" x="2.54" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="WS2812B">
 <wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -3001,30 +2956,6 @@ Socket</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM1117T" prefix="IC">
-<gates>
-<gate name="G$1" symbol="LM1117T" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-V" package="LM1117T">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10154746/1"/>
-</package3dinstances>
-<technologies>
-<technology name="1.8"/>
-<technology name="2.5"/>
-<technology name="2.85"/>
-<technology name="3.3"/>
-<technology name="5.0"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="VERSION">
 <gates>
 <gate name="G$1" symbol="VERSION" x="0" y="0"/>
@@ -3356,17 +3287,17 @@ Typical applications:&lt;p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM1117">
+<deviceset name="LM39100S-3.3">
 <gates>
 <gate name="G$1" symbol="LM1117" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LM1117">
+<device name="" package="LM39100S-3.3">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="TAB"/>
-<connect gate="G$1" pin="VI" pad="3"/>
-<connect gate="G$1" pin="VO" pad="2"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GND_2" pad="TAB"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:10154718/1"/>
