@@ -26048,6 +26048,8 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uf"/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -26599,6 +26601,12 @@ Socket</text>
 </instance>
 <instance part="U$9" gate="G$1" x="238.76" y="157.48" smashed="yes" rot="R180"/>
 <instance part="U$24" gate="G$1" x="238.76" y="167.64" smashed="yes" rot="R180"/>
+<instance part="P+5" gate="1" x="154.94" y="60.96" smashed="yes">
+<attribute name="VALUE" x="155.956" y="61.214" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R36" gate="G$1" x="154.94" y="53.34" smashed="yes" rot="R270">
+<attribute name="VALUE" x="151.638" y="57.15" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26998,6 +27006,10 @@ Socket</text>
 <wire x1="96.52" y1="81.28" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="P+21" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="P+5" gate="1" pin="+5V"/>
+<pinref part="R36" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="MISO_HV" class="0">
 <segment>
@@ -27071,6 +27083,11 @@ Socket</text>
 <pinref part="R44" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="101.6" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
 <label x="172.72" y="101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="154.94" y1="48.26" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
+<label x="154.94" y="45.72" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="R36" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
