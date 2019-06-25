@@ -25590,8 +25590,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </classes>
 <parts>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="MOT_B" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1"/>
-<part name="MOT_A" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1"/>
+<part name="MOT_B" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1" override_package3d_urn="urn:adsk.eagle:package:11838419/2" override_package_urn="urn:adsk.eagle:footprint:9541/1"/>
+<part name="MOT_A" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/2-5,08" device="" package3d_urn="urn:adsk.eagle:package:9630/1" override_package3d_urn="urn:adsk.eagle:package:11838409/4" override_package_urn="urn:adsk.eagle:footprint:9541/1"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -25655,9 +25655,9 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" override_package3d_urn="urn:adsk.eagle:package:11834935/2" override_package_urn="urn:adsk.eagle:footprint:15651/1" value="RXD"/>
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" override_package3d_urn="urn:adsk.eagle:package:11834935/3" override_package_urn="urn:adsk.eagle:footprint:15651/1" value="RXD"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835256/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="100"/>
-<part name="TXD" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" override_package3d_urn="urn:adsk.eagle:package:11834919/2" override_package_urn="urn:adsk.eagle:footprint:15651/1" value="TXD"/>
+<part name="TXD" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" override_package3d_urn="urn:adsk.eagle:package:11834919/3" override_package_urn="urn:adsk.eagle:footprint:15651/1" value="TXD"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835255/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="100"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
@@ -25680,30 +25680,30 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835291/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="1k"/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835289/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="1k"/>
-<part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="Reset"/>
-<part name="S4" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" value="Button"/>
-<part name="U$1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="PROCESSOR-SOCKET_PCB" device="" package3d_urn="urn:adsk.eagle:package:10154714/1"/>
+<part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" override_package3d_urn="urn:adsk.eagle:package:11838191/2" override_package_urn="urn:adsk.eagle:footprint:27476/1" value="Reset"/>
+<part name="S4" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" override_package3d_urn="urn:adsk.eagle:package:11838185/2" override_package_urn="urn:adsk.eagle:footprint:27476/1" value="Button"/>
+<part name="U$1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="PROCESSOR-SOCKET_PCB" device="" package3d_urn="urn:adsk.eagle:package:10154714/1" override_package3d_urn="urn:adsk.eagle:package:11838063/2" override_package_urn="urn:adsk.eagle:footprint:10154701/1"/>
 <part name="U$2" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BIG_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154719/1" override_package3d_urn="urn:adsk.eagle:package:11834307/2" override_package_urn="urn:adsk.eagle:footprint:10154696/1" value="Header 2"/>
-<part name="U$3" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="I2C_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154735/1"/>
-<part name="U$4" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="SERIAL_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154732/1"/>
+<part name="U$3" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="I2C_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154735/1" override_package3d_urn="urn:adsk.eagle:package:11838087/3" override_package_urn="urn:adsk.eagle:footprint:10154680/1"/>
+<part name="U$4" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="SERIAL_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154732/1" override_package3d_urn="urn:adsk.eagle:package:11838096/2" override_package_urn="urn:adsk.eagle:footprint:10154683/1"/>
 <part name="IC1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="L293D" device="" package3d_urn="urn:adsk.eagle:package:10154745/1" override_package3d_urn="urn:adsk.eagle:package:11833773/2" override_package_urn="urn:adsk.eagle:footprint:10154703/1"/>
 <part name="IRFU9024" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="IRFU9024" device="" package3d_urn="urn:adsk.eagle:package:10154729/1" override_package3d_urn="urn:adsk.eagle:package:11834780/2" override_package_urn="urn:adsk.eagle:footprint:10154686/1"/>
-<part name="U$7" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BATTERY_CONECTOR_D" device="" package3d_urn="urn:adsk.eagle:package:10154722/1"/>
+<part name="U$7" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BATTERY_CONECTOR_D" device="" package3d_urn="urn:adsk.eagle:package:10154722/1" override_package3d_urn="urn:adsk.eagle:package:11838339/2" override_package_urn="urn:adsk.eagle:footprint:10154693/1"/>
 <part name="TP4056" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="TP4056" device="" package3d_urn="urn:adsk.eagle:package:10154725/1" override_package3d_urn="urn:adsk.eagle:package:11834733/2" override_package_urn="urn:adsk.eagle:footprint:10154690/1"/>
-<part name="LS2" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="TCRT5000" device="" package3d_urn="urn:adsk.eagle:package:10154726/1" value="2"/>
-<part name="LS1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="TCRT5000" device="" package3d_urn="urn:adsk.eagle:package:10154726/1" value="1"/>
+<part name="LS2" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="TCRT5000" device="" package3d_urn="urn:adsk.eagle:package:10154726/1" override_package3d_urn="urn:adsk.eagle:package:11838240/3" override_package_urn="urn:adsk.eagle:footprint:11838263/1" value="2"/>
+<part name="LS1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="TCRT5000" device="" package3d_urn="urn:adsk.eagle:package:10154726/1" override_package3d_urn="urn:adsk.eagle:package:11838300/2" override_package_urn="urn:adsk.eagle:footprint:11838301/1" value="1"/>
 <part name="U$12" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="CONNECTOR_1X5" device="" package3d_urn="urn:adsk.eagle:package:10154734/1" override_package3d_urn="urn:adsk.eagle:package:11834905/2" override_package_urn="urn:adsk.eagle:footprint:10154681/1"/>
 <part name="IC3" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="FT232RL" device="" package3d_urn="urn:adsk.eagle:package:10154721/1" override_package3d_urn="urn:adsk.eagle:package:11833660/2" override_package_urn="urn:adsk.eagle:footprint:10154694/1"/>
-<part name="U3" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="MPU-6050" device="MPU6050" package3d_urn="urn:adsk.eagle:package:10154723/1"/>
+<part name="U3" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="MPU-6050" device="MPU6050" package3d_urn="urn:adsk.eagle:package:10154723/1" override_package3d_urn="urn:adsk.eagle:package:11838071/3" override_package_urn="urn:adsk.eagle:footprint:10154692/1"/>
 <part name="U$16" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="LEGO-1X1" device="" package3d_urn="urn:adsk.eagle:package:10154720/1" value="BAT+"/>
 <part name="U$17" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="LEGO-1X1" device="" package3d_urn="urn:adsk.eagle:package:10154720/1" value="3.3V"/>
 <part name="U$18" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="LEGO-1X1" device="" package3d_urn="urn:adsk.eagle:package:10154720/1" value="GND"/>
 <part name="U$19" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="LEGO-1X1" device="" package3d_urn="urn:adsk.eagle:package:10154720/1" value="GND"/>
-<part name="U$20" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BALL" device="" package3d_urn="urn:adsk.eagle:package:10154728/1"/>
-<part name="LED5" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:10154742/1" value="WS2812B"/>
-<part name="LED6" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:10154742/1" value="WS2812B"/>
-<part name="LED7" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:10154742/1" value="WS2812B"/>
-<part name="LED8" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:10154742/1" value="WS2812B"/>
+<part name="U$20" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BALL" device="" package3d_urn="urn:adsk.eagle:package:10154728/1" override_package3d_urn="urn:adsk.eagle:package:11838365/3" override_package_urn="urn:adsk.eagle:footprint:10154687/1"/>
+<part name="LED5" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:10154742/1" override_package3d_urn="urn:adsk.eagle:package:11838153/2" override_package_urn="urn:adsk.eagle:footprint:10154705/1" value="WS2812B"/>
+<part name="LED6" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:10154742/1" override_package3d_urn="urn:adsk.eagle:package:11838143/2" override_package_urn="urn:adsk.eagle:footprint:10154705/1" value="WS2812B"/>
+<part name="LED7" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:10154742/1" override_package3d_urn="urn:adsk.eagle:package:11838140/2" override_package_urn="urn:adsk.eagle:footprint:10154705/1" value="WS2812B"/>
+<part name="LED8" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:10154742/1" override_package3d_urn="urn:adsk.eagle:package:11838128/2" override_package_urn="urn:adsk.eagle:footprint:10154705/1" value="WS2812B"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -25731,10 +25731,10 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$6" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BATTERY_CONECTOR_D" device="" package3d_urn="urn:adsk.eagle:package:10154722/1"/>
+<part name="U$6" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BATTERY_CONECTOR_D" device="" package3d_urn="urn:adsk.eagle:package:10154722/1" override_package3d_urn="urn:adsk.eagle:package:11838348/2" override_package_urn="urn:adsk.eagle:footprint:10154693/1"/>
 <part name="U$22" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="OPENSOURCE" device="" package3d_urn="urn:adsk.eagle:package:10154747/1"/>
-<part name="R21" library="LDR" deviceset="PHOTOCELL" device="1"/>
-<part name="R23" library="LDR" deviceset="PHOTOCELL" device="1"/>
+<part name="R21" library="LDR" deviceset="PHOTOCELL" device="1" override_package3d_urn="urn:adsk.eagle:package:11838426/2" override_package_urn="urn:adsk.eagle:footprint:11838427/1"/>
+<part name="R23" library="LDR" deviceset="PHOTOCELL" device="1" override_package3d_urn="urn:adsk.eagle:package:11838375/2" override_package_urn="urn:adsk.eagle:footprint:11838376/1"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835321/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="1k"/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835330/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="1k"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -25747,10 +25747,10 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" override_package3d_urn="urn:adsk.eagle:package:11833797/2" override_package_urn="urn:adsk.eagle:footprint:22340/1" value="ServoC"/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="TSOP4838" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="TSOP4838" device="" package3d_urn="urn:adsk.eagle:package:10154748/1"/>
+<part name="TSOP4838" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="TSOP4838" device="" package3d_urn="urn:adsk.eagle:package:10154748/1" override_package3d_urn="urn:adsk.eagle:package:11838193/2" override_package_urn="urn:adsk.eagle:footprint:10154710/1"/>
 <part name="+3V22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="POT" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="RJ9W" package3d_urn="urn:adsk.eagle:package:22702/1" value="100k"/>
+<part name="POT" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="RJ9W" package3d_urn="urn:adsk.eagle:package:22702/1" override_package3d_urn="urn:adsk.eagle:package:11838428/2" override_package_urn="urn:adsk.eagle:footprint:22647/1" value="100k"/>
 <part name="+3V23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SW2" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="USB_SWITCH" device="" package3d_urn="urn:adsk.eagle:package:10154743/1" override_package3d_urn="urn:adsk.eagle:package:11834511/2" override_package_urn="urn:adsk.eagle:footprint:10154707/1"/>
@@ -25778,14 +25778,14 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835385/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="10k"/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="JP5" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="ICSP_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154740/1" value="ICSP"/>
+<part name="JP5" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="ICSP_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154740/1" override_package3d_urn="urn:adsk.eagle:package:11838075/2" override_package_urn="urn:adsk.eagle:footprint:10154704/1" value="ICSP"/>
 <part name="SW5" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="USB_SWITCH" device="" package3d_urn="urn:adsk.eagle:package:10154743/1" override_package3d_urn="urn:adsk.eagle:package:11834507/2" override_package_urn="urn:adsk.eagle:footprint:10154707/1"/>
 <part name="BT1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BATTERY" device="-AA_KIT" package3d_urn="urn:adsk.eagle:package:10154741/1" override_package3d_urn="urn:adsk.eagle:package:11833678/2" override_package_urn="urn:adsk.eagle:footprint:10154711/1"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:6240962/1"/>
-<part name="LED9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:6240962/1"/>
-<part name="LED10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:6240962/1"/>
-<part name="LED11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:6240962/1"/>
+<part name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:6240962/1" override_package3d_urn="urn:adsk.eagle:package:11838157/2" override_package_urn="urn:adsk.eagle:footprint:6240319/1"/>
+<part name="LED9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:6240962/1" override_package3d_urn="urn:adsk.eagle:package:11838164/2" override_package_urn="urn:adsk.eagle:footprint:6240319/1"/>
+<part name="LED10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:6240962/1" override_package3d_urn="urn:adsk.eagle:package:11838178/2" override_package_urn="urn:adsk.eagle:footprint:6240319/1"/>
+<part name="LED11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="3535" package3d_urn="urn:adsk.eagle:package:6240962/1" override_package3d_urn="urn:adsk.eagle:package:11838162/2" override_package_urn="urn:adsk.eagle:footprint:6240319/1"/>
 <part name="+3V19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -25842,7 +25842,7 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND63" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$15" library="diy-modules" deviceset="COMPASS-HMC5883L" device=""/>
+<part name="U$15" library="diy-modules" deviceset="COMPASS-HMC5883L" device="" override_package3d_urn="urn:adsk.eagle:package:11838453/4" override_package_urn="urn:adsk.eagle:footprint:11838454/1"/>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -25883,8 +25883,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="GND70" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835384/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="10k"/>
 <part name="JP23" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="U$9" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="POLULU_MOTOR" device=""/>
-<part name="U$24" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="POLULU_MOTOR" device=""/>
+<part name="U$9" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="POLULU_MOTOR" device="" override_package3d_urn="urn:adsk.eagle:package:11838475/3" override_package_urn="urn:adsk.eagle:footprint:11838476/1"/>
+<part name="U$24" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="POLULU_MOTOR" device="" override_package3d_urn="urn:adsk.eagle:package:11838468/3" override_package_urn="urn:adsk.eagle:footprint:11838469/1"/>
 <part name="U$25" library="Cing Library" deviceset="LM39100S-3.3" device="" package3d_urn="urn:adsk.eagle:package:10154718/1" override_package3d_urn="urn:adsk.eagle:package:11833626/3" override_package_urn="urn:adsk.eagle:footprint:11833628/1"/>
 <part name="U$26" library="Cing Library" deviceset="LM39100S-3.3" device="" package3d_urn="urn:adsk.eagle:package:10154718/1" override_package3d_urn="urn:adsk.eagle:package:11834608/2" override_package_urn="urn:adsk.eagle:footprint:11834609/1"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uf"/>
