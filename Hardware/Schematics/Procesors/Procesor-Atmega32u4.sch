@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.4.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -8277,15 +8277,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="ATMEGA32U4-AU" library="adafruit" deviceset="ATMEGA32U4" device="-AU" value=""/>
-<part name="U$2" library="Cing Library" deviceset="PROCESSOR-SOCKET" device=""/>
+<part name="ATMEGA32U4-AU" library="adafruit" deviceset="ATMEGA32U4" device="-AU" override_package3d_urn="urn:adsk.eagle:package:11841837/2" override_package_urn="urn:adsk.eagle:footprint:11841838/1" value=""/>
+<part name="U$2" library="Cing Library" deviceset="PROCESSOR-SOCKET" device="" override_package3d_urn="urn:adsk.eagle:package:11841827/2" override_package_urn="urn:adsk.eagle:footprint:11841828/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" override_package3d_urn="urn:adsk.eagle:package:11841865/2" override_package_urn="urn:adsk.eagle:footprint:23125/1" value="100n"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="1uf"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11841863/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="10k"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -8303,21 +8303,52 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="ATMEGA32U4-AU" gate="G$1" x="33.02" y="48.26" smashed="yes">
 <attribute name="VALUE" x="30.48" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="205.74" y="58.42"/>
-<instance part="GND1" gate="1" x="7.62" y="12.7"/>
-<instance part="C1" gate="G$1" x="-7.62" y="43.18" rot="R180"/>
-<instance part="GND2" gate="1" x="-7.62" y="35.56"/>
-<instance part="C2" gate="G$1" x="-15.24" y="45.72" rot="R180"/>
-<instance part="GND3" gate="1" x="-15.24" y="35.56"/>
-<instance part="+3V1" gate="G$1" x="0" y="91.44"/>
-<instance part="R1" gate="G$1" x="73.66" y="73.66"/>
-<instance part="GND4" gate="1" x="83.82" y="68.58"/>
-<instance part="+3V3" gate="G$1" x="177.8" y="60.96" rot="MR270"/>
-<instance part="+3V4" gate="G$1" x="177.8" y="50.8" rot="MR270"/>
-<instance part="GND5" gate="1" x="172.72" y="50.8"/>
-<instance part="GND6" gate="1" x="172.72" y="60.96"/>
-<instance part="GND7" gate="1" x="236.22" y="58.42"/>
-<instance part="+3V5" gate="G$1" x="238.76" y="45.72" rot="R270"/>
+<instance part="U$2" gate="G$1" x="205.74" y="58.42" smashed="yes"/>
+<instance part="GND1" gate="1" x="7.62" y="12.7" smashed="yes">
+<attribute name="VALUE" x="5.08" y="10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="-7.62" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="-9.144" y="42.799" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-9.144" y="47.879" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND2" gate="1" x="-7.62" y="35.56" smashed="yes">
+<attribute name="VALUE" x="-10.16" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="-15.24" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="-16.764" y="45.339" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-16.764" y="50.419" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND3" gate="1" x="-15.24" y="35.56" smashed="yes">
+<attribute name="VALUE" x="-17.78" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V1" gate="G$1" x="0" y="91.44" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="86.36" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R1" gate="G$1" x="73.66" y="73.66" smashed="yes">
+<attribute name="NAME" x="69.85" y="75.1586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.85" y="70.358" size="1.778" layer="96"/>
+</instance>
+<instance part="GND4" gate="1" x="83.82" y="68.58" smashed="yes">
+<attribute name="VALUE" x="81.28" y="66.04" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V3" gate="G$1" x="177.8" y="60.96" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="182.88" y="63.5" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="+3V4" gate="G$1" x="177.8" y="50.8" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="182.88" y="53.34" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND5" gate="1" x="172.72" y="50.8" smashed="yes">
+<attribute name="VALUE" x="170.18" y="48.26" size="1.778" layer="96"/>
+</instance>
+<instance part="GND6" gate="1" x="172.72" y="60.96" smashed="yes">
+<attribute name="VALUE" x="170.18" y="58.42" size="1.778" layer="96"/>
+</instance>
+<instance part="GND7" gate="1" x="236.22" y="58.42" smashed="yes">
+<attribute name="VALUE" x="233.68" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="238.76" y="45.72" smashed="yes" rot="R270">
+<attribute name="VALUE" x="233.68" y="48.26" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8822,6 +8853,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 

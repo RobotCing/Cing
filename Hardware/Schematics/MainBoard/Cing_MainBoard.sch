@@ -25699,7 +25699,7 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="U$17" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="LEGO-1X1" device="" package3d_urn="urn:adsk.eagle:package:10154720/1" value="3.3V"/>
 <part name="U$18" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="LEGO-1X1" device="" package3d_urn="urn:adsk.eagle:package:10154720/1" value="GND"/>
 <part name="U$19" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="LEGO-1X1" device="" package3d_urn="urn:adsk.eagle:package:10154720/1" value="GND"/>
-<part name="U$20" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BALL" device="" package3d_urn="urn:adsk.eagle:package:10154728/1" override_package3d_urn="urn:adsk.eagle:package:11838365/3" override_package_urn="urn:adsk.eagle:footprint:10154687/1"/>
+<part name="U$20" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BALL" device="" package3d_urn="urn:adsk.eagle:package:10154728/1" override_package3d_urn="urn:adsk.eagle:package:11838365/5" override_package_urn="urn:adsk.eagle:footprint:10154687/1"/>
 <part name="LED5" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:10154742/1" override_package3d_urn="urn:adsk.eagle:package:11838153/2" override_package_urn="urn:adsk.eagle:footprint:10154705/1" value="WS2812B"/>
 <part name="LED6" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:10154742/1" override_package3d_urn="urn:adsk.eagle:package:11838143/2" override_package_urn="urn:adsk.eagle:footprint:10154705/1" value="WS2812B"/>
 <part name="LED7" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:10154742/1" override_package3d_urn="urn:adsk.eagle:package:11838140/2" override_package_urn="urn:adsk.eagle:footprint:10154705/1" value="WS2812B"/>
@@ -25718,7 +25718,7 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835139/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="100"/>
 <part name="REV" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="RED"/>
-<part name="VERSION" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="VERSION" device="" package3d_urn="urn:adsk.eagle:package:10154717/1" value="3.1"/>
+<part name="VERSION" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="VERSION" device="" package3d_urn="urn:adsk.eagle:package:10154717/1" value="4.0"/>
 <part name="SW1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="USB_SWITCH" device="" package3d_urn="urn:adsk.eagle:package:10154743/1" override_package3d_urn="urn:adsk.eagle:package:11834508/2" override_package_urn="urn:adsk.eagle:footprint:10154707/1"/>
 <part name="U1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="MICRO_USB" device="&quot;&quot;" package3d_urn="urn:adsk.eagle:package:10154724/1" override_package3d_urn="urn:adsk.eagle:package:11834580/2" override_package_urn="urn:adsk.eagle:footprint:10154691/1"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835325/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="10k"/>
@@ -25842,7 +25842,7 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND63" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$15" library="diy-modules" deviceset="COMPASS-HMC5883L" device="" override_package3d_urn="urn:adsk.eagle:package:11838453/4" override_package_urn="urn:adsk.eagle:footprint:11838454/1"/>
+<part name="U$15" library="diy-modules" deviceset="COMPASS-HMC5883L" device="" override_package3d_urn="urn:adsk.eagle:package:11838453/5" override_package_urn="urn:adsk.eagle:footprint:11838454/1"/>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>

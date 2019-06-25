@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.4.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -2534,7 +2534,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </class>
 </classes>
 <parts>
-<part name="U1" library="esp12e" deviceset="ESP12E" device="SMD"/>
+<part name="U1" library="esp12e" deviceset="ESP12E" device="SMD" override_package3d_urn="urn:adsk.eagle:package:11842534/2" override_package_urn="urn:adsk.eagle:footprint:11842537/1"/>
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -2557,23 +2557,64 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="48.26" y="58.42"/>
-<instance part="JP5" gate="G$1" x="96.52" y="60.96"/>
-<instance part="TP1" gate="G$1" x="78.74" y="53.34"/>
-<instance part="P+1" gate="1" x="104.14" y="33.02" rot="R90"/>
-<instance part="P+2" gate="1" x="104.14" y="38.1" rot="R90"/>
-<instance part="GND2" gate="1" x="101.6" y="27.94"/>
-<instance part="GND3" gate="1" x="99.06" y="35.56"/>
-<instance part="GND4" gate="1" x="160.02" y="35.56"/>
-<instance part="P+3" gate="1" x="149.86" y="30.48" rot="R270"/>
-<instance part="J1" gate="G$1" x="129.54" y="48.26" rot="R90"/>
-<instance part="J2" gate="G$1" x="116.84" y="38.1" rot="R180"/>
-<instance part="J3" gate="G$1" x="127" y="25.4" rot="R270"/>
-<instance part="J4" gate="G$1" x="139.7" y="35.56"/>
-<instance part="P+4" gate="1" x="17.78" y="63.5"/>
-<instance part="GND5" gate="1" x="66.04" y="45.72"/>
-<instance part="P+5" gate="1" x="17.78" y="50.8"/>
-<instance part="P+6" gate="1" x="68.58" y="53.34" rot="R270"/>
+<instance part="U1" gate="G$1" x="48.26" y="58.42" smashed="yes">
+<attribute name="NAME" x="35.56" y="68.58" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="JP5" gate="G$1" x="96.52" y="60.96" smashed="yes">
+<attribute name="NAME" x="90.17" y="64.135" size="1.778" layer="95"/>
+<attribute name="VALUE" x="90.17" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="TP1" gate="G$1" x="78.74" y="53.34" smashed="yes">
+<attribute name="NAME" x="77.724" y="46.99" size="1.778" layer="95" rot="R90"/>
+<attribute name="TP_SIGNAL_NAME" x="80.01" y="50.8" size="1.778" layer="97"/>
+</instance>
+<instance part="P+1" gate="1" x="104.14" y="33.02" smashed="yes" rot="R90">
+<attribute name="VALUE" x="109.22" y="30.48" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+2" gate="1" x="104.14" y="38.1" smashed="yes" rot="R90">
+<attribute name="VALUE" x="109.22" y="35.56" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND2" gate="1" x="101.6" y="27.94" smashed="yes">
+<attribute name="VALUE" x="99.06" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="GND3" gate="1" x="99.06" y="35.56" smashed="yes">
+<attribute name="VALUE" x="96.52" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="GND4" gate="1" x="160.02" y="35.56" smashed="yes">
+<attribute name="VALUE" x="157.48" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="P+3" gate="1" x="149.86" y="30.48" smashed="yes" rot="R270">
+<attribute name="VALUE" x="144.78" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="J1" gate="G$1" x="129.54" y="48.26" smashed="yes" rot="R90">
+<attribute name="VALUE" x="141.986" y="43.18" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="116.332" y="43.18" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
+<instance part="J2" gate="G$1" x="116.84" y="38.1" smashed="yes" rot="R180">
+<attribute name="VALUE" x="121.92" y="50.546" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="121.92" y="24.892" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
+<instance part="J3" gate="G$1" x="127" y="25.4" smashed="yes" rot="R270">
+<attribute name="VALUE" x="114.554" y="30.48" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="NAME" x="140.208" y="30.48" size="1.778" layer="95" font="vector" rot="R270"/>
+</instance>
+<instance part="J4" gate="G$1" x="139.7" y="35.56" smashed="yes">
+<attribute name="VALUE" x="134.62" y="23.114" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="134.62" y="48.768" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="P+4" gate="1" x="17.78" y="63.5" smashed="yes">
+<attribute name="VALUE" x="15.24" y="58.42" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND5" gate="1" x="66.04" y="45.72" smashed="yes">
+<attribute name="VALUE" x="63.5" y="43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="P+5" gate="1" x="17.78" y="50.8" smashed="yes">
+<attribute name="VALUE" x="15.24" y="45.72" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+6" gate="1" x="68.58" y="53.34" smashed="yes" rot="R270">
+<attribute name="VALUE" x="63.5" y="55.88" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2876,6 +2917,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

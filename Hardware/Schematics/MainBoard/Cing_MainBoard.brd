@@ -168,7 +168,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTc5YzVj" projecturn="a.cGVyc29uYWw6dWUyOTc5YzVjIzIwMTYxMDE1NDY4MTE5MjY" f3durn="urn:adsk.wipprod:dm.lineage:OxtLfXioRNGpEPjqi8H5ew" pcbguid="aab246c0-a25e-424b-8ec7-c8b2cc11dcb0" lastpulledtime="" lastsyncedchangeguid="ba3a4b8f-c2b4-ea65-9e96-2cd773722963"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTc5YzVj" projecturn="a.cGVyc29uYWw6dWUyOTc5YzVjIzIwMTkwNjI1MjAwNjYyNTAx" f3durn="urn:adsk.wipprod:dm.lineage:F-kKAJn1SLWSqLFyv44BXQ" pcbguid="94010e1c-0bc5-45e6-b30e-e8625a835ba8" lastpulledtime="" lastsyncedchangeguid="c102dd65-50ae-9bd8-6df9-751ffc4031cd"/>
 <plain>
 <text x="17.145" y="28.448" size="1.778" layer="21">Header 2</text>
 <text x="42.291" y="27.051" size="1.778" layer="21" rot="R90">Header 1</text>
@@ -7010,7 +7010,7 @@ design rules under a new name.</description>
 <element name="U$19" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="LEGO-1X1" package3d_urn="urn:adsk.eagle:package:10154720/1" value="GND" x="43.835" y="43.835" smashed="yes">
 <attribute name="VALUE" x="39.5" y="39.5" size="1.27" layer="21" rot="R135" align="bottom-center"/>
 </element>
-<element name="U$20" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="BALL" package3d_urn="urn:adsk.eagle:package:10154728/1" override_package3d_urn="urn:adsk.eagle:package:11838365/3" override_package_urn="urn:adsk.eagle:footprint:10154687/1" value="BALL" x="45" y="0" smashed="yes"/>
+<element name="U$20" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="BALL" package3d_urn="urn:adsk.eagle:package:10154728/1" override_package3d_urn="urn:adsk.eagle:package:11838365/5" override_package_urn="urn:adsk.eagle:footprint:10154687/1" value="BALL" x="45" y="0" smashed="yes"/>
 <element name="LED5" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="WS2812B" package3d_urn="urn:adsk.eagle:package:10154742/1" override_package3d_urn="urn:adsk.eagle:package:11838153/2" override_package_urn="urn:adsk.eagle:footprint:10154705/1" value="WS2812B" x="-34.29" y="-34.29" smashed="yes" rot="R270"/>
 <element name="LED6" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="WS2812B" package3d_urn="urn:adsk.eagle:package:10154742/1" override_package3d_urn="urn:adsk.eagle:package:11838143/2" override_package_urn="urn:adsk.eagle:footprint:10154705/1" value="WS2812B" x="-34.29" y="34.29" smashed="yes" rot="R180"/>
 <element name="LED7" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="WS2812B" package3d_urn="urn:adsk.eagle:package:10154742/1" override_package3d_urn="urn:adsk.eagle:package:11838140/2" override_package_urn="urn:adsk.eagle:footprint:10154705/1" value="WS2812B" x="34.29" y="34.29" smashed="yes" rot="R90"/>
@@ -7022,7 +7022,7 @@ design rules under a new name.</description>
 <element name="REV" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="RED" x="15.3" y="-29" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.813" y="-26.546" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="VERSION" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="VERSION" package3d_urn="urn:adsk.eagle:package:10154717/1" value="3.1" x="49.5" y="0" smashed="yes" rot="R90">
+<element name="VERSION" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="VERSION" package3d_urn="urn:adsk.eagle:package:10154717/1" value="4.0" x="49.5" y="0" smashed="yes" rot="R90">
 <attribute name="VALUE" x="46.5" y="6.84" size="2.54" layer="21" rot="R90" align="center"/>
 </element>
 <element name="SW1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="USB_SWITCH" package3d_urn="urn:adsk.eagle:package:10154743/1" override_package3d_urn="urn:adsk.eagle:package:11834508/2" override_package_urn="urn:adsk.eagle:footprint:10154707/1" value="" x="-43.78" y="-34.29" smashed="yes" rot="R180">
@@ -7245,7 +7245,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="67R2009" x="6.242" y="-32.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="3.942" y="-33.6" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="U$15" library="diy-modules" package="COMPASS-HMC5883L" override_package3d_urn="urn:adsk.eagle:package:11838453/4" override_package_urn="urn:adsk.eagle:footprint:11838454/1" value="" x="24.2" y="40.3" smashed="yes" rot="MR90">
+<element name="U$15" library="diy-modules" package="COMPASS-HMC5883L" override_package3d_urn="urn:adsk.eagle:package:11838453/5" override_package_urn="urn:adsk.eagle:footprint:11838454/1" value="" x="24.2" y="40.3" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="16.58" y="40.3" size="1.27" layer="28" rot="MR90" align="top-center"/>
 </element>
 <element name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835320/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="10k" x="3.862" y="39.454" smashed="yes" rot="MR270">
