@@ -12,13 +12,13 @@
         {
           "name": "RobotCing",
           "architecture": "avr",
-          "version": "2.0.0",
+          "version": "3.0.0",
           "category": "Contributed",
           "help": {
             "online": "http://robotcing.wz.sk"
           },
-          "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/RobotCing-2.0.0.zip",
-          "archiveFileName": "RobotCing-2.0.0.zip",
+          "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/RobotCing-3.0.0.zip",
+          "archiveFileName": "RobotCing-3.0.0.zip",
           "checksum": "SHA-256:f933a511d3d243bb4765b0f5f24459eafa41ca12d4531ecf0274a9a4428fa667",
           "size": "14750",
           "boards": [
@@ -26,8 +26,7 @@
             {"name": "Attiny84"},
             {"name": "Atmega8"},
             {"name": "Atmega328"},
-            {"name": "Atmega32u4"},
-            {"name": "Esp8266"}
+            {"name": "Atmega32u4"}
           ],
           "toolsDependencies": [
             {
@@ -45,22 +44,21 @@
         {
           "name": "RobotCing",
           "architecture": "avr",
-          "version": "3.0.1",
+          "version": "4.0.0",
           "category": "Contributed",
           "help": {
             "online": "http://robotcing.wz.sk"
           },
           "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/RobotCing-3.0.1.zip",
           "archiveFileName": "RobotCing-3.0.1.zip",
-          "checksum": "SHA-256:fe6fb84e3e3324e9cba8e9a767335a5bf2f1c5866d774c6e3ac08022ba066d85",
-          "size": "13475",
+          "checksum": "SHA-256:87a993815d86b2454ad3e4b2bcac4658b7060599cfd162eccb95e2a25d7b3f2d",
+          "size": "61265",
           "boards": [
             {"name": "Attiny85"},
             {"name": "Attiny84"},
             {"name": "Atmega8"},
             {"name": "Atmega328"},
-            {"name": "Atmega32u4"},
-            {"name": "Esp8266"}
+            {"name": "Atmega32u4"}
           ],
           "toolsDependencies": [
             {
