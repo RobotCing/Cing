@@ -25829,7 +25829,7 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" override_package3d_urn="urn:adsk.eagle:package:11835326/2" override_package_urn="urn:adsk.eagle:footprint:23055/1" value="2R"/>
 <part name="IC2" library="lm2576" deviceset="LM2576" device="S" override_package3d_urn="urn:adsk.eagle:package:11833680/2" override_package_urn="urn:adsk.eagle:footprint:11833681/1"/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="47uf"/>
 <part name="L2" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR127" device="" package3d_urn="urn:adsk.eagle:package:15117/1" override_package3d_urn="urn:adsk.eagle:package:11834597/2" override_package_urn="urn:adsk.eagle:footprint:15034/1"/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -25896,6 +25896,10 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100"/>
 <part name="U2" library="Cing Library" deviceset="SX1509" device="" override_package3d_urn="urn:adsk.eagle:package:11834308/2" override_package_urn="urn:adsk.eagle:footprint:11834309/1"/>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="47uf"/>
+<part name="GND62" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
+<part name="GND64" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27475,6 +27479,19 @@ managment</text>
 <instance part="GND39" gate="1" x="91.44" y="99.06" smashed="yes">
 <attribute name="VALUE" x="88.9" y="96.52" size="1.778" layer="96"/>
 </instance>
+<instance part="C23" gate="G$1" x="25.4" y="111.76" smashed="yes">
+<attribute name="NAME" x="26.543" y="112.2426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="26.543" y="107.1626" size="1.778" layer="96"/>
+</instance>
+<instance part="GND62" gate="1" x="25.4" y="99.06" smashed="yes">
+<attribute name="VALUE" x="22.86" y="96.52" size="1.778" layer="96"/>
+</instance>
+<instance part="C24" gate="G$1" x="33.02" y="111.76" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="39.116" y="107.061" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND64" gate="1" x="33.02" y="99.06" smashed="yes">
+<attribute name="VALUE" x="30.48" y="96.52" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27663,6 +27680,16 @@ managment</text>
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C23" gate="G$1" pin="-"/>
+<pinref part="GND62" gate="1" pin="GND"/>
+<wire x1="25.4" y1="101.6" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="GND64" gate="1" pin="GND"/>
+<wire x1="33.02" y1="101.6" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="IRFU" class="0">
 <segment>
@@ -27817,8 +27844,12 @@ managment</text>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="VIN"/>
-<wire x1="40.64" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
-<label x="35.56" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="114.3" x2="33.02" y2="114.3" width="0.1524" layer="91"/>
+<label x="25.4" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C23" gate="G$1" pin="+"/>
+<pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="114.3" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
+<junction x="33.02" y="114.3"/>
 </segment>
 </net>
 <net name="N$5" class="0">
