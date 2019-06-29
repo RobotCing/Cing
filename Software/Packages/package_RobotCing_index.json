@@ -49,8 +49,8 @@
           "help": {
             "online": "http://robotcing.wz.sk"
           },
-          "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/RobotCing-3.0.1.zip",
-          "archiveFileName": "RobotCing-3.0.1.zip",
+          "url": "https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/RobotCing-4.0.0.zip",
+          "archiveFileName": "RobotCing-4.0.0.zip",
           "checksum": "SHA-256:87a993815d86b2454ad3e4b2bcac4658b7060599cfd162eccb95e2a25d7b3f2d",
           "size": "61265",
           "boards": [
