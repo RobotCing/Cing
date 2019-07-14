@@ -25674,7 +25674,6 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835322/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="40"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -27012,9 +27011,6 @@ motor driver</text>
 <instance part="+3V11" gate="G$1" x="190.5" y="106.68" smashed="yes">
 <attribute name="VALUE" x="187.96" y="101.6" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V12" gate="G$1" x="172.72" y="106.68" smashed="yes">
-<attribute name="VALUE" x="170.18" y="101.6" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="IC1" gate="G$1" x="149.86" y="86.36" smashed="yes">
 <attribute name="NAME" x="139.7" y="107.696" size="1.778" layer="95"/>
 <attribute name="VALUE" x="139.7" y="63.5" size="1.778" layer="96"/>
@@ -27218,11 +27214,6 @@ motor driver</text>
 <wire x1="190.5" y1="104.14" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="+3V11" gate="G$1" pin="+3V3"/>
 </segment>
-<segment>
-<wire x1="172.72" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="+3V12" gate="G$1" pin="+3V3"/>
-<pinref part="IC1" gate="G$1" pin="VCC1"/>
-</segment>
 </net>
 <net name="D6" class="0">
 <segment>
@@ -27246,6 +27237,11 @@ motor driver</text>
 <pinref part="JP4" gate="A" pin="2"/>
 <wire x1="40.64" y1="144.78" x2="33.02" y2="144.78" width="0.1524" layer="91"/>
 <label x="33.02" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="165.1" y1="109.22" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<label x="165.1" y="109.22" size="1.778" layer="95" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="VCC1"/>
 </segment>
 </net>
 </nets>
