@@ -18801,17 +18801,6 @@ Socket</text>
 <text x="-10.541" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-7.493" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="IRFU9024" urn="urn:adsk.eagle:footprint:10154686/1">
-<pad name="D" x="0" y="0" drill="1" diameter="1.6764"/>
-<pad name="G" x="-2.54" y="0" drill="1" diameter="1.6764"/>
-<pad name="S" x="2.54" y="0" drill="1" diameter="1.6764"/>
-<wire x1="-3" y1="3" x2="-3" y2="10" width="0.127" layer="21"/>
-<wire x1="-3" y1="10" x2="3" y2="10" width="0.127" layer="21"/>
-<wire x1="3" y1="10" x2="3" y2="3" width="0.127" layer="21"/>
-<wire x1="3" y1="3" x2="-3" y2="3" width="0.127" layer="21"/>
-<text x="-2.54" y="11.43" size="1.27" layer="21">&gt;Name</text>
-<smd name="P$1" x="0" y="6.731" dx="7.366" dy="6.096" layer="1" rot="R90"/>
-</package>
 <package name="BATTERY_CONECTOR_D" urn="urn:adsk.eagle:footprint:10154693/1">
 <wire x1="-7" y1="4" x2="7" y2="4" width="0.127" layer="21"/>
 <wire x1="7" y1="4" x2="7" y2="-4" width="0.127" layer="21"/>
@@ -19366,11 +19355,6 @@ Socket</text>
 <packageinstance name="SERIAL_HEADER"/>
 </packageinstances>
 </package3d>
-<package3d name="IRFU9024" urn="urn:adsk.eagle:package:10154729/1" type="box">
-<packageinstances>
-<packageinstance name="IRFU9024"/>
-</packageinstances>
-</package3d>
 <package3d name="BATTERY_CONECTOR_D" urn="urn:adsk.eagle:package:10154722/1" type="box">
 <packageinstances>
 <packageinstance name="BATTERY_CONECTOR_D"/>
@@ -19581,42 +19565,6 @@ header</text>
 <pin name="3Y" x="15.24" y="-7.62" length="middle" direction="out" rot="R180"/>
 <pin name="3A" x="15.24" y="-12.7" length="middle" direction="in" rot="R180"/>
 <pin name="3-4EN" x="15.24" y="-17.78" length="middle" direction="in" rot="R180"/>
-</symbol>
-<symbol name="IRFU9024" library_version="1">
-<wire x1="0.762" y1="-0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-3.175" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="1.905" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="0.762" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.048" y1="0.762" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="4.318" y1="0.508" x2="4.572" y2="0.254" width="0.1524" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<text x="-16.51" y="-3.81" size="1.778" layer="95">IRFU9024</text>
-<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="G" x="-2.54" y="2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<polygon width="0.1524" layer="94">
-<vertex x="3.81" y="0.508"/>
-<vertex x="4.318" y="-0.254"/>
-<vertex x="3.302" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="2.54" y="0"/>
-<vertex x="1.524" y="0.762"/>
-<vertex x="1.524" y="-0.762"/>
-</polygon>
 </symbol>
 <symbol name="BATTERY" library_version="1">
 <description>&lt;h3&gt;Battery (Single-Cell)&lt;/h3&gt;</description>
@@ -20194,26 +20142,6 @@ header</text>
 <attribute name="OC_FARNELL" value="9589619" constant="no"/>
 <attribute name="OC_NEWARK" value="56P8249" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="IRFU9024" library_version="1">
-<gates>
-<gate name="G$1" symbol="IRFU9024" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="IRFU9024">
-<connects>
-<connect gate="G$1" pin="D" pad="D"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="S" pad="S"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10154729/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -25687,7 +25615,6 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="U$3" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="I2C_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154735/1" override_package3d_urn="urn:adsk.eagle:package:11838087/3" override_package_urn="urn:adsk.eagle:footprint:10154680/1"/>
 <part name="U$4" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="SERIAL_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154732/1" override_package3d_urn="urn:adsk.eagle:package:11838096/2" override_package_urn="urn:adsk.eagle:footprint:10154683/1"/>
 <part name="IC1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="L293D" device="" package3d_urn="urn:adsk.eagle:package:10154745/1" override_package3d_urn="urn:adsk.eagle:package:11833773/2" override_package_urn="urn:adsk.eagle:footprint:10154703/1" value="L293D  "/>
-<part name="IRFU9024" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="IRFU9024" device="" package3d_urn="urn:adsk.eagle:package:10154729/1" override_package3d_urn="urn:adsk.eagle:package:11834780/2" override_package_urn="urn:adsk.eagle:footprint:10154686/1"/>
 <part name="U$7" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BATTERY_CONECTOR_D" device="" package3d_urn="urn:adsk.eagle:package:10154722/1" override_package3d_urn="urn:adsk.eagle:package:11838339/2" override_package_urn="urn:adsk.eagle:footprint:10154693/1"/>
 <part name="TP4056" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="TP4056" device="" package3d_urn="urn:adsk.eagle:package:10154725/1" override_package3d_urn="urn:adsk.eagle:package:11834733/2" override_package_urn="urn:adsk.eagle:footprint:10154690/1"/>
 <part name="LS2" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="TCRT5000" device="" package3d_urn="urn:adsk.eagle:package:10154726/1" override_package3d_urn="urn:adsk.eagle:package:11838240/3" override_package_urn="urn:adsk.eagle:footprint:11838263/1" value="2"/>
@@ -25829,9 +25756,7 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="U$14" library="diy-modules" deviceset="RANGING-SENSOR-VL53L0X" device="" override_package3d_urn="urn:adsk.eagle:package:11833724/2" override_package_urn="urn:adsk.eagle:footprint:11833725/1"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q7" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="NP2301AMR-G" device="" package3d_urn="urn:adsk.eagle:package:10154715/1" override_package3d_urn="urn:adsk.eagle:package:11834602/2" override_package_urn="urn:adsk.eagle:footprint:10154700/1" value="NP2301AMR-G"/>
-<part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q6" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="NP2301AMR-G" device="" package3d_urn="urn:adsk.eagle:package:10154715/1" override_package3d_urn="urn:adsk.eagle:package:11833702/2" override_package_urn="urn:adsk.eagle:footprint:10154700/1" value="NP2301AMR-G"/>
-<part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND63" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$15" library="diy-modules" deviceset="COMPASS-HMC5883L" device="" override_package3d_urn="urn:adsk.eagle:package:11838453/5" override_package_urn="urn:adsk.eagle:footprint:11838454/1"/>
@@ -25894,6 +25819,7 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="GND64" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" override_package3d_urn="urn:adsk.eagle:package:11833761/2" override_package_urn="urn:adsk.eagle:footprint:23125/1" value="100n"/>
 <part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" override_package3d_urn="urn:adsk.eagle:package:11833761/2" override_package_urn="urn:adsk.eagle:footprint:23125/1" value="100n"/>
+<part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0505" package3d_urn="urn:adsk.eagle:package:23402/2" value="10uf"/>
 </parts>
 <sheets>
 <sheet>
@@ -27317,7 +27243,6 @@ managment</text>
 <instance part="+3V2" gate="G$1" x="241.3" y="45.72" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="243.84" y="40.64" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="IRFU9024" gate="G$1" x="208.28" y="66.04" smashed="yes" rot="MR90"/>
 <instance part="U$7" gate="G$1" x="165.1" y="86.36" smashed="yes" rot="R270"/>
 <instance part="TP4056" gate="G$1" x="165.1" y="127" smashed="yes">
 <attribute name="NAME" x="165.1" y="127" size="1.27" layer="95"/>
@@ -27473,14 +27398,8 @@ managment</text>
 <instance part="Q7" gate="G$1" x="208.28" y="96.52" smashed="yes" rot="R90">
 <attribute name="VALUE" x="214.63" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND49" gate="1" x="210.82" y="88.9" smashed="yes">
-<attribute name="VALUE" x="208.28" y="86.36" size="1.778" layer="96"/>
-</instance>
 <instance part="Q6" gate="G$1" x="208.28" y="81.28" smashed="yes" rot="R90">
 <attribute name="VALUE" x="217.17" y="74.93" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND61" gate="1" x="210.82" y="73.66" smashed="yes">
-<attribute name="VALUE" x="208.28" y="71.12" size="1.778" layer="96"/>
 </instance>
 <instance part="U$25" gate="G$1" x="187.96" y="40.64" smashed="yes">
 <attribute name="VALUE" x="182.88" y="43.815" size="1.778" layer="96"/>
@@ -27513,6 +27432,10 @@ managment</text>
 </instance>
 <instance part="GND64" gate="1" x="33.02" y="99.06" smashed="yes">
 <attribute name="VALUE" x="30.48" y="96.52" size="1.778" layer="96"/>
+</instance>
+<instance part="C27" gate="G$1" x="220.98" y="81.28" smashed="yes">
+<attribute name="NAME" x="222.123" y="81.7626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="222.123" y="76.6826" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -27578,8 +27501,6 @@ managment</text>
 <pinref part="U1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="60.96" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="63.5" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="83.82" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
@@ -27588,12 +27509,10 @@ managment</text>
 <wire x1="149.86" y1="119.38" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="60.96" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
 <junction x="149.86" y="119.38"/>
-<junction x="175.26" y="60.96"/>
 <wire x1="157.48" y1="60.96" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <junction x="157.48" y="60.96"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="157.48" y1="60.96" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="IRFU9024" gate="G$1" pin="G"/>
 <pinref part="TP4056" gate="G$1" pin="TEMP"/>
 <pinref part="TP4056" gate="G$1" pin="GND"/>
 <wire x1="157.48" y1="83.82" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
@@ -27685,16 +27604,6 @@ managment</text>
 <junction x="66.04" y="104.14"/>
 </segment>
 <segment>
-<pinref part="Q7" gate="G$1" pin="G"/>
-<pinref part="GND49" gate="1" pin="GND"/>
-<wire x1="210.82" y1="91.44" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Q6" gate="G$1" pin="G"/>
-<pinref part="GND61" gate="1" pin="GND"/>
-<wire x1="210.82" y1="76.2" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 </segment>
@@ -27720,7 +27629,6 @@ managment</text>
 <wire x1="175.26" y1="93.98" x2="175.26" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
 <junction x="175.26" y="93.98"/>
-<pinref part="IRFU9024" gate="G$1" pin="D"/>
 <pinref part="U$7" gate="G$1" pin="+"/>
 <wire x1="187.96" y1="93.98" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="91.44" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
@@ -27730,7 +27638,6 @@ managment</text>
 <junction x="195.58" y="99.06"/>
 <wire x1="187.96" y1="99.06" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="99.06" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="68.58" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="83.82" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="BT1" gate="G$1" pin="+"/>
@@ -27740,7 +27647,6 @@ managment</text>
 <pinref part="Q7" gate="G$1" pin="D"/>
 <junction x="203.2" y="99.06"/>
 <pinref part="Q6" gate="G$1" pin="D"/>
-<junction x="203.2" y="83.82"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -27922,8 +27828,6 @@ managment</text>
 <wire x1="232.41" y1="111.76" x2="219.71" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="219.71" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
 <junction x="219.71" y="111.76"/>
-<wire x1="213.36" y1="68.58" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="IRFU9024" gate="G$1" pin="S"/>
 <pinref part="TP4056" gate="G$1" pin="BAT"/>
 <wire x1="213.36" y1="83.82" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="99.06" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
@@ -27936,7 +27840,9 @@ managment</text>
 <pinref part="Q7" gate="G$1" pin="S"/>
 <junction x="213.36" y="99.06"/>
 <pinref part="Q6" gate="G$1" pin="S"/>
-<junction x="213.36" y="83.82"/>
+<pinref part="C27" gate="G$1" pin="+"/>
+<wire x1="220.98" y1="83.82" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="99.06" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -28073,6 +27979,21 @@ managment</text>
 <wire x1="231.14" y1="76.2" x2="231.14" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="ON" gate="G$1" pin="C"/>
 <label x="231.14" y="76.2" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="210.82" y1="78.74" x2="210.82" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="Q6" gate="G$1" pin="G"/>
+<label x="210.82" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="76.2" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="-"/>
+<label x="220.98" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="210.82" y1="93.98" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="Q7" gate="G$1" pin="G"/>
+<label x="210.82" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
