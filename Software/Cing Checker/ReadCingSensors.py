@@ -5,7 +5,7 @@ ports = ['/dev/ttyUSB0','/dev/ttyUSB1','/dev/ttyUSB2','/dev/ttyUSB3','/dev/ttyAC
 error = 0;
 for x in range(len(ports)):
 	try:
-		ser = serial.Serial(ports[x], 115200)
+		ser = serial.Serial(ports[x], 9600)
 		print("Opening port: {}. Please wait.".format(ports[x]))
 		break;
 	except:

@@ -8,6 +8,8 @@ from flask import Flask
 from flask import abort, redirect, url_for, jsonify
 from flask import render_template
 from flask import send_from_directory
+import webbrowser
+
 
 temp_sensor = "Reading Value"
 shine_sensor1 = "Reading Value"
@@ -32,6 +34,8 @@ ultra = "Reading Value"
 
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
+
+webbrowser.open('http://127.0.0.1:8000/')
 
 app = Flask(__name__, static_url_path = "/img", static_folder = "img")
 
@@ -68,12 +72,9 @@ def activate_job():
                 ENCB = data[19]
                 if(temp_sensor != "Fail"):
                     temp_sensor += "°C"
-
-                if(gyro != "Fail"):
+                if(gyro != "Fail" and accelerometer != "Fail"):
                     gyro_val = gyro.split(" ");
                     gyro = gyro_val[0] + "° " + gyro_val[1] + "° " + gyro_val[2] + "° "
-
-            time.sleep(0.05)
 
     thread = threading.Thread(target=run_job)
     thread.start()
