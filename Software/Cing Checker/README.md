@@ -2,6 +2,7 @@
 Before running any command you need to be in `Cing Checker` folder 
 
 ## Windows install
+Install python 3 and make sure you add python into path. ![Adding Python to path](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
 Just run install.bat
 
 ### Running Cing Checker web version
