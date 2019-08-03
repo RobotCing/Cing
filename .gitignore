@@ -125,5 +125,3 @@ dmypy.json
 #Eagle files
 *.b#*
 *.s#*
-#Cing Checker config file
-Cing_Checker.config
