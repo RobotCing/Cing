@@ -7,10 +7,10 @@ Install python 3 and make sure you add python into path. ![Adding Python to path
 After python 3 is successfully installed run `install.bat`
 
 ### Running Cing Checker web version
-Run Cing_Checker.bat
+Run `Cing_Checker.bat`
 
 ### Running Cing Checker python IDLE version
-Open ReadCingSensors.py in Python 3 IDLE and hit run (F5).
+Open `ReadCingSensors.py` in Python 3 IDLE and hit run (F5).
 
 ## Linux install
 just run `$ ./install.sh` in terminal
