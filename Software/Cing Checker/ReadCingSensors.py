@@ -3,18 +3,30 @@ import serial
 import time
 ports = ['/dev/ttyUSB','COM']
 error = 0
+config = open("config.txt","r")
+config.readline()
+port = config.readline().split("=")
+port = port[1]
+port = port.strip()
 
-for x in range(len(ports)):
-	for y in range(255):
-		try:
-			ser = serial.Serial(ports[x]+str(y), 9600)
-			print("Opening port: {}. Please wait.".format())
-			break
-		except:
-			error += 1
-		if(error > len(ports)*256):
-			print("Board is not available. Make sure your board is on (the green LED is on) and connected to the computer.")
-			exit()
+def BoardNotFound():
+	print("Board is not available. Make sure your board is on (the green LED is on) and connected to the computer.")
+	exit()
+
+if(port == "AUTO"):
+	for x in range(len(ports)):
+		for y in range(255):
+			try:
+				ser = serial.Serial(ports[x]+str(y), 9600)
+				print("Opening port: {}. Please wait.".format())
+				break
+			except:
+				error += 1
+			if(error > len(ports)*256):
+				BoardNotFound()
+else:
+	ser = serial.Serial(port, 9600)
+
 
 def ReadSerial():
 	serial = str(ser.readline())
