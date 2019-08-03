@@ -1,22 +1,24 @@
 #!/usr/bin/python3
 import serial
 import time
-ports = ['COM12','/dev/ttyUSB0','/dev/ttyUSB1','/dev/ttyUSB2','/dev/ttyUSB3','/dev/ttyACM0','/dev/ttyACM1','/dev/ttyACM2']
-error = 0;
+ports = ['/dev/ttyUSB','COM']
+error = 0
+
 for x in range(len(ports)):
-	try:
-		ser = serial.Serial(ports[x], 9600)
-		print("Opening port: {}. Please wait.".format(ports[x]))
-		break;
-	except:
-		error += 1
-	if(error == len(ports)):
-		print("Board is not available. Make sure your board is on (the green LED is on) and connected to the computer.")
-		exit()
+	for y in range(255):
+		try:
+			ser = serial.Serial(ports[x]+str(y), 9600)
+			print("Opening port: {}. Please wait.".format())
+			break
+		except:
+			error += 1
+		if(error > len(ports)*256):
+			print("Board is not available. Make sure your board is on (the green LED is on) and connected to the computer.")
+			exit()
 
 def ReadSerial():
 	serial = str(ser.readline())
-	serial_string = "";
+	serial_string = ""
 	for x in range(2,len(serial)-5):
 		serial_string += serial[x]
 	return serial_string
