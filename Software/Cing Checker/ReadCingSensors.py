@@ -3,7 +3,7 @@ import serial
 import time
 ports = ['/dev/ttyUSB','COM']
 error = 0
-config = open("config.txt","r")
+config = open("Cing_Checker.config","r")
 config.readline()
 port = config.readline().split("=")
 port = port[1]

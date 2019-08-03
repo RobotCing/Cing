@@ -1,2 +1,0 @@
-#if you want to define port manualy replace "AUTO" with COMx port or /dev/ttyUSBx
-port = AUTO
