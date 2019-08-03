@@ -1,8 +1,8 @@
 # Cing Checker
-Before running any command you need to be in `Cing Checker` folder 
+Before running any command you need to be in folder named `Cing Checker`  
 
 ## Windows install
-Install python 3 and make sure you add python into path. ![Adding Python to path](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
+Install python 3 and make sure you add Python into path. ![Adding Python to path](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
 
 After python 3 is successfully installed run `install.bat`
 
