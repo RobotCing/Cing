@@ -26354,6 +26354,80 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </deviceset>
 </devicesets>
 </library>
+<library name="bosch-bmp280">
+<description>Digital Pressure Sensor</description>
+<packages>
+<package name="BMP280">
+<description>2.5 mm x 2.5 mm x 0.93 mm metal lid LGA</description>
+<smd name="7" x="0.325" y="0.8" dx="0.35" dy="0.5" layer="1"/>
+<smd name="6" x="-0.325" y="0.8" dx="0.35" dy="0.5" layer="1"/>
+<smd name="5" x="-0.975" y="0.8" dx="0.35" dy="0.5" layer="1"/>
+<smd name="8" x="0.975" y="0.8" dx="0.35" dy="0.5" layer="1"/>
+<smd name="3" x="-0.325" y="-0.8" dx="0.35" dy="0.5" layer="1" rot="R180"/>
+<smd name="2" x="0.325" y="-0.8" dx="0.35" dy="0.5" layer="1" rot="R180"/>
+<smd name="1" x="0.975" y="-0.8" dx="0.35" dy="0.5" layer="1" rot="R180"/>
+<smd name="4" x="-0.975" y="-0.8" dx="0.35" dy="0.5" layer="1" rot="R180"/>
+<text x="-1.25" y="1.2" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.2" y="-1.55" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<circle x="0.975" y="-0.375" radius="0.0901375" width="0.05" layer="21"/>
+<wire x1="-1.2" y1="1" x2="-1.25" y2="1" width="0.05" layer="21"/>
+<wire x1="-1.25" y1="1" x2="-1.25" y2="-1" width="0.05" layer="21"/>
+<wire x1="-1.25" y1="-1" x2="-1.2" y2="-1" width="0.05" layer="21"/>
+<wire x1="1.2" y1="-1" x2="1.25" y2="-1" width="0.05" layer="21"/>
+<wire x1="1.25" y1="-1" x2="1.25" y2="1" width="0.05" layer="21"/>
+<wire x1="1.25" y1="1" x2="1.2" y2="1" width="0.05" layer="21"/>
+<wire x1="-1.3" y1="1.1" x2="1.3" y2="1.1" width="0.01" layer="39"/>
+<wire x1="1.3" y1="1.1" x2="1.3" y2="-1.1" width="0.01" layer="39"/>
+<wire x1="1.3" y1="-1.1" x2="-1.3" y2="-1.1" width="0.01" layer="39"/>
+<wire x1="-1.3" y1="-1.1" x2="-1.3" y2="1.1" width="0.01" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BMP280">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.4064" layer="94"/>
+<pin name="VDD" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<pin name="GND" x="-15.24" y="-5.08" length="middle" direction="pwr"/>
+<pin name="VDDIO" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="CSB" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="SDO" x="15.24" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="SDI" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="SCK" x="15.24" y="0" length="middle" rot="R180"/>
+<text x="-9.906" y="8.382" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BMP280" prefix="IC">
+<description>The BMP280 is an absolute barometric pressure sensor especially designed for mobile applications. The sensor module is housed in an extremely compact 8-pin metal-lid LGA package with a footprint of only 2.0 × 2.5 mm2 and 0.95 mm package height. Its small
+dimensions and its low power consumption of 2.7 μA @1Hz allow the implementation in battery driven devices such as mobile phones, GPS modules or watches.
+&lt;br&gt;&lt;br&gt;
+
+The library has been designed by&lt;a href="https://www.facebook.com/groups/eaglecadsoftUK"&gt; Richard Magdycz&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BMP280" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BMP280">
+<connects>
+<connect gate="G$1" pin="CSB" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1 7"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+<connect gate="G$1" pin="SDI" pad="3"/>
+<connect gate="G$1" pin="SDO" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -26676,6 +26750,19 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND65" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="FRAME7" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
+<part name="IC4" library="bosch-bmp280" deviceset="BMP280" device=""/>
+<part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
+<part name="+3V24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
+<part name="+3V25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND73" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29249,6 +29336,45 @@ managment</text>
 <instance part="+3V13" gate="G$1" x="172.72" y="81.28" smashed="yes">
 <attribute name="VALUE" x="170.18" y="76.2" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="IC4" gate="G$1" x="223.52" y="40.64" smashed="yes">
+<attribute name="NAME" x="213.614" y="49.022" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="213.36" y="30.48" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="+3V14" gate="G$1" x="208.28" y="48.26" smashed="yes">
+<attribute name="VALUE" x="208.28" y="48.26" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V15" gate="G$1" x="238.76" y="48.26" smashed="yes">
+<attribute name="VALUE" x="236.22" y="43.18" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND71" gate="1" x="208.28" y="33.02" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="210.82" y="30.48" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="+3V16" gate="G$1" x="208.28" y="43.18" smashed="yes">
+<attribute name="VALUE" x="208.28" y="43.18" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V19" gate="G$1" x="241.3" y="35.56" smashed="yes" rot="R270">
+<attribute name="VALUE" x="241.3" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="C30" gate="G$1" x="243.84" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="242.316" y="52.959" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="242.316" y="58.039" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V24" gate="G$1" x="243.84" y="60.96" smashed="yes">
+<attribute name="VALUE" x="241.3" y="55.88" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND72" gate="1" x="243.84" y="48.26" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="246.38" y="45.72" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C31" gate="G$1" x="251.46" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="249.936" y="52.959" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="249.936" y="58.039" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V25" gate="G$1" x="251.46" y="60.96" smashed="yes">
+<attribute name="VALUE" x="248.92" y="55.88" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND73" gate="1" x="251.46" y="48.26" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="254" y="45.72" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -29356,6 +29482,18 @@ managment</text>
 <pinref part="C29" gate="G$1" pin="1"/>
 <pinref part="GND65" gate="1" pin="GND"/>
 <wire x1="162.56" y1="66.04" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="GND"/>
+<pinref part="GND71" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C30" gate="G$1" pin="1"/>
+<pinref part="GND72" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C31" gate="G$1" pin="1"/>
+<pinref part="GND73" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -29527,6 +29665,11 @@ managment</text>
 <wire x1="228.6" y1="68.58" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
 <label x="231.14" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="SCK"/>
+<wire x1="238.76" y1="40.64" x2="241.3" y2="40.64" width="0.1524" layer="91"/>
+<label x="241.3" y="40.64" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -29543,6 +29686,11 @@ managment</text>
 <pinref part="IC5" gate="G$1" pin="SDI"/>
 <wire x1="228.6" y1="66.04" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
 <label x="231.14" y="66.04" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="SDI"/>
+<wire x1="238.76" y1="38.1" x2="241.3" y2="38.1" width="0.1524" layer="91"/>
+<label x="241.3" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -29661,6 +29809,30 @@ managment</text>
 <wire x1="172.72" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="66.04" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
 <junction x="172.72" y="66.04"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="VDD"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="VDDIO"/>
+<pinref part="+3V15" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="CSB"/>
+<pinref part="+3V16" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="SDO"/>
+<pinref part="+3V19" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C30" gate="G$1" pin="2"/>
+<pinref part="+3V24" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C31" gate="G$1" pin="2"/>
+<pinref part="+3V25" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -30441,6 +30613,21 @@ managment</text>
 <wire x1="193.04" y1="91.44" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<description>Board sensors and outputs</description>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>
