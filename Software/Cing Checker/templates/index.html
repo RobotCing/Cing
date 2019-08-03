@@ -17,30 +17,29 @@
                   function update_values() {
                       $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
                       $.getJSON($SCRIPT_ROOT+"/_update",
-                    function(data) {
-                    $(".temp").text(data.temp_sensor)
-                    $(".shine1").text(data.shine_sensor1)
-                    $(".shine2").text(data.shine_sensor2)
-                    $(".button").text(data.button)
-                    $(".gyro").text(data.gyro)
-                    $(".accelerometer").text(data.accelerometer)
-                    $(".battery").text(data.battery)
-                    $(".sound_system").text(data.sound_system)
-                    $(".ultra").text(data.ultra)
-                    $(".light1").text(data.light1)
-                    $(".light2").text(data.light2)
-                    $(".char_display").text(data.char_display)
-                    $(".oled").text(data.oled)
-                    $(".baro").text(data.baro)
-                    $(".altitude").text(data.altitude)
-                    $(".pot").text(data.pot)
-                    $(".lidar").text(data.lidar)
-                    $(".Servo").text(data.Servo)
-                    $(".ENCA").text(data.ENCA)
-                    $(".ENCB").text(data.ENCB)
-
-                    });
-        }
+                      function(data) {
+                      $(".temp").text(data.temp_sensor)
+                      $(".shine1").text(data.shine_sensor1)
+                      $(".shine2").text(data.shine_sensor2)
+                      $(".button").text(data.button)
+                      $(".gyro").text(data.gyro)
+                      $(".accelerometer").text(data.accelerometer)
+                      $(".battery").text(data.battery)
+                      $(".sound_system").text(data.sound_system)
+                      $(".ultra").text(data.ultra)
+                      $(".light1").text(data.light1)
+                      $(".light2").text(data.light2)
+                      $(".char_display").text(data.char_display)
+                      $(".oled").text(data.oled)
+                      $(".baro").text(data.baro)
+                      $(".altitude").text(data.altitude)
+                      $(".pot").text(data.pot)
+                      $(".lidar").text(data.lidar)
+                      $(".Servo").text(data.Servo)
+                      $(".ENCA").text(data.ENCA)
+                      $(".ENCB").text(data.ENCB)
+                      });
+                    }
       </script>
       <style>
         body {
