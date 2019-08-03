@@ -13,14 +13,14 @@ Run `Cing_Checker.bat`
 Open `ReadCingSensors.py` in Python 3 IDLE and hit run (F5).
 
 ## Linux install
-just run `$ ./install.sh` in terminal
+just run `./install.sh` in terminal
 ### Running Cing Checker web version
 
-just run `$ ./Cing_Checker.sh` in terminal
+just run `./Cing_Checker.sh` in terminal
 
 
 ### Running Cing Checker terminal version
-just run `$ python3 ReadCingSensors.py`
+just run `python3 ReadCingSensors.py`
 
 ## License 
 
