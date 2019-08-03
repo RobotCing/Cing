@@ -35,7 +35,7 @@ ultra = "Reading Value"
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 
-webbrowser.open('http://127.0.0.1:8000/')
+webbrowser.open('http://127.0.0.1:5000/')
 
 app = Flask(__name__, static_url_path = "/img", static_folder = "img")
 

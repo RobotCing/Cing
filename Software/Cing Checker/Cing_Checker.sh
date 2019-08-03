@@ -1,3 +1,3 @@
 #!/bin/bash
-fuser -k 8000/tcp
-gunicorn flask_app:app
+fuser -k 5000/tcp
+gunicorn --bind 127.0.0.1:5000 flask_app:app

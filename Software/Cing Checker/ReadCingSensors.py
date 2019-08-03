@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import serial
 import time
-ports = ['/dev/ttyUSB0','/dev/ttyUSB1','/dev/ttyUSB2','/dev/ttyUSB3','/dev/ttyACM0','/dev/ttyACM1','/dev/ttyACM2']
+ports = ['COM12','/dev/ttyUSB0','/dev/ttyUSB1','/dev/ttyUSB2','/dev/ttyUSB3','/dev/ttyACM0','/dev/ttyACM1','/dev/ttyACM2']
 error = 0;
 for x in range(len(ports)):
 	try:
