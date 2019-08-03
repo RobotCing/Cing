@@ -123,5 +123,5 @@ dmypy.json
 .pyre/
 
 #Eagle files
-*.b#
-*.s#
+*.b#*
+*.s#*
