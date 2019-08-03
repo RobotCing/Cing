@@ -1,22 +1,24 @@
 # Cing Checker
 Before running any command you need to be in `Cing Checker` folder 
+
 ## Windows install
-On windows you have to install these packages
-* PythonSerial(`$ pip3 install pyserial`)
-* Flask(`$ pip3 install Flask`)
-* Gunicorn(`$ sudo pip3 install gunicorn`)
-## Linux install
-just run (`$ ./install.sh`)
+Just run install.bat
+
 ### Running Cing Checker web version
-```
-$ ./Cing_Checker.sh
-```
+Run Cing_Checker.bat
+
+### Running Cing Checker python IDLE version
+Open ReadCingSensors.py in Python 3 IDLE and hit run (F5).
+
+## Linux install
+just run `$ ./install.sh` in terminal
+### Running Cing Checker web version
+
+just run `$ ./Cing_Checker.sh` in terminal
+
 
 ### Running Cing Checker terminal version
-Before running any command you need to be in `Cing Checker` folder 
-```
-$ python3 ReadCingSensors.py
-```
+just run `$ python3 ReadCingSensors.py`
 
 ## License 
 
