@@ -168,7 +168,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTc5YzVj" projecturn="a.cGVyc29uYWw6dWUyOTc5YzVjIzIwMTkwNjI1MjAwNjYyNTAx" f3durn="urn:adsk.wipprod:dm.lineage:F-kKAJn1SLWSqLFyv44BXQ" pcbguid="94010e1c-0bc5-45e6-b30e-e8625a835ba8" lastpulledtime="" lastsyncedchangeguid="f4685267-f935-77b1-54eb-01d899396eef"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTc5YzVj" projecturn="a.cGVyc29uYWw6dWUyOTc5YzVjIzIwMTkwNjI1MjAwNjYyNTAx" f3durn="urn:adsk.wipprod:dm.lineage:F-kKAJn1SLWSqLFyv44BXQ" pcbguid="94010e1c-0bc5-45e6-b30e-e8625a835ba8" lastpulledtime="" lastsyncedchangeguid="ebf284d5-8f35-8ed3-3f94-00c25db0ccca"/>
 <plain>
 <text x="17.145" y="28.448" size="1.778" layer="21">Header 2</text>
 <text x="42.291" y="27.051" size="1.778" layer="21" rot="R90">Header 1</text>

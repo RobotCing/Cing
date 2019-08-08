@@ -3,7 +3,7 @@
 <eagle version="9.4.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -6208,8 +6208,8 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <parts>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="330"/>
 <part name="IC1" library="1wire" deviceset="DS18B20" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="5X2MM" package3d_urn="urn:adsk.eagle:package:22466/2"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="4k7"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <part name="Q1" library="Cing Library" deviceset="BSS138" device=""/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/1"/>
 <part name="U$1" library="diy-modules" deviceset="TEMP-HUM-SENSOR-DHT11" device=""/>
