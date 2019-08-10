@@ -7805,7 +7805,7 @@ design rules under a new name.</description>
 <element name="REV" library="led" library_urn="urn:adsk.eagle:library:259" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="RED" x="15.3" y="-29" smashed="yes" rot="R90">
 <attribute name="NAME" x="15.813" y="-26.546" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="VERSION" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="VERSION" package3d_urn="urn:adsk.eagle:package:10154717/1" value="4.0" x="49.5" y="0" smashed="yes" rot="R90">
+<element name="VERSION" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="VERSION" package3d_urn="urn:adsk.eagle:package:10154717/1" value="4.1" x="49.5" y="0" smashed="yes" rot="R90">
 <attribute name="VALUE" x="46.5" y="6.84" size="2.54" layer="21" rot="R90" align="center"/>
 </element>
 <element name="SW1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" package="USB_SWITCH" package3d_urn="urn:adsk.eagle:package:10154743/1" override_package3d_urn="urn:adsk.eagle:package:11834508/2" override_package_urn="urn:adsk.eagle:footprint:10154707/1" value="" x="-43.78" y="-32.69" smashed="yes" rot="R180">
