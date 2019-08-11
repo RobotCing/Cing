@@ -29,11 +29,14 @@ else:
 
 
 def ReadSerial():
-	serial = str(ser.readline())
-	serial_string = ""
-	for x in range(2,len(serial)-5):
-		serial_string += serial[x]
-	return serial_string
+	try:
+		serial = str(ser.readline())
+		serial_string = ""
+		for x in range(2,len(serial)-5):
+			serial_string += serial[x]
+		return serial_string
+	except:
+		BoardNotFound()
 
 
 def ReadSensors():
@@ -41,13 +44,17 @@ def ReadSensors():
 	starttime = time.time()
 	value = ReadSerial()
 	if(value == "------"):
-		for x in range(20):
-			value = ReadSerial()
-			if(value !="-127.00"):
-				values.append(value)
-			else:
-				values.append("Fail")
-		return(values)
+		try:
+			for x in range(20):
+				value = ReadSerial()
+				if(value !="-127.00"):
+					values.append(value)
+				else:
+					values.append("Fail")
+			return(values)
+		except:
+			print("Connection lost.")
+			BoardNotFound()
 
 if __name__ == '__main__':
 	message = False
