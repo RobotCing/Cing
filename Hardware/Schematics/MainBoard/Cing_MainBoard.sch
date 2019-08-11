@@ -26636,7 +26636,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="WS2812" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="GND54" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$5" library="MT3608" deviceset="MT3608" device="SOT23-6" override_package3d_urn="urn:adsk.eagle:package:11833700/2" override_package_urn="urn:adsk.eagle:footprint:11833701/1" value="MT3608SOT23-6"/>
 <part name="L1" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="DR125" device="" package3d_urn="urn:adsk.eagle:package:15121/1" override_package3d_urn="urn:adsk.eagle:package:11834588/2" override_package_urn="urn:adsk.eagle:footprint:15035/1"/>
 <part name="D3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:6240747/1" override_package3d_urn="urn:adsk.eagle:package:11834402/2" override_package_urn="urn:adsk.eagle:footprint:6240101/1"/>
@@ -30036,9 +30035,6 @@ managment</text>
 <instance part="GND54" gate="1" x="137.16" y="58.42" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="139.7" y="55.88" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="+3V27" gate="G$1" x="137.16" y="76.2" smashed="yes">
-<attribute name="VALUE" x="139.7" y="76.2" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="U$14" gate="G$1" x="198.12" y="129.54" smashed="yes">
 <attribute name="NAME" x="205.74" y="142.24" size="1.778" layer="95"/>
 <attribute name="VALUE" x="205.74" y="139.7" size="1.778" layer="95"/>
@@ -30268,12 +30264,6 @@ managment</text>
 </segment>
 </net>
 <net name="+3V3" class="0">
-<segment>
-<pinref part="WS2812" gate="A" pin="1"/>
-<wire x1="139.7" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="+3V27" gate="G$1" pin="+3V3"/>
-<wire x1="137.16" y1="68.58" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="+3V32" gate="G$1" pin="+3V3"/>
 <pinref part="U$15" gate="G$1" pin="VCC"/>
@@ -30604,6 +30594,11 @@ managment</text>
 <wire x1="127" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="+5V"/>
 <label x="124.46" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="139.7" y1="71.12" x2="139.7" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="WS2812" gate="A" pin="1"/>
+<label x="139.7" y="71.12" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$28" class="0">
