@@ -18744,7 +18744,7 @@ Socket</text>
 <wire x1="2.54" y1="-11.43" x2="-2.54" y2="-11.43" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-11.43" x2="-2.54" y2="11.43" width="0.127" layer="21"/>
 </package>
-<package name="I2_HEADER" urn="urn:adsk.eagle:footprint:10154680/1">
+<package name="I2_HEADER" urn="urn:adsk.eagle:footprint:10154680/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
 <pad name="+5V" x="-1.27" y="-3.81" drill="1" diameter="2"/>
 <pad name="SDA2" x="-1.27" y="-1.27" drill="1" diameter="2"/>
 <pad name="SCL2" x="-1.27" y="1.27" drill="1" diameter="2"/>
@@ -18757,9 +18757,8 @@ Socket</text>
 <wire x1="3.81" y1="6.35" x2="3.81" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-6.35" x2="-3.81" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-6.35" x2="-3.81" y2="6.35" width="0.127" layer="21"/>
-<text x="0" y="7.62" size="1.27" layer="21" align="center">I2C</text>
 </package>
-<package name="SERIAL_HEADER" urn="urn:adsk.eagle:footprint:10154683/1">
+<package name="SERIAL_HEADER" urn="urn:adsk.eagle:footprint:10154683/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
 <wire x1="-3.81" y1="6.35" x2="3.81" y2="6.35" width="0.127" layer="21"/>
 <wire x1="3.81" y1="6.35" x2="3.81" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-6.35" x2="-3.81" y2="-6.35" width="0.127" layer="21"/>
@@ -18772,7 +18771,7 @@ Socket</text>
 <pad name="TXD2" x="1.27" y="-1.27" drill="1" diameter="2"/>
 <pad name="RXD2" x="1.27" y="1.27" drill="1" diameter="2"/>
 <pad name="5V" x="1.27" y="3.81" drill="1" diameter="2"/>
-<text x="-5" y="0" size="1.27" layer="21" rot="R270" align="center">Serial</text>
+<text x="-6.27" y="0" size="1.27" layer="21" rot="R270" align="center">Serial</text>
 </package>
 <package name="L293" urn="urn:adsk.eagle:footprint:10154703/1">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
@@ -20136,12 +20135,12 @@ Socket</text>
 <packageinstance name="BIG_HEADER"/>
 </packageinstances>
 </package3d>
-<package3d name="I2_HEADER" urn="urn:adsk.eagle:package:10154735/1" type="box">
+<package3d name="I2_HEADER" urn="urn:adsk.eagle:package:10154735/1" type="box" library_version="1" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="I2_HEADER"/>
 </packageinstances>
 </package3d>
-<package3d name="SERIAL_HEADER" urn="urn:adsk.eagle:package:10154732/1" type="box">
+<package3d name="SERIAL_HEADER" urn="urn:adsk.eagle:package:10154732/1" type="box" library_version="1" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SERIAL_HEADER"/>
 </packageinstances>
@@ -20870,7 +20869,7 @@ header</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="I2C_HEADER" library_version="1">
+<deviceset name="I2C_HEADER" library_version="1" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="I2C_HEADER" x="0" y="0"/>
 </gates>
@@ -20895,7 +20894,7 @@ header</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SERIAL_HEADER" library_version="1">
+<deviceset name="SERIAL_HEADER" library_version="1" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="SERIAL_HEADER" x="0" y="0"/>
 </gates>
@@ -26533,8 +26532,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="S4" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1" override_package3d_urn="urn:adsk.eagle:package:11838185/2" override_package_urn="urn:adsk.eagle:footprint:27476/1" value="Button"/>
 <part name="U$1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="PROCESSOR-SOCKET_PCB" device="" package3d_urn="urn:adsk.eagle:package:10154714/1" override_package3d_urn="urn:adsk.eagle:package:11838063/2" override_package_urn="urn:adsk.eagle:footprint:10154701/1"/>
 <part name="U$2" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BIG_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154719/1" override_package3d_urn="urn:adsk.eagle:package:11834307/2" override_package_urn="urn:adsk.eagle:footprint:10154696/1" value="Header 2"/>
-<part name="U$3" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="I2C_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154735/1" override_package3d_urn="urn:adsk.eagle:package:11838087/3" override_package_urn="urn:adsk.eagle:footprint:10154680/1"/>
-<part name="U$4" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="SERIAL_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154732/1" override_package3d_urn="urn:adsk.eagle:package:11838096/2" override_package_urn="urn:adsk.eagle:footprint:10154683/1"/>
+<part name="U$3" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="I2C_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154735/1" override_package3d_urn="urn:adsk.eagle:package:11838087/3" override_package_urn="urn:adsk.eagle:footprint:10154680/1" override_locally_modified="yes"/>
+<part name="U$4" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="SERIAL_HEADER" device="" package3d_urn="urn:adsk.eagle:package:10154732/1" override_package3d_urn="urn:adsk.eagle:package:11838096/2" override_package_urn="urn:adsk.eagle:footprint:10154683/1" override_locally_modified="yes"/>
 <part name="IC1" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="L293D" device="" package3d_urn="urn:adsk.eagle:package:10154745/1" override_package3d_urn="urn:adsk.eagle:package:11833773/2" override_package_urn="urn:adsk.eagle:footprint:10154703/1" value="L293D  "/>
 <part name="U$7" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="BATTERY_CONECTOR_D" device="" package3d_urn="urn:adsk.eagle:package:10154722/1" override_package3d_urn="urn:adsk.eagle:package:11838339/2" override_package_urn="urn:adsk.eagle:footprint:10154693/1"/>
 <part name="TP4056" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="TP4056" device="" package3d_urn="urn:adsk.eagle:package:10154725/1" override_package3d_urn="urn:adsk.eagle:package:11834733/2" override_package_urn="urn:adsk.eagle:footprint:10154690/1"/>
@@ -26718,7 +26717,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100n"/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND70" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835384/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="10k"/>
+<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835384/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="100R"/>
 <part name="JP23" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="U$9" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="POLULU_MOTOR" device="" override_package3d_urn="urn:adsk.eagle:package:11838475/3" override_package_urn="urn:adsk.eagle:footprint:11838476/1"/>
 <part name="U$24" library="Cing Library" library_urn="urn:adsk.eagle:library:10154637" deviceset="POLULU_MOTOR" device="" override_package3d_urn="urn:adsk.eagle:package:11838468/3" override_package_urn="urn:adsk.eagle:footprint:11838469/1"/>

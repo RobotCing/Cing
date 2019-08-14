@@ -163,6 +163,7 @@
 <wire x1="-13.67" y1="-13.67" x2="-13.67" y2="12.2" width="0.4064" layer="20"/>
 <text x="3.5" y="0.5" size="1.778" layer="21" rot="R90" align="center">Attiny84</text>
 <text x="3.5" y="0.5" size="1.778" layer="22" rot="MR90" align="center">Attiny84</text>
+<text x="-6" y="0" size="1.778" layer="21" rot="R90" align="center">Attiny84</text>
 </plain>
 <libraries>
 <library name="SparkFun-IC-Microcontroller">
@@ -620,11 +621,10 @@ design rules under a new name.</description>
 <contactref element="E$1" pad="4"/>
 <contactref element="E$3" pad="4"/>
 <wire x1="1" y1="1.58" x2="-0.31" y2="0.27" width="0.254" layer="1"/>
-<wire x1="1" y1="9.16" x2="1" y2="9" width="0.254" layer="1"/>
 <wire x1="1" y1="9" x2="1" y2="1.58" width="0.254" layer="1"/>
 <wire x1="-3.015" y1="0.055" x2="-0.525" y2="0.055" width="0.254" layer="16"/>
 <wire x1="-0.525" y1="0.055" x2="-0.31" y2="0.27" width="0.254" layer="16"/>
-<wire x1="1" y1="9" x2="-1.27" y2="11.27" width="0.254" layer="1"/>
+<wire x1="-1.27" y1="11.27" x2="1" y2="9" width="0.254" layer="1"/>
 <wire x1="-1.27" y1="11.27" x2="-1.27" y2="11.57" width="0.254" layer="1"/>
 </signal>
 <signal name="S$4">
@@ -632,12 +632,12 @@ design rules under a new name.</description>
 <contactref element="E$1" pad="1"/>
 <wire x1="-0.31" y1="7.89" x2="-2.215" y2="5.985" width="0.254" layer="1"/>
 <wire x1="-2.215" y1="5.985" x2="-7.88303125" y2="5.985" width="0.254" layer="1"/>
-<wire x1="-7.88303125" y1="5.985" x2="-9.5" y2="4.36803125" width="0.254" layer="1"/>
-<wire x1="-9.5" y1="4.36803125" x2="-9.5" y2="-3.81" width="0.254" layer="1"/>
+<wire x1="-9.5" y1="4.36803125" x2="-7.88303125" y2="5.985" width="0.254" layer="1"/>
 <contactref element="E$3" pad="1"/>
 <wire x1="-3.015" y1="3.865" x2="-3.015" y2="5.185" width="0.254" layer="16"/>
 <wire x1="-3.015" y1="5.185" x2="-0.31" y2="7.89" width="0.254" layer="16"/>
-<wire x1="-9.5" y1="-3.81" x2="-11.43" y2="-3.81" width="0.254" layer="1"/>
+<wire x1="-11.43" y1="-3.81" x2="-9.5" y2="-1.88" width="0.254" layer="1"/>
+<wire x1="-9.5" y1="-1.88" x2="-9.5" y2="4.36803125" width="0.254" layer="1"/>
 </signal>
 <signal name="S$6">
 <contactref element="E$10" pad="1"/>
@@ -662,17 +662,14 @@ design rules under a new name.</description>
 <wire x1="7.31" y1="5.35" x2="7.31" y2="6.27355" width="0.254" layer="1"/>
 <wire x1="7.31" y1="6.27355" x2="8.453" y2="7.41655" width="0.254" layer="1"/>
 <wire x1="7.31" y1="5.35" x2="7.31" y2="6.19" width="0.254" layer="16"/>
-<wire x1="7.31" y1="6.19" x2="6" y2="7.5" width="0.254" layer="16"/>
-<wire x1="6" y1="7.5" x2="6" y2="9" width="0.254" layer="16"/>
-<wire x1="6" y1="9" x2="0.19645" y2="9" width="0.254" layer="16"/>
-<wire x1="0.19645" y1="9" x2="0.16345" y2="9.033" width="0.254" layer="16"/>
 <wire x1="-7.22145" y1="4.61196875" x2="-7.22145" y2="3" width="0.254" layer="16"/>
-<wire x1="0.16345" y1="9.033" x2="-2.80041875" y2="9.033" width="0.254" layer="16"/>
 <wire x1="-2.80041875" y1="9.033" x2="-7.22145" y2="4.61196875" width="0.254" layer="16"/>
 <wire x1="-7.22145" y1="3" x2="-7.62645" y2="2.595" width="0.254" layer="16"/>
 <wire x1="-7.62645" y1="2.595" x2="-8.615" y2="2.595" width="0.254" layer="16"/>
 <wire x1="8.453" y1="7.41655" x2="8.453" y2="9.467" width="0.254" layer="1"/>
 <wire x1="8.453" y1="9.467" x2="6.35" y2="11.57" width="0.254" layer="1"/>
+<wire x1="7.31" y1="6.19" x2="4.467" y2="9.033" width="0.254" layer="16"/>
+<wire x1="4.467" y1="9.033" x2="-2.80041875" y2="9.033" width="0.254" layer="16"/>
 </signal>
 <signal name="S$5">
 <contactref element="E$11" pad="8"/>
@@ -691,9 +688,8 @@ design rules under a new name.</description>
 <signal name="S$8">
 <contactref element="E$12" pad="7"/>
 <contactref element="E$1" pad="7"/>
-<wire x1="0" y1="-3.5" x2="-3" y2="-3.5" width="0.254" layer="1"/>
-<wire x1="-3" y1="-3.5" x2="-3" y2="-7.5" width="0.254" layer="1"/>
-<wire x1="-3" y1="-7.5" x2="-0.46" y2="-7.5" width="0.254" layer="1"/>
+<wire x1="0" y1="-3.5" x2="-1.5" y2="-3.5" width="0.254" layer="1"/>
+<wire x1="-0.46" y1="-7.5" x2="-2" y2="-7.5" width="0.254" layer="1"/>
 <wire x1="-0.46" y1="-7.5" x2="-0.31" y2="-7.35" width="0.254" layer="1"/>
 <contactref element="E$3" pad="7"/>
 <wire x1="-0.31" y1="-7.35" x2="-2.65" y2="-7.35" width="0.254" layer="16"/>
@@ -702,6 +698,9 @@ design rules under a new name.</description>
 <wire x1="-3" y1="-3.77" x2="-3.015" y2="-3.755" width="0.254" layer="16"/>
 <wire x1="6.35" y1="-11.43" x2="6.35" y2="-9.85" width="0.254" layer="1"/>
 <wire x1="6.35" y1="-9.85" x2="0" y2="-3.5" width="0.254" layer="1"/>
+<wire x1="-3" y1="-5" x2="-1.5" y2="-3.5" width="0.254" layer="1"/>
+<wire x1="-2" y1="-7.5" x2="-3" y2="-6.5" width="0.254" layer="1"/>
+<wire x1="-3" y1="-6.5" x2="-3" y2="-5" width="0.254" layer="1"/>
 </signal>
 <signal name="S$10">
 <contactref element="E$12" pad="8"/>
@@ -802,19 +801,16 @@ design rules under a new name.</description>
 <signal name="S$3">
 <contactref element="E$11" pad="4"/>
 <contactref element="E$1" pad="14"/>
-<wire x1="6.81" y1="7.89" x2="7.31" y2="7.89" width="0.254" layer="1"/>
-<wire x1="4.667" y1="-0.20345" x2="5.33655" y2="-0.873" width="0.254" layer="1"/>
-<wire x1="4.667" y1="5.82345" x2="5.33655" y2="6.493" width="0.254" layer="1"/>
-<wire x1="5.33655" y1="6.493" x2="5.413" y2="6.493" width="0.254" layer="1"/>
-<wire x1="5.413" y1="6.493" x2="6.81" y2="7.89" width="0.254" layer="1"/>
-<wire x1="4.667" y1="-0.20345" x2="4.667" y2="5.82345" width="0.254" layer="1"/>
 <contactref element="E$3" pad="14"/>
 <wire x1="-8.615" y1="3.865" x2="-2.98" y2="9.5" width="0.254" layer="16"/>
 <wire x1="-2.98" y1="9.5" x2="7" y2="9.5" width="0.254" layer="16"/>
 <wire x1="7" y1="9.5" x2="7" y2="8.2" width="0.254" layer="16"/>
 <wire x1="7" y1="8.2" x2="7.31" y2="7.89" width="0.254" layer="16"/>
 <wire x1="9.287" y1="-0.873" x2="11.43" y2="1.27" width="0.254" layer="1"/>
-<wire x1="5.33655" y1="-0.873" x2="9.287" y2="-0.873" width="0.254" layer="1"/>
+<wire x1="9.287" y1="-0.873" x2="6.5" y2="-0.873" width="0.254" layer="1"/>
+<wire x1="5.8135" y1="-0.1865" x2="6.5" y2="-0.873" width="0.254" layer="1"/>
+<wire x1="5.8135" y1="6.3935" x2="5.8135" y2="-0.1865" width="0.254" layer="1"/>
+<wire x1="5.8135" y1="6.3935" x2="7.31" y2="7.89" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
