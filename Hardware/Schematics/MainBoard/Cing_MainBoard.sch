@@ -3,7 +3,7 @@
 <eagle version="9.4.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -26482,10 +26482,10 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="FRAME6" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835280/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="100"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835281/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="1k"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835281/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="10k"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835296/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="1k"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835296/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="10k"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" override_package3d_urn="urn:adsk.eagle:package:11835130/2" override_package_urn="urn:adsk.eagle:footprint:23047/1" value="40"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" override_package3d_urn="urn:adsk.eagle:package:11835368/2" override_package_urn="urn:adsk.eagle:footprint:23125/1" value="100n"/>
