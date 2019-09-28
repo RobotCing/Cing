@@ -30659,6 +30659,11 @@ managment</text>
 <approved hash="104,6,185.42,134.62,U$14,VIN,VCC_SERVO,,,"/>
 <approved hash="104,6,73.66,121.92,U$15,VCC,+3V3,,,"/>
 <approved hash="104,6,127,144.78,U$23,+5V,VCC_SERVO,,,"/>
+<approved hash="104,5,175.26,63.5,U4,VCC,+3V3,,,"/>
+<approved hash="104,5,208.28,45.72,IC4,VDD,+3V3,,,"/>
+<approved hash="104,5,238.76,45.72,IC4,VDDIO,+3V3,,,"/>
+<approved hash="206,5,149.86,147.32,RXD,,,,,"/>
+<approved hash="206,5,154.94,43.18,RXD,,,,,"/>
 <approved hash="108,4,86.36,109.22,VCC_SERVO,,,,,"/>
 <approved hash="113,2,130.071,89.431,FRAME4,,,,,"/>
 <approved hash="113,3,130.071,89.431,FRAME5,,,,,"/>
@@ -30701,6 +30706,7 @@ managment</text>
 <approved hash="113,5,51.0371,146.276,JP22,,,,,"/>
 <approved hash="113,2,190.737,117.066,JP23,,,,,"/>
 <approved hash="113,6,208.28,85.1637,U2,,,,,"/>
+<approved hash="113,7,130.071,89.431,FRAME7,,,,,"/>
 </errors>
 </schematic>
 </drawing>
