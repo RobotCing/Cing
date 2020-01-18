@@ -171,7 +171,7 @@
 <libraries>
 <library name="Cing Library">
 <packages>
-<package name="PROCESOR">
+<package name="PROCESOR" urn="urn:adsk.eagle:footprint:10154677/1">
 <pad name="D8" x="-1.27" y="-11.43" drill="1" diameter="2"/>
 <pad name="D7" x="-3.81" y="-11.43" drill="1" diameter="2"/>
 <pad name="D6" x="-6.35" y="-11.43" drill="1" diameter="2"/>
@@ -206,11 +206,8 @@
 <pad name="D12" x="8.89" y="-11.43" drill="1" diameter="2" rot="R90"/>
 <pad name="P$1" x="-11.43" y="11.43" drill="1" diameter="2" shape="square"/>
 <circle x="-8.89" y="8.89" radius="0.405215625" width="0.1524" layer="21"/>
+<circle x="-8.89" y="8.89" radius="0.508" width="0.127" layer="22"/>
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.1524" layer="22"/>
-<smd name="32" x="2.54" y="1.27" dx="4" dy="1.5" layer="16" rot="R180"/>
-<smd name="D+" x="2.54" y="-1.27" dx="4" dy="1.5" layer="16" rot="R180"/>
-<smd name="D-" x="-2.54" y="-1.27" dx="4" dy="1.5" layer="16" rot="R180"/>
-<smd name="36" x="-2.54" y="1.27" dx="4" dy="1.5" layer="16" rot="R180"/>
 <wire x1="-12.7" y1="12.7" x2="-10.16" y2="12.7" width="0.127" layer="22"/>
 <wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.127" layer="22"/>
 <wire x1="10.16" y1="12.7" x2="10.16" y2="10.16" width="0.127" layer="22"/>
@@ -230,7 +227,10 @@
 <wire x1="12.7" y1="10.16" x2="10.16" y2="10.16" width="0.127" layer="22"/>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.127" layer="22"/>
 <wire x1="-10.16" y1="10.16" x2="-12.7" y2="10.16" width="0.127" layer="22"/>
-<circle x="-8.89" y="8.89" radius="0.508" width="0.127" layer="22"/>
+<smd name="32" x="2.54" y="1.27" dx="4" dy="1.5" layer="16" rot="R180"/>
+<smd name="D+" x="2.54" y="-1.27" dx="4" dy="1.5" layer="16" rot="R180"/>
+<smd name="D-" x="-2.54" y="-1.27" dx="4" dy="1.5" layer="16" rot="R180"/>
+<smd name="36" x="-2.54" y="1.27" dx="4" dy="1.5" layer="16" rot="R180"/>
 </package>
 <package name="MICRO_BIT">
 <smd name="P2_2" x="-0.635" y="0" dx="2.5" dy="0.75" layer="1" rot="R90"/>
@@ -288,7 +288,7 @@
 <wire x1="-26" y1="46" x2="-26" y2="12" width="0.254" layer="21"/>
 <wire x1="-26" y1="46" x2="-24" y2="48" width="0.254" layer="21" curve="-90"/>
 <wire x1="24" y1="48" x2="26" y2="46" width="0.254" layer="21" curve="-90"/>
-<text x="0.033" y="40.268" size="5.08" layer="21" align="center">micro:bit</text>
+<text x="0.033" y="32.648" size="1.6764" layer="21" align="center">micro:bit</text>
 <wire x1="-2" y1="25" x2="-2" y2="30" width="0.254" layer="21" curve="-180"/>
 <wire x1="2" y1="30" x2="2" y2="25" width="0.254" layer="21" curve="-180"/>
 <wire x1="-2" y1="30" x2="2" y2="30" width="0.254" layer="21"/>
@@ -304,9 +304,16 @@
 <circle x="2" y="27.5" radius="0.704134375" width="0.254" layer="21"/>
 <wire x1="2" y1="27.5" x2="2" y2="28" width="0.254" layer="21"/>
 <wire x1="-2" y1="27.5" x2="-2" y2="28" width="0.254" layer="21"/>
-<text x="0.033" y="20.268" size="3.81" layer="21" align="center">for Robot Cing</text>
+<text x="0.033" y="20.268" size="1.4224" layer="21" align="center">for Robot Cing</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="PROCESOR" urn="urn:adsk.eagle:package:10154738/1" type="box">
+<packageinstances>
+<packageinstance name="PROCESOR"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="PROCESSOR">
 <wire x1="-20.32" y1="20.32" x2="20.32" y2="20.32" width="0.254" layer="94"/>
@@ -345,13 +352,13 @@
 <pin name="D0" x="-7.62" y="25.4" length="middle" rot="R270"/>
 <pin name="D1" x="-12.7" y="25.4" length="middle" rot="R270"/>
 <pin name="D2" x="-17.78" y="25.4" length="middle" rot="R270"/>
-<circle x="-15.24" y="15.24" radius="1.778" width="0.254" layer="94"/>
-<text x="0" y="0" size="1.27" layer="94" align="center">Procesor
-Socket</text>
 <pin name="32" x="7.62" y="2.54" length="middle" rot="R180"/>
 <pin name="36" x="-7.62" y="2.54" length="middle"/>
 <pin name="D-" x="-7.62" y="-2.54" length="middle"/>
 <pin name="D+" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<circle x="-15.24" y="15.24" radius="1.778" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.27" layer="94" align="center">Procesor
+Socket</text>
 </symbol>
 <symbol name="MICRO_BIT">
 <pin name="P3_LED_ANALOG" x="-17.78" y="-45.72" length="middle"/>
@@ -446,6 +453,9 @@ Socket</text>
 <connect gate="G$1" pin="VCC2" pad="VCC2"/>
 <connect gate="G$1" pin="VCC3" pad="VCC3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10154738/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -570,7 +580,7 @@ Socket</text>
 </class>
 </classes>
 <parts>
-<part name="U$2" library="Cing Library" deviceset="PROCESSOR-SOCKET" device="" override_package3d_urn="urn:adsk.eagle:package:11841827/2" override_package_urn="urn:adsk.eagle:footprint:11841828/1"/>
+<part name="U$2" library="Cing Library" deviceset="PROCESSOR-SOCKET" device="" package3d_urn="urn:adsk.eagle:package:10154738/1" override_package3d_urn="urn:adsk.eagle:package:11841827/2" override_package_urn="urn:adsk.eagle:footprint:11841828/1" override_locally_modified="yes"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
