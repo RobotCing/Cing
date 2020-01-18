@@ -125,3 +125,4 @@ dmypy.json
 #Eagle files
 *.b#*
 *.s#*
+*.l#*
